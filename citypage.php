@@ -36,6 +36,11 @@ $mapData = $dataApi->get($url);
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
 
 $twig = new Twig_Environment($loader, array('debug' => true));
+$function = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_count, $new_page) {
+    return getURLParams($new_network, $new_state, $new_city, $new_count, $new_page);
+});
+$twig->addFunction($function);
+
 
 $total_count = $mapData['header']['HOSPITAL_COUNT'];
 
