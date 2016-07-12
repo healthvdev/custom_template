@@ -1,0 +1,152 @@
+
+
+<style>
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 6px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999;
+    overflow:visible;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+
+.initial {
+    text-transform: initial;
+}
+
+
+.hospital-cover {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/07/Untitled-design.png');
+    box-sizing: border-box;
+    position: relative;
+}
+
+</style>
+
+<div class="single_wrap">
+				<div class="single_post">
+
+                                       <div class="post-105 post type-post status-publish format-standard hentry category-uncategorized" id="post-105"> 
+                    <!--EDIT BUTTON START-->
+    				<!--EDIT BUTTON END-->
+                    
+                    <!--POST START-->
+                        <div class="single_post_content">
+                        
+                            <h1 class="postitle entry-title">{{title}}</h1>
+                            
+                            <!--POST CONTENT START-->
+                                <div class="thn_post_wrap" style="overflow: visible;">
+<div class="um um-directory um-56 uimob800" style="opacity: 1;">
+
+<div class="um-form">
+	<div class="um-members masonry" style="position: relative; height: 1148px;">
+		<div class="um-gutter-sizer masonry-brick"></div>
+		{% for hospital in response.data %}
+			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+						
+				<div class="hospital-cover" data-ratio="2.7:1" style="height: 124px;">
+					<div class="um-member-cover-e">
+						<a href="#" title="{{hospital.name}}"></a>
+					</div>
+				</div>
+						<div class="um-member-card " style="padding: 10px;">
+					
+					<div class="um-member-name">
+						<a href="#" title="{{hospital.name}}"><span>{{hospital.name}}</span></a>
+					</div>
+
+					<div>
+						<span class="ap-category-icon fa fa-map-marker" ></span> 
+						<span class="initial">{{hospital.address}},<br/> {{hospital.city}}, {{hospital.state}}, pincode - {{hospital.pinCode}}</span>
+					</div>
+					<div>
+						<span class="dropdown">
+			  				<button class="dropbtn">All Networks</button>
+							<div class="dropdown-content">
+							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
+									<a href="#" title="">{{insuranceCompany.fullName}}</a> 
+							{% else %}
+							    No hospitals have been found.
+							{% endfor %}
+							</div>
+						</span>
+						<a href="tel:{{hospital.phone}}"><span class="ap-category-icon fa fa-phone " ></span></a>
+						<a href="email:{{hospital.email}}"><span class="ap-category-icon fa fa-envelope" ></span></a>
+					</div>
+				</div>
+			</div>
+		{% else %}
+		    No hospitals have been found.
+		{% endfor %}
+		<div class="um-clear masonry-brick"></div>
+	</div>
+</div>
+	
+</div>
+									
+                                </div>
+                                	<div style="clear:both"></div>
+                                <div class="thn_post_wrap wp_link_pages">
+                            		{% for page in pages %}
+                            			<span> <a href="{{baseURL}}{{page.params}}">{{page.index}}</a></span>
+									{% endfor %}
+                                </div>
+                            <!--POST CONTENT END-->
+                            
+                            
+                            
+                            <!--POST FOOTER START-->
+                                <div class="post_foot">
+                                    <div class="post_meta">
+                             	</div>
+                               </div>
+                           <!--POST FOOTER END-->
+                            
+                        </div>
+                    <!--POST END-->
+                    </div>
+                        
+
+			</div>
+</div>
