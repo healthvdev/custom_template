@@ -14,7 +14,7 @@ function getURLParams($new_network, $new_state, $new_city, $new_count, $new_page
 
 
 
-$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
+$path    = "/var/www/html/wp-content/themes/optimizer";
 require_once 'template/Twig/lib/Twig/Autoloader.php';
 require_once 'pest/PestJSON.php';
 
