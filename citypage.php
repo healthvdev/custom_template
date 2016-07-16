@@ -83,36 +83,14 @@ get_header();
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
-<div class="widget optimizer_front_about aboutblock about_inner" style="padding:40px 0px;float: none; ">
-
-        <div class="about_content">
-            <p>
-                <img class="alignnone size-large wp-image-185" src="http://healthvings.com/wp-content/uploads/2016/07/boy-1.png" alt="boy-1" width="48" height="48"> &nbsp;
-                <img class="alignnone size-large wp-image-188" src="http://healthvings.com/wp-content/uploads/2016/07/girl-1.png" alt="girl-1" width="48" height="48"> &nbsp;
-                <img class="alignnone size-large wp-image-190" src="http://healthvings.com/wp-content/uploads/2016/07/girl-3.png" alt="girl-3" width="48" height="48"> 
-                <img class="alignnone size-large wp-image-192" src="http://healthvings.com/wp-content/uploads/2016/07/girl.png" alt="girl" width="48" height="48"> &nbsp;
-                <img class="alignnone size-large wp-image-194" src="http://healthvings.com/wp-content/uploads/2016/07/man.png" alt="man" width="48" height="48"> 
-                <img class="alignnone size-large wp-image-195" src="http://healthvings.com/wp-content/uploads/2016/07/people.png" alt="people" width="48" height="48"> 
-                <img class="alignnone size-full wp-image-197" src="http://healthvings.com/wp-content/uploads/2016/07/writer.png" alt="writer" width="48" height="48">
-            </p>
-            <span class="about_pre" style="font-size: 20px;">Join India's biggest support community Diabetics</span>
-            <div class="cta_buttons" style="margin-top:10px;">
-<?php if(!is_user_logged_in()){?>
-            <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/register">JOIN NOW</a>
-<?php }else { ?>
-            <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/community">EXPLORE COMMUNITY</a>
-<?php } ?>
-            </div>
-        </div>
-    </div>
-
-
 
  <?php       
 
 
 echo $twig->render('hospital_list.html', 
-    array('response' => $mapData,
+    array(
+        'is_user_logged_in' => is_user_logged_in(),
+        'response' => $mapData,
         'title' => $title,
               'params' => array('state' => rawurlencode($state),
                             'city' => rawurlencode($city),
@@ -125,7 +103,6 @@ echo $twig->render('hospital_list.html',
                      )
     );
 
-echo "</div>";
 
 }catch (Exception $e){
     echo $e->getMessage();

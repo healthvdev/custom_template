@@ -106,46 +106,9 @@
     <div class="single_post_content">
                         
 
-
-	<ul class="nav nav-tabs">
-    	<li class="active"><a href="#">Network Hospitals</a></li>
-	<!--<li><a href="#">Menu 1</a></li>
-	    <li><a href="#">Menu 2</a></li>
-	    <li><a href="#">Menu 3</a></li> -->
-  	</ul>
 	<br/>
 	<h1 class="postitle entry-title">{{title}}</h1>
 
-	<div class="filters">
-		Apply Filters: 
-	   <div class="dropdown">
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Network <b class="caret"></b></a>
-	        <ul class="dropdown-menu">
-				{% for networkinfo in response.filter.networks %}
-	           		<li><a href="{{baseURL}}.{{function_getURLParams(networkinfo.shortName,params.state,params.city,params.count,0)}}">{{networkinfo.fullName}}</a></li>
-				{% else %}
-				{% endfor %}
-	        </ul>
-	    </div>
-	   <div class="dropdown">
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">State <b class="caret"></b></a>
-	        <ul class="dropdown-menu">
-				{% for state in response.filter.states %}
-	           		<li><a href="{{baseURL}}.{{function_getURLParams(params.network,state,params.city,params.count,0)}}">{{state}}</a></li>
-				{% else %}
-				{% endfor %}
-	        </ul>
-	    </div>
-	   <div class="dropdown">
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">City <b class="caret"></b></a>
-	        <ul class="dropdown-menu">
-				{% for city in response.filter.cities %}
-	           		<li><a href="{{baseURL}}.{{function_getURLParams(params.network,params.state,city,params.count,0)}}">{{city}}</a></li>
-				{% else %}
-				{% endfor %}
-	        </ul>
-	    </div>
-	</div>
 	<br/>
                             
                             <!--POST CONTENT START-->
@@ -157,7 +120,6 @@
 <div class="um-form">
 	<div class="um-members masonry" style="position: relative; height: 1148px;">
 		<div class="um-gutter-sizer masonry-brick"></div>
-		{% for hospital in response.data %}
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
 						
 				<div class="hospital-cover" data-ratio="2.7:1" style="height: 124px;">
@@ -182,7 +144,7 @@
 							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
 									<a href="#" title="">{{insuranceCompany.fullName}}</a> 
 							{% else %}
-							    No hospitals have been found.
+							    No insurers have been found.
 							{% endfor %}
 							</div>
 						</span>
@@ -191,9 +153,6 @@
 					</div>
 				</div>
 			</div>
-		{% else %}
-		    No hospitals have been found.
-		{% endfor %}
 		<div class="um-clear masonry-brick"></div>
 	</div>
 </div>
@@ -202,11 +161,6 @@
 									
                                 </div>
                                 	<div style="clear:both"></div>
-                                <div class="thn_post_wrap wp_link_pages">
-                            		{% for page in pages %}
-                            			<span> <a href="{{baseURL}}{{page.params}}">{{page.index}}</a></span>
-									{% endfor %}
-                                </div>
                             <!--POST CONTENT END-->
                             
                             
