@@ -77,8 +77,6 @@ $title = $rounded_count. ' Hospitals in '
 <?php
 
 global $title;
-echo $title . "=====" . wp_title($title).'+++';
-
 get_header(); 
 ?>
  
