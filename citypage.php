@@ -64,6 +64,7 @@ if($total_count<10){
     $rounded_count = round($total_count, -3).'+';
 }
 
+global $title;
 $title = $rounded_count. ' Hospitals in '
         . ($network=='all'?' ': $network.' Network, ')
         .($city=='all'?'': $city.', ')
@@ -76,7 +77,7 @@ $title = $rounded_count. ' Hospitals in '
 
 <?php
 
-global $title;
+
 get_header(); 
 ?>
  
