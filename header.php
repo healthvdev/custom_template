@@ -25,7 +25,7 @@ $optimizer = optimizer_option_defaults();
 <?php if ($title): ?>
 <title><?=$title?></title>
 
-<php? endif; ?>
+<?php endif; ?>
 
 <?php wp_head(); ?>
 </head>
