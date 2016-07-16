@@ -21,11 +21,11 @@ $optimizer = optimizer_option_defaults();
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="profile" href="http://gmpg.org/xfn/11"/>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
-<? global $title; ?>
-<? if ($title): ?>
+<?php global $title; ?>
+<?php if ($title): ?>
 <title><?=$title?></title>
 
-<? endif; ?>
+<php? endif; ?>
 
 <?php wp_head(); ?>
 </head>
