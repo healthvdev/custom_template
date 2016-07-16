@@ -4,7 +4,32 @@
  
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-        
+
+<div class="widget optimizer_front_about aboutblock about_inner" style="padding:40px 0px;float: none; ">
+
+        <div class="about_content">
+            <p>
+                <img class="alignnone size-large wp-image-185" src="http://healthvings.com/wp-content/uploads/2016/07/boy-1.png" alt="boy-1" width="48" height="48"> &nbsp;
+                <img class="alignnone size-large wp-image-188" src="http://healthvings.com/wp-content/uploads/2016/07/girl-1.png" alt="girl-1" width="48" height="48"> &nbsp;
+                <img class="alignnone size-large wp-image-190" src="http://healthvings.com/wp-content/uploads/2016/07/girl-3.png" alt="girl-3" width="48" height="48"> 
+                <img class="alignnone size-large wp-image-192" src="http://healthvings.com/wp-content/uploads/2016/07/girl.png" alt="girl" width="48" height="48"> &nbsp;
+                <img class="alignnone size-large wp-image-194" src="http://healthvings.com/wp-content/uploads/2016/07/man.png" alt="man" width="48" height="48"> 
+                <img class="alignnone size-large wp-image-195" src="http://healthvings.com/wp-content/uploads/2016/07/people.png" alt="people" width="48" height="48"> 
+                <img class="alignnone size-full wp-image-197" src="http://healthvings.com/wp-content/uploads/2016/07/writer.png" alt="writer" width="48" height="48">
+            </p>
+            <span class="about_pre" style="font-size: 20px;">Join India's biggest support community Diabetics</span>
+            <div class="cta_buttons" style="margin-top:10px;">
+<?php if(!is_user_logged_in()){?>
+            <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/register">JOIN NOW</a>
+<?php }else { ?>
+            <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/community">EXPLORE COMMUNITY</a>
+<?php } ?>
+            </div>
+        </div>
+    </div>
+
+
+
  <?php       
 
 function getURLParams($new_network, $new_state, $new_city, $new_count, $new_page){
@@ -22,6 +47,7 @@ Twig_Autoloader::register();
 try{
 $dataApi = new PestJSON('https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/');
 
+$user_id = get_current_user_id();
 $state = (isset($_GET['state']) && $_GET['state']!='')?$_GET['state']:'all';
 $city = (isset($_GET['city']) && $_GET['city']!='')?$_GET['city']:'all';
 $network = (isset($_GET['network']) && $_GET['network']!='')?$_GET['network']:'all';
@@ -29,7 +55,7 @@ $page = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumbe
 $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
 
 
-$url = '/hospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count;
+$url = '/hospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&wp_user_id='.$user_id;
 
 $mapData = $dataApi->get($url);
 
@@ -61,11 +87,10 @@ if($total_count<10){
     $rounded_count = round($total_count, -3).'+';
 }
 
-echo $twig->render('index.html', 
-    array('name' => 'Fabien',
-        'response' => $mapData,
+echo $twig->render('hospital_list.html', 
+    array('response' => $mapData,
         'title' => $rounded_count. ' Hospitals in '
-        . ($network=='all'?'All Networks, ': $network.' Network, ')
+        . ($network=='all'?' ': $network.' Network, ')
         .($city=='all'?'': $city.', ')
         .($state=='all'?'': $state.',')
         .' India',
@@ -83,18 +108,9 @@ echo $twig->render('index.html',
 echo "</div>";
 
 }catch (Exception $e){
-    echo $e->getMessage().'=====';
+    echo $e->getMessage();
 }
-//https://vings-dev.appspot.com/_ah/api/dataApi/v1/conditions/common
 
-// Retrieve map data for the University of Toronto campus
-//$map = $pest->get('/map?bbox=-79.39997,43.65827,-79.39344,43.66903');
-
-// Print all of the street names in the map
-//$streets = $map->xpath('//way/tag[@k="name"]');
-//foreach ($streets as $s) {
-// echo $s['v'] . "\n";
-//}
  ?>
     </main><!-- .site-main -->
  
