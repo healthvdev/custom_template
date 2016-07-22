@@ -27,7 +27,7 @@ $dataApi = new PestJSON('https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/
 $user_id = get_current_user_id();
 $hospital_id = $_GET['hospital_id'];
 
-$url = '/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+$url = '/gethospitaldetails/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
 
 $mapData = $dataApi->get($url);
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
