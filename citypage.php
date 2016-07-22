@@ -9,7 +9,7 @@
 Custom Code for reading API
 */
 function getURLParams($new_network, $new_state, $new_city, $new_count, $new_page){
-    return "?network=".$new_network."&"."state=".$new_state."&"."city=".$new_city."&"."pageCount=".$new_count."&"."pageNumber=".$new_page;
+    return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."pageCount=".$new_count."&"."pageNumber=".$new_page;
 }
 
 
@@ -93,9 +93,9 @@ echo $twig->render('hospital_list.html',
         'is_user_logged_in' => is_user_logged_in(),
         'response' => $mapData,
         'title' => $title,
-              'params' => array('state' => rawurlencode($state),
-                            'city' => rawurlencode($city),
-                            'network' => rawurlencode($network),
+              'params' => array('state' => $state,
+                            'city' => $city,
+                            'network' => $network,
                             'count' => $count,
                             'page' => $page,
                             'nextpage' => $page+1),
