@@ -27,10 +27,7 @@ $optimizer = optimizer_option_defaults();
 
 <?php endif; ?>
 
-<?php 
-remove_action( 'wp_head', 'rel_canonical' );
-wp_head(); 
-?>
+<?php wp_head(); ?>
 </head>
 
 <body <?php body_class();?>>

@@ -64,6 +64,21 @@ if($total_count<10){
     $rounded_count = round($total_count, -3).'+';
 }
 
+remove_action( 'wp_head', 'rel_canonical' );
+add_action('wp_head',  'um_rel_canonical_1', 10 );
+
+function um_rel_canonical_1() {
+    $state = (isset($_GET['state']) && $_GET['state']!='')?$_GET['state']:'all';
+    $city = (isset($_GET['city']) && $_GET['city']!='')?$_GET['city']:'all';
+    $network = (isset($_GET['network']) && $_GET['network']!='')?$_GET['network']:'all';
+    $page = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumber']:1;
+    $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
+    $link = get_permalink().getURLParams(rawurlencode($network), rawurlencode($state), rawurlencode($city), $count, $page+$i);
+    echo "<link rel='canonical' href='$link' />\n";
+
+}
+
+
 global $title;
 $title = $rounded_count. ' Hospitals in '
         . ($network=='all'?' ': $network.' Network, ')
