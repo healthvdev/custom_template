@@ -50,8 +50,9 @@ if($total_count<10){
     $rounded_count = round($total_count, -1).'+';
 }
 
+$obj = $mapData["data"][0];
 
-$title = $mapData["data"][0]["name"];
+$title = $obj["name"] . ", " . $obj["city"] . ", " .  $obj["state"];
 }catch (Exception $e){
     echo $e->getMessage();
 }
