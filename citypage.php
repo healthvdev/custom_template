@@ -12,6 +12,9 @@ function getURLParams($new_network, $new_state, $new_city, $new_count, $new_page
     return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."pageCount=".$new_count."&"."pageNumber=".$new_page;
 }
 
+function getHospitalURLParams($hospital_id){
+    return "?hospital_id=".rawurlencode($hospital_id);
+}
 
 
 $path    = "/var/www/html/wp-content/themes/optimizer";
@@ -39,10 +42,14 @@ $mapData = $dataApi->get($url);
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
 
 $twig = new Twig_Environment($loader, array('debug' => true));
-$function = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_count, $new_page) {
+$function_URLParams = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_count, $new_page) {
     return getURLParams($new_network, $new_state, $new_city, $new_count, $new_page);
 });
-$twig->addFunction($function);
+$function_HospitalURLParams = new Twig_SimpleFunction('function_getHospitalURLParams', function ($hospital_id) {
+    return getHospitalURLParams($hospital_id);
+});
+$twig->addFunction($function_URLParams);
+$twig->addFunction($function_HospitalURLParams);
 
 
 $total_count = $mapData['header']['HOSPITAL_COUNT'];
@@ -115,7 +122,8 @@ echo $twig->render('hospital_list.html',
                             'page' => $page,
                             'nextpage' => $page+1),
               'pages' => $allPages,
-              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?')
+              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
+              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
                      )
     );
 

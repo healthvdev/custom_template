@@ -22,12 +22,12 @@ Twig_Autoloader::register();
 
 
 try{
-$dataApi = new PestJSON('https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/');
+$dataApi = new PestJSON('https://vings-prod.appspot.com/_ah/api/dataApi/v1/');
 
 $user_id = get_current_user_id();
 $hospital_id = $_GET['hospital_id'];
 
-$url = '/gethospitaldetails/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+$url = '/hospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
 
 $mapData = $dataApi->get($url);
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
@@ -51,8 +51,7 @@ if($total_count<10){
 }
 
 
-$title = $mapData["name"].' in '.$mapData["address"].', '. $mapData["state"].', '. $mapData["city"]. 
-        ' India';
+$title = $mapData["data"][0]["name"];
 }catch (Exception $e){
     echo $e->getMessage();
 }
@@ -75,7 +74,7 @@ try{
 echo $twig->render('hospital_detail.html', 
     array(
         'is_user_logged_in' => is_user_logged_in(),
-        'hospital' => $mapData,
+        'response' => $mapData,
         'title' => $title,
         'insurance_count' => $total_count ,
               'params' => array('hospital_id' => rawurlencode($hospital_id)),

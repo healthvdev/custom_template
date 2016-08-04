@@ -22,7 +22,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 300px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 9999;
     overflow:visible;
@@ -31,10 +31,10 @@
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 2px;
+    padding: 3px;
     text-decoration: none;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Change color of dropdown links on hover */
@@ -191,7 +191,7 @@
 						<div class="um-member-card " style="padding: 10px;">
 					
 					<div class="um-member-name">
-						<a href="#" title="{{hospital.name}}"><span>{{hospital.name}}</span></a>
+						<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}"><span>{{hospital.name}}</span></a>
 					</div>
 
 					<div>
@@ -203,9 +203,9 @@
 			  				<button class="dropbtn">All Networks</button>
 							<div class="dropdown-content">
 							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
-									<a href="#" title="">{{insuranceCompany.fullName}}</a> 
+									<a href="{{baseURL}}.{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,params.count,0)}}" title="">{{insuranceCompany.shortName}}</a> 
 							{% else %}
-							    No hospitals have been found.
+							    No insurance network have been found.
 							{% endfor %}
 							</div>
 						</span>

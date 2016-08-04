@@ -22,7 +22,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 300px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 9999;
     overflow:visible;
@@ -31,10 +31,10 @@
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 2px;
+    padding: 3px;
     text-decoration: none;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Change color of dropdown links on hover */
@@ -103,6 +103,10 @@
     				<!--EDIT BUTTON END-->
                     
                     <!--POST START-->
+                <div class="hospital-cover" data-ratio="2.7:1" style="height: 124px; background-repeat: no-repeat;">
+                    <div class="um-member-cover-e">
+                    </div>
+                </div>                    
     <div class="single_post_content">
                         
 
@@ -120,39 +124,43 @@
 <div class="um-form">
 	<div class="um-members masonry" style="position: relative; height: 1148px;">
 		<div class="um-gutter-sizer masonry-brick"></div>
-			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+        {% for hospital in response.data %}
+			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
 						
-				<div class="hospital-cover" data-ratio="2.7:1" style="height: 124px;">
-					<div class="um-member-cover-e">
-						<a href="#" title="{{hospital.name}}"></a>
-					</div>
-				</div>
-						<div class="um-member-card " style="padding: 10px;">
-					
-					<div class="um-member-name">
-						<a href="#" title="{{hospital.name}}"><span>{{hospital.name}}</span></a>
-					</div>
+				<div class="um-member-card " style="padding: 10px;">
 
 					<div>
 						<span class="ap-category-icon fa fa-map-marker" ></span> 
 						<span class="initial">{{hospital.address}},<br/> {{hospital.city}}, {{hospital.state}}, pincode - {{hospital.pinCode}}</span>
 					</div>
 					<div>
-						<span class="dropdown">
-			  				<button class="dropbtn">All Networks</button>
-							<div class="dropdown-content">
-							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
-									<a href="#" title="">{{insuranceCompany.fullName}}</a> 
-							{% else %}
-							    No insurers have been found.
-							{% endfor %}
-							</div>
-						</span>
-						<a href="tel:{{hospital.phone}}"><span class="ap-category-icon fa fa-phone " ></span></a>
-						<a href="email:{{hospital.email}}"><span class="ap-category-icon fa fa-envelope" ></span></a>
+
+                        <a href="tel:{{hospital.phone}}">
+                            <span> Call Now - </span>
+                            <span class="ap-category-icon fa fa-phone " ></span>
+                        </a>
 					</div>
+                    <div>
+                        <a href="email:{{hospital.email}}">
+                            <span> Email - </span>
+                            <span class="ap-category-icon fa fa-envelope" ></span>
+                        </a>
+                    </div>
 				</div>
+                <div class="um-member-card "   style="padding: 10px;">
+                    <div style="font-weight:bold;"> Associated Networks of {{title}}</div>
+                    <ul>
+                    {% for insuranceCompany in hospital.associatedInsuranceCompanies%}
+                            <li>{{insuranceCompany.fullName}}</li>
+                    {% else %}
+                        No associated network insurers
+                    {% endfor %}
+                    </ul>
+                </div>
 			</div>
+        {% else %}
+            No hospitals have been found.
+        {% endfor %}
 		<div class="um-clear masonry-brick"></div>
 	</div>
 </div>
