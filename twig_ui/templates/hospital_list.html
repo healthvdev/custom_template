@@ -61,6 +61,24 @@
     position: relative;
 }
 
+.promocard-cover-1 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_1.png');
+}
+.promocard-cover-2 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_2.png');
+}
+.promocard-cover-3 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_3.png');
+}
+.promocard-cover-4 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_4.png');
+}
+
+.promocard-cover-common {
+    box-sizing: border-box;
+    position: relative;
+}
+
 .dropdown{
 	padding: 5px;
 }
@@ -180,7 +198,25 @@
 <div class="um-form">
 	<div class="um-members masonry" style="position: relative; height: 1148px;">
 		<div class="um-gutter-sizer masonry-brick"></div>
+		{% set hospitalCount = 0 %}
 		{% for hospital in response.data %}
+			{% if hospitalCount is divisible by(4) and hospitalCount < 20 %}
+			{% set promoIndex = hospitalCount/4 + 1 %}
+
+			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+						
+				<a href="/community" title="Community">
+					<div class="promocard-cover-common promocard-cover-{{promoIndex}}" data-ratio="2.7:1" style="height: 265px;">
+						<div class="um-member-cover-e">
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+			{% endif %}
+		    {% set hospitalCount = hospitalCount + 1 %}
+
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
 						
 				<div class="hospital-cover" data-ratio="2.7:1" style="height: 124px;">
