@@ -93,22 +93,22 @@
 
 <div class="widget optimizer_front_about aboutblock about_inner" style="padding: 0px;width: 100%">
 
-        <div class="about_content">
-            <p>
-            	<a href="/community">
-                <img class="" src="http://healthvings.com/wp-content/uploads/2016/08/community_banner_2.png" style="width: 100%;">
-                </a>
-            </p>
+    <div class="about_content">
+        <p>
+        	<a href="/community">
+            <img class="" src="http://healthvings.com/wp-content/uploads/2016/08/community_banner_2.png" style="width: 100%;">
+            </a>
+        </p>
 <!--            <span class="about_pre" style="font-size: 20px;">Join India's biggest community for Diabetics</span>
-            <div class="cta_buttons" style="margin-top:10px;">
+        <div class="cta_buttons" style="margin-top:10px;">
 {% if(is_user_logged_in == false)%}
-            <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/register">JOIN NOW</a>
+        <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/register">JOIN NOW</a>
 {% else %}
-            <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/community">EXPLORE COMMUNITY</a>
+        <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/community">EXPLORE COMMUNITY</a>
 {% endif %}
-            </div> -->
-        </div>
+        </div> -->
     </div>
+</div>
 
 
 <div class="single_wrap">
@@ -194,10 +194,10 @@
 <div class="um-form">
 	<div class="um-members masonry" style="position: relative; height: 1148px;">
 		<div class="um-gutter-sizer masonry-brick"></div>
-		{% set hospitalCount = 0 %}
+		{% set hospitalCount = -2 %}
 		{% for hospital in response.data %}
-			{% if hospitalCount is divisible by(4) and hospitalCount < 20 %}
 			{% set promoIndex = hospitalCount/4 + 1 %}
+			{% if hospitalCount is divisible by(4) and promoIndex < 5 %}
 
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
 						
