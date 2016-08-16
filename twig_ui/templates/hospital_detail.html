@@ -1,5 +1,11 @@
 
 
+<script type="text/javascript">
+    $('a[href^="tel:"]').attr('href', function(_,v){
+        return v.replace(/\(0\)|\s+/g,'');
+    });
+</script>
+
 <style>
 /* Dropdown Button */
 .dropbtn {
@@ -152,18 +158,18 @@
                     <div class="um-member-card " style="margin: 30px 0;">
                         <div class="um-left um-half">
                             <a href="tel:{{hospital.phone}}">
-                                <div type="submit" value="Call Now" class="um-button" style="color: #fff;background: #3ba1da;">
+                                <span class="um-button" style="color: #fff;background: #3ba1da;">
                                     <span> Call Now - </span>
                                     <span class="ap-category-icon fa fa-phone " ></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
                         <div class="um-right um-half">
-                            <a href="email:{{hospital.email}}">
-                                <div type="submit" value="Call Now" class="um-button" style="color: #fff;background: #3ba1da;">
+                            <a href="mailto:{{hospital.email}}">
+                                <span class="um-button" style="color: #fff;background: #3ba1da;">
                                     <span> Email - </span>
                                     <span class="ap-category-icon fa fa-envelope" ></span>
-                                </div>
+                                </span>
                             </a>
                         </div>
                     </div>
