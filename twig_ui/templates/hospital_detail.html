@@ -61,6 +61,25 @@
     position: relative;
 }
 
+.promocard-cover-1 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_1.png');
+}
+.promocard-cover-2 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_2.png');
+}
+.promocard-cover-3 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_3.png');
+}
+.promocard-cover-4 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_4.png');
+}
+
+.promocard-cover-common {
+    box-sizing: border-box;
+    position: relative;
+}
+
+
 .dropdown{
     padding: 5px;
 }
@@ -123,27 +142,35 @@
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
 						
 				<div class="um-member-card " style="padding: 10px;">
+                    <h4 style="font-weight:bold;"> Address of {{hospital.name}}</h4>
 
 					<div>
 						<span class="ap-category-icon fa fa-map-marker" ></span> 
 						<span class="initial">{{hospital.address}},<br/> {{hospital.city}}, {{hospital.state}}, pincode - {{hospital.pinCode}}</span>
 					</div>
-					<div>
 
-                        <a href="tel:{{hospital.phone}}">
-                            <span> Call Now - </span>
-                            <span class="ap-category-icon fa fa-phone " ></span>
-                        </a>
-					</div>
-                    <div>
-                        <a href="email:{{hospital.email}}">
-                            <span> Email - </span>
-                            <span class="ap-category-icon fa fa-envelope" ></span>
-                        </a>
+                    <div class="um-member-card " style="margin: 30px 0;">
+                        <div class="um-left um-half">
+                            <a href="tel:{{hospital.phone}}">
+                                <div type="submit" value="Call Now" class="um-button" style="color: #fff;background: #3ba1da;">
+                                    <span> Call Now - </span>
+                                    <span class="ap-category-icon fa fa-phone " ></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="um-right um-half">
+                            <a href="email:{{hospital.email}}">
+                                <div type="submit" value="Call Now" class="um-button" style="color: #fff;background: #3ba1da;">
+                                    <span> Email - </span>
+                                    <span class="ap-category-icon fa fa-envelope" ></span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
+
 				</div>
                 <div class="um-member-card "   style="padding: 10px;">
-                    <div style="font-weight:bold;"> Associated Networks of {{title}}</div>
+                    <h4 style="font-weight:bold;"> Associated Networks of {{hospital.name}}</h4>
                     <ul>
                     {% for insuranceCompany in hospital.associatedInsuranceCompanies%}
                             <li>{{insuranceCompany.fullName}}</li>
@@ -153,10 +180,35 @@
                     </ul>
                 </div>
 			</div>
+            <div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+                        
+                <a href="/community" title="Community">
+                    <div class="promocard-cover-common promocard-cover-{{random([1,2,3,4])}}" data-ratio="2.7:1" style="height: 265px;">
+                        <div class="um-member-cover-e">
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
+                <h4 style="font-weight:bold;"> Directions to {{title}}</h4>
+                <div class="um-member-card " style="padding: 10px;">
+                    <iframe
+                      width="100%"
+                      height="350"
+                      frameborder="0" style="border:0"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBVfC1p2RaVeS8py6PF9GkF2FZPPxYPfqE
+                        &q={{title}}" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
         {% else %}
             No hospitals have been found.
         {% endfor %}
 		<div class="um-clear masonry-brick"></div>
+
 	</div>
 </div>
 	
