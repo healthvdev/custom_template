@@ -138,7 +138,7 @@
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.city}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for city in filter.cities %}
-	           		<li><a href="{{baseURL}}.{{function_getTopHospitalURLParams(city,'all')}}">{{city}}</a></li>
+	           		<li><a href="{{currentURL}}.{{function_getTopHospitalURLParams(city,'all')}}">{{city}}</a></li>
 				{% else %}
 				{% endfor %}
 	        </ul>

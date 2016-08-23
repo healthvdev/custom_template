@@ -170,6 +170,7 @@ echo $twig->render('top_hospital_list.html',
         'filter' => $city_filter,
               'params' => array('city' => rawurlencode($city)),
               'baseURL' => "/health-services/",
+              'currentURL' => strtok($_SERVER["REQUEST_URI"],'?'),
               'baseHospitalURL' => "/health-services/hospital" 
                      )
     );
