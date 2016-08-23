@@ -24,16 +24,7 @@ require_once 'pest/PestJSON.php';
 
 Twig_Autoloader::register();
 
-
-try{
-$dataApi = new PestJSON('https://vings-prod.appspot.com/_ah/api/dataApi/v1/');
-
-$user_id = get_current_user_id();
-$hospital_id = $_GET['hospital_id'];
-$city = $_GET['city'];
-$speciality = (isset($_GET['speciality']) && $_GET['speciality']!='')?$_GET['speciality']:'all';
-
-$top_list = json_decode('{
+$list = '{
     "Pune" : {
         "all":["50837", "142100", "50242", "61655", "143689", "53092", "50760", "51205"]
     },
