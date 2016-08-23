@@ -47,7 +47,7 @@ $top_list = json_decode('{
     "Bengaluru" : {
         "all":["50610", ' 
         //.'"stjohns", "RAMAIAH",  ' 
-        .'"91192", "61428", "50598", "132862", "123278", "101050", "69167", ' 
+        .'"91192", "61428", "50598", "132862", "123278", "101050", "69167" ' 
         //.'"kempegowda"  ' 
         .']
     },
@@ -58,7 +58,7 @@ $top_list = json_decode('{
         //.'"nilratan", "medicalcollege",  ' 
         .'"91188", "50797",  ' 
         //.'"medica", ' 
-         .'"52931",  ' 
+         .'"52931" ' 
         //.'"peerless" ' 
         .']
     },
@@ -86,7 +86,18 @@ $top_list = json_decode('{
         //.'"lokmanya",  ' 
         .'"143781"]
     }
-}', true);
+}';
+
+
+try{
+$dataApi = new PestJSON('https://vings-prod.appspot.com/_ah/api/dataApi/v1/');
+
+$user_id = get_current_user_id();
+$hospital_id = $_GET['hospital_id'];
+$city = $_GET['city'];
+$speciality = (isset($_GET['speciality']) && $_GET['speciality']!='')?$_GET['speciality']:'all';
+
+$top_list = json_decode( $list, true);
 
 
 $city_filter = json_decode('{"cities":["Delhi","Bengaluru","Mumbai","Kolkata","Chennai","Pune"]}', true);
@@ -94,6 +105,7 @@ $id_list = $top_list[$city][$speciality];
 
 
 $url = '/hospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+
 
 $mapData = $dataApi->post($url, 
     array(
