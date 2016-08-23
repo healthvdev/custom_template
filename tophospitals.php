@@ -8,6 +8,11 @@
 /*
 Custom Code for reading API
 */
+
+function getURLParams($new_network, $new_state, $new_city, $new_count, $new_page){
+    return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."pageCount=".$new_count."&"."pageNumber=".$new_page;
+}
+
 function getTopHospitalURLParams( $new_city, $speciality){
     return "?city=".$new_city."&"."speciality=".$speciality;
 }
@@ -110,11 +115,16 @@ $twig = new Twig_Environment($loader, array('debug' => true));
 $function = new Twig_SimpleFunction('function_getTopHospitalURLParams', function ($city, $speciality) {
     return getTopHospitalURLParams($city, $speciality);
 });
+$function_URLParams = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_count, $new_page) {
+    return getURLParams($new_network, $new_state, $new_city, $new_count, $new_page);
+});
 $function_HospitalURLParams = new Twig_SimpleFunction('function_getHospitalURLParams', function ($hospital_id) {
     return getHospitalURLParams($hospital_id);
 });
 
+
 $twig->addFunction($function);
+$twig->addFunction($function_URLParams);
 $twig->addFunction($function_HospitalURLParams);
 
 
@@ -159,7 +169,7 @@ echo $twig->render('top_hospital_list.html',
         'title' => $title,
         'filter' => $city_filter,
               'params' => array('city' => rawurlencode($city)),
-              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
+              'baseURL' => "/health-services/",
               'baseHospitalURL' => "/health-services/hospital" 
                      )
     );
