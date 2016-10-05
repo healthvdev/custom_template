@@ -122,21 +122,12 @@
     <div class="single_post_content">
                         
 
-
-	<ul class="nav nav-tabs">
-    	<li class="active"><a href="#">Hospitals</a></li>
-	<!--<li><a href="#">Menu 1</a></li>
-	    <li><a href="#">Menu 2</a></li>
-	    <li><a href="#">Menu 3</a></li> -->
-  	</ul>
-	<br/>
-
 <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
 
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all',params.count,0)}}">
-    <span itemprop="name">Hospitals</span></a>
+    <span itemprop="name">All Hospitals</span></a>
     <meta itemprop="position" content="1" />
   </li>
 {% if params.state is not same as('all')  %}
@@ -165,6 +156,16 @@
 {% endif %}
 
 </ol>
+
+
+	<!--<ul class="nav nav-tabs">
+    	<li class="active"><a href="#">Hospitals</a></li>
+	<li><a href="#">Menu 1</a></li>
+	    <li><a href="#">Menu 2</a></li>
+	    <li><a href="#">Menu 3</a></li> 
+  	</ul>
+	<br/>
+-->
 	<h1 class="postitle entry-title">{{title}}</h1>
 
 	<p>

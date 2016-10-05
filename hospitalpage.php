@@ -72,7 +72,7 @@ get_header();
  <?php       
 try{
 
-$baseURL = substr($_SERVER["REQUEST_URI"], 0, strrpos($_SERVER["REQUEST_URI"], "/hospital/"));
+$baseURL = substr($_SERVER["REQUEST_URI"], 0, strrpos($_SERVER["REQUEST_URI"], "/hospital"));
 
 
 echo $twig->render('hospital_detail.html', 
