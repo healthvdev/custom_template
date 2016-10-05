@@ -17,7 +17,7 @@ function getHospitalURLParams($hospital_id){
 }
 
 
-$path    = "/var/www/html/wp-content/themes/optimizer";
+$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
 require_once 'template/Twig/lib/Twig/Autoloader.php';
 require_once 'pest/PestJSON.php';
 
@@ -114,8 +114,10 @@ echo $twig->render('hospital_list.html',
     array(
         'is_user_logged_in' => is_user_logged_in(),
         'response' => $mapData,
+		'total_count' => $rounded_count,
         'title' => $title,
-              'params' => array('state' => $state,
+              'params' => array(
+              				'state' => $state,
                             'city' => $city,
                             'network' => $network,
                             'count' => $count,
