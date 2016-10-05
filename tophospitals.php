@@ -23,7 +23,8 @@ function getHospitalURLParams($hospital_id){
 }
 
 
-$path    = "/var/www/html/wp-content/themes/optimizer";
+//$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
+$path = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
 require_once 'template/Twig/lib/Twig/Autoloader.php';
 require_once 'pest/PestJSON.php';
 
