@@ -72,14 +72,18 @@ get_header();
  <?php       
 try{
 
+$baseURL = substr($_SERVER["REQUEST_URI"], 0, strrpos($_SERVER["REQUEST_URI"], "/hospital/"));
+
+
 echo $twig->render('hospital_detail.html', 
     array(
         'is_user_logged_in' => is_user_logged_in(),
-        'response' => $mapData,
+        'hospital' => $obj,
         'title' => $title,
         'insurance_count' => $total_count ,
               'params' => array('hospital_id' => rawurlencode($hospital_id)),
-              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?')
+              'baseURL' => $baseURL,
+              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')
                      )
     );
 
