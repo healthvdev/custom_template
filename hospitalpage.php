@@ -56,6 +56,13 @@ if($total_count<10){
 
 $obj = $mapData["data"][0];
 
+$specialties = $obj["specialties"];
+$specialties_keywords = [];
+if($specialties!='' && $specialties!='NA' ){
+    $specialties_keywords = array_map('trim',preg_split("/[\n,]+/", $specialties));
+}
+
+
 $title = $obj["name"] . ", " . $obj["city"] . ", " .  $obj["state"];
 }catch (Exception $e){
     echo $e->getMessage();
@@ -83,6 +90,7 @@ echo $twig->render('hospital_detail.html',
     array(
         'is_user_logged_in' => is_user_logged_in(),
         'hospital' => $obj,
+        'specialties' => $specialties_keywords,
         'title' => $title,
         'insurance_count' => $total_count ,
               'params' => array('hospital_id' => rawurlencode($hospital_id)),

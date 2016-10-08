@@ -163,7 +163,18 @@
 	<br/>
 	<h1 class="postitle entry-title">{{title}}</h1>
 
-	<br/>
+    <p>
+        {{hospital.name}} is 
+{% if hospital.category is not same as('NA')  %}
+        <span style="text-transform: lowercase;"> a {{hospital.category}} hospital </span>
+{% endif %}
+        located in {{hospital.city}}, {{hospital.state}}, India.
+{% if hospital.discipline_systems_of_medicine is not same as('NA')  %}
+        {{hospital.name}} provides {{hospital.discipline_systems_of_medicine}} treatement to patients.
+{% endif %}
+        </span>
+    </p>
+    <br/>
                             
                             <!--POST CONTENT START-->
                                 <div class="thn_post_wrap" style="overflow: visible;">
@@ -184,8 +195,8 @@
 						<span class="initial">{{hospital.address}},<br/> {{hospital.city}}, {{hospital.state}}, pincode - {{hospital.pinCode}}</span>
 					</div>
 
-                    <div class="um-member-card " style="margin: 30px 0;">
-                        <div class="um-left um-half">
+                    <div class="um-member-card " style="margin: 10px 0;">
+                        <div class="um-center um-half">
                             <a href="tel:{{hospital.phone}}">
                                 <span class="um-button" style="color: #fff;background: #3ba1da;">
                                     <span> Call Now - </span>
@@ -193,7 +204,7 @@
                                 </span>
                             </a>
                         </div>
-                        <div class="um-right um-half">
+                        <div class="um-center um-half">
                             <a href="mailto:{{hospital.email}}">
                                 <span class="um-button" style="color: #fff;background: #3ba1da;">
                                     <span> Email - </span>
@@ -201,9 +212,31 @@
                                 </span>
                             </a>
                         </div>
+{% if hospital.website is not same as('NA')  %}
+                        <div class="um-center um-half">
+                            <a href="http://{{hospital.website}}" target="_blank">
+                                <span class="um-button" style="color: #fff;background: #3ba1da;">
+                                    <span> Website - </span>
+                                    <span class="ap-category-icon fa fa-external-link" ></span>
+                                </span>
+                            </a>
+                        </div>
+{% endif %}
                     </div>
 
 				</div>
+{% if hospital.specialties is not same as('NA')  %}
+                <div class="um-member-card "   style="padding: 10px;">
+                    <h4 style="font-weight:bold;"> Specialities &amp; Departments of {{hospital.name}}</h4>
+                    <ul>
+                    {% for specialty in specialties%}
+                            <li>{{specialty}}</li>
+                    {% else %}
+                        
+                    {% endfor %}
+                    </ul>
+                </div>
+{% endif %}
                 <div class="um-member-card "   style="padding: 10px;">
                     <h4 style="font-weight:bold;"> Associated Networks of {{hospital.name}}</h4>
                     <ul>
