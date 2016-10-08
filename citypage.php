@@ -25,7 +25,7 @@ Twig_Autoloader::register();
 
 
 try{
-$dataApi = new PestJSON('https://vings-prod.appspot.com/_ah/api/dataApi/v1/');
+$dataApi = new PestJSON('https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/');
 
 $user_id = get_current_user_id();
 $state = (isset($_GET['state']) && $_GET['state']!='')?$_GET['state']:'all';
