@@ -230,7 +230,9 @@
                     <h4 style="font-weight:bold;"> Specialities &amp; Departments of {{hospital.name}}</h4>
                     <ul>
                     {% for specialty in specialties%}
+                        {% if specialty is not same as('')  %}
                             <li>{{specialty}}</li>
+                        {% endif %}
                     {% else %}
                         
                     {% endfor %}
