@@ -27,8 +27,12 @@ $dataApi = new PestJSON('https://vings-prod.appspot.com/_ah/api/dataApi/v1/');
 $user_id = get_current_user_id();
 $hospital_id = $_GET['hospital_id'];
 
-$url = '/hospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
 
+if(strlen(hospital_id)>10){
+    $url = '/govhospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+}else{
+    $url = '/hospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+}
 $mapData = $dataApi->get($url);
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
 

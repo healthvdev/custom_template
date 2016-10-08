@@ -35,7 +35,7 @@ $page = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumbe
 $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
 
 
-$url = '/hospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&wp_user_id='.$user_id;
+$url = '/govhospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&wp_user_id='.$user_id;
 
 $mapData = $dataApi->get($url);
 
