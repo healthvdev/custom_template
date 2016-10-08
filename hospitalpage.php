@@ -28,7 +28,7 @@ $user_id = get_current_user_id();
 $hospital_id = $_GET['hospital_id'];
 
 
-if(strlen(hospital_id)>10){
+if(strlen($hospital_id)>10){
     $url = '/govhospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
 }else{
     $url = '/hospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
