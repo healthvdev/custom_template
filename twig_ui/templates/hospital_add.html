@@ -1,0 +1,122 @@
+    <style type="text/css">
+    .container {
+        width: 500px;
+        clear: both;
+        font-weight: bold;
+        color: black;
+    }
+    .container input {
+        width: 100%;
+        clear: both;
+        color: gray;
+    }
+    .container select {
+        width: 100%;
+        clear: both;
+    }
+
+    </style>
+<script type="text/javascript">
+
+$.fn.serializeObject = function()
+{
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+        if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+};
+
+
+
+$(function() {
+    $('form').submit(function() {
+    	var data = JSON.stringify($('form').serializeObject());
+        console.log(data);
+        $.ajax({
+		  type: "POST",
+		  url: "{{post_url}}",
+		  data: data,
+		  success: function(response){
+                        window.location.href = "{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}";
+                    },
+		  dataType: 'json'
+		});
+        return false;
+    });
+});	
+</script>
+
+<div class="container">
+
+<form>
+<br><label>name</label><input type='text' name='name' value='{{hospital.name}}' >
+<br><label>pinCode</label><input type='number' name='pinCode' value='{{hospital.pinCode}}' >
+<br><label>city</label><input type='' name='city' value='{{hospital.city}}' >
+<br><label>city_id</label><input type='number' name='city_id' value='{{hospital.city_id}}' >
+<br><label>state</label><select name='state' >
+	<option></option>
+</select>
+<br><label>state_id</label><input type='number' name='state_id' value='{{hospital.state_id}}' >
+<br><label>address</label><input type='text' name='address' value='{{hospital.address}}' >
+<br><label>area</label><input type='text' name='area' value='{{hospital.area}}' >
+<br><label>primary_email_id</label><input type='text' name='primary_email_id' value='{{hospital.primary_email_id}}' >
+<br><label>website</label><input type='text' name='website' value='{{hospital.website}}' >
+<br><label>care_type</label><select name='care_type' >
+	<option></option>
+</select>
+<br><label>discipline_systems_of_medicine</label><select name='discipline_systems_of_medicine' >
+	<option></option>
+</select>
+<br><label>category</label><select name='category' >
+	<option></option>
+</select>
+<br><label>telephone</label><input type='text' name='telephone' value='{{hospital.telephone}}' >
+<br><label>link_status</label><input type='text' name='link_status' value='{{hospital.link_status}}' >
+<br><label>subtown</label><input type='text' name='subtown' value='{{hospital.subtown}}' >
+<br><label>total_num_beds</label><input type='number' name='total_num_beds' value='{{hospital.total_num_beds}}' >
+<br><label>specialties</label><input type='text' name='specialties' value='{{hospital.specialties}}' >
+<br><label>village</label><input type='text' name='village' value='{{hospital.village}}' >
+<br><label>bloodbank_phone_no</label><input type='text' name='bloodbank_phone_no' value='{{hospital.bloodbank_phone_no}}' >
+<br><label>emergency_services</label><input type='text' name='emergency_services' value='{{hospital.emergency_services}}' >
+<br><label>subdistrict</label><input type='text' name='subdistrict' value='{{hospital.subdistrict}}' >
+<br><label>fax</label><input type='text' name='fax' value='{{hospital.fax}}' >
+<br><label>number_doctor</label><input type='number' name='number_doctor' value='{{hospital.number_doctor}}' >
+<br><label>nodal_person_tele</label><input type='text' name='nodal_person_tele' value='{{hospital.nodal_person_tele}}' >
+<br><label>num_mediconsultant_or_expert</label><input type='number' name='num_mediconsultant_or_expert' value='{{hospital.num_mediconsultant_or_expert}}' >
+<br><label>town</label><input type='text' name='town' value='{{hospital.town}}' >
+<br><label>accreditation</label><input type='text' name='accreditation' value='{{hospital.accreditation}}' >
+<br><label>id</label><input type='hidden' name='id' value='{{hospital.id}}' >
+<br><label>distance</label><input type='hidden' name='distance' value='{{hospital.distance}}' >
+<br><label>secondary_email_id</label><input type='text' name='secondary_email_id' value='{{hospital.secondary_email_id}}' >
+<br><label>tollfree</label><input type='text' name='tollfree' value='{{hospital.tollfree}}' >
+<br><label>establised_year</label><input type='number' name='establised_year' value='{{hospital.establised_year}}' >
+<br><label>miscellaneous_facilities</label><input type='text' name='miscellaneous_facilities' value='{{hospital.miscellaneous_facilities}}' >
+<br><label>emergency_num</label><input type='text' name='emergency_num' value='{{hospital.emergency_num}}' >
+<br><label>coordinates</label><input type='text' name='coordinates' value='{{hospital.coordinates}}' >
+<br><label>ambulance_phone_no</label><input type='text' name='ambulance_phone_no' value='{{hospital.ambulance_phone_no}}' >
+<br><label>facilities</label><input type='text' name='facilities' value='{{hospital.facilities}}' >
+<br><label>helpline</label><input type='text' name='helpline' value='{{hospital.helpline}}' >
+<br><label>num_bed_for_eco_weaker_sec</label><input type='number' name='num_bed_for_eco_weaker_sec' value='{{hospital.num_bed_for_eco_weaker_sec}}' >
+<br><label>tariff_range</label><input type='text' name='tariff_range' value='{{hospital.tariff_range}}' >
+<br><label>nodal_person_info</label><input type='text' name='nodal_person_info' value='{{hospital.nodal_person_info}}' >
+<br><label>number_private_wards</label><input type='text' name='number_private_wards' value='{{hospital.number_private_wards}}' >
+<br><label>address_first_line</label><input type='text' name='address_first_line' value='{{hospital.address_first_line}}' >
+<br><label>foreign_pcare</label><input type='text' name='foreign_pcare' value='{{hospital.foreign_pcare}}' >
+<br><label>registeration_number_scan</label><input type='text' name='registeration_number_scan' value='{{hospital.registeration_number_scan}}' >
+<br><label>hospital_regis_number</label><input type='text' name='hospital_regis_number' value='{{hospital.hospital_regis_number}}' >
+<br><label>ayush</label><input type='text' name='ayush' value='{{hospital.ayush}}' >
+<br><label>mobile_number</label><input type='text' name='mobile_number' value='{{hospital.mobile_number}}' >
+<br><label>nodal_person_email_id</label><input type='text' name='nodal_person_email_id' value='{{hospital.nodal_person_email_id}}' >
+<br><label>empanelment_or_collaboration_with</label><input type='text' name='empanelment_or_collaboration_with' value='{{hospital.empanelment_or_collaboration_with}}' >
+<br><input type="submit" name="Submit">
+</form>
+</div>
