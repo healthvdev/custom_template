@@ -2,7 +2,6 @@
     .container {
         width: 500px;
         clear: both;
-        font-weight: bold;
         color: black;
     }
     .container input {
@@ -52,22 +51,72 @@ $(function() {
 		});
         return false;
     });
+
+    $.ajax({
+		type: "GET",
+    	url: "{{state_url}}",
+		cache: true,
+	  	success: function(data) {
+		    var state = $("#state");
+		    state.empty();
+		    for (var i=0; i<data.length; i++) {
+		      state.append('<option value="' + data[i].name + '">' + data[i].name + '</option>');
+		    }
+		},
+	  	dataType: 'json'
+	});
+
+	$(".state").change(function()
+	{
+		var id=$(this).val();
+		var dataString = 'id='+ id;
+
+		$.ajax({
+			type: "POST",
+			url: "{{city_url}}",
+			data: dataString,
+			cache: false,
+			success: function(html)
+			{
+			    var city = $("#city");
+			    city.empty();
+			    for (var i=0; i<data.length; i++) {
+			      city.append('<option value="' + data[i].name + '">' + data[i].name + '</option>');
+			    }
+			},
+		  	dataType: 'json'
+		});
+
+	});	
 });	
 </script>
+
+
+<div class="single_wrap">
+	<div class="single_post">
+	
+   <div class="post-105 post type-post status-publish format-standard hentry category-uncategorized" id="post-105"> 
+                    <!--EDIT BUTTON START-->
+    				<!--EDIT BUTTON END-->
+                    
+                    <!--POST START-->
+    <div class="single_post_content">
+
 
 <div class="container">
 
 <form>
-<br><label>name</label><input type='text' name='name' value='{{hospital.name}}' >
-<br><label>pinCode</label><input type='number' name='pinCode' value='{{hospital.pinCode}}' >
-<br><label>city</label><input type='' name='city' value='{{hospital.city}}' >
+<br><input type="submit" name="Submit"  class="um-button">
+<br><label>name</label><input type='text' name='name' value='{{hospital.name}}' required >
+<br><label>pinCode</label><input type='number' name='pinCode' value='{{hospital.pinCode}}' required >
+<br><label>city</label><input type='' name='city' value='{{hospital.city}}' required>
 <br><label>city_id</label><input type='number' name='city_id' value='{{hospital.city_id}}' >
-<br><label>state</label><select name='state' >
+<br><label>state</label><select name='state' required>
 	<option></option>
 </select>
 <br><label>state_id</label><input type='number' name='state_id' value='{{hospital.state_id}}' >
-<br><label>address</label><input type='text' name='address' value='{{hospital.address}}' >
-<br><label>area</label><input type='text' name='area' value='{{hospital.area}}' >
+<br><label>address</label><input type='text' name='address' value='{{hospital.address}}' required>
+<br><label>area</label><input type='text' name='area' value='{{hospital.area}}' required>
 <br><label>primary_email_id</label><input type='text' name='primary_email_id' value='{{hospital.primary_email_id}}' >
 <br><label>website</label><input type='text' name='website' value='{{hospital.website}}' >
 <br><label>care_type</label><select name='care_type' >
@@ -117,6 +166,5 @@ $(function() {
 <br><label>mobile_number</label><input type='text' name='mobile_number' value='{{hospital.mobile_number}}' >
 <br><label>nodal_person_email_id</label><input type='text' name='nodal_person_email_id' value='{{hospital.nodal_person_email_id}}' >
 <br><label>empanelment_or_collaboration_with</label><input type='text' name='empanelment_or_collaboration_with' value='{{hospital.empanelment_or_collaboration_with}}' >
-<br><input type="submit" name="Submit">
 </form>
-</div>
+</div></div></div></div></div>

@@ -31,13 +31,20 @@ $user_id = get_current_user_id();
 $hospital_id = $_GET['hospital_id'];
 
 
-if(strlen($hospital_id)>10){
-    $url = '/govhospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
-}else{
-    $url = '/hospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+if($hospital_id>0){
+
+    if(strlen($hospital_id)>10){
+        $url = '/govhospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+    }else{
+        $url = '/hospitals/hospital/'.rawurlencode($hospital_id ).'?wp_user_id='.$user_id;
+    }
+
+
+    $mapData = $dataApi->get($url);
+} else{
+    $mapData = [];
 }
 
-$mapData = $dataApi->get($url);
 
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
 
@@ -49,18 +56,9 @@ $function_HospitalURLParams = new Twig_SimpleFunction('function_getHospitalURLPa
     return getHospitalURLParams($hospital_id);
 });
 $twig->addFunction($function);
+$twig->addFunction($function_HospitalURLParams);
 
 
-$insurace_items = $mapData['associatedInsuranceCompanies'];
-
-$total_count = count($insurace_items);
-
-
-if($total_count<10){
-    $rounded_count = $total_count;
-} else {
-    $rounded_count = round($total_count, -1).'+';
-}
 
 if(isset($mapData["data"])){
     $obj = $mapData["data"][0];
@@ -102,12 +100,13 @@ echo $twig->render('hospital_add.html',
     array(
         'is_user_logged_in' => is_user_logged_in(),
         'hospital' => $obj,
-        'post_url' => 'https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/hghgf',
+        'post_url' => 'https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/new',
+        'state_url' => 'https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/state',
+        'city_url' => 'https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/city',
         'title' => $title,
-        'insurance_count' => $total_count ,
-              'params' => array('hospital_id' => rawurlencode($hospital_id)),
-              'baseHospitalURL' => $baseURL."/health-services/hospital"
-                     )
+        'params' => array('hospital_id' => rawurlencode($hospital_id)),
+        'baseHospitalURL' => $baseURL."/health-services/hospital"
+        )
     );
 
 echo "</div>";
