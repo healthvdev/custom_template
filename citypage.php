@@ -106,7 +106,26 @@ get_header();
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
+	<?php 
+		$questions = ap_get_questions(array( 'showposts' => 5, 'sortby' => "newest", 'paged' => 1  ));
 
+		if ( ap_have_questions() ) {
+			/* Start the Loop */
+			$i = 0;
+			while ( ap_questions() ) : ap_the_question();
+
+				$questions->posts{$i}->ans_count = $ans_count = ap_question_get_the_answer_count();
+				$questions->posts{$i}->net_vote = $net_vote = ap_question_get_the_net_vote();
+				$questions->posts{$i}->permalink = $permalink = ap_question_get_the_permalink();
+				$questions->posts{$i}->img_small_banner = $img_small_banner = ap_get_image(ap_question_get_the_ID(), 'banner_img');
+				$i++;
+			endwhile;
+
+
+		}else{
+			$questions->posts = array();
+		}
+	?>	
  <?php       
 
 
@@ -122,6 +141,7 @@ echo $twig->render('hospital_list.html',
                             'network' => $network,
                             'count' => $count,
                             'page' => $page,
+                            'community_questions' => $questions->posts,
                             'nextpage' => $page+1),
               'pages' => $allPages,
               'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),

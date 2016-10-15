@@ -258,7 +258,7 @@
 		{% for hospital in response.data %}
 			{% set promoIndex = hospitalCount/4 + 1 %}
 			{% if hospitalCount is divisible by(4) and promoIndex < 5 %}
-
+<!--
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
 						
 				<a href="/community" title="Community">
@@ -269,6 +269,44 @@
 				</a>
 
 			</div>
+-->
+			{% set question = params.community_questions[hospitalCount/4] %}
+			{% if question is not empty %}
+			{% set background_img = 'http://healthvings.com/wp-content/uploads/2016/10/community_banner-1.png' %}
+			{% if question.img_small_banner is not empty%}
+				{% set background_img = question.img_small_banner %}
+			{% endif %}
+
+			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+						
+				<a href="{{question.post_title}}" title="{{question.post_title}}">
+					<div class="hospital-cover" data-ratio="2.7:1" style="height: 124px; background-image: url({{background_img}});background-size: cover;">
+						<div class="um-member-cover-e">
+						</div>
+					</div>
+				</a>
+					<div class="um-member-card " style="padding: 10px;">
+					
+					<div class="um-member-name">
+						<a href="{{question.permalink}}" title="{{question.post_title}}">
+						<span style="font-weight: bold;font-size: 18px;">{{question.post_title}}</span>
+						<span style="font-size: 12px;">read more </span>
+						</a>
+					</div>
+					<div>
+						<span class="initial">{{question.ans_count}} answers | {{question.net_vote}} votes</span>
+					</div>
+
+				</div>
+			</div>
+			{% endif %}
+
+
+
+
+
+
+
 
 			{% endif %}
 		    {% set hospitalCount = hospitalCount + 1 %}
