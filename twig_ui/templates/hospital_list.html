@@ -254,7 +254,7 @@
 <div class="um-form">
 	<div class="um-members masonry" style="position: relative; height: 1148px;">
 		<div class="um-gutter-sizer masonry-brick"></div>
-		{% set hospitalCount = -2 %}
+		{% set hospitalCount = 0 %}
 		{% for hospital in response.data %}
 			{% set promoIndex = hospitalCount/4 + 1 %}
 			{% if hospitalCount is divisible by(4) and promoIndex < 5 %}
