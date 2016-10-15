@@ -257,7 +257,7 @@
 		{% set hospitalCount = 0 %}
 		{% for hospital in response.data %}
 			{% set promoIndex = hospitalCount/4 + 1 %}
-			{% if hospitalCount is divisible by(4) and promoIndex < 5 %}
+			{% if hospitalCount is divisible by(4) and promoIndex < 8 %}
 <!--
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
 						
