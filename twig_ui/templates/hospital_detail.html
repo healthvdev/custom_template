@@ -101,7 +101,7 @@
 
     <div class="about_content">
         <p style="background-color: #ffcd54">
-            <a href="/community/question/which-are-the-best-diabetic-hospitals-in-the-country/">
+            <a href="/community">
             <img class="" src="http://healthvings.com/wp-content/uploads/2016/10/Have-doubts-or-queries-.png" style="width: 100%;max-width:700px;">
             </a>
         </p>
@@ -121,7 +121,6 @@
 
 <div class="single_wrap">
 	<div class="single_post">
-
 
 <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
 
@@ -150,6 +149,10 @@
     <meta itemprop="position" content="4" />
   </li>
 </ol>
+
+{% if is_admin  %}
+<a href="{{baseHospitalEditURL}}{{function_getHospitalURLParams(hospital.id)}}" target="_blank"> Edit </a>
+{% endif %}
 
 
    <div class="post-105 post type-post status-publish format-standard hentry category-uncategorized" id="post-105"> 
