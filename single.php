@@ -25,7 +25,7 @@
                     <!--POST START-->
                         <div class="single_post_content">
                         
-                            <h1 class="postitle entry-title"><?php the_title(); ?></h1>
+                            <h1 class="postitle entry-title" style="text-transform: none;"><?php the_title(); ?></h1>
                             <!--POST INFO START-->
 								<?php if (!empty ($optimizer['post_info_id']) || is_customize_preview()) { ?>
                                 <div class="single_metainfo <?php if (empty($optimizer['post_info_id'])){ echo 'hide_singlemeta';}?>">
