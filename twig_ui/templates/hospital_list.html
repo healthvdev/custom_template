@@ -188,8 +188,26 @@
 		India. 
 
 {% if params.network is not same as('all')  %}
-		Find complete list of partner hospitals covered by {{params.network}}.
+	Find complete list of partner hospitals covered by {{params.network}} in 
+	{% if params.state is not same as('all')  %}
+			{{params.state}},
+	{% endif %}
+			India.
+{%else%}
+		Find the most recommended hospitals in over {{response.filter.networks|length}} insurance networks in your city.
 {% endif %}
+
+{% if params.city is same as('all')  %}
+	Get information for all the best hospitals across all the {{response.filter.cities|length}} cities in
+	{% if params.state is not same as('all')  %}
+			{{params.state}},
+	{% endif %}
+			India.
+{% endif %}
+
+
+
+
 	</p>
 
 
@@ -367,7 +385,24 @@
                                 </div>
                             <!--POST CONTENT END-->
                             
-                            
+<p>
+	Select the hospital closest to your preference in 
+{% if params.city is not same as('all')  %}
+		{{params.city}},
+{% endif %}
+{% if params.state is not same as('all')  %}
+		{{params.state}},
+{% endif %}
+		India
+ and get contact details and other information about the hospital. We strive to bring the best information available for any hospital you choose in
+ {% if params.city is not same as('all')  %}
+		{{params.city}},
+{% endif %}
+{% if params.state is not same as('all')  %}
+		{{params.state}},
+{% endif %}
+		India. 
+</p>                            
                             
                             <!--POST FOOTER START-->
                                 <div class="post_foot">
