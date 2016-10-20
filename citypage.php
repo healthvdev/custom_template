@@ -96,8 +96,8 @@ function um_rel_canonical_1() {
 
 }
 
-
-$specialty_map = array('Diabetology' => 'Diabetes', );
+$filters = json_decode('{"specialties" : ["Diabetology", "Cardiology"]}');
+$specialty_map = array('Diabetology' => 'Diabetes','Cardiology' => 'Heart/Cardiology', );
 
 
 global $title;
@@ -143,8 +143,6 @@ get_header();
 		}
 	?>	
  <?php       
-
-$filters = json_decode('{"specialties" : ["Diabetology"]}');
 
 
 echo $twig->render('hospital_list.html', 
