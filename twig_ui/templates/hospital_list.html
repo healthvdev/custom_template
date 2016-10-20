@@ -172,7 +172,11 @@
 	<h1 class="postitle entry-title">{{title}}</h1>
 
 	<p>
-		Find {{total_count}} hospitals in 
+		Find {{total_count}}
+{% if params.specialty is not same as('all')  %}
+		{{specialty_map[params.specialty]}}
+{% endif %}
+		 hospitals in 
 {% if params.city is not same as('all')  %}
 		the city of {{params.city}},
 {% endif %}
@@ -180,6 +184,9 @@
 		{{params.state}},
 {% endif %}
 		India. 
+{% if params.specialty is not same as('all')  %}
+		These hospitals specialize in providing care for patients with {{specialty_map[params.specialty]}} related issues.
+{% endif %}
 
 		Get details including hospital address, direction, route map, insurance network providers, contact details, phone number and email address of hospitals in 
 {% if params.city is not same as('all')  %}
