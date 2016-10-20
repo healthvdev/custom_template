@@ -252,22 +252,24 @@
 	        </ul>
 {% endif %}
 	    </div>
-	   <div class="dropdown">
-{% if params.city is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">City <b class="caret"></b></a>
-	        <ul class="dropdown-menu">
-				{% for city in response.filter.cities %}
-	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,params.specialty,params.count,0)}}">{{city}}</a></li>
-				{% else %}
-				{% endfor %}
-	        </ul>
-{% else %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.city}} <b class="caret"></b></a>
-	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,'all',params.specialty,params.count,0)}}">x Clear</a></li>
-	        </ul>
+{% if params.state is not same as('all')  %}
+
+		   <div class="dropdown">
+	{% if params.city is same as('all')  %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">City <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					{% for city in response.filter.cities %}
+		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,params.specialty,params.count,0)}}">{{city}}</a></li>
+					{% endfor %}
+		        </ul>
+	{% else %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.city}} <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,'all',params.specialty,params.count,0)}}">x Clear</a></li>
+		        </ul>
+	{% endif %}
+		    </div>
 {% endif %}
-	    </div>
 	   <div class="dropdown">
 {% if params.specialty is same as('all')  %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Specialty <b class="caret"></b></a>
