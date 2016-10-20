@@ -97,7 +97,7 @@ function um_rel_canonical_1() {
 }
 
 $filters = json_decode('{"specialties" : ["Diabetology", "Cardiology"]}');
-$specialty_map = array('Diabetology' => 'Diabetes','Cardiology' => 'Heart/Cardiology', );
+$specialty_map = array('Diabetology' => 'Diabetes','Cardiology' => 'Heart (Cardiac)', );
 
 
 global $title;
