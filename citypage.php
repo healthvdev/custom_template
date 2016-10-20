@@ -66,7 +66,7 @@ if($page>3){
 $allPages = array();
 for ($x = 0, $i=0; $x <= $total_count && $i<7; $x+=50,$i++) {
     $allPages[$i] = array('index'=> $start_page+$i+1,
-        'params'=>getURLParams(rawurlencode($network), rawurlencode($state), rawurlencode($city), $count, $start_page+$i)
+        'params'=>getURLParams($network, $state, $city, $count, $start_page+$i)
         );
 }
 
@@ -89,7 +89,7 @@ function um_rel_canonical_1() {
     $network = (isset($_GET['network']) && $_GET['network']!='')?$_GET['network']:'all';
     $page = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumber']:0;
     $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
-    $link = get_permalink().getURLParams(rawurlencode($network), rawurlencode($state), rawurlencode($city), $count, $page+$i);
+    $link = get_permalink().getURLParams($network, $state, $city, $count, $page+$i);
     echo "<link rel='canonical' href='$link' />\n";
 
 }
