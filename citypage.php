@@ -32,6 +32,7 @@ $state = (isset($_GET['state']) && $_GET['state']!='')?$_GET['state']:'all';
 $city = (isset($_GET['city']) && $_GET['city']!='')?$_GET['city']:'all';
 $network = (isset($_GET['network']) && $_GET['network']!='')?$_GET['network']:'all';
 $page = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumber']:0;
+$pageNumber = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumber']:0;
 $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
 
 
@@ -54,10 +55,18 @@ $twig->addFunction($function_HospitalURLParams);
 
 $total_count = $mapData['header']['HOSPITAL_COUNT'];
 
+$start_page = 0;
+
+if($page>3){
+	$start_page = $page - 3;
+}else {
+	$start_page = 0 ;
+}
+
 $allPages = array();
 for ($x = 0, $i=0; $x <= $total_count && $i<7; $x+=50,$i++) {
-    $allPages[$i] = array('index'=> $page+$i+1,
-        'params'=>getURLParams(rawurlencode($network), rawurlencode($state), rawurlencode($city), $count, $page+$i+1)
+    $allPages[$i] = array('index'=> $start_page+$i+1,
+        'params'=>getURLParams(rawurlencode($network), rawurlencode($state), rawurlencode($city), $count, $start_page+$i)
         );
 }
 
@@ -140,7 +149,7 @@ echo $twig->render('hospital_list.html',
                             'city' => $city,
                             'network' => $network,
                             'count' => $count,
-                            'page' => $page,
+                            'page' => $pageNumber,
                             'community_questions' => $questions->posts,
                             'nextpage' => $page+1),
               'pages' => $allPages,

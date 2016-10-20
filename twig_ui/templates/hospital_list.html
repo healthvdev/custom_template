@@ -379,9 +379,11 @@
                                 </div>
                                 	<div style="clear:both"></div>
                                 <div class="thn_post_wrap wp_link_pages">
+                                	<ul class="pagination">
                             		{% for page in pages %}
-                            			<span> <a href="{{baseURL}}{{page.params}}">{{page.index}}</a></span>
+                            			<li><span> <a href="{{baseURL}}{{page.params}}">{{page.index}}</a></span></li>
 									{% endfor %}
+									</ul>
                                 </div>
                             <!--POST CONTENT END-->
                             
