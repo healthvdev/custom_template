@@ -8,8 +8,8 @@
 /*
 Custom Code for reading API
 */
-function getURLParams($new_network, $new_state, $new_city, $new_count, $new_page){
-    return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."pageCount=".$new_count."&"."pageNumber=".$new_page;
+function getURLParams($new_network, $new_state, $new_city, $new_specialty, $new_count, $new_page){
+    return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."pageCount=".$new_count."&"."specialty=".$new_specialty."&"."pageNumber=".$new_page;
 }
 
 function getHospitalURLParams($hospital_id){
@@ -31,20 +31,21 @@ $user_id = get_current_user_id();
 $state = (isset($_GET['state']) && $_GET['state']!='')?$_GET['state']:'all';
 $city = (isset($_GET['city']) && $_GET['city']!='')?$_GET['city']:'all';
 $network = (isset($_GET['network']) && $_GET['network']!='')?$_GET['network']:'all';
+$specialty = (isset($_GET['specialty']) && $_GET['specialty']!='')?$_GET['specialty']:'all';
 $page = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumber']:0;
 $pageNumber = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumber']:0;
 $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
 
 
-$url = '/govhospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&wp_user_id='.$user_id;
+$url = '/govhospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&specialty='.$specialty.'&wp_user_id='.$user_id;
 
 $mapData = $dataApi->get($url);
 
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
 
 $twig = new Twig_Environment($loader, array('debug' => true));
-$function_URLParams = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_count, $new_page) {
-    return getURLParams($new_network, $new_state, $new_city, $new_count, $new_page);
+$function_URLParams = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_specialty, $new_count, $new_page) {
+    return getURLParams($new_network, $new_state, $new_city, $new_specialty, $new_count, $new_page);
 });
 $function_HospitalURLParams = new Twig_SimpleFunction('function_getHospitalURLParams', function ($hospital_id) {
     return getHospitalURLParams($hospital_id);
@@ -66,7 +67,7 @@ if($page>3){
 $allPages = array();
 for ($x = 0, $i=0; $x <= $total_count && $i<7; $x+=50,$i++) {
     $allPages[$i] = array('index'=> $start_page+$i+1,
-        'params'=>getURLParams($network, $state, $city, $count, $start_page+$i)
+        'params'=>getURLParams($network, $state, $city, $specialty, $count, $start_page+$i)
         );
 }
 
@@ -87,16 +88,22 @@ function um_rel_canonical_1() {
     $state = (isset($_GET['state']) && $_GET['state']!='')?$_GET['state']:'all';
     $city = (isset($_GET['city']) && $_GET['city']!='')?$_GET['city']:'all';
     $network = (isset($_GET['network']) && $_GET['network']!='')?$_GET['network']:'all';
+    $specialty = (isset($_GET['specialty']) && $_GET['specialty']!='')?$_GET['specialty']:'all';
     $page = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pageNumber']:0;
     $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
-    $link = get_permalink().getURLParams($network, $state, $city, $count, $page+$i);
+    $link = get_permalink().getURLParams($network, $state, $city, $specialty, $count, $page+$i);
     echo "<link rel='canonical' href='$link' />\n";
 
 }
 
 
+$specialty_map = array('Diabetology' => 'Diabetes', );
+
+
 global $title;
-$title = $rounded_count. ' Hospitals in '
+$title = $rounded_count 
+        . ($specialty=='all'?' ': ' '.$specialty_map[$specialty])
+		. ' Hospitals in '
         . ($network=='all'?' ': $network.' Network, ')
         .($city=='all'?'': $city.', ')
         .($state=='all'?'': $state.',')
@@ -137,22 +144,27 @@ get_header();
 	?>	
  <?php       
 
+$filters = json_decode('{"specialties" : ["Diabetology"]}');
+
 
 echo $twig->render('hospital_list.html', 
     array(
         'is_user_logged_in' => is_user_logged_in(),
         'response' => $mapData,
+        'additional_filters' => $filters,
 		'total_count' => $rounded_count,
         'title' => $title,
               'params' => array(
               				'state' => $state,
                             'city' => $city,
                             'network' => $network,
+                            'specialty' => $specialty,
                             'count' => $count,
                             'page' => $pageNumber,
                             'community_questions' => $questions->posts,
                             'nextpage' => $page+1),
               'pages' => $allPages,
+              'specialty_map' => $specialty_map,
               'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
               'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
                      )
