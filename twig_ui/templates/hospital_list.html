@@ -136,24 +136,31 @@
     <span itemprop="name">{{specialty_map[params.specialty]}}</span></a>
   </li>
 {% endif %}
+{% if params.chain is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all',params.chain,params.count,0)}}">
+    <span itemprop="name">{{params.chain}}</span></a>
+  </li>
+{% endif %}
 {% if params.state is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,'all','all','all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,'all',params.specialty,params.chain,params.count,0)}}">
     <span itemprop="name">{{params.state}}</span></a>
   </li>
 {% endif %}
 {% if params.city is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,'all','all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.specialty,params.chain,params.count,0)}}">
     <span itemprop="name">{{params.city}}</span></a>
   </li>
 {% endif %}
 {% if params.network is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,'all','all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.specialty,params.chain,params.count,0)}}">
     <span itemprop="name">{{params.network}}</span></a>
   </li>
 {% endif %}

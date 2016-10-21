@@ -98,9 +98,12 @@ function um_rel_canonical_1() {
 
 }
 
+
+// "Sankara Nethralaya", "Medanta Medicity", "Columbia Asia","Manipal",	
+
 $filters = json_decode('{
 	"specialties" : ["Diabetology", "Cardiology"],
-	"chains" : ["Vasan",	"Fortis",	"Apollo",	"Narayana",	"Cloudnine",	"Manipal",	"Mewar",	"Wockhardt",	"Cygnus",	"Vaatsalya",	"Columbia Asia",	"AMRI",	"Paras",	"Sterling",	"Medanta Medicity",	"Sankara Nethralaya"]
+	"chains" : ["Vasan",	"Fortis",	"Apollo",	"Narayana",	"Cloudnine",	"Mewar",	"Wockhardt",	"Cygnus",	"Vaatsalya",		"AMRI",	"Paras",	"Sterling"	]
 }');
 $specialty_map = array('Diabetology' => 'Diabetes','Cardiology' => 'Heart (Cardiac)', );
 
