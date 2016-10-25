@@ -234,9 +234,9 @@
 
 <br/>	
 
-<h4 class="postitle entry-title"> About {{params.chain}} </h4>
 
 {% if params.chain is not same as('all')  %}
+	<h4 class="postitle entry-title"> About {{params.chain}} </h4>
 	{{chain_description[params.chain]}}
 {% endif %}
 
