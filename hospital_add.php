@@ -25,7 +25,7 @@ Twig_Autoloader::register();
 
 
 try{
-$dataApi = new PestJSON('https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/');
+$dataApi = new PestJSON('https://vings-dev.appspot.com/_ah/api/dataApi/v1/');
 
 $user_id = get_current_user_id();
 $hospital_id = $_GET['hospital_id'];
@@ -100,9 +100,10 @@ echo $twig->render('hospital_add.html',
     array(
         'is_user_logged_in' => is_user_logged_in(),
         'hospital' => $obj,
-        'post_url' => 'https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/new',
-        'state_url' => 'https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/state',
-        'city_url' => 'https://1-dot-vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/city',
+        'create_url' => 'https://vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/createvingshospital',
+        'update_url' => 'https://vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/updatevingshospital',
+        'state_url' => 'https://vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/getStates',
+        'city_url' => 'https://vings-dev.appspot.com/_ah/api/dataApi/v1/govhospitals/getCities/',
         'title' => $title,
         'params' => array('hospital_id' => rawurlencode($hospital_id)),
         'baseHospitalURL' => $baseURL."/health-services/hospital"
