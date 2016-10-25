@@ -180,6 +180,11 @@
 
 	<p>
 
+{% if params.chain is not same as('all')  %}
+	{{chain_description[params.chain]}}
+{% endif %}
+
+<br/>	
 		Find {{total_count}}
 {% if params.specialty is not same as('all')  %}
 		{{specialty_map[params.specialty]}}
