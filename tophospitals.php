@@ -86,7 +86,7 @@ $list = '{
 }';
 
 try{
-$dataApi = new PestJSON('https://vings-dev.appspot.com/_ah/api/dataApi/v1/');
+$dataApi = new PestJSON('https://vings-prod.appspot.com/_ah/api/dataApi/v1/');
 
 $user_id = get_current_user_id();
 $hospital_id = $_GET['hospital_id'];
