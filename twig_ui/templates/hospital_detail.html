@@ -126,19 +126,19 @@
 
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all','all',params.count,0)}}">
     <span itemprop="name">All Hospitals</span></a>
     <meta itemprop="position" content="1" />
   </li>
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',hospital.state,'all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',hospital.state,'all','all','all','all',params.count,0)}}">
     <span itemprop="name">{{hospital.state}}</span></a>
     <meta itemprop="position" content="2" />
   </li>
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',hospital.state,hospital.city,params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',hospital.state,hospital.city,'all','all','all',params.count,0)}}">
     <span itemprop="name">{{hospital.city}}</span></a>
     <meta itemprop="position" content="3" />
   </li>
