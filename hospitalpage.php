@@ -11,11 +11,12 @@ Custom Code for reading API
 function getURLParams($new_network, $new_state, $new_city,$new_area, $new_specialty,$new_chain, $new_count, $new_page){
      return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."area=".rawurlencode($new_area)."&"."pageCount=".$new_count."&"."specialty=".$new_specialty."&"."chain=".$new_chain."&"."pageNumber=".$new_page;
 }
-}
 
 
+$isadmin = current_user_can('administrator');
 
-$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
+$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
+//$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
 require_once 'template/Twig/lib/Twig/Autoloader.php';
 require_once 'pest/PestJSON.php';
 
