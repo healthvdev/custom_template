@@ -15,8 +15,8 @@ function getURLParams($new_network, $new_state, $new_city,$new_area, $new_specia
 
 $isadmin = current_user_can('administrator');
 
-$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
-//$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
+//$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
+$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
 require_once 'template/Twig/lib/Twig/Autoloader.php';
 require_once 'pest/PestJSON.php';
 
