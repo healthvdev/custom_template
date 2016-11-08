@@ -126,41 +126,48 @@
 
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all','all',params.count,0)}}">
     <span itemprop="name">All Hospitals</span></a>
   </li>
 {% if params.specialty is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all',params.specialty,'all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all',params.specialty,'all',params.count,0)}}">
     <span itemprop="name">{{specialty_map[params.specialty]}}</span></a>
   </li>
 {% endif %}
 {% if params.chain is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all',params.chain,params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all',params.chain,params.count,0)}}">
     <span itemprop="name">{{params.chain}}</span></a>
   </li>
 {% endif %}
 {% if params.state is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,'all',params.specialty,params.chain,params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,'all','all',params.specialty,params.chain,params.count,0)}}">
     <span itemprop="name">{{params.state}}</span></a>
   </li>
 {% endif %}
 {% if params.city is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.specialty,params.chain,params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}">
     <span itemprop="name">{{params.city}}</span></a>
+  </li>
+{% endif %}
+{% if params.area is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">
+    <span itemprop="name">{{params.area}}</span></a>
   </li>
 {% endif %}
 {% if params.network is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.specialty,params.chain,params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.network, params.state, params.city,params.area ,params.specialty, params.chain, params.count,0)}}">
     <span itemprop="name">{{params.network}}</span></a>
   </li>
 {% endif %}
@@ -188,8 +195,11 @@
 	{% endif %}
 {% endif %}
 		 hospitals in 
+{% if params.area is not same as('all')  %}
+		{{params.area}},
+{% endif %}
 {% if params.city is not same as('all')  %}
-		the city of {{params.city}},
+		{{params.city}},
 {% endif %}
 {% if params.state is not same as('all')  %}
 		{{params.state}},
@@ -204,6 +214,9 @@
 	{{params.chain}}
 {% endif %}
 		hospitals in 
+{% if params.area is not same as('all')  %}
+		{{params.area}},
+{% endif %}
 {% if params.city is not same as('all')  %}
 		{{params.city}},
 {% endif %}
@@ -248,14 +261,14 @@
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Network <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for networkinfo in response.filter.networks %}
-	           		<li><a href="{{baseURL}}{{function_getURLParams(networkinfo.shortName,params.state,params.city,params.specialty,params.chain,params.count,0)}}">{{networkinfo.fullName}}</a></li>
+	           		<li><a href="{{baseURL}}{{function_getURLParams(networkinfo.shortName,params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">{{networkinfo.fullName}}</a></li>
 				{% else %}
 				{% endfor %}
 	        </ul>
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.network}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
 	        </ul>
 {% endif %}
 	    </div>
@@ -264,14 +277,14 @@
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">State <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for state in response.filter.states %}
-	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,state,params.city,params.specialty,params.chain,params.count,0)}}">{{state}}</a></li>
+	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">{{state}}</a></li>
 				{% else %}
 				{% endfor %}
 	        </ul>
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.state}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams(params.network,'all','all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,'all','all','all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
 	        </ul>
 {% endif %}
 	    </div>
@@ -282,30 +295,50 @@
 		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">City <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
 					{% for city in response.filter.cities %}
-		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,params.specialty,params.chain,params.count,0)}}">{{city}}</a></li>
+		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,'all',params.specialty,params.chain,params.count,0)}}">{{city}}</a></li>
 					{% endfor %}
 		        </ul>
 	{% else %}
 		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.city}} <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
-					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,'all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,'all','all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
 		        </ul>
 	{% endif %}
 		    </div>
 {% endif %}
+{% if params.city is not same as('all')  %}
+		   <div class="dropdown">
+	{% if params.area is same as('all')  %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Area <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					{% for area in response.filter.areas %}
+		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,area,params.specialty,params.chain,params.count,0)}}">{{area}}</a></li>
+					{% endfor %}
+		        </ul>
+	{% else %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.area}} <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+		        </ul>
+	{% endif %}
+		    </div>
+{% endif %}
+
+
+
 	   <div class="dropdown">
 {% if params.specialty is same as('all')  %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Specialty <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for specialty in additional_filters.specialties %}
-	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,specialty,params.chain,params.count,0)}}">{{specialty_map[specialty]}}</a></li>
+	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,specialty,params.chain,params.count,0)}}">{{specialty_map[specialty]}}</a></li>
 				{% else %}
 				{% endfor %}
 	        </ul>
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{specialty_map[params.specialty]}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,'all',params.chain,params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,'all',params.chain,params.count,0)}}">x Clear</a></li>
 	        </ul>
 {% endif %}
 	    </div>
@@ -314,14 +347,14 @@
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Hospital Chains <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for chain in additional_filters.chains %}
-	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.specialty,chain,params.count,0)}}">{{chain}}</a></li>
+	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,params.specialty,chain,params.count,0)}}">{{chain}}</a></li>
 				{% else %}
 				{% endfor %}
 	        </ul>
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{params.chain}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.specialty,'all',params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,params.specialty,'all',params.count,0)}}">x Clear</a></li>
 	        </ul>
 {% endif %}
 	    </div>
