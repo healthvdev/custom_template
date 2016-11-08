@@ -8,8 +8,9 @@
 /*
 Custom Code for reading API
 */
-function getURLParams($new_network, $new_state, $new_city, $new_count, $new_page){
-    return "?network=".$new_network."&"."state=".$new_state."&"."city=".$new_city."&"."pageCount=".$new_count."&"."pageNumber=".$new_page;
+function getURLParams($new_network, $new_state, $new_city,$new_area, $new_specialty,$new_chain, $new_count, $new_page){
+     return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."area=".rawurlencode($new_area)."&"."pageCount=".$new_count."&"."specialty=".$new_specialty."&"."chain=".$new_chain."&"."pageNumber=".$new_page;
+}
 }
 
 
@@ -37,8 +38,8 @@ $mapData = $dataApi->get($url);
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
 
 $twig = new Twig_Environment($loader, array('debug' => true));
-$function = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_count, $new_page) {
-    return getURLParams($new_network, $new_state, $new_city, $new_count, $new_page);
+$function = new Twig_SimpleFunction('function_getURLParams', function ($new_network, $new_state, $new_city, $new_area, $new_specialty,$new_chain,          $new_count, $new_page) {
+    return getURLParams($new_network, $new_state, $new_city, $new_area, $new_specialty, $new_chain, $new_count, $new_page);
 });
 $twig->addFunction($function);
 
@@ -63,7 +64,7 @@ if($specialties!='' && $specialties!='NA' ){
 }
 
 
-$title = $obj["name"] . ", " . $obj["city"] . ", " .  $obj["state"];
+$title = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
 }catch (Exception $e){
     echo $e->getMessage();
 }
