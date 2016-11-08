@@ -312,7 +312,7 @@
 		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Area <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
 					{% for area in response.filter.areas %}
-		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,area,params.specialty,params.chain,params.count,0)}}">{{area}}</a></li>
+		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,area,params.specialty,params.chain,params.count,0)}}">{{area}}</a></li>
 					{% endfor %}
 		        </ul>
 	{% else %}
