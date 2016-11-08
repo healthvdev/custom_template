@@ -65,7 +65,7 @@ if($specialties!='' && $specialties!='NA' ){
 }
 
 
-$title = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
+$title = $obj["name"] . ", " . $obj["city"] . ", " .  $obj["state"];
 }catch (Exception $e){
     echo $e->getMessage();
 }
