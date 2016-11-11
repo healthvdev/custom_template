@@ -42,7 +42,7 @@ $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount'
 $url = '/govhospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/area/'.rawurlencode($area).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&specialty='.$specialty.'&tokens='.$chain.'&wp_user_id='.$user_id;
 
 
-$mapData = $dataApi->get($url);
+$mapData = $dataApi->get($url,[],['User-Agent' => $_SERVER['HTTP_USER_AGENT']]);
 
 
 $loader = new Twig_Loader_Filesystem($path.'/twig_ui/templates');
