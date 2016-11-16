@@ -106,10 +106,19 @@ function um_rel_canonical_1() {
 // "Sankara Nethralaya", "Medanta Medicity", "Columbia Asia","Manipal",	
 
 $filters = json_decode('{
-	"specialties" : ["Diabetology", "Cardiology"],
+	"specialties" : ["Diabetology", "Cardiology", "Dermatology", "Gastroenterology", "Gynecology", "Oncology", "Ophthalmology", "Orthopedic", "ENT"],
 	"chains" : ["Vasan",	"Fortis",	"Apollo",	"Narayana",	"Cloudnine",	"Mewar",	"Wockhardt",	"Cygnus",	"Vaatsalya",		"AMRI",	"Paras",	"Sterling"	]
 }');
-$specialty_map = array('Diabetology' => 'Diabetes','Cardiology' => 'Heart (Cardiac)', );
+$specialty_map = array('Diabetology' => 'Diabetes',
+	'Cardiology' => 'Heart (Cardiac)', 
+	'Dermatology' => 'Dermatology (Skin care)',
+	"Gastroenterology"=> 'Gastroenterology (Digestive System)',
+	"Gynecology"=> 'Gynecology (Women)',
+	"Oncology"=> 'Oncology (Cancer)',
+	"Ophthalmology"=> 'Ophthalmology (Eye care)',
+	"Orthopedic"=> 'Orthopedic',
+	"ENT"=> 'ENT',
+	);
 
 $chain_description_map = array(
 	'Vasan' => 'Vasan Healthcare Group is a health care groups in India.They specialise in Lasik, Cataract, Diabetic and Pediatric eye care treatments. They have over 180 Eye Care network hospitals. Founded by A. M. Arun, the group is based in Trichy and has more than 170 eye care hospitals and 30 dental care Hospitals across India, including two multi-speciality hospitals in Trichy. Vasan Eye Care Hospitals are day-care centres for treating eye ailments. The corporate office of the hospital is located in Chennai.',
