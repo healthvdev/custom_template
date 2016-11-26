@@ -17,7 +17,9 @@ $isadmin = current_user_can('administrator');
 
 //$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
 $path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
-require_once 'template/Twig/lib/Twig/Autoloader.php';
+if (!class_exists('Twig_Autoloader')) {
+    require_once 'template/Twig/lib/Twig/Autoloader.php';
+}
 require_once 'pest/PestJSON.php';
 
 Twig_Autoloader::register();
