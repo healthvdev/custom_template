@@ -452,7 +452,7 @@
 			  				<button class="dropbtn">All Insurance Networks of {{hospital.name}}</button>
 							<div class="dropdown-content">
 							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
-									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.chain,params.count,0)}}" title="">{{insuranceCompany.shortName}}</a> 
+									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.chain,params.count,0)}}" title="">{{__e(insuranceCompany.shortName)}}</a> 
 							{% else %}
 							    No insurance network have been found.
 							{% endfor %}

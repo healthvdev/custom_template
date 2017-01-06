@@ -464,7 +464,7 @@
 			  				<button class="dropbtn">{{hospital.translations[0].data.name}} के सभी बीमा नेटवर्क</button>
 							<div class="dropdown-content">
 							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
-									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.chain,params.count,0)}}" title="">{{insuranceCompany.shortName}}</a> 
+									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.chain,params.count,0)}}" title="">{{__e(insuranceCompany.shortName)}}</a> 
 							{% else %}
 							    बीमा नेटवर्क नहीं पाया गया है।
 							{% endfor %}
