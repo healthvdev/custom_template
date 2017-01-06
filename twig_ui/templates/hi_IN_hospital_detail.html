@@ -151,7 +151,7 @@
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <span itemprop="item" >
-    <span itemprop="name">{{hospital_translation.name}}</span></span>
+    <span itemprop="name">{{hospital_translation.name_hi_IN}}</span></span>
     <meta itemprop="position" content="5" />
   </li>
 </ol>
@@ -173,13 +173,13 @@
 	<h1 class="postitle entry-title">{{title}}</h1>
 
     <p>
-        {{hospital_translation.name}} 
-        {{hospital_translation.city}}, {{hospital_translation.state}}, भारत में स्थित है ।
+        {{hospital_translation.name_hi_IN}} 
+        {{hospital_translation.city}}, {{hospital_translation.state}} में स्थित है ।
 {% if hospital.category is not same as('NA')  %}
         <span style="text-transform: lowercase;"> a {{hospital.category}} hospital </span>
 {% endif %}
 {% if hospital.discipline_systems_of_medicine is not same as('NA')  %}
-        {{hospital_translation.name}} provides {{hospital.discipline_systems_of_medicine}} treatement to patients.
+        {{hospital_translation.name_hi_IN}} provides {{hospital.discipline_systems_of_medicine}} treatement to patients.
 {% endif %}
         </span>
     </p>
@@ -197,7 +197,7 @@
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
 						
 				<div class="um-member-card " style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> {{hospital_translation.name}}  का पता</h4>
+                    <h4 style="font-weight:bold;"> {{hospital_translation.name_hi_IN}}  का पता</h4>
 
 					<div>
 						<span class="ap-category-icon fa fa-map-marker" ></span> 
@@ -236,7 +236,7 @@
 				</div>
 {% if hospital.specialties is not same as('NA')  %}
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> {{hospital_translation.name}}  के स्पेशलिटी और विभागों</h4>
+                    <h4 style="font-weight:bold;"> {{hospital_translation.name_hi_IN}}  के स्पेशलिटी और विभागों</h4>
                     <ul>
                     {% for specialty in specialties%}
                         {% if specialty is not same as('')  %}
@@ -249,7 +249,7 @@
                 </div>
 {% endif %}
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;">{{hospital_translation.name}} के साथ जुड़े बीमा नेटवर्क</h4>
+                    <h4 style="font-weight:bold;">{{hospital_translation.name_hi_IN}} के साथ जुड़े बीमा नेटवर्क</h4>
                     <ul>
                     {% for insuranceCompany in hospital.associatedInsuranceCompanies%}
                             <li>{{__e(insuranceCompany.shortName)}}</li>
