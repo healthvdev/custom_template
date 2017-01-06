@@ -29,6 +29,7 @@ Twig_Autoloader::register();
 try{
 $dataApi = new PestJSON('https://vings-prod.appspot.com/_ah/api/dataApi/v1/');
 
+$locale_code = get_locale();
 $user_id = get_current_user_id();
 $state = (isset($_GET['state']) && $_GET['state']!='')?$_GET['state']:'all';
 $city = (isset($_GET['city']) && $_GET['city']!='')?$_GET['city']:'all';
@@ -41,7 +42,7 @@ $pageNumber = (isset($_GET['pageNumber']) && $_GET['pageNumber']!='')?$_GET['pag
 $count = (isset($_GET['pageCount']) && $_GET['pageCount']!='')?$_GET['pageCount']:50;
 
 
-$url = '/govhospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/area/'.rawurlencode($area).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&specialty='.$specialty.'&tokens='.$chain.'&wp_user_id='.$user_id;
+$url = '/govhospitals/state/'.rawurlencode($state).'/city/'.rawurlencode($city).'/area/'.rawurlencode($area).'/network/'.rawurlencode($network).'?page='.$page.'&count='.$count.'&specialty='.$specialty.'&tokens='.$chain.'&wp_user_id='.$user_id.'&locale='.$locale_code;
 
 
 $mapData = $dataApi->get($url,[],['User-Agent' => $_SERVER['HTTP_USER_AGENT']]);
@@ -56,8 +57,16 @@ $function_URLParams = new Twig_SimpleFunction('function_getURLParams', function 
 $function_HospitalURLParams = new Twig_SimpleFunction('function_getHospitalURLParams', function ($hospital_id) {
     return getHospitalURLParams($hospital_id);
 });
+
+$function_EchoTranslation = new Twig_SimpleFunction('__e', function ($string) {
+    echo __($string,"optimizer");
+});
+
+
 $twig->addFunction($function_URLParams);
 $twig->addFunction($function_HospitalURLParams);
+$twig->addFunction($function_EchoTranslation);
+
 
 
 $total_count = $mapData['header']['HOSPITAL_COUNT'];
@@ -102,6 +111,8 @@ function um_rel_canonical_1() {
     $link = get_permalink().getURLParams($network, $state, $city, $area, $specialty, $chain, $count, $page+$i);
     echo "<link rel='canonical' href='$link' />\n";
 
+
+
 }
 
 
@@ -111,16 +122,22 @@ $filters = json_decode('{
 	"specialties" : ["Diabetology", "Cardiology", "Dermatology", "Gastroenterology", "Gynecology", "Oncology", "Ophthalmology", "Orthopedic", "ENT"],
 	"chains" : ["Vasan",	"Fortis",	"Apollo",	"Narayana",	"Cloudnine",	"Mewar",	"Wockhardt",	"Cygnus",	"Vaatsalya",		"AMRI",	"Paras",	"Sterling"	]
 }');
-$specialty_map = array('Diabetology' => 'Diabetes',
-	'Cardiology' => 'Heart (Cardiac)', 
-	'Dermatology' => 'Dermatology (Skin care)',
-	"Gastroenterology"=> 'Gastroenterology (Digestive System)',
-	"Gynecology"=> 'Gynecology (Women)',
-	"Oncology"=> 'Oncology (Cancer)',
-	"Ophthalmology"=> 'Ophthalmology (Eye care)',
-	"Orthopedic"=> 'Orthopedic',
-	"ENT"=> 'ENT',
-	);
+
+
+$chain_description_map_hi_IN = array(
+	'Vasan' => '',
+	'Fortis' => '',
+	'Apollo' => '',
+	'Narayana' => '',
+	'Cloudnine' => '',
+	'Wockhardt' => '',
+	'Cygnus' => '',
+	'Vaatsalya' => '',
+	'AMRI' => '',
+	'Paras' => '',
+	'Sterling' => '',
+	 );
+
 
 $chain_description_map = array(
 	'Vasan' => 'Vasan Healthcare Group is a health care groups in India.They specialise in Lasik, Cataract, Diabetic and Pediatric eye care treatments. They have over 180 Eye Care network hospitals. Founded by A. M. Arun, the group is based in Trichy and has more than 170 eye care hospitals and 30 dental care Hospitals across India, including two multi-speciality hospitals in Trichy. Vasan Eye Care Hospitals are day-care centres for treating eye ailments. The corporate office of the hospital is located in Chennai.',
@@ -153,15 +170,27 @@ These include Ahmedabad (310 beds) , Vadodara (196 beds) ,Rajkot (190 beds), Mun
 	 );
 
 global $title;
-$title = $rounded_count 
-        . ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty_map[$specialty])
-		. ' Hospitals in '
-        . ($network=='all'?' ': $network.' Network, ')
-        .($area=='all'?'': $area.', ')
-        .($city=='all'?'': $city.', ')
-        .($state=='all'?'': $state.',')
-        .' India';
+if($locale_code == "hi_IN"){
+	$title = ($area=='all'?
+					($city=='all'?($state=='all'?' भारत': __($state,"optimizer").' '): __($city,"optimizer")):
+					 __($area,"optimizer").' ')
+			. ' में '
+	        . ($network=='all'?' ': __($network,"optimizer") .' नेटवर्क  के ')
+			. $rounded_count 
+	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' के विशेष ')
+			.' अस्पताल ';
 
+
+}else{
+	$title = $rounded_count 
+	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"))
+			. ' Hospitals in '
+	        . ($network=='all'?' ': __($network,"optimizer").' Network, ')
+	        .($area=='all'?'': __($area,"optimizer").', ')
+	        .($city=='all'?'': __($city,"optimizer").', ')
+	        .($state=='all'?'': __($state,"optimizer").',')
+	        .' India';
+}
 ?>
 
 
@@ -197,32 +226,58 @@ get_header();
 	?>	
  <?php       
 
+if($locale_code == "hi_IN"){
+	echo $twig->render('hi_IN_hospital_list.html', 
+	    array(
+	        'is_user_logged_in' => is_user_logged_in(),
+	        'response' => $mapData,
+	        'additional_filters' => $filters,
+			'total_count' => $rounded_count,
+	        'title' => $title,
+	        'chain_description'=> $chain_description_map_hi_IN,
+	              'params' => array(
+	              				'state' => $state,
+	                            'city' => $city,
+	                            'area' => $area,
+	                            'network' => $network,
+	                            'specialty' => $specialty,
+	                            'chain' => $chain,
+	                            'count' => $count,
+	                            'page' => $pageNumber,
+	                            'community_questions' => $questions->posts,
+	                            'nextpage' => $page+1),
+	              'pages' => $allPages,
+	              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
+	              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
+	                     )
+	    );
 
-echo $twig->render('hospital_list.html', 
-    array(
-        'is_user_logged_in' => is_user_logged_in(),
-        'response' => $mapData,
-        'additional_filters' => $filters,
-		'total_count' => $rounded_count,
-        'title' => $title,
-        'chain_description'=> $chain_description_map,
-              'params' => array(
-              				'state' => $state,
-                            'city' => $city,
-                            'area' => $area,
-                            'network' => $network,
-                            'specialty' => $specialty,
-                            'chain' => $chain,
-                            'count' => $count,
-                            'page' => $pageNumber,
-                            'community_questions' => $questions->posts,
-                            'nextpage' => $page+1),
-              'pages' => $allPages,
-              'specialty_map' => $specialty_map,
-              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
-              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
-                     )
-    );
+}else{
+	echo $twig->render('hospital_list.html', 
+	    array(
+	        'is_user_logged_in' => is_user_logged_in(),
+	        'response' => $mapData,
+	        'additional_filters' => $filters,
+			'total_count' => $rounded_count,
+	        'title' => $title,
+	        'chain_description'=> $chain_description_map,
+	              'params' => array(
+	              				'state' => $state,
+	                            'city' => $city,
+	                            'area' => $area,
+	                            'network' => $network,
+	                            'specialty' => $specialty,
+	                            'chain' => $chain,
+	                            'count' => $count,
+	                            'page' => $pageNumber,
+	                            'community_questions' => $questions->posts,
+	                            'nextpage' => $page+1),
+	              'pages' => $allPages,
+	              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
+	              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
+	                     )
+	    );
+}
 
 
 }catch (Exception $e){
@@ -230,6 +285,9 @@ echo $twig->render('hospital_list.html',
 }
 
  ?>
+
+
+
     </main><!-- .site-main -->
  
     <?php get_sidebar( 'content-bottom' ); ?>
