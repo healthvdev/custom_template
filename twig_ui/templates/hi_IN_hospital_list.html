@@ -89,6 +89,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
+
 <div style="clear:both"></div>
 
 <div class="widget optimizer_front_about aboutblock about_inner" style="padding: 0px;width: 100%">
@@ -127,7 +128,7 @@
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all','all',params.count,0)}}">
-    <span itemprop="name">{{__e('All Hospitals')}}</span></a>
+    <span itemprop="name">सभी अस्पताल</span></a>
   </li>
 {% if params.specialty is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
@@ -186,7 +187,17 @@
 	<h1 class="postitle entry-title">{{title}}</h1>
 
 	<p>
-		Find {{total_count}}
+{% if params.area is not same as('all')  %}
+		{{__e(params.area)}},
+{% elseif params.city is not same as('all')  %}
+		{{__e(params.city)}},
+{% elseif params.state is not same as('all')  %}
+		{{__e(params.state)}},
+{% else %}
+		भारत 
+{% endif %}
+		में {{total_count}}
+
 {% if params.specialty is not same as('all')  %}
 		{{__e(params.specialty)}}
 {%else%}
@@ -194,53 +205,50 @@
 		{{__e(params.chain)}}
 	{% endif %}
 {% endif %}
-		 hospitals in 
-{% if params.area is not same as('all')  %}
-		and near {{__e(params.area)}},
-{% endif %}
-{% if params.city is not same as('all')  %}
-		{{__e(params.city)}},
-{% endif %}
-{% if params.state is not same as('all')  %}
-		{{__e(params.state)}},
-{% endif %}
-		India. 
+		 अस्पताल के बारे में जानकारी ।
+
 {% if params.specialty is not same as('all')  %}
-		These hospitals specialize in providing care for patients with {{params.specialty}} related issues.
+		यह अस्पताल, {{__e(params.specialty)}} संबंधित रोग का इलाज प्रदान करती हैं।
 {% endif %}
 
-		Get details including hospital address, direction, route map, insurance network providers, contact details, phone number and email address of 
+{% if params.area is not same as('all')  %}
+		{{__e(params.area)}},
+{% elseif params.city is not same as('all')  %}
+		{{__e(params.city)}},
+{% elseif params.state is not same as('all')  %}
+		{{__e(params.state)}},
+{% else %}
+		भारत 
+{% endif %}
+		में 
 {% if params.chain is not same as('all')  %}
 	{{__e(params.chain)}}
 {% endif %}
-		hospitals in 
-{% if params.area is not same as('all')  %}
-		{{__e(params.area)}},
-{% endif %}
-{% if params.city is not same as('all')  %}
-		{{__e(params.city)}},
-{% endif %}
-{% if params.state is not same as('all')  %}
-		{{__e(params.state)}},
-{% endif %}
-		India. 
+		अस्पतालों का पता, दिशा, नक्शा, बीमा नेटवर्क, संपर्क विवरण, फोन नंबर और ईमेल पते की जानकारी प्राप्त करें।
 
 {% if params.network is not same as('all')  %}
-	Find complete list of partner hospitals covered by {{params.network}} in 
-	{% if params.state is not same as('all')  %}
-			{{__e(params.state)}},
+	{% if params.city is not same as('all')  %}
+			{{__e(params.city)}},
+	{% elseif params.state is not same as('all')  %}
+			{{__e(params.state)}}
+	{% else %}
+			भारत
 	{% endif %}
-			India.
-{%else%}
-		Find the most recommended hospitals in over {{response.filter.networks|length}} insurance networks in your city.
+
+	में {{__e(params.network)}} के द्वारा पार्टनर अस्पतालों की पूरी सूची देखें
+
+
+{% else %}
+		अपने शहर में {{response.filter.networks|length}} से अधिक बीमा नेटवर्क में सबसे सर्वश्रेष्ठ अस्पताल देखें
 {% endif %}
 
 {% if params.city is same as('all')  %}
-	Get information for all the best hospitals across {{response.filter.cities|length}} cities in
 	{% if params.state is not same as('all')  %}
-			{{__e(params.state)}},
+			{{__e(params.state)}}
+	{% else %}
+			भारत
 	{% endif %}
-			India.
+	में {{response.filter.cities|length}} शहरों में सर्वश्रेष्ठ अस्पतालों की जानकारी प्राप्त करें
 {% endif %}
 	</p>
 
@@ -249,16 +257,16 @@
 
 
 {% if params.chain is not same as('all')  %}
-	<h4 class="postitle entry-title"> About {{__e(params.chain)}} </h4>
+	<h4 class="postitle entry-title"> {{__e(params.chain)}} के बारे में जानकारी</h4>
 	{{chain_description[params.chain]}}
 {% endif %}
 
 
 	<div class="filters">
-		Apply Filters: 
+		परिणाम छानै :
 	   <div class="dropdown">
 {% if params.network is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Network <b class="caret"></b></a>
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">नेटवर्क <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for networkinfo in response.filter.networks %}
 	           		<li><a href="{{baseURL}}{{function_getURLParams(networkinfo.shortName,params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">{{__e(networkinfo.shortName)}}</a></li>
@@ -268,13 +276,13 @@
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.network)}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">x हटाये </a></li>
 	        </ul>
 {% endif %}
 	    </div>
 	   <div class="dropdown">
 {% if params.state is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">State <b class="caret"></b></a>
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">राज्य <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for state in response.filter.states %}
 	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">{{__e(state)}}</a></li>
@@ -284,7 +292,7 @@
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.state)}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams(params.network,'all','all','all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,'all','all','all',params.specialty,params.chain,params.count,0)}}">x हटाये</a></li>
 	        </ul>
 {% endif %}
 	    </div>
@@ -292,7 +300,7 @@
 
 		   <div class="dropdown">
 	{% if params.city is same as('all')  %}
-		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">City <b class="caret"></b></a>
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">शहर <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
 					{% for city in response.filter.cities %}
 		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,'all',params.specialty,params.chain,params.count,0)}}">{{__e(city)}}</a></li>
@@ -301,7 +309,7 @@
 	{% else %}
 		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.city)}} <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
-					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,'all','all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,'all','all',params.specialty,params.chain,params.count,0)}}">x हटाये</a></li>
 		        </ul>
 	{% endif %}
 		    </div>
@@ -309,7 +317,7 @@
 {% if params.city is not same as('all')  %}
 		   <div class="dropdown">
 	{% if params.area is same as('all')  %}
-		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Area <b class="caret"></b></a>
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">क्षेत्र <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
 					{% for area in response.filter.areas %}
 		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,area,params.specialty,params.chain,params.count,0)}}">{{__e(area)}}</a></li>
@@ -318,7 +326,7 @@
 	{% else %}
 		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.area)}} <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
-					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}">x Clear</a></li>
+					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}">x हटाये</a></li>
 		        </ul>
 	{% endif %}
 		    </div>
@@ -328,7 +336,7 @@
 
 	   <div class="dropdown">
 {% if params.specialty is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Specialty <b class="caret"></b></a>
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">विशेषता <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for specialty in additional_filters.specialties %}
 	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,specialty,params.chain,params.count,0)}}">{{__e(specialty)}}</a></li>
@@ -338,13 +346,13 @@
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.specialty)}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,'all',params.chain,params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,'all',params.chain,params.count,0)}}">x हटाये</a></li>
 	        </ul>
 {% endif %}
 	    </div>
 	   <div class="dropdown">
 {% if params.chain is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Hospital Chains <b class="caret"></b></a>
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">अस्पताल समूह <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for chain in additional_filters.chains %}
 	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,params.specialty,chain,params.count,0)}}">{{__e(chain)}}</a></li>
@@ -354,7 +362,7 @@
 {% else %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.chain)}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
-				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,params.specialty,'all',params.count,0)}}">x Clear</a></li>
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,params.specialty,'all',params.count,0)}}">x हटाये</a></li>
 	        </ul>
 {% endif %}
 	    </div>
@@ -406,11 +414,11 @@
 					<div class="um-member-name">
 						<a href="{{question.permalink}}" title="{{question.post_title}}">
 						<span style="font-weight: bold;font-size: 18px;">{{question.post_title}}</span>
-						<span style="font-size: 12px;">read more </span>
+						<span style="font-size: 12px;">और देखें </span>
 						</a>
 					</div>
 					<div>
-						<span class="initial">{{question.ans_count}} answers | {{question.net_vote}} votes</span>
+						<span class="initial">{{question.ans_count}} जवाब | {{question.net_vote}} मतदान</span>
 					</div>
 
 				</div>
@@ -438,23 +446,27 @@
 					<div class="um-member-card " style="padding: 10px;">
 					
 					<div class="um-member-name">
+						<span style="font-weight: bold;font-size: 18px;">{{hospital.translations[0].data.name}}</span>
+						<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}"><span style="font-size: 12px;">विवरण के लिए क्लिक करें &gt;</span></a>
+					</div>
+					<div class="um-member-name">
 						<span style="font-weight: bold;font-size: 18px;">{{hospital.name}}</span>
-						<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}"><span style="font-size: 12px;">click for details &gt;</span></a>
+						<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}"><span style="font-size: 12px;">विवरण के लिए क्लिक करें &gt;</span></a>
 					</div>
 
 					<div>
-						<span> <strong>Address</strong> - </span>
+						<span> <strong>पता</strong> - </span>
 						<span class="ap-category-icon fa fa-map-marker" ></span> 
-						<span class="initial">{{hospital.address}},<br/> {{hospital.city}}, {{hospital.state}}, pincode - {{hospital.pinCode}}</span>
+						<span class="initial">{{hospital.translations[0].data.address}},<br/> {{hospital.translations[0].data.city}}, {{hospital.translations[0].data.state}}, पिन कोड - {{hospital.pinCode}}</span>
 					</div>
 					<div>
 						<span class="dropdown">
-			  				<button class="dropbtn">All Insurance Networks of {{hospital.name}}</button>
+			  				<button class="dropbtn">{{hospital.translations[0].data.name}} के सभी बीमा नेटवर्क</button>
 							<div class="dropdown-content">
 							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
 									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.chain,params.count,0)}}" title="">{{insuranceCompany.shortName}}</a> 
 							{% else %}
-							    No insurance network have been found.
+							    बीमा नेटवर्क नहीं पाया गया है।
 							{% endfor %}
 							</div>
 						</span>
@@ -464,7 +476,7 @@
 				</div>
 			</div>
 		{% else %}
-		    No hospitals have been found.
+		    कोई अस्पताल नहीं पाया गया है।
 		{% endfor %}
 		<div class="um-clear masonry-brick"></div>
 	</div>
