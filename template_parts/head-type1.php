@@ -22,10 +22,10 @@ global $optimizer;?>
                         <span class="desc"><?php echo bloginfo('description'); ?></span>
                     <?php }else{ ?>
                             <?php if ( is_home() ) { ?>   
-                            <h1><a href="<?php echo esc_url( home_url( 'http://healthvings.com/community/' ) );?>"><?php bloginfo('name'); ?></a></h1>
+                            <h1><a href="http://healthvings.com/community/"><?php bloginfo('name'); ?></a></h1>
                             <span class="desc"><?php echo bloginfo('description'); ?></span>
                             <?php }else{ ?>
-                            <h2><a href="<?php echo esc_url( home_url( 'http://healthvings.com/community/' ) );?>"><?php bloginfo('name'); ?></a></h2>
+                            <h2><a href="http://healthvings.com/community/"><?php bloginfo('name'); ?></a></h2>
                             <span class="desc"><?php echo bloginfo('description'); ?></span>
                             <?php } ?>
                     
