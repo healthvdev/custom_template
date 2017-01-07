@@ -449,10 +449,6 @@
 						<span style="font-weight: bold;font-size: 18px;">{{hospital.translations[0].data.name_hi_IN}}</span>
 						<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}"><span style="font-size: 12px;">विवरण के लिए क्लिक करें &gt;</span></a>
 					</div>
-					<div class="um-member-name">
-						<span style="font-weight: bold;font-size: 18px;">{{hospital.name}}</span>
-						<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}"><span style="font-size: 12px;">विवरण के लिए क्लिक करें &gt;</span></a>
-					</div>
 
 					<div>
 						<span> <strong>पता</strong> - </span>
@@ -461,7 +457,7 @@
 					</div>
 					<div>
 						<span class="dropdown">
-			  				<button class="dropbtn">{{hospital.translations[0].data.name}} के सभी बीमा नेटवर्क</button>
+			  				<button class="dropbtn">{{hospital.translations[0].data.name_hi_IN}} के सभी बीमा नेटवर्क</button>
 							<div class="dropdown-content">
 							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
 									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.chain,params.count,0)}}" title="">{{__e(insuranceCompany.shortName)}}</a> 
