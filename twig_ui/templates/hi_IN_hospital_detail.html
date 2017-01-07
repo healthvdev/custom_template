@@ -144,12 +144,6 @@
   </li>
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',hospital.state,hospital.city,hospital.area,'all','all',params.count,0)}}">
-    <span itemprop="name">{{__e(hospital.area)}}</span></a>
-    <meta itemprop="position" content="4" />
-  </li>
-  <li itemprop="itemListElement" itemscope
-      itemtype="http://schema.org/ListItem">
     <span itemprop="item" >
     <span itemprop="name">{{hospital_translation.name_hi_IN}}</span></span>
     <meta itemprop="position" content="5" />
@@ -175,13 +169,6 @@
     <p>
         {{hospital_translation.name_hi_IN}} 
         {{hospital_translation.city}}, {{hospital_translation.state}} में स्थित है ।
-{% if hospital.category is not same as('NA')  %}
-        <span style="text-transform: lowercase;"> a {{hospital.category}} hospital </span>
-{% endif %}
-{% if hospital.discipline_systems_of_medicine is not same as('NA')  %}
-        {{hospital_translation.name_hi_IN}} provides {{hospital.discipline_systems_of_medicine}} treatement to patients.
-{% endif %}
-        </span>
     </p>
     <br/>
                             
