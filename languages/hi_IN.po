@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Optimizer\n"
 "POT-Creation-Date: 2016-12-28 12:45+0530\n"
-"PO-Revision-Date: 2017-01-03 18:45+0530\n"
+"PO-Revision-Date: 2017-01-09 16:05+0530\n"
 "Language-Team: Layerthemes\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1075,13 +1075,8 @@ msgstr "ऐथुर"
 msgid "Aivernad"
 msgstr "एवेरण्ड"
 
-#, fuzzy
 msgid "Aizawl"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"ऐज़वल\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"आइजोल"
+msgstr "आइजोल"
 
 msgid "Ajabnagar"
 msgstr "अजबनगर"
@@ -1284,13 +1279,8 @@ msgstr "अक्किआमपट्टी"
 msgid "Akkinepally"
 msgstr "अक्कीनेपल्ली"
 
-#, fuzzy
 msgid "Akluj"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"अकलुज\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"अक्लूज"
+msgstr "अक्लूज"
 
 msgid "Akoda"
 msgstr "अकोड़ा"
@@ -1487,13 +1477,8 @@ msgstr "आलनपुर"
 msgid "Alapakkam"
 msgstr "अलापक्कम"
 
-#, fuzzy
 msgid "Alappuzha"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"अल्पपुज़हा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"अलाप्पुझा"
+msgstr "अलाप्पुझा"
 
 msgid "Alappuzha Collectorate"
 msgstr "अल्पपुज़हा कोल्लेकतोरते"
@@ -1591,13 +1576,8 @@ msgstr "अलीगंज (लखनऊ)"
 msgid "Aliganj Extension"
 msgstr "अलीगंज एक्सटेंशन"
 
-#, fuzzy
 msgid "Aligarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"अलीगढ\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"अलीगढ़"
+msgstr "अलीगढ़"
 
 msgid "Aligarh City"
 msgstr "अलीगढ सिटी"
@@ -1668,13 +1648,8 @@ msgstr "अल्ला"
 msgid "Allachaur"
 msgstr "अलाचौर"
 
-#, fuzzy
 msgid "Allahabad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"अल्लाहाबाद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"इलाहाबाद"
+msgstr "इलाहाबाद"
 
 msgid "Allahabad Kty."
 msgstr "अल्लाहाबाद कटी."
@@ -1958,13 +1933,8 @@ msgstr "अंबाजोगाई"
 msgid "Ambakharis"
 msgstr "बखारिस"
 
-#, fuzzy
 msgid "Ambala"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"अम्बाला\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"अंबाला"
+msgstr "अंबाला"
 
 msgid "Ambala  City Kucthery"
 msgstr "अंबाला  सिटी कुकथरी"
@@ -2887,13 +2857,8 @@ msgstr "अनेगुंटा"
 msgid "Anehosur"
 msgstr "नेहोसुर"
 
-#, fuzzy
 msgid "Anekal"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"अनेकल\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"अनेकाल"
+msgstr "अनेकल"
 
 msgid "Anekere"
 msgstr "अनेकरे"
@@ -3804,13 +3769,8 @@ msgstr "रूंडलपेट (न्सव)"
 msgid "Arunoottimangalam"
 msgstr "रुनूततीमंगलं"
 
-#, fuzzy
 msgid "Aruppukottai"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"अरुप्पुकोट्टाई\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"अरूप्पुकोट्टई"
+msgstr "अरूप्पुकोट्टई"
 
 msgid "Aruppukottai Bazzar"
 msgstr "अरुप्पुकोट्टाई बज़्ज़ार"
@@ -4724,13 +4684,8 @@ msgstr "आज़ाद नगर (मुम्बई)"
 msgid "Azad Society"
 msgstr "आज़ाद सोसाइटी"
 
-#, fuzzy
 msgid "Azamgarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"आजमगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"आजमगढ़"
+msgstr "आजमगढ़"
 
 msgid "Azamgarh City"
 msgstr "आजमगढ़ सिटी"
@@ -5707,13 +5662,8 @@ msgstr "बहादराबाद"
 msgid "Bahadurganj (Allahabad)"
 msgstr "बहादुरगंज (अल्लाहाबाद)"
 
-#, fuzzy
 msgid "Bahadurgarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बहादुरगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बहादुरगढ़"
+msgstr "बहादुरगढ़"
 
 msgid "Bahadurgarh Sector 6"
 msgstr "बहादुरगढ़ सेक्टर 6"
@@ -6567,13 +6517,8 @@ msgstr "बालपल्ली"
 msgid "Balli"
 msgstr "बल्ली"
 
-#, fuzzy
 msgid "Ballia"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बल्लिया\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बलिया"
+msgstr "बलिया"
 
 msgid "Ballia Bazar"
 msgstr "बल्लिया बाजार"
@@ -6950,13 +6895,8 @@ msgstr "बनबीरपुर"
 msgid "Banchari"
 msgstr "बंचारी"
 
-#, fuzzy
 msgid "Banda"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बाँदा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बांदा"
+msgstr "बांदा"
 
 msgid "Bandalo"
 msgstr "बंडलों"
@@ -7246,13 +7186,8 @@ msgstr "बैंक स्ट्रीट (सेंट्रल देल्�
 msgid "Bank Street (Nalgonda)"
 msgstr "बैंक स्ट्रीट (नालगोंडा)"
 
-#, fuzzy
 msgid "Banka"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बैंक\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बांका"
+msgstr "बांका"
 
 msgid "Bankamba"
 msgstr "बनकम्ब"
@@ -7692,13 +7627,8 @@ msgstr "बरामबगढ़"
 msgid "Baramitrapara"
 msgstr "बरमित्रपर"
 
-#, fuzzy
 msgid "Baramulla"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बारामुल्ला\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बारामूला"
+msgstr "बारामुल्ला"
 
 msgid "Baramunda Colony"
 msgstr "बरमुंडा कॉलोनी"
@@ -7706,13 +7636,8 @@ msgstr "बरमुंडा कॉलोनी"
 msgid "Baramundalli"
 msgstr "बरमूंडली"
 
-#, fuzzy
 msgid "Baran"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बारां\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बारान"
+msgstr "बारान"
 
 msgid "Barana"
 msgstr "बरन"
@@ -7762,13 +7687,8 @@ msgstr "बरसहि"
 msgid "Barasara"
 msgstr "बरसरे"
 
-#, fuzzy
 msgid "Barasat"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बरसात\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बारासात"
+msgstr "बारासात"
 
 msgid "Barasat Bazar"
 msgstr "बरसात बाजार"
@@ -7899,13 +7819,8 @@ msgstr "बारह"
 msgid "Barehmori"
 msgstr "बरहमोरी"
 
-#, fuzzy
 msgid "Bareilly"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"ब्रेइलली\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बरेली"
+msgstr "बरेली"
 
 msgid "Bareilly Cantt"
 msgstr "ब्रेइलली कैंट"
@@ -7964,13 +7879,8 @@ msgstr "बर्गों (गोंद)"
 msgid "Bargaon (Sundergarh)"
 msgstr "बर्गों (सुंदरगढ़)"
 
-#, fuzzy
 msgid "Bargarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बरगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बारगढ़"
+msgstr "बारगढ़"
 
 msgid "Bargarh Bazar"
 msgstr "बरगढ़ बाजार"
@@ -8242,13 +8152,8 @@ msgstr "बर्न्स हाई स्कूल"
 msgid "Baro"
 msgstr "भरो"
 
-#, fuzzy
 msgid "Baroda"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बरोदा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बड़ौदा"
+msgstr "बड़ौदा"
 
 msgid "Baroda Sagar"
 msgstr "बरोदा सागर"
@@ -8760,13 +8665,8 @@ msgstr "बैगों"
 msgid "Batakurki"
 msgstr "बटकुरकी"
 
-#, fuzzy
 msgid "Batala"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बतला\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बटाला"
+msgstr "बटाला"
 
 msgid "Batala City"
 msgstr "बटाला सिटी"
@@ -8945,13 +8845,8 @@ msgstr "बव्वा"
 msgid "Bay"
 msgstr "बे"
 
-#, fuzzy
 msgid "Bayad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बयद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बायड"
+msgstr "बायड"
 
 msgid "Bayala"
 msgstr "भयल"
@@ -9772,13 +9667,8 @@ msgstr "बेरहामपुर सिविल कोर्ट"
 msgid "Berhampore Station Road"
 msgstr "बेरहामपुर स्टेशन रोड"
 
-#, fuzzy
 msgid "Berhampur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बेरहामपुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बहरामपुर"
+msgstr "बहरामपुर"
 
 msgid "Berhampur City"
 msgstr "बेरहामपुर सिटी"
@@ -10467,13 +10357,8 @@ msgstr "भंडा"
 msgid "Bhandal"
 msgstr "भंडाल"
 
-#, fuzzy
 msgid "Bhandara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"भंडार\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"भंडारा"
+msgstr "भंडारा"
 
 msgid "Bhandara Town"
 msgstr "भंडार टाउन"
@@ -11441,13 +11326,8 @@ msgstr "भीमतीकर"
 msgid "Bhinar"
 msgstr "भीतर"
 
-#, fuzzy
 msgid "Bhind"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"भिंड\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"भिण्ड"
+msgstr "भिण्ड"
 
 msgid "Bhind Kutchary"
 msgstr "भिण्ड कूटचार्य"
@@ -13378,13 +13258,8 @@ msgstr "बोरोति"
 msgid "Borra"
 msgstr "बोर्रा"
 
-#, fuzzy
 msgid "Borsad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बोरसद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बोर्साद"
+msgstr "बोर्साद"
 
 msgid "Borsavar"
 msgstr "बोरसवर"
@@ -13782,13 +13657,8 @@ msgstr "बुकर"
 msgid "Bulandshahr"
 msgstr "बुलंदशहर"
 
-#, fuzzy
 msgid "Buldana"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"बुलडाणा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"बुलढाणा"
+msgstr "बुलढाणा"
 
 msgid "Bullawala"
 msgstr "बुल्लावाला"
@@ -14627,13 +14497,8 @@ msgstr "चमरिया"
 msgid "Chamavaram"
 msgstr "चमवरं"
 
-#, fuzzy
 msgid "Chamba"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"चम्बा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"चंबा"
+msgstr "चंबा"
 
 msgid "Chamble"
 msgstr "चम्बल"
@@ -14692,13 +14557,8 @@ msgstr "चंपासारी"
 msgid "Champatipur"
 msgstr "चम्पातीपुर"
 
-#, fuzzy
 msgid "Champawat"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"चम्पावत\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"चंपावत"
+msgstr "चंपावत"
 
 msgid "Champeswar"
 msgstr "चैंपेस्वर"
@@ -15831,13 +15691,8 @@ msgstr "चेर्रा"
 msgid "Cherrapunjee"
 msgstr "चेर्रापुन्जी"
 
-#, fuzzy
 msgid "Cherthala"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"चेरथला\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"चेर्थल"
+msgstr "चेरथला"
 
 msgid "Cherthala Cutcherry"
 msgstr "चेरथला कटचेरी"
@@ -16460,13 +16315,8 @@ msgstr "चिकपडसालगी"
 msgid "Chiksia"
 msgstr "चिकसिया"
 
-#, fuzzy
 msgid "Chilakaluripet"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"चिलाकलूरीपेट\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"छीलकलूरीपेट"
+msgstr "चिलाकलूरीपेट"
 
 msgid "Chilakaluripet Bazar"
 msgstr "चिलाकलूरीपेट बाजार"
@@ -16930,13 +16780,8 @@ msgstr "चित्र"
 msgid "Chitra Hat"
 msgstr "चित्र हटा"
 
-#, fuzzy
 msgid "Chitradurga"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"चित्रदुर्गा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"चित्रदुर्ग"
+msgstr "चित्रदुर्ग"
 
 msgid "Chitradurga  Collegeroad"
 msgstr "चित्रदुर्गा  कॉलेजरोड"
@@ -17028,13 +16873,8 @@ msgstr "चित्तोर"
 msgid "Chittora Renwal"
 msgstr "चित्तोर रेनवाल"
 
-#, fuzzy
 msgid "Chittorgarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"चित्तौरगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"चित्तौड़गढ़"
+msgstr "चित्तौड़गढ़"
 
 msgid "Chittranjan Park"
 msgstr "चित्तरंजन पार्क"
@@ -17411,13 +17251,8 @@ msgstr "चुरलाई बड़ी"
 msgid "Churra"
 msgstr "चुर्र"
 
-#, fuzzy
 msgid "Churu"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"चूरू\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"चुरू"
+msgstr "चुरू"
 
 msgid "Churwadhar"
 msgstr "चुरवधर"
@@ -17692,13 +17527,8 @@ msgstr "कांग्रेस नगर (नागपुर)"
 msgid "Contai"
 msgstr "कांटे"
 
-#, fuzzy
 msgid "Cooch Behar"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कूच बेहर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कूच बिहार"
+msgstr "कूच बिहार"
 
 msgid "Cooch Behar Bazar"
 msgstr "कूच बेहर बाजार"
@@ -17811,19 +17641,14 @@ msgstr "कड्डालोर पोर्ट"
 msgid "Cuddalore Public Offices"
 msgstr "कुड्डालोर पब्लिक ओफ़फिसेस"
 
-#, fuzzy
 msgid "Cuddapah"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कुड्डापाह\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कुडप्पा"
+msgstr "कडप्पा"
 
 msgid "Cuddapah Mundy Bazar"
-msgstr "कुड्डापाह मुण्डी बाजार"
+msgstr "कड्डापाह मुण्डी बाजार"
 
 msgid "Cuddapah R.S"
-msgstr "कुड्डापाह आर.स"
+msgstr "कड्डापाह आर.स"
 
 msgid "Cumballa Hill"
 msgstr "कुम्बले हिल"
@@ -18896,13 +18721,8 @@ msgstr "दरिया महल"
 msgid "Dariyabad"
 msgstr "दरियाबाद"
 
-#, fuzzy
 msgid "Darjeeling"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"दार्जीलिंग\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"दार्जिलिंग"
+msgstr "दार्जिलिंग"
 
 msgid "Darjeeling Bazar"
 msgstr "दार्जीलिंग बाजार"
@@ -20488,13 +20308,8 @@ msgstr "धर्मपुर"
 msgid "Dharmapuram"
 msgstr "धर्मपुरम"
 
-#, fuzzy
 msgid "Dharmapuri"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"धरमपुरी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"धर्मपुरी"
+msgstr "धर्मपुरी"
 
 msgid "Dharmapuri Collectorate"
 msgstr "धरमपुरी कोल्लेकतोरते"
@@ -20583,13 +20398,8 @@ msgstr "धरसों"
 msgid "Dharuhera"
 msgstr "धरुहेरा"
 
-#, fuzzy
 msgid "Dharwad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"धारवाड़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"धारवाड़"
+msgstr "धारवाड़"
 
 msgid "Dharwad City"
 msgstr "धारवाड़ सिटी"
@@ -20729,13 +20539,8 @@ msgstr "ढेलाणा"
 msgid "Dhelwan"
 msgstr "ढेलवां"
 
-#, fuzzy
 msgid "Dhenkanal"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"धेनकनाल\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"ढेंकनाल"
+msgstr "ढेंकनाल"
 
 msgid "Dhenkanal College"
 msgstr "धेनकनाल कॉलेज"
@@ -21076,13 +20881,8 @@ msgstr "दिबियापुर मंडी"
 msgid "Dibong"
 msgstr "डिबोंग"
 
-#, fuzzy
 msgid "Dibrugarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"डिब्रूगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"डिब्रूगढ़"
+msgstr "डिब्रूगढ़"
 
 msgid "Dibulgani"
 msgstr "दिबुलगानी"
@@ -22920,13 +22720,8 @@ msgstr "एटा"
 msgid "Etamogra"
 msgstr "एटमोगरा"
 
-#, fuzzy
 msgid "Etawah"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"केतवः\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"इटावा"
+msgstr "इटावा"
 
 msgid "Etawah City"
 msgstr "केतवः सिटी"
@@ -23186,13 +22981,8 @@ msgstr "फतेहगढ़ कोरोटाना"
 msgid "Fatehgarh R.S."
 msgstr "फतेहगढ़ आर.एस."
 
-#, fuzzy
 msgid "Fatehgarh Sahib"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"फतेहगढ़ साहिब\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"फतेहगढ़ साहिब"
+msgstr "फतेहगढ़ साहिब"
 
 msgid "Fatehgarh Shukarchack"
 msgstr "फतेहगढ़ शुक्रचक्क"
@@ -23542,13 +23332,8 @@ msgstr "गदधनुआ"
 msgid "Gadadharpur"
 msgstr "गदाधरपुर"
 
-#, fuzzy
 msgid "Gadag"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"गदग\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"गडग"
+msgstr "गडग"
 
 msgid "Gadag Bazar"
 msgstr "गदग बाजार"
@@ -25227,13 +25012,8 @@ msgstr "घटवार"
 msgid "Ghayaj"
 msgstr "गायज"
 
-#, fuzzy
 msgid "Ghaziabad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"ग़ज़िआबाद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"गाज़ियाबाद"
+msgstr "गाज़ियाबाद"
 
 msgid "Ghaziabad City"
 msgstr "ग़ज़िआबाद सिटी"
@@ -25664,13 +25444,8 @@ msgstr "गोयाबरिया"
 msgid "Goalgaon"
 msgstr "गोल्गओं"
 
-#, fuzzy
 msgid "Goalpara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"गोआलपाड़ा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"गोलपाड़ा"
+msgstr "गोलपाड़ा"
 
 msgid "Goara"
 msgstr "गोरा"
@@ -25699,13 +25474,8 @@ msgstr "गोबर्धन"
 msgid "Gobardhanbati"
 msgstr "गोबर्धनबती"
 
-#, fuzzy
 msgid "Gobichettipalayam"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"गोबिचेत्तिपलयं\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"गोबिचेट्टीपलायम"
+msgstr "गोबिचेट्टीपलायम"
 
 msgid "Gobichettipalayam East"
 msgstr "गोबिचेत्तिपलयं ईस्ट"
@@ -26106,13 +25876,8 @@ msgstr "गोंरे"
 msgid "Gonchh"
 msgstr "गोंछ"
 
-#, fuzzy
 msgid "Gonda"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"गोंद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"गोंडा"
+msgstr "गोंडा"
 
 msgid "Gondal Market Yard"
 msgstr "गोंडल मार्केट यार्ड"
@@ -27413,13 +27178,8 @@ msgstr "नगर"
 msgid "Narasannapeta Market"
 msgstr "नरसन्नापेट मार्किट"
 
-#, fuzzy
 msgid "Narasaraopet"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नरसराओपेट\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नरसरावपेट"
+msgstr "नरसरावपेट"
 
 msgid "Narasaraopet Bazar"
 msgstr "नरसराओपेट बाजार"
@@ -27703,13 +27463,8 @@ msgstr "नासरके"
 msgid "Naseernagar"
 msgstr "नसीरनगर"
 
-#, fuzzy
 msgid "Nashik"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नाशिक\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नासिक"
+msgstr "नासिक"
 
 msgid "Nashik City"
 msgstr "नाशिक सिटी"
@@ -28212,13 +27967,8 @@ msgstr "नयागंज"
 msgid "Nayagaon"
 msgstr "नयागांव"
 
-#, fuzzy
 msgid "Nayagarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नयागढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नयागढ़"
+msgstr "नयागढ़"
 
 msgid "Nayagarh Bazar"
 msgstr "नयागढ़ बाजार"
@@ -28952,13 +28702,8 @@ msgstr "नेयवेली 3"
 msgid "Neyveli Second Mines"
 msgstr "नेयवेली सेकंड माइंस"
 
-#, fuzzy
 msgid "Neyyattinkara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नेय्याट्टिनकर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नेय्यट्तिंकरा"
+msgstr "नेय्यट्तिंकरा"
 
 msgid "Neyyattinkara Town"
 msgstr "नेय्याट्टिनकर टाउन"
@@ -29455,13 +29200,8 @@ msgstr "न्यायीपुर"
 msgid "Niz Bhekulajan"
 msgstr "निज भेकुलजां"
 
-#, fuzzy
 msgid "Nizamabad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"निज़ामाबाद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"निजामाबाद"
+msgstr "निजामाबाद"
 
 msgid "Nizamabad RS"
 msgstr "निज़ामाबाद रस"
@@ -29532,13 +29272,8 @@ msgstr "नोहर बाजार"
 msgid "Nohra"
 msgstr "नोहर"
 
-#, fuzzy
 msgid "Noida"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नॉएडा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नोएडा"
+msgstr "नोएडा"
 
 msgid "Noida Sector 12"
 msgstr "नॉएडा सेक्टर 12"
@@ -30245,13 +29980,8 @@ msgstr "वसप कैंपस"
 msgid "Oshiwara"
 msgstr "ओशिवारा"
 
-#, fuzzy
 msgid "Osmanabad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"ओस्मानाबाद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"उस्मानाबाद"
+msgstr "उस्मानाबाद"
 
 msgid "Osmanabad Town"
 msgstr "ओस्मानाबाद टाउन"
@@ -30292,13 +30022,8 @@ msgstr "ओठालुर वेस्ट"
 msgid "Othayal Mettupatti"
 msgstr "उठायल मेत्तुपट्टी"
 
-#, fuzzy
 msgid "Ottapalam"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"टापालं\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"ओट्टापलम"
+msgstr "ओट्टापलम"
 
 msgid "Ottathai"
 msgstr "टाठी"
@@ -31011,13 +30736,8 @@ msgstr "पल"
 msgid "Pal Mathugamda"
 msgstr "पल माथुगामड़ा"
 
-#, fuzzy
 msgid "Pala"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पला\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पाला"
+msgstr "पाला"
 
 msgid "Pala Chand"
 msgstr "पला चाँद"
@@ -31046,13 +30766,8 @@ msgstr "पलादहुआपल्ली"
 msgid "Palagrahara"
 msgstr "पालाग्रहरा"
 
-#, fuzzy
 msgid "Palai"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"प्लाई\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"Palai"
+msgstr "Palai"
 
 msgid "Palai Market Junction"
 msgstr "प्ले मार्केट जंक्शन"
@@ -31066,13 +30781,8 @@ msgstr "प्लाज"
 msgid "Palakayam"
 msgstr "पळकायम"
 
-#, fuzzy
 msgid "Palakkad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पलक्कड़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पलक्कड़"
+msgstr "पलक्कड़"
 
 msgid "Palakkad City"
 msgstr "पलक्कड़ सिटी"
@@ -32298,13 +32008,8 @@ msgstr "पराली"
 msgid "Paralipower House"
 msgstr "परळीपौर हाउस"
 
-#, fuzzy
 msgid "Paramakudi"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"परामकुडी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"परमाकुदी"
+msgstr "परामकुडी"
 
 msgid "Paramakudi Bazaar"
 msgstr "परामकुडी बाजार"
@@ -32378,13 +32083,8 @@ msgstr "परासिया"
 msgid "Parasikalan"
 msgstr "परसीकलां"
 
-#, fuzzy
 msgid "Parassala"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"परसाल\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"परस्सला"
+msgstr "परस्सला"
 
 msgid "Parassinikadavu"
 msgstr "परसिनिकदावु"
@@ -32923,13 +32623,8 @@ msgstr "पतमत लंका"
 msgid "Patamda"
 msgstr "पटमदा"
 
-#, fuzzy
 msgid "Patan"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पतन\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पाटन"
+msgstr "पाटन"
 
 msgid "Patan Rajkawada"
 msgstr "पतन राजकवाद"
@@ -33750,13 +33445,8 @@ msgstr "फेरले"
 msgid "Peramanur"
 msgstr "पेरामानुर"
 
-#, fuzzy
 msgid "Perambalur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पेरम्बलूर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पेरांबलुर"
+msgstr "पेरांबलुर"
 
 msgid "Perambalur Collectorate"
 msgstr "पेरम्बलूर कोल्लेकतोरते"
@@ -33815,13 +33505,8 @@ msgstr "पेरिन्गन्नूर"
 msgid "Peringode"
 msgstr "पेरिंगोड़े"
 
-#, fuzzy
 msgid "Perintalmanna"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पेरिंटलमैंन\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पेरिन्तल्मन्न"
+msgstr "पेरिन्तल्मन्न"
 
 msgid "Perintalmanna Bazar"
 msgstr "पेरिंटलमैंन बाजार"
@@ -33958,13 +33643,8 @@ msgstr "पेरुमुखम"
 msgid "Perundalaiyur"
 msgstr "पेरूँदलैयुर"
 
-#, fuzzy
 msgid "Perundurai"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पेरुन्दुरै\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पेरुंदुराई"
+msgstr "पेरुंदुराई"
 
 msgid "Perundurai R.S."
 msgstr "पेरुन्दुरै आर.एस."
@@ -34029,13 +33709,8 @@ msgstr "पेठियाटांड़"
 msgid "Pethikuttai"
 msgstr "पेतिकुट्टी"
 
-#, fuzzy
 msgid "Petlad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पेटलाद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पेतलड"
+msgstr "पेतलड"
 
 msgid "Petlad RS"
 msgstr "पेटलाद रस"
@@ -35522,13 +35197,8 @@ msgstr "प्रतापगढ़ कम्प"
 msgid "Pratapganj (Vadodara)"
 msgstr "प्रतापगंज (वड़ोदरा)"
 
-#, fuzzy
 msgid "Pratapgarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"प्रतापगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"प्रतापगढ़"
+msgstr "प्रतापगढ़"
 
 msgid "Pratapnagar"
 msgstr "प्रतापनगर"
@@ -36208,13 +35878,8 @@ msgstr "पूरेडलई"
 msgid "Puregareria"
 msgstr "पूरेगरेरिया"
 
-#, fuzzy
 msgid "Puri"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"पूरी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"पुरी"
+msgstr "पुरी"
 
 msgid "Puri Seabeach"
 msgstr "पूरी सीबीच"
@@ -36852,13 +36517,8 @@ msgstr "रायगंज"
 msgid "Raiganj Town"
 msgstr "रायगंज टाउन"
 
-#, fuzzy
 msgid "Raigarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"रायगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"रायगढ़"
+msgstr "रायगढ़"
 
 msgid "Raigarh Sadar Bazar"
 msgstr "रायगढ़ सदर बाजार"
@@ -37130,13 +36790,8 @@ msgstr "राजगिरि"
 msgid "Rajahi Camp"
 msgstr "राजहि कैम्प"
 
-#, fuzzy
 msgid "Rajahmundry"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"राजाहमुंदरी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"राजमुंदरी"
+msgstr "राजाहमुंदरी"
 
 msgid "Rajaji Bhavan"
 msgstr "राजाजी भवन"
@@ -37417,13 +37072,8 @@ msgstr "राजगांगपुर"
 msgid "Rajganj"
 msgstr "राजगंज"
 
-#, fuzzy
 msgid "Rajgarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"राजगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"राजगढ़"
+msgstr "राजगढ़"
 
 msgid "Rajgarh (Siramur)"
 msgstr "राजगढ़ (सिरमूर)"
@@ -38019,13 +37669,8 @@ msgstr "रामगंज बाजार"
 msgid "Ramgarah"
 msgstr "रंगराह"
 
-#, fuzzy
 msgid "Ramgarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"रामगढ\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"रामगढ़"
+msgstr "रामगढ़"
 
 msgid "Ramgarh (Kaimur (Bhabua))"
 msgstr "रामगढ (कैमूर (भबुआ))"
@@ -39071,13 +38716,8 @@ msgstr "राया"
 msgid "Rayabhupalapatnam"
 msgstr "रायभूपलपटणं"
 
-#, fuzzy
 msgid "Rayagada"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"रायगड\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"रायगढ़"
+msgstr "रायगढ़"
 
 msgid "Rayagada Bazar"
 msgstr "रायगड बाजार"
@@ -39394,13 +39034,8 @@ msgstr "रेवदंडा"
 msgid "Revdibazar"
 msgstr "रेवड़ीबाजार"
 
-#, fuzzy
 msgid "Rewa"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"रेवा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"रीवा"
+msgstr "रेवा"
 
 msgid "Rewa AG College"
 msgstr "रेवा एजी कॉलेज"
@@ -39435,13 +39070,8 @@ msgstr "रेवा वेंकट भवन"
 msgid "Rewali"
 msgstr "रेवाली"
 
-#, fuzzy
 msgid "Rewari"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"रेवाड़ी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"रेवाड़ी"
+msgstr "रेवाड़ी"
 
 msgid "Rewasan"
 msgstr "रेवासन"
@@ -39743,13 +39373,8 @@ msgstr "रूरकी पुख्ता"
 msgid "Ropa"
 msgstr "रूप"
 
-#, fuzzy
 msgid "Ropar"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"रोपर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"रोपड़"
+msgstr "रोपर"
 
 msgid "Rople BK"
 msgstr "रूपले बक"
@@ -39802,13 +39427,8 @@ msgstr "रौनिया"
 msgid "Rouri"
 msgstr "रौरी"
 
-#, fuzzy
 msgid "Rourkela"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"रौर्केल\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"राउरकेला"
+msgstr "रौर्केल"
 
 msgid "Rourkela - 4"
 msgstr "रौर्केल - 4"
@@ -41172,13 +40792,8 @@ msgstr "सलेगाओं"
 msgid "Salehra"
 msgstr "सलेहरा"
 
-#, fuzzy
 msgid "Salem"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"सालेम\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"सलेम"
+msgstr "सालेम"
 
 msgid "Salem Bazaar"
 msgstr "सालेम बाजार"
@@ -42881,13 +42496,8 @@ msgstr "सतापहंडिया"
 msgid "Satapar"
 msgstr "स्टॉपर"
 
-#, fuzzy
 msgid "Satara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"स्टार\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"सतारा"
+msgstr "सतारा"
 
 msgid "Satara Parisar"
 msgstr "स्टार परिसर"
@@ -43213,13 +42823,8 @@ msgstr "स्वांगिया"
 msgid "Sawantpur"
 msgstr "सवंतपुर"
 
-#, fuzzy
 msgid "Sawantwadi"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"सावंतवाड़ी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"सावंतवाडी"
+msgstr "सावंतवाडी"
 
 msgid "Sawarda"
 msgstr "सवर्दा"
@@ -44409,13 +44014,8 @@ msgstr "शेव"
 msgid "Sheoganj (Bhojpur)"
 msgstr "शेवगंज (भोजपुर)"
 
-#, fuzzy
 msgid "Sheohar"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"शेओहर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"शिवहर"
+msgstr "शिवहर"
 
 msgid "Sheora"
 msgstr "शेयर"
@@ -46043,13 +45643,8 @@ msgstr "सीतालपुर"
 msgid "Sitamai"
 msgstr "सीतामाई"
 
-#, fuzzy
 msgid "Sitamarhi"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"सीतामढ़ी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"सीतामढ़ी"
+msgstr "सीतामढ़ी"
 
 msgid "Sitamarhi Bazar"
 msgstr "सीतामढ़ी बाजार"
@@ -46159,13 +45754,8 @@ msgstr "शिवपुरम"
 msgid "Sivaraopeta"
 msgstr "सिवारोपेता"
 
-#, fuzzy
 msgid "Sivasagar"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"सिवसागर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"शिवसागर"
+msgstr "शिवसागर"
 
 msgid "Sivasamudram"
 msgstr "शिवसमुद्रम"
@@ -46386,13 +45976,8 @@ msgstr "सोला ह बी सी"
 msgid "Solaiya"
 msgstr "सलैया"
 
-#, fuzzy
 msgid "Solan"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"सोलन\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"एक प्रकार का हंस"
+msgstr "सोलन"
 
 msgid "Solapur"
 msgstr "सोलापुर"
@@ -46967,13 +46552,8 @@ msgstr "श्रीनिवासपुरम (हैदराबाद)"
 msgid "Srinivasapuram (Thanjavur)"
 msgstr "श्रीनिवासपुरम (थंजावुर)"
 
-#, fuzzy
 msgid "Srinivaspur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"श्रीनिवासपुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"श्रीनिवसपुर"
+msgstr "श्रीनिवसपुर"
 
 msgid "Srinivaspura"
 msgstr "श्रीनिवासपुर"
@@ -46996,13 +46576,8 @@ msgstr "श्रीपालपुर"
 msgid "Sriparru"
 msgstr "श्रीपररु"
 
-#, fuzzy
 msgid "Sriperumbudur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"श्रीपेरुम्बुदुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"श्रीपेरंबुदूर"
+msgstr "श्रीपेरंबुदूर"
 
 msgid "Sripur"
 msgstr "श्रीपुर"
@@ -49059,13 +48634,8 @@ msgstr "तारलागुड़ा"
 msgid "Tarmalia"
 msgstr "तारमलिया"
 
-#, fuzzy
 msgid "Tarn Taran"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"तारन तरन\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"तरनतारन"
+msgstr "तरनतारन"
 
 msgid "Tarnaka"
 msgstr "तरणक"
@@ -49751,13 +49321,8 @@ msgstr "ठंडाई"
 msgid "Thandewala"
 msgstr "थांदेवाला"
 
-#, fuzzy
 msgid "Thane"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"ठाणे\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"थाइन"
+msgstr "ठाणे"
 
 msgid "Thane Bazar"
 msgstr "ठाणे बाजार"
@@ -49792,13 +49357,8 @@ msgstr "थांग्सनिंग"
 msgid "Thaniyana"
 msgstr "तानियन"
 
-#, fuzzy
 msgid "Thanjavur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"थंजावुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"तंजावुर"
+msgstr "तंजावुर"
 
 msgid "Thanjavur Bazaar"
 msgstr "थंजावुर बाजार"
@@ -49977,13 +49537,8 @@ msgstr "ठेंगोंड"
 msgid "Thengumarahada"
 msgstr "थेंगुमराहड़ा"
 
-#, fuzzy
 msgid "Theni"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"थेनि\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"तब मैं"
+msgstr "थेनि"
 
 msgid "Thenmathur"
 msgstr "ठेंमथुर"
@@ -50339,13 +49894,8 @@ msgstr "थ्रिककन्नमंगल"
 msgid "Thrikothamangalam"
 msgstr "थ्रीकोठामंगलं"
 
-#, fuzzy
 msgid "Thrissur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"थ्रिस्सूर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"त्रिशूर"
+msgstr "थ्रिस्सूर"
 
 msgid "Thrissur Central"
 msgstr "थ्रिस्सूर सेंट्रल"
@@ -50527,13 +50077,8 @@ msgstr "टिकैतगंज"
 msgid "Tikamau"
 msgstr "टीकमौ"
 
-#, fuzzy
 msgid "Tikamgarh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"टीकमगढ़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"टीकमगढ़"
+msgstr "टीकमगढ़"
 
 msgid "Tikamgarh City"
 msgstr "टीकमगढ़ सिटी"
@@ -51033,13 +50578,8 @@ msgstr "तिरुवल्ला मार्किट जन"
 msgid "Tiruvallikkeni"
 msgstr "तिरुवल्लिक्केणी"
 
-#, fuzzy
 msgid "Tiruvallur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"तिरुवल्लुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"तिरूवल्लूर"
+msgstr "तिरूवल्लूर"
 
 msgid "Tiruvallur Nethaji Road"
 msgstr "तिरुवल्लुर नेताजी रोड"
@@ -51596,13 +51136,8 @@ msgstr "टुंगनी"
 msgid "Tungat"
 msgstr "टुंगैत"
 
-#, fuzzy
 msgid "Tuni"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"तुनि\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"टूनी"
+msgstr "तुनि"
 
 msgid "Tuni Old Bazar"
 msgstr "तुनि ओल्ड बाजार"
@@ -52381,13 +51916,8 @@ msgstr "मतवाद"
 msgid "Un"
 msgstr "उन"
 
-#, fuzzy
 msgid "Una"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"उन\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"ऊना"
+msgstr "ऊना"
 
 msgid "Unarsikhurd"
 msgstr "उनरसिखुर्द"
@@ -52488,13 +52018,8 @@ msgstr "अंजानैगौन्दम्पालायं"
 msgid "Unjapalayam"
 msgstr "उंजपलायम"
 
-#, fuzzy
 msgid "Unjha"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"उंझा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"ऊंझा"
+msgstr "ऊंझा"
 
 msgid "Unjha Umiya Mataji"
 msgstr "उंझा उमिया माताजी"
@@ -52685,13 +52210,8 @@ msgstr "उषा नगर कॉलोनी भिण्ड"
 msgid "Ushagram"
 msgstr "उषाग्राम"
 
-#, fuzzy
 msgid "Usilampatti"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"उसिलमपट्टी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"उसिलंपत्ति"
+msgstr "उसिलंपत्ति"
 
 msgid "Usilampatti Pettai"
 msgstr "उसिलमपट्टी पट्टी"
@@ -52906,13 +52426,8 @@ msgstr "वदकडम्बादि"
 msgid "Vadakanthara"
 msgstr "वडकांथार"
 
-#, fuzzy
 msgid "Vadakara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"वाडकर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"वाडकारा"
+msgstr "वाडकारा"
 
 msgid "Vadakara - Thalayolaparabu"
 msgstr "वाडकर - थल्योलापरबु"
@@ -53130,13 +52645,8 @@ msgstr "वडोद"
 msgid "Vadodar"
 msgstr "वडोदरा"
 
-#, fuzzy
 msgid "Vadodara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"वड़ोदरा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"वडोदरा"
+msgstr "वड़ोदरा"
 
 msgid "Vadoli"
 msgstr "वडोली"
@@ -53795,13 +53305,8 @@ msgstr "वसई रोड के"
 msgid "Vasalmarry"
 msgstr "वसलमारी"
 
-#, fuzzy
 msgid "Vasan"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"वसन\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"वासन"
+msgstr "वासन"
 
 msgid "Vasana"
 msgstr "वासना"
@@ -54667,13 +54172,8 @@ msgstr "विजयपुरी"
 msgid "Vijayaraghavapuram"
 msgstr "विजयराघवापुरम"
 
-#, fuzzy
 msgid "Vijayawada"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"विजयवाड़ा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"विजयवाड़ा"
+msgstr "विजयवाड़ा"
 
 msgid "Vijayawada Bus Stand"
 msgstr "विजयवाड़ा बस स्टैंड"
@@ -54969,13 +54469,8 @@ msgstr "विरुधुनगर वेस्ट"
 msgid "Virugambakkam"
 msgstr "विरुगम्बाक्कम"
 
-#, fuzzy
 msgid "Visakhapatnam"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"विशाखापट्नम\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"विशाखापत्तनम"
+msgstr "विशाखापट्नम"
 
 msgid "Visakhapatnam Airport"
 msgstr "विशाखापट्नम एयरपोर्ट"
@@ -55121,13 +54616,8 @@ msgstr "विवर"
 msgid "Vizalapuram"
 msgstr "विजालपुरम"
 
-#, fuzzy
 msgid "Vizianagaram"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"विज़िअनगरम\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"विजयनगरम"
+msgstr "विजयनगरम"
 
 msgid "Vizianagaram City"
 msgstr "विज़िअनगरम सिटी"
@@ -56143,13 +55633,8 @@ msgstr "ज़ुलकललू"
 msgid "Zundal"
 msgstr "ज़ुन्दाल"
 
-#, fuzzy
 msgid "Zunheboto"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"जुन्हेबोटो\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"ज़ुनेबोटो"
+msgstr "जुन्हेबोटो"
 
 msgid "Gunjala"
 msgstr "गुंजल"
@@ -56907,13 +56392,8 @@ msgstr "हमपिनगर"
 msgid "Hanagandi"
 msgstr "हानागंड़ी"
 
-#, fuzzy
 msgid "Hanamkonda"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"हन्मकोंडा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"हनमकोंडा"
+msgstr "हनमकोंडा"
 
 msgid "Hanchinal Camp"
 msgstr "हंचिनाल कैम्प"
@@ -57221,13 +56701,8 @@ msgstr "हरिनगर"
 msgid "Harinapali"
 msgstr "हरिनापली"
 
-#, fuzzy
 msgid "Haripad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"हरिपद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"हरीपाद"
+msgstr "हरिपद"
 
 msgid "Haripar"
 msgstr "हरिपर"
@@ -57454,13 +56929,8 @@ msgstr "हसनाबाद"
 msgid "Hasnain Market"
 msgstr "हसनैन मार्किट"
 
-#, fuzzy
 msgid "Hassan"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"हस्सान\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"हसन"
+msgstr "हस्सन"
 
 msgid "Hassanpur"
 msgstr "हस्सनपुर"
@@ -57693,13 +57163,8 @@ msgstr "हज़ारआठगुदेम"
 msgid "Hazari"
 msgstr "हज़ारी"
 
-#, fuzzy
 msgid "Hazaribagh"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"हज़ारीबाग़\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"हजारीबाग"
+msgstr "हज़ारीबाग़"
 
 msgid "Hazarikagaon"
 msgstr "हज़ारिकागन"
@@ -57923,13 +57388,8 @@ msgstr "हिलग्रोव"
 msgid "Hiloidhari"
 msgstr "हिलोइड़हरी"
 
-#, fuzzy
 msgid "Himatnagar"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"हिमतनगर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"हिम्मतनगर"
+msgstr "हिम्मतनगर"
 
 msgid "Himatnagar Station Road"
 msgstr "हिमतनगर स्टेशन रोड"
@@ -58237,13 +57697,8 @@ msgstr "होलोंग"
 msgid "Hommaradi"
 msgstr "होममरदी"
 
-#, fuzzy
 msgid "Honavar"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"होनवार\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"होनवर"
+msgstr "होनवर"
 
 msgid "Honavar Port"
 msgstr "होनवार पोर्ट"
@@ -58290,13 +57745,8 @@ msgstr "हूचक"
 msgid "Hoodi"
 msgstr "हूदी"
 
-#, fuzzy
 msgid "Hooghly"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"हूघली\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"हुगली"
+msgstr "हुगली"
 
 msgid "Hooghly Dock"
 msgstr "हुगली डॉक"
@@ -58439,13 +57889,8 @@ msgstr "हाउसिंग बोर्ड कॉलोनी"
 msgid "Howbagh"
 msgstr "हाऊबाग"
 
-#, fuzzy
 msgid "Howrah"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"होवराह\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"हावड़ा"
+msgstr "हावड़ा"
 
 msgid "Howrah Loco Depot"
 msgstr "होवराह लोको डिपो"
@@ -58987,13 +58432,8 @@ msgstr "इमलोटा"
 msgid "Immedihalli"
 msgstr "इम्मेडिहल्ली"
 
-#, fuzzy
 msgid "Imphal"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"इम्फाल\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"इंफाल"
+msgstr "इम्फाल"
 
 msgid "Imphal Bazar"
 msgstr "इम्फाल बाजार"
@@ -60141,13 +59581,8 @@ msgstr "जाजल"
 msgid "Jajanga"
 msgstr "जजंग"
 
-#, fuzzy
 msgid "Jajapur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"जाजपुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"जजापुर"
+msgstr "जजापुर"
 
 msgid "Jajawal"
 msgstr "जजावल"
@@ -60368,13 +59803,8 @@ msgstr "जालांगो"
 msgid "Jallopur"
 msgstr "जल्लोपुर"
 
-#, fuzzy
 msgid "Jalna"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"जलन\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"जालना"
+msgstr "जालना"
 
 msgid "Jalna Industrial Area"
 msgstr "जलन इंडस्ट्रियल एरिया"
@@ -60658,13 +60088,8 @@ msgstr "जमशेत"
 msgid "Jamsole"
 msgstr "जमसोल"
 
-#, fuzzy
 msgid "Jamtara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"जामतारा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"जामताड़ा"
+msgstr "जामतारा"
 
 msgid "Jamu"
 msgstr "जमु"
@@ -61527,13 +60952,8 @@ msgstr "जहाँजकलां"
 msgid "Jhanrautha"
 msgstr "झनरौठा"
 
-#, fuzzy
 msgid "Jhansi"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"झाँसी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"झांसी"
+msgstr "झाँसी"
 
 msgid "Jhansi Cantt."
 msgstr "झाँसी कैंट."
@@ -61604,13 +61024,8 @@ msgstr "झारोड़ा"
 msgid "Jharsa"
 msgstr "झारस"
 
-#, fuzzy
 msgid "Jharsuguda"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"झारसुगुड़ा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"झारसुगुडा"
+msgstr "झारसुगुड़ा"
 
 msgid "Jhartarang"
 msgstr "झारतरंग"
@@ -61744,13 +61159,8 @@ msgstr "झुंगिया बाजार"
 msgid "Jhuni"
 msgstr "झुनी"
 
-#, fuzzy
 msgid "Jhunjhunu"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"झुंझुनू\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"झुंझुनूं"
+msgstr "झुंझुनू"
 
 msgid "Jhunjhunu Bazar"
 msgstr "झुंझुनू बाजार"
@@ -63921,13 +63331,8 @@ msgstr "कल्पनी बाजार"
 msgid "Kalpathi"
 msgstr "कलपती"
 
-#, fuzzy
 msgid "Kalpetta"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कालपेट्टा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कलपेट्टा"
+msgstr "कलपेट्टा"
 
 msgid "Kalsada"
 msgstr "कलसाड़ा"
@@ -64682,13 +64087,8 @@ msgstr "कंजयनाथं"
 msgid "Kanghmun"
 msgstr "कंघमउन"
 
-#, fuzzy
 msgid "Kangra"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"काँगड़ा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कांगड़ा"
+msgstr "कांगड़ा"
 
 msgid "Kangra Colony"
 msgstr "काँगड़ा कॉलोनी"
@@ -64702,13 +64102,8 @@ msgstr "कांगसी"
 msgid "Kanhachatti"
 msgstr "कान्हाचट्टी"
 
-#, fuzzy
 msgid "Kanhangad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कन्हंगद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कानंगद"
+msgstr "कन्हंगद"
 
 msgid "Kanhapuri"
 msgstr "कन्हापुरी"
@@ -64986,13 +64381,8 @@ msgstr "काननिसर्विपत्ति"
 msgid "Kannivayal"
 msgstr "काननिवायल"
 
-#, fuzzy
 msgid "Kanniyakumari"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कंन्याकुमारी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कन्याकुमारी"
+msgstr "कन्याकुमारी"
 
 msgid "Kannoopur"
 msgstr "कणनूपुर"
@@ -65018,13 +64408,8 @@ msgstr "कंपद"
 msgid "Kanpara"
 msgstr "कानपर"
 
-#, fuzzy
 msgid "Kanpur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कानपूर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कानपुर"
+msgstr "कानपुर"
 
 msgid "Kanpura"
 msgstr "कानपुर"
@@ -65203,13 +64588,8 @@ msgstr "कपड गंज"
 msgid "Kapadmarket Ichalkaranji"
 msgstr "कपदमार्केट इचलकरंजी"
 
-#, fuzzy
 msgid "Kapadwanj"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कपडवंज\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कपड़वंज"
+msgstr "कपड़वंज"
 
 msgid "Kapaleswar"
 msgstr "कपालेस्वर"
@@ -65979,13 +65359,8 @@ msgstr "करुहाटति"
 msgid "Karuigachi"
 msgstr "क्रुएगछि"
 
-#, fuzzy
 msgid "Karukachal"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"करुकचल\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"करूकाचल"
+msgstr "करूकाचल"
 
 msgid "Karukadom"
 msgstr "करुकदोम"
@@ -66059,13 +65434,8 @@ msgstr "करुप्पायउरानी"
 msgid "Karuppur"
 msgstr "करुपपुर"
 
-#, fuzzy
 msgid "Karur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"क्रूर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"करूर"
+msgstr "करूर"
 
 msgid "Karur West"
 msgstr "क्रूर वेस्ट"
@@ -68605,13 +67975,8 @@ msgstr "खेद सिटी"
 msgid "Khed(Wadhe)"
 msgstr "खेद(आधे)"
 
-#, fuzzy
 msgid "Kheda"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"खेद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"खेड़ा"
+msgstr "खेड़ा"
 
 msgid "Kheda Karmasiya"
 msgstr "खेड़ा कर्मासिया"
@@ -68703,13 +68068,8 @@ msgstr "खेरड़ी"
 msgid "Khergadh"
 msgstr "खैरगढ़"
 
-#, fuzzy
 msgid "Kheri"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"खेरी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"खीरी"
+msgstr "खेरी"
 
 msgid "Kheri Buchha"
 msgstr "खेरी बुछ"
@@ -69122,13 +68482,8 @@ msgstr "खुरासान"
 msgid "Khurchutta"
 msgstr "खुरचुट्टा"
 
-#, fuzzy
 msgid "Khurda"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"खुर्द\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"खुर्दा"
+msgstr "खुर्दा"
 
 msgid "Khurda Road RS"
 msgstr "खुर्दा रोड रस"
@@ -69943,13 +69298,8 @@ msgstr "कोलानूर"
 msgid "Kolappancheri"
 msgstr "कोलापनचेरी"
 
-#, fuzzy
 msgid "Kolar"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कोलर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कोलार"
+msgstr "कोलार"
 
 msgid "Kolar Bazar"
 msgstr "कोलर बाजार"
@@ -70875,13 +70225,8 @@ msgstr "कोठली कह"
 msgid "Kothaloothu"
 msgstr "कोठालुथू"
 
-#, fuzzy
 msgid "Kothamangalam"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कोठामंगलं\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कोठामंगलम"
+msgstr "कोठामंगलम"
 
 msgid "Kothamangalam (Ernakulam)"
 msgstr "कोठामंगलं (एर्नाकुलम)"
@@ -70985,13 +70330,8 @@ msgstr "कोठवा"
 msgid "Kotkader"
 msgstr "कोटकादेर"
 
-#, fuzzy
 msgid "Kotkapura"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कोटकपूरा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कोतकापुरा"
+msgstr "कोटकपूरा"
 
 msgid "Kotkendri"
 msgstr "कोटकेन्द्री"
@@ -71233,13 +70573,8 @@ msgstr "कोय्युर"
 msgid "Kozha"
 msgstr "कोज़्हे"
 
-#, fuzzy
 msgid "Kozhencherry"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"कोज़्हेनचेरी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"कोज़ेंचेररी"
+msgstr "कोज़ेंचेररी"
 
 msgid "Kozhencherry College"
 msgstr "कोज़्हेनचेरी कॉलेज"
@@ -74481,21 +73816,11 @@ msgstr "लोलकी"
 msgid "Lolla"
 msgstr "लोल्ला"
 
-#, fuzzy
 msgid "Lonand"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"लोणंद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"Lonand"
+msgstr "लोणंद"
 
-#, fuzzy
 msgid "Lonavala"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"लोनावला\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"लोनावाला"
+msgstr "लोनावाला"
 
 msgid "Lonavala Bazar"
 msgstr "लोनावला बाजार"
@@ -75109,13 +74434,8 @@ msgstr "मढ़ना कलां"
 msgid "Madhapar"
 msgstr "मधपर"
 
-#, fuzzy
 msgid "Madhapur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"माधापुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मधापुर"
+msgstr "माधापुर"
 
 msgid "Madhar"
 msgstr "मधर"
@@ -75627,13 +74947,8 @@ msgstr "महराजनगर"
 msgid "Maharajapuam"
 msgstr "महाराजपुं"
 
-#, fuzzy
 msgid "Maharajganj"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"महराजगंज\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"महाराजगंज"
+msgstr "महाराजगंज"
 
 msgid "Maharajpur"
 msgstr "महाराजपुर"
@@ -77270,13 +76585,8 @@ msgstr "मांडवी सर"
 msgid "Mandwa"
 msgstr "मंडवा"
 
-#, fuzzy
 msgid "Mandya"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मंड्या\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मांड्या"
+msgstr "मांड्या"
 
 msgid "Mandya Ashoknagar"
 msgstr "मंड्या अशोकनगर"
@@ -78310,13 +77620,8 @@ msgstr "मर्रीपालेम वुड कॉलोनी"
 msgid "Marsur"
 msgstr "मर्सर"
 
-#, fuzzy
 msgid "Marthandam"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मार्तण्डम\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मर्तण्दम"
+msgstr "मार्तण्डम"
 
 msgid "Marthandam Bridge"
 msgstr "मार्तण्डम ब्रिज"
@@ -78780,13 +78085,8 @@ msgstr "मतवाद"
 msgid "Matyal"
 msgstr "मॉयल"
 
-#, fuzzy
 msgid "Mau"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मौ\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मऊ"
+msgstr "मऊ"
 
 msgid "Mau Chirayal"
 msgstr "मौ चिरायल"
@@ -78857,13 +78157,8 @@ msgstr "मावली"
 msgid "Mavdi"
 msgstr "मवड़ी"
 
-#, fuzzy
 msgid "Mavelikara"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मावेलिक्कारा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मवेलीकरा"
+msgstr "मवेलीकरा"
 
 msgid "Mavelikara Court"
 msgstr "मावेलिक्कारा कोर्ट"
@@ -79540,13 +78835,8 @@ msgstr "मेट्टूकडई"
 msgid "Mettukkuppam"
 msgstr "मेट्टूककुप्पम"
 
-#, fuzzy
 msgid "Mettupalayam"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मेट्टूपलायम\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मेट्टूपलयम"
+msgstr "मेट्टूपलयम"
 
 msgid "Mettupalayam Bazaar"
 msgstr "मेट्टूपलायम बाजार"
@@ -79860,13 +79150,8 @@ msgstr "मिर्जापर"
 msgid "Mirzappur"
 msgstr "मिर्जापपुर"
 
-#, fuzzy
 msgid "Mirzapur"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मिर्ज़ापुर\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मिर्जापुर"
+msgstr "मिर्जापुर"
 
 msgid "Mirzapur Chowk"
 msgstr "मिर्ज़ापुर चौक"
@@ -80516,13 +79801,8 @@ msgstr "मोराब"
 msgid "Morabadi"
 msgstr "मोराबादी"
 
-#, fuzzy
 msgid "Moradabad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मोरादाबाद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मुरादाबाद"
+msgstr "मोरादाबाद"
 
 msgid "Moradabad Kutchery"
 msgstr "मोरादाबाद कुत्चेरय"
@@ -80578,13 +79858,8 @@ msgstr "मूर्धा"
 msgid "More"
 msgstr "मोरे"
 
-#, fuzzy
 msgid "Morena"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मोरेना\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मुरैना"
+msgstr "मोरेना"
 
 msgid "Morena Mandi"
 msgstr "मोरेना मंडी"
@@ -81915,13 +81190,8 @@ msgstr "मुत्तुंगल वेस्ट"
 msgid "Muval"
 msgstr "मुवाल"
 
-#, fuzzy
 msgid "Muvattupuzha"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मुवाट्टुपुज़हा\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मुवात्तुपूजा"
+msgstr "मुवाट्टुपुज़हा"
 
 msgid "Muvattupuzha Bazar"
 msgstr "मुवाट्टुपुज़हा बाजार"
@@ -81980,13 +81250,8 @@ msgstr "मिलरांगम"
 msgid "Myndihati"
 msgstr "मीनदीहति"
 
-#, fuzzy
 msgid "Mysore"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"मैसोरे\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"मैसूर"
+msgstr "मैसूर"
 
 msgid "Mysore Fort"
 msgstr "मैसोरे फोर्ट"
@@ -82222,13 +81487,8 @@ msgstr "नधनपुर"
 msgid "Nadhavade"
 msgstr "नधवाड़े"
 
-#, fuzzy
 msgid "Nadiad"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नदिअद\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नाडियाड"
+msgstr "नाडियाड"
 
 msgid "Nadiali"
 msgstr "नाडियाली"
@@ -82368,13 +81628,8 @@ msgstr "नागनपुर"
 msgid "Nagao"
 msgstr "नागाओ"
 
-#, fuzzy
 msgid "Nagaon"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नागाओं\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नगांव"
+msgstr "नगांव"
 
 msgid "Nagapattinam"
 msgstr "नागपट्टिनम"
@@ -82886,13 +82141,8 @@ msgstr "नालंदा कॉलेज"
 msgid "Nalawadi"
 msgstr "नलवाड़ी"
 
-#, fuzzy
 msgid "Nalbari"
-msgstr ""
-"#-#-#-#-#  final_area_hindi.po (Optimizer)  #-#-#-#-#\n"
-"नलबारी\n"
-"#-#-#-#-#  hi_IN.po (Optimizer)  #-#-#-#-#\n"
-"नलबाड़ी"
+msgstr "नलबाड़ी"
 
 msgid "Nalcha"
 msgstr "नालछा"
