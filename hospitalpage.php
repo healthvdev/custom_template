@@ -124,7 +124,7 @@ if($locale_code == "hi_IN"){
           'hospital_translation' => $translation_obj,
           'specialties' => $specialties_keywords,
           'location' => $location,
-          'title' => $hi_IN_title,
+          'title' => $title,
           'insurance_count' => $total_count ,
                 'params' => array('hospital_id' => rawurlencode($hospital_id)),
                 'baseURL' => $baseURL,
