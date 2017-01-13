@@ -93,7 +93,7 @@ global $title;
 
 
 if($locale_code == "hi_IN"){
-  $title = $translation_obj["name_hi_IN"] . ", " . $translation_obj["area"]. ", " . $translation_obj["city"] . ", " .  $translation_obj["state"];
+  $title = $translation_obj["name_hi_IN"] . ", " . __($obj["city"],"optimizer") . ", " .  __($obj["state"],"optimizer");
   $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
 }else{
   $title = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];

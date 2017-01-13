@@ -164,11 +164,12 @@
                         
 
 	<br/>
+
 	<h1 class="postitle entry-title">{{title}}</h1>
 
     <p>
         {{hospital_translation.name_hi_IN}} 
-        {{hospital_translation.city}}, {{hospital_translation.state}} में स्थित है ।
+        {{__e(hospital.city)}}, {{__e(hospital.state)}} में स्थित है ।
     </p>
     <br/>
                             
@@ -188,7 +189,7 @@
 
 					<div>
 						<span class="ap-category-icon fa fa-map-marker" ></span> 
-						<span class="initial">{{hospital_translation.address}},<br/> {{hospital_translation.city}}, {{hospital_translation.state}}, पिनकोड - {{hospital.pinCode}}</span>
+						<span class="initial">{{hospital_translation.address}},<br/> {{__e(hospital.city)}}, {{__e(hospital.state)}}, पिनकोड - {{hospital.pinCode}}</span>
 					</div>
 
                     <div class="um-member-card " style="margin: 10px 0;">
