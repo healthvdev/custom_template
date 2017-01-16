@@ -131,14 +131,6 @@
     <meta itemprop="position" content="1" />
   </li>
 {% if recipe.cuisine is not empty %}
-    {% if recipe.cuisine.parentCuisineId is not empty %}
-  <li itemprop="itemListElement" itemscope
-      itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(recipe.cuisine.parentCuisineId.title, recipe.category.title, recipe.ingredient, 'all','all','all',params.count, 0)}}">
-    <span itemprop="name">{{recipe.cuisine.parentCuisineId.title}}</span></a>
-    <meta itemprop="position" content="3" />
-  </li>
-    {% endif %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <a itemprop="item" href="{{baseURL}}{{function_getURLParams(recipe.cuisine.title, recipe.category.title, recipe.ingredient, 'all','all','all',params.count,0)}}">
