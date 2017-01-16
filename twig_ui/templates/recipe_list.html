@@ -132,21 +132,21 @@
 {% if params.cuisine is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.cuisine, params.category, params.ingredient,'all','all','all', params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.cuisine, 'all', 'all','all','all','all', params.count,0)}}">
     <span itemprop="name">{{__e(params.cuisine)}}</span></a>
   </li>
 {% endif %}
 {% if params.category is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.category,'all','all','all','all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.cuisine,params.category,'all','all','all','all',params.count,0)}}">
     <span itemprop="name">{{__e(params.category)}}</span></a>
   </li>
 {% endif %}
 {% if params.ingredient is not same as('all')  %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
-    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.category,params.ingredient,'all','all','all',params.count,0)}}">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.cuisine,params.category,params.ingredient,'all','all','all',params.count,0)}}">
     <span itemprop="name">{{__e(params.ingredient)}}</span></a>
   </li>
 {% endif %}
