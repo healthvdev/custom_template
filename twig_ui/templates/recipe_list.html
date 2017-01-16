@@ -223,7 +223,7 @@
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Ingredient <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for ingredient in response.filter.ingredients %}
-	           		<li><a href="{{baseURL}}{{function_getURLParams(params.cuisine,params.category,ingredient.key,'all','all','all',params.count,0)}}">{{__e(ingredient.key)}}</a></li>
+	           		<li><a href="{{baseURL}}{{function_getURLParams(params.cuisine,params.category,ingredient.key,'all','all','all',params.count,0)}}">{{__e(ingredient)}}</a></li>
 				{% endfor %}
 	        </ul>
 {% else %}

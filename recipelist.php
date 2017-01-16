@@ -136,7 +136,7 @@ if($locale_code == "hi_IN"){
 	        . ($category=='all'?'': __($category,"optimizer").' ')
 			. ' Recipes '
 	        . ' for diabetics '
-	        . ($ingredient=='all'?'': ' (recipes with '. __($ingredient,"optimizer")). ")";
+	        . ($ingredient=='all'?'': ' (recipes with '. __($ingredient,"optimizer"). ")");
 }
 ?>
 
