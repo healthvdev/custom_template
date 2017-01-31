@@ -219,7 +219,7 @@
                     {% for ingredient in recipe.ingredients%}
                             <li>{{ingredient.ingredientName}}
 {% if ingredient.commonName is not empty %}
-                             (ingredient.commonName) 
+                             ({{ingredient.commonName}}) 
 {% endif %}
                             - {{ingredient.quantity}}   {{ingredient.quantityUnits}}</li>
                     {% else %}
