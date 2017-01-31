@@ -131,9 +131,9 @@ if($locale_code == "hi_IN"){
 
 
 }else{
-	$title = ($cuisine=='all'?' ': __($cuisine,"optimizer").' ')
+	$title = 'Healthy '.($cuisine=='all'?' ': __($cuisine,"optimizer").' ')
 	        . ($category=='all'?'': __($category,"optimizer").' ')
-			. ' Healthy Recipes '
+			. ' Recipes '
 	        . ' for diabetics '
 	        . ($ingredient=='all'?'': ' (recipes with '. __($ingredient,"optimizer"). ")");
 }
