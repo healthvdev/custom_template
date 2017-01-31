@@ -217,7 +217,11 @@
                     <h4 style="font-weight:bold;"> Ingredients for preparing {{recipe.title}}</h4>
                     <ul>
                     {% for ingredient in recipe.ingredients%}
-                            <li>{{ingredient.ingredientName}} - {{ingredient.quantity}}   {{ingredient.quantityUnits}}</li>
+                            <li>{{ingredient.ingredientName}}
+{% if ingredient.commonName is not empty %}
+                             (ingredient.commonName) 
+{% endif %}
+                            - {{ingredient.quantity}}   {{ingredient.quantityUnits}}</li>
                     {% else %}
                         No associated cuisine insurers
                     {% endfor %}
@@ -252,6 +256,20 @@
 		<div class="um-clear masonry-brick"></div>
 
 	</div>
+
+    <br/>
+    <h4 class="postitle entry-title" style="font-weight:bold;"> Guidelines of {{recipe.title}} for diabetics</h4>
+    <ul>
+
+        {% for ingredient in recipe.ingredients%}
+            {% if ingredient.guidelines is not empty %}
+                <li>{{ingredient.guidelines}} </li>
+            {% endif %}
+        {% endfor %}
+
+    </ul>
+    <br/>
+
 </div>
 	
 </div>

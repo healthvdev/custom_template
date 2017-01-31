@@ -131,10 +131,9 @@ if($locale_code == "hi_IN"){
 
 
 }else{
-	$title = $rounded_count . " "
-	        . ($cuisine=='all'?' ': __($cuisine,"optimizer").' ')
+	$title = ($cuisine=='all'?' ': __($cuisine,"optimizer").' ')
 	        . ($category=='all'?'': __($category,"optimizer").' ')
-			. ' Recipes '
+			. ' Healthy Recipes '
 	        . ' for diabetics '
 	        . ($ingredient=='all'?'': ' (recipes with '. __($ingredient,"optimizer"). ")");
 }

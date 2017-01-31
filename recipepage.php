@@ -89,7 +89,7 @@ $locale_code = "";
 if($locale_code == "hi_IN"){
 //  $title = $translation_obj["name_hi_IN"] . ", " . __($obj["ingredient"],"optimizer") . ", " .  __($obj["category"],"optimizer");
 }else{
-  $title = "Healthy recipe - ".$obj["title"] ;
+  $title = "Healthy recipe - ".$obj["title"] . " for Diabetics";
 }
 }catch (Exception $e){
     echo $e->getMessage();
