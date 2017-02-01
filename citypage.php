@@ -171,14 +171,19 @@ These include Ahmedabad (310 beds) , Vadodara (196 beds) ,Rajkot (190 beds), Mun
 
 global $title;
 if($locale_code == "hi_IN"){
-	$title = ($area=='all'?
-					($city=='all'?($state=='all'?' भारत': __($state,"optimizer").' '): __($city,"optimizer")):
-					 __($area,"optimizer").' ')
+	$title = ($area=='all'?'':__($area,"optimizer"))
+			. ($city=='all'?'': ', '.__($city,"optimizer"))
+			. ($state=='all'?' भारत': ', '.__($state,"optimizer"))
 			. ' में '
 	        . ($network=='all'?' ': __($network,"optimizer") .' नेटवर्क  के ')
 			. $rounded_count 
 	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' के विशेष ')
-			.' अस्पताल ';
+			.' अस्पताल ('
+			. ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"))
+			. ' Hospitals in '
+	        . ($network=='all'?' ': __($network,"optimizer").' Network, ')
+	        .($city=='all'?'': __($city,"optimizer").' in  Hindi')
+			;
 
 
 }else{
