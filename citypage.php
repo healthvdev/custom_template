@@ -182,8 +182,8 @@ if($locale_code == "hi_IN"){
 			. ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty)
 			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')
-	        . ($city=='all'?'': $city)
-			. ($state=='all'?' India': $state)
+	        . ($city=='all'?'': ' '.$city)
+			. ($state=='all'?' India': ' '.$state)
 	        . ' in  Hindi)'
 			;
 
