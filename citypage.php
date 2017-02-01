@@ -183,6 +183,7 @@ if($locale_code == "hi_IN"){
 			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')
 	        . ($city=='all'?'': $city)
+			. ($state=='all'?' India': $state)
 	        . ' in  Hindi)'
 			;
 
