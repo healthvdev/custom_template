@@ -176,7 +176,20 @@
 		{{__e(params.category)}}
 {% endif %}
 		recipes ideal for diabetics. Use these recipes in your diabetic food chart to get best results and manage your health.
+		{% if params.category is not same as('all')  %}
+			Choose {{__e(params.category)}} recipe
+		{% else %}
+			Plan your diet by choosing a recipe for {% for category in response.filter.categories %}
+           		{{__e(category)}},
+			{% else %}
+			{% endfor %}
+		{% endif %}
 
+		and personalise among {{response.filter.cuisines|length}} Indian Cuisines like
+		{% for cuisineinfo in response.filter.cuisines %}
+       		{{__e(cuisineinfo)}},
+		{% else %}
+		{% endfor %}.
 	</p>
 
 
