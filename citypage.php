@@ -179,7 +179,7 @@ if($locale_code == "hi_IN"){
 			. $rounded_count 
 	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' के विशेष ')
 			.' अस्पताल ('
-			. ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"))
+			. ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty)
 			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')
 	        . ($city=='all'?'': $city)
