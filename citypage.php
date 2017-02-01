@@ -180,7 +180,7 @@ if($locale_code == "hi_IN"){
 	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' के विशेष ')
 			.' अस्पताल ('
 			. ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"))
-			. '    ('
+			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')
 	        . ($city=='all'?'': $city)
 	        . ' in  Hindi)'
