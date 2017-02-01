@@ -158,20 +158,22 @@
     				<!--EDIT BUTTON END-->
                     
                     <!--POST START-->                
-    <div class="single_post_content">
+    <div class="single_post_content"  itemscope itemtype="http://schema.org/Recipe">
                         
 
 	<br/>
 	<h1 class="postitle entry-title">{{title}}</h1>
 
     <p>
-        {{recipe.title}} is a healthy diabetic friendly recipe. 
+        <span  itemprop="name">{{recipe.title}} </span> is a healthy diabetic friendly recipe. 
+        <span  itemprop="description">
         {{recipe.title}} is a {{recipe.category.title}} recipe  
         {%if recipe.cuisine is not empty%} 
             from {{recipe.cuisine.title}} 
         {% endif %}
         and helps manage diabetes. {{recipe.title}} can be prepared with {{recipe.preparationMinuteMax}} mins of preparation time and {{recipe.cookingMinuteMax}} mins of cooking time. You need {{recipe.ingredients|length}} ingredients and {{recipe.steps|length}} easy steps to prepare {{recipe.title}} .
-
+        </span>
+        <link itemprop="suitableForDiet" href="http://schema.org/LowFatDiet" />
     </p>
     <br/>
     <h4 class="postitle entry-title" style="font-weight:bold;"> Benefits of {{recipe.title}} for diabetics</h4>
@@ -203,9 +205,9 @@
                     <div class="um-member-card " style="margin: 10px 0;">
                         <div>
                             <span class="ap-category-icon fa fa-clock-o " ></span> 
-                            <span class="initial">Preparation time - {{recipe.preparationMinuteMax}} mins <br/>
+                            <span class="initial">Preparation time - <meta itemprop="prepTime" content="PT{{recipe.preparationMinuteMax}}M"> {{recipe.preparationMinuteMax}} mins <br/>
                             <span class="ap-category-icon fa fa-clock-o " ></span> 
-                            Cooking time - {{recipe.cookingMinuteMax}} mins </span>
+                            Cooking time - <meta itemprop="prepTime" content="PT{{recipe.cookingMinuteMax}}M"> {{recipe.cookingMinuteMax}} mins </span>
                         </div>
 
                     </div>
@@ -217,7 +219,7 @@
                     <h4 style="font-weight:bold;"> Ingredients for preparing {{recipe.title}}</h4>
                     <ul>
                     {% for ingredient in recipe.ingredients%}
-                            <li>{{ingredient.ingredientName}}
+                            <li  itemprop="recipeIngredient">{{ingredient.ingredientName}}
 {% if ingredient.commonName is not empty %}
                              ({{ingredient.commonName}}) 
 {% endif %}
@@ -233,7 +235,7 @@
                     <h4 style="font-weight:bold;"> Steps to prepare {{recipe.title}}</h4>
                     <ol>
                     {% for step in recipe.steps%}
-                            <li>{{step.description}}</li>
+                            <li itemprop="recipeInstructions">{{step.description}}</li>
                     {% else %}
                         
                     {% endfor %}
