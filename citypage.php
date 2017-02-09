@@ -12,6 +12,53 @@ function getURLParams($new_network, $new_state, $new_city, $new_area, $new_speci
     return "?network=".rawurlencode($new_network)."&"."state=".rawurlencode($new_state)."&"."city=".rawurlencode($new_city)."&"."area=".rawurlencode($new_area)."&"."pageCount=".$new_count."&"."specialty=".$new_specialty."&"."chain=".$new_chain."&"."pageNumber=".$new_page;
 }
 
+
+function getBaseURLOfLocale($url, $locale_code){
+
+	if(empty($locale_code) ){
+		$locale_code = "en_US";
+	}
+
+	$parsed_url = parse_url($url);
+	$scheme   = isset($parsed_url['scheme']) ? $parsed_url['scheme'] . '://' : ''; 
+	$host     = isset($parsed_url['host']) ? $parsed_url['host'] : ''; 
+	$port     = isset($parsed_url['port']) ? ':' . $parsed_url['port'] : ''; 
+	$user     = isset($parsed_url['user']) ? $parsed_url['user'] : ''; 
+	$pass     = isset($parsed_url['pass']) ? ':' . $parsed_url['pass']  : ''; 
+	$pass     = ($user || $pass) ? "$pass@" : ''; 
+	$path     = isset($parsed_url['path']) ? $parsed_url['path'] : ''; 
+	$query    = isset($parsed_url['query']) ? '?' . $parsed_url['query'] : ''; 
+	$fragment = isset($parsed_url['fragment']) ? '#' . $parsed_url['fragment'] : ''; 
+
+
+	$path_pieces = explode("/", $path);
+
+	if(locale_code == "en_US" || empty($locale_code) ){
+		if($path_pieces[1]=="hi"){
+			unset($path_pieces[1]);
+		} 
+		$path =  implode("/", $path_pieces);
+	} else {
+		if($path_pieces[1]=="hi"){
+			$path =  implode("/", $path_pieces);
+		} 
+		$pieces = explode("_", $locale_code);
+		array_splice( $path_pieces, 1, 0, $pieces[0] );
+		$path =  implode("/", $path_pieces);
+	}
+
+
+
+	return "$scheme$user$pass$host$port$path$query$fragment"; 
+}
+
+
+function startsWith($haystack, $needle)
+{
+     $length = strlen($needle);
+     return (substr($haystack, 0, $length) === $needle);
+}
+
 function getHospitalURLParams($hospital_id){
     return "?hospital_id=".rawurlencode($hospital_id);
 }
@@ -62,10 +109,16 @@ $function_EchoTranslation = new Twig_SimpleFunction('__e', function ($string) {
     echo __($string,"optimizer");
 });
 
+$function_getBaseURLOfLocale = new Twig_SimpleFunction('function_getBaseURLOfLocale', function ($url, $locale_code) {
+    return getBaseURLOfLocale($url, $locale_code);
+});
+
+
 
 $twig->addFunction($function_URLParams);
 $twig->addFunction($function_HospitalURLParams);
 $twig->addFunction($function_EchoTranslation);
+$twig->addFunction($function_getBaseURLOfLocale);
 
 
 
