@@ -264,6 +264,14 @@
 
 	<div class="filters">
 		परिणाम छानै :
+		<div class="dropdown">
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">भाषा <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+	       		<li><a href="{{function_getBaseURLOfLocale(url,'en_US')}}">English</a></li>
+	       		<li><a href="{{function_getBaseURLOfLocale(url,'hi_IN')}}">हिंदी</a></li>
+	        </ul>
+	    </div>
+
 	   <div class="dropdown">
 {% if params.network is same as('all')  %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">नेटवर्क <b class="caret"></b></a>
