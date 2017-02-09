@@ -148,7 +148,7 @@ if($locale_code == "hi_IN"){
   $title = $translation_obj["name_hi_IN"] . ", " . __($obj["city"],"optimizer") . ", " .  __($obj["state"],"optimizer");
   $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
 }else{
-  $title = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
+  $title = $obj["name"] . ", " . $obj["city"] . ", " .  $obj["state"];
   $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
 }
 }catch (Exception $e){
