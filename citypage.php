@@ -33,7 +33,7 @@ function getBaseURLOfLocale($url, $locale_code){
 
 	$path_pieces = explode("/", $path);
 
-	if(locale_code == "en_US" || empty($locale_code) ){
+	if($locale_code == "en_US" || empty($locale_code) ){
 		if($path_pieces[1]=="hi"){
 			unset($path_pieces[1]);
 		} 
