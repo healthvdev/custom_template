@@ -307,6 +307,7 @@ if($locale_code == "hi_IN"){
 	                            'community_questions' => $questions->posts,
 	                            'nextpage' => $page+1),
 	              'pages' => $allPages,
+	              'url' => $_SERVER["REQUEST_URI"],
 	              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
 	              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
 	                     )
@@ -333,6 +334,7 @@ if($locale_code == "hi_IN"){
 	                            'community_questions' => $questions->posts,
 	                            'nextpage' => $page+1),
 	              'pages' => $allPages,
+	              'url' => $_SERVER["REQUEST_URI"],
 	              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
 	              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
 	                     )
