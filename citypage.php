@@ -178,22 +178,22 @@ $filters = json_decode('{
 
 
 $chain_description_map_hi_IN = array(
-	'Vasan' => '',
-	'Fortis' => '',
-	'Apollo' => '',
-	'Narayana' => '',
-	'Cloudnine' => '',
-	'Wockhardt' => '',
-	'Cygnus' => '',
-	'Vaatsalya' => '',
-	'AMRI' => '',
-	'Paras' => '',
-	'Sterling' => '',
+	'Vasan' => 'वासन लेसिक, मोतियाबिंद, और नेत्र देखभाल उपचार में विशेषज्ञ है। उनके पास 180 से भी अधिक आई केयर अस्पतालों है। ए एम अरुण द्वारा स्थापित, समूह के मुख्यालय त्रिची में है। वासन आई केयर हॉस्पिटल आंख की बीमारियों के इलाज के केंद्र है। अस्पताल के कॉर्पोरेट कार्यालय चेन्नई में स्थित है।',
+	'Fortis' => 'फोर्टिस हेल्थकेयर लिमिटेड के एक सुपर स्पेशियलिटी भारत में स्थित अस्पताल है। फोर्टिस दिल्ली, अमृतसर, कोलकाता, मुंबई, मोहाली, लुधियाना, जयपुर, चेन्नई, कोटा, बेंगलुरू, गुड़गांव, नोएडा, फरीदाबाद, मुंबई, और ओडिशा में शाखाएं हैं। कंपनी भारत, दुबई, मॉरीशस और श्रीलंका में अपने स्वास्थ्य सेवाएं प्रदान करता है। लगभग 10,000 बेड और 314 नैदानिक केन्द्रों। फोर्टिस 10,000 बेड और 314 नैदानिक केन्द्रों के साथ 54 स्वास्थ्य सुविधाओं चलाता है।',
+	'Apollo' => 'अपोलो अस्पताल के एक अस्पताल चेन्नई, भारत में आधारित है। यह डॉ प्रताप सी रेड्डी द्वारा 1983 में स्थापित किया गया था और भारत, बांग्लादेश, कुवैत और कतर में अस्पताल हैं। अपोलो की अपनी सूची में अहमदाबाद, बेंगलुरू, चेन्नई, दिल्ली, हैदराबाद, कोलकाता, मुंबई, आरागोंडा, बचेली, भुवनेश्वर, बिलासपुर, गोवा, इंदौर, काकीनाडा, करूर, लवासा, मदुरै, मैसूर, नासिक, नेल्लोर, पुणे, रानीपेट, तिरुवन्नामलाई, त्रिची, विशाखापत्तनम में है।',
+	'Narayana' => 'नारायण हृदयालय भारत में एक मल्टी-स्पेशियलिटी अस्पताल नेटवर्क है जो दुनिया में सबसे बड़ा टेलीमेडिसिन नेटवर्क में से एक है। भारत भर में नारायण हृदयालय 23 अस्पतालों, 7 कार्डियो केन्द्रों, और 24 प्राथमिक स्वास्थ्य देखभाल की सुविधा प्रदान करता है। डॉ देवी शेट्टी द्वारा स्थापित, यह बंगलौर में अपनी प्राथमिक अस्पताल है। समूह कोलकाता, अहमदाबाद, जयपुर, रायपुर, जमशेदपुर, गुवाहाटी, मैसूर, धारवाड़, कोलार, शिमोगा और दावणगेरे में अपनी उपस्थिति है।',
+	'Cloudnine' => 'क्लाउडनाइन बंगलौर, भारत में मुख्यालय अस्पतालों में से एक नेटवर्क है। यह निओनटोलॉजिस्ट डॉ आर किशोर द्वारा 2007 में स्थापित किया गया था। क्लाउडनाइन भर में 5 शहरों बेंगलुरू, चेन्नई, गुड़गांव, मुंबई और पुणे के लगभग 15 अस्पताल हैं, और 30,000 से अधिक प्रसव किया है। मातृ देखभाल के अलावा, क्लाउडनाइन स्त्री रोग, बाल रोग, गहन देखभाल, प्रजनन और नवजात की देखभाल सेवाएं प्रदान करता है।',
+	'Wockhardt' => 'वॉकहार्ट हॉस्पिटल्स एक स्वास्थ्य सेवा प्रदाता है और मुंबई, नागपुर, राजकोट, नासिक, और सूरत में मजबूत उपस्थिति है। 9 मल्टीस्पेशलिटी अस्पताल नेटवर्क के वॉकहार्ट समूह कार्डियोलोजी, हड्डी रोग, न्यूरोलॉजी, गैस्ट्रोएंटरोलॉजी, यूरोलॉजी, सौंदर्यशास्त्र और मिनिमल एक्सेस सर्जरी में विशेषज्ञ।',
+	'Cygnus' => 'सिग्नस अस्पतालों 11 सुपरस्पेशलिटी अस्पताल नेटवर्क है। यह 1000 बेड, 1600 मजबूत चिकित्सा पेशेवरों की एक ताकत है। यह उत्तर भारत भर में छोटे समुदायों में 1 लाख से अधिक लोगों की जान को अंतरराष्ट्रीय मानक के स्वास्थ्य सेवा प्रदान करता है।',
+	'Vaatsalya' => 'वात्सल्य हेल्थकेयर, भारत के शहरों में अस्पतालों के एक नेटवर्क के निर्माण पर केंद्रित है। वात्सल्य अर्ध-शहरी और ग्रामीण क्षेत्रों में प्राथमिक और माध्यमिक स्वास्थ्य सेवा अस्पतालों का निर्माण करना है। वात्सल्य आंध्र प्रदेश में कर्नाटक में 10 अस्पतालों और 5 है। यह इन अस्पतालों में बिस्तरों की 950+ सेवाएं प्रदान करता है। वात्सल्य भारत में अपनी तरह का सबसे बड़ा अस्पताल नेटवर्क है।',
+	'AMRI' => 'एएमआरआई अस्पतालों एक प्राइवेट अस्पताल श्रृंखला है जो कोलकाता, पश्चिम बंगाल, भारत के शहर में मुख्यालय है। यह 1000 बेड, 500 डॉक्टरों से अधिक है, और 10,000 सर्जरी सफलतापूर्वक हर साल आयोजित आयोजित करता है।',
+	'Paras' => 'पारस हेल्थकेयर वर्ष 2006 में गुड़गांव में स्थापना के साथ शुरू की। यह समाज के लिए विशेष सुपर स्पेशियलिटी स्वास्थ्य सेवाएं प्रदान करता है। पारस हेल्थकेयर का उद्देश्य यह सुनिश्चित करना है कि \'सभी के लिए स्वास्थ्य सेवा\' के सपने को एक वास्तविकता है।',
+	'Sterling' => 'स्टर्लिंग हॉस्पिटल्स गुजरात में सबसे बड़ा अस्पताल श्रृंखलाओं में से एक है। यह स्वतंत्र प्रमाणीकरण, सुविधाओं और उपकरणों, साथ ही आकार और क्षमता के स्तर से अग्रणी माना जाता है। यह स्वामित्व है और स्टर्लिंग AddLife इंडिया लिमिटेड द्वारा प्रबंधित किया जाता है। विशेषता है जिसमें यह चिकित्सा देखभाल प्रदान करता है शामिल हैं: कार्डियोलॉजी, न्यूरोलॉजी, सैनिक चिकित्सा, रुधिर, कैंसर विज्ञान, प्रजनन चिकित्सा, महत्वपूर्ण और आपातकालीन उपचार, मानसिक आघात और आर्थोपेडिक, नयूरोलोजी और जनरल मेडिसिन।',
 	 );
 
 
 $chain_description_map = array(
-	'Vasan' => 'Vasan Healthcare Group is a health care groups in India.They specialise in Lasik, Cataract, Diabetic and Pediatric eye care treatments. They have over 180 Eye Care network hospitals. Founded by A. M. Arun, the group is based in Trichy and has more than 170 eye care hospitals and 30 dental care Hospitals across India, including two multi-speciality hospitals in Trichy. Vasan Eye Care Hospitals are day-care centres for treating eye ailments. The corporate office of the hospital is located in Chennai.',
+	'Vasan' => 'Vasan Healthcare Group is a health care groups in India. They specialise in Lasik, Cataract, Diabetic and Pediatric eye care treatments. They have over 180 Eye Care network hospitals. Founded by A. M. Arun, the group is based in Trichy and has more than 170 eye care hospitals and 30 dental care Hospitals across India, including two multi-speciality hospitals in Trichy. Vasan Eye Care Hospitals are day-care centres for treating eye ailments. The corporate office of the hospital is located in Chennai.',
 	'Fortis' => 'Fortis Healthcare Limited is a chain of super speciality hospitals in India. It has its hospitals in Delhi, Amritsar, Kolkata, Navi Mumbai, Mohali, Ludhiana, Jaipur, Chennai, Kota, Bengaluru, Gurgaon, Noida, Faridabad, Mumbai, and Odisha.
 Currently, the company also operates its healthcare delivery services in India, Dubai, Mauritius and Sri Lanka with 54 healthcare facilities (including projects under development), approximately 10,000 potential beds and 314 diagnostic centres.
 In a global study of the 30 most technologically advanced hospitals in the world, its flagship, the Fortis Memorial Research Institute’ (FMRI), was ranked No.2, by ‘topmastersinhealthcare.com, and placed ahead of many other outstanding medical institutions in the world.',
