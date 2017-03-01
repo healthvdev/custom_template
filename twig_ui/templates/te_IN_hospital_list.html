@@ -1,0 +1,535 @@
+
+
+<style>
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 6px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999;
+    overflow:visible;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+
+.initial {
+    text-transform: initial;
+}
+
+
+.hospital-cover {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/07/hospital-banner.png');
+    box-sizing: border-box;
+    position: relative;
+}
+
+.promocard-cover-1 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_1.png');
+}
+.promocard-cover-2 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_2.png');
+}
+.promocard-cover-3 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_3.png');
+}
+.promocard-cover-4 {
+    background-image: url('http://healthvings.com/wp-content/uploads/2016/08/promocard_4.png');
+}
+
+.promocard-cover-common {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.dropdown{
+	padding: 5px;
+}
+
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+<div style="clear:both"></div>
+
+<div class="widget optimizer_front_about aboutblock about_inner" style="padding: 0px;width: 100%">
+
+    <div class="about_content">
+        <p style="background-color: #ffcd54">
+            <a href="/register">
+            <img class="" src="http://healthvings.com/wp-content/uploads/2016/10/Have-doubts-or-queries-3.png" style="width: 100%;max-width:700px;">
+            </a>
+        </p>
+<!--            <span class="about_pre" style="font-size: 20px;">Join India's biggest community for Diabetics</span>
+        <div class="cta_buttons" style="margin-top:10px;">
+{% if(is_user_logged_in == false)%}
+        <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/register">JOIN NOW</a>
+{% else %}
+        <a class="static_cta2 lts_button lt_rounded cta_flat" style="padding: 2px 25px;" href="/community">EXPLORE COMMUNITY</a>
+{% endif %}
+        </div> -->
+    </div>
+</div>
+
+
+<div class="single_wrap">
+	<div class="single_post">
+	
+   <div class="post-105 post type-post status-publish format-standard hentry category-uncategorized" id="post-105"> 
+                    <!--EDIT BUTTON START-->
+    				<!--EDIT BUTTON END-->
+                    
+                    <!--POST START-->
+    <div class="single_post_content">
+                        
+
+<ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all','all',params.count,0)}}">
+    <span itemprop="name">सभी अस्पताल</span></a>
+  </li>
+{% if params.specialty is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all',params.specialty,'all',params.count,0)}}">
+    <span itemprop="name">{{__e(params.specialty)}}</span></a>
+  </li>
+{% endif %}
+{% if params.chain is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all',params.chain,params.count,0)}}">
+    <span itemprop="name">{{__e(params.chain)}}</span></a>
+  </li>
+{% endif %}
+{% if params.state is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,'all','all',params.specialty,params.chain,params.count,0)}}">
+    <span itemprop="name">{{__e(params.state)}}</span></a>
+  </li>
+{% endif %}
+{% if params.city is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}">
+    <span itemprop="name">{{__e(params.city)}}</span></a>
+  </li>
+{% endif %}
+{% if params.area is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">
+    <span itemprop="name">{{__e(params.area)}}</span></a>
+  </li>
+{% endif %}
+{% if params.network is not same as('all')  %}
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a itemprop="item" href="{{baseURL}}{{function_getURLParams(params.network, params.state, params.city,params.area ,params.specialty, params.chain, params.count,0)}}">
+    <span itemprop="name">{{__e(params.network)}}</span></a>
+  </li>
+{% endif %}
+
+</ol>
+
+
+	<!--<ul class="nav nav-tabs">
+    	<li class="active"><a href="#">Hospitals</a></li>
+	<li><a href="#">Menu 1</a></li>
+	    <li><a href="#">Menu 2</a></li>
+	    <li><a href="#">Menu 3</a></li> 
+  	</ul>
+	<br/>
+-->
+	<h1 class="postitle entry-title">{{title}}</h1>
+
+	<p>
+{% if params.area is not same as('all')  %}
+		{{__e(params.area)}},
+{% elseif params.city is not same as('all')  %}
+		{{__e(params.city)}},
+{% elseif params.state is not same as('all')  %}
+		{{__e(params.state)}},
+{% else %}
+		भारत 
+{% endif %}
+		में {{total_count}}
+
+{% if params.specialty is not same as('all')  %}
+		{{__e(params.specialty)}}
+{%else%}
+	{% if params.chain is not same as('all')  %}
+		{{__e(params.chain)}}
+	{% endif %}
+{% endif %}
+		 अस्पताल के बारे में जानकारी ।
+
+{% if params.specialty is not same as('all')  %}
+		यह अस्पताल, {{__e(params.specialty)}} संबंधित रोग का इलाज प्रदान करती हैं।
+{% endif %}
+
+{% if params.area is not same as('all')  %}
+		{{__e(params.area)}},
+{% elseif params.city is not same as('all')  %}
+		{{__e(params.city)}},
+{% elseif params.state is not same as('all')  %}
+		{{__e(params.state)}},
+{% else %}
+		भारत 
+{% endif %}
+		में 
+{% if params.chain is not same as('all')  %}
+	{{__e(params.chain)}}
+{% endif %}
+		अस्पतालों का पता, दिशा, नक्शा, बीमा नेटवर्क, संपर्क विवरण, फोन नंबर और ईमेल पते की जानकारी प्राप्त करें।
+
+{% if params.network is not same as('all')  %}
+	{% if params.city is not same as('all')  %}
+			{{__e(params.city)}},
+	{% elseif params.state is not same as('all')  %}
+			{{__e(params.state)}}
+	{% else %}
+			भारत
+	{% endif %}
+
+	में {{__e(params.network)}} के द्वारा पार्टनर अस्पतालों की पूरी सूची देखें
+
+
+{% else %}
+		अपने शहर में {{response.filter.networks|length}} से अधिक बीमा नेटवर्क में सबसे सर्वश्रेष्ठ अस्पताल देखें
+{% endif %}
+
+{% if params.city is same as('all')  %}
+	{% if params.state is not same as('all')  %}
+			{{__e(params.state)}}
+	{% else %}
+			भारत
+	{% endif %}
+	में {{response.filter.cities|length}} शहरों में सर्वश्रेष्ठ अस्पतालों की जानकारी प्राप्त करें
+{% endif %}
+	</p>
+
+
+<br/>	
+
+
+{% if params.chain is not same as('all')  %}
+	<h4 class="postitle entry-title"> {{__e(params.chain)}} के बारे में जानकारी</h4>
+	{{chain_description[params.chain]}}
+{% endif %}
+
+
+	<div class="filters">
+		परिणाम छानै :
+		<div class="dropdown">
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">भाषा <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+	       		<li><a href="{{function_getBaseURLOfLocale(url,'en_US')}}">English</a></li>
+	       		<li><a href="{{function_getBaseURLOfLocale(url,'te_IN')}}">हिंदी</a></li>
+	        </ul>
+	    </div>
+
+	   <div class="dropdown">
+{% if params.network is same as('all')  %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">नेटवर्क <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				{% for networkinfo in response.filter.networks %}
+	           		<li><a href="{{baseURL}}{{function_getURLParams(networkinfo.shortName,params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">{{__e(networkinfo.shortName)}}</a></li>
+				{% else %}
+				{% endfor %}
+	        </ul>
+{% else %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.network)}} <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				<li><a href="{{baseURL}}{{function_getURLParams('all',params.state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">x हटाये </a></li>
+	        </ul>
+{% endif %}
+	    </div>
+	   <div class="dropdown">
+{% if params.state is same as('all')  %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">राज्य <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				{% for state in response.filter.states %}
+	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,state,params.city,params.area,params.specialty,params.chain,params.count,0)}}">{{__e(state)}}</a></li>
+				{% else %}
+				{% endfor %}
+	        </ul>
+{% else %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.state)}} <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,'all','all','all',params.specialty,params.chain,params.count,0)}}">x हटाये</a></li>
+	        </ul>
+{% endif %}
+	    </div>
+{% if params.state is not same as('all')  %}
+
+		   <div class="dropdown">
+	{% if params.city is same as('all')  %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">शहर <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					{% for city in response.filter.cities %}
+		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,city,'all',params.specialty,params.chain,params.count,0)}}">{{__e(city)}}</a></li>
+					{% endfor %}
+		        </ul>
+	{% else %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.city)}} <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,'all','all',params.specialty,params.chain,params.count,0)}}">x हटाये</a></li>
+		        </ul>
+	{% endif %}
+		    </div>
+{% endif %}
+{% if params.city is not same as('all')  %}
+		   <div class="dropdown">
+	{% if params.area is same as('all')  %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">क्षेत्र <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					{% for area in response.filter.areas %}
+		           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,area,params.specialty,params.chain,params.count,0)}}">{{__e(area)}}</a></li>
+					{% endfor %}
+		        </ul>
+	{% else %}
+		        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.area)}} <b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+					<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}">x हटाये</a></li>
+		        </ul>
+	{% endif %}
+		    </div>
+{% endif %}
+
+
+
+	   <div class="dropdown">
+{% if params.specialty is same as('all')  %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">विशेषता <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				{% for specialty in additional_filters.specialties %}
+	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,specialty,params.chain,params.count,0)}}">{{__e(specialty)}}</a></li>
+				{% else %}
+				{% endfor %}
+	        </ul>
+{% else %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.specialty)}} <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,'all',params.chain,params.count,0)}}">x हटाये</a></li>
+	        </ul>
+{% endif %}
+	    </div>
+	   <div class="dropdown">
+{% if params.chain is same as('all')  %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">अस्पताल समूह <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				{% for chain in additional_filters.chains %}
+	           		<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,params.specialty,chain,params.count,0)}}">{{__e(chain)}}</a></li>
+				{% else %}
+				{% endfor %}
+	        </ul>
+{% else %}
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(params.chain)}} <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+				<li><a href="{{baseURL}}{{function_getURLParams(params.network,params.state,params.city,params.area,params.specialty,'all',params.count,0)}}">x हटाये</a></li>
+	        </ul>
+{% endif %}
+	    </div>
+	</div>
+	<br/>
+                            
+                            <!--POST CONTENT START-->
+                                <div class="thn_post_wrap" style="overflow: visible;">
+
+
+<div class="um um-directory um-56 uimob800" style="opacity: 1;">
+
+<div class="um-form">
+	<div class="um-members masonry" style="position: relative; height: 1148px;">
+		<div class="um-gutter-sizer masonry-brick"></div>
+		{% set hospitalCount = 0 %}
+		{% for hospital in response.data %}
+			{% set promoIndex = hospitalCount/4 + 1 %}
+			{% if hospitalCount is divisible by(4) and promoIndex < 8 %}
+<!--
+			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+						
+				<a href="/community" title="Community">
+					<div class="promocard-cover-common promocard-cover-{{promoIndex}}" data-ratio="2.7:1" style="height: 265px;">
+						<div class="um-member-cover-e">
+						</div>
+					</div>
+				</a>
+
+			</div>
+-->
+			{% set question = params.community_questions[hospitalCount/4] %}
+			{% if question is not empty %}
+			{% set background_img = 'http://healthvings.com/wp-content/uploads/2016/10/community_banner-1.png' %}
+			{% if question.img_small_banner is not empty%}
+				{% set background_img = question.img_small_banner %}
+			{% endif %}
+
+			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+						
+				<a href="{{question.permalink}}" title="{{question.post_title}}">
+					<div class="hospital-cover" data-ratio="2.7:1" style="height: 174px; background-image: url({{background_img}});background-size: cover;">
+						<div class="um-member-cover-e">
+						</div>
+					</div>
+				</a>
+					<div class="um-member-card " style="padding: 10px;">
+					
+					<div class="um-member-name">
+						<a href="{{question.permalink}}" title="{{question.post_title}}">
+						<span style="font-weight: bold;font-size: 18px;">{{question.post_title}}</span>
+						<span style="font-size: 12px;">और देखें </span>
+						</a>
+					</div>
+					<div>
+						<span class="initial">{{question.ans_count}} जवाब | {{question.net_vote}} मत</span>
+					</div>
+
+				</div>
+			</div>
+			{% endif %}
+
+
+
+
+
+
+
+
+			{% endif %}
+		    {% set hospitalCount = hospitalCount + 1 %}
+
+			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;">
+						
+				<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}">
+					<div class="hospital-cover" data-ratio="2.7:1" style="height: 124px;">
+						<div class="um-member-cover-e">
+						</div>
+					</div>
+				</a>
+					<div class="um-member-card " style="padding: 10px;">
+					
+					<div class="um-member-name">
+						<span style="font-weight: bold;font-size: 18px;">{{hospital.translations[1].data.name_te_IN}}</span>
+						<a href="{{baseHospitalURL}}{{function_getHospitalURLParams(hospital.id)}}" title="{{hospital.name}}"><span style="font-size: 12px;">विवरण के लिए क्लिक करें &gt;</span></a>
+					</div>
+
+					<div>
+						<span> <strong>पता</strong> - </span>
+						<span class="ap-category-icon fa fa-map-marker" ></span> 
+						<span class="initial">{{hospital.translations[1].data.address}},<br/> {{hospital.translations[1].data.city}}, {{hospital.translations[1].data.state}}, पिन कोड - {{hospital.pinCode}}</span>
+					</div>
+					<div>
+						<span class="dropdown">
+			  				<button class="dropbtn">{{hospital.translations[1].data.name_te_IN}} के सभी बीमा नेटवर्क</button>
+							<div class="dropdown-content">
+							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
+									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}" title="">{{__e(insuranceCompany.shortName)}}</a> 
+							{% else %}
+							    बीमा नेटवर्क नहीं पाया गया है।
+							{% endfor %}
+							</div>
+						</span>
+						<a href="tel:{{hospital.phone}}"><span class="ap-category-icon fa fa-phone " ></span></a>
+						<a href="email:{{hospital.email}}"><span class="ap-category-icon fa fa-envelope" ></span></a>
+					</div>
+				</div>
+			</div>
+		{% else %}
+		    कोई अस्पताल नहीं पाया गया है।
+		{% endfor %}
+		<div class="um-clear masonry-brick"></div>
+	</div>
+</div>
+	
+</div>
+									
+                                </div>
+                                	<div style="clear:both"></div>
+                                <div class="thn_post_wrap wp_link_pages">
+                                	<ul class="pagination">
+                            		{% for page in pages %}
+                            			<li><span> <a href="{{baseURL}}{{page.params}}">{{page.index}}</a></span></li>
+									{% endfor %}
+									</ul>
+                                </div>
+                            <!--POST CONTENT END-->
+                            
+<p>
+	अपनी पसंद के निकटतम अस्पताल को
+{% if params.state is not same as('all')  %}
+		{{__e(params.state)}}
+{% endif %}
+{% if params.city is not same as('all')  %}
+		 के {{__e(params.city)}} शहर में
+{% endif %}
+		 खोजे
+ और अस्पताल की संपर्क विवरण और अन्य जानकारी प्राप्त करें।		
+ हम 
+{% if params.city is not same as('all')  %}
+		{{__e(params.city)}},
+{% endif %}
+{% if params.state is not same as('all')  %}
+		{{__e(params.state)}} में
+{% endif %}
+अस्पतालों के बारे में सम्पूर्ण जानकारी लाने के लिए पूरा प्रयास करते हैं 
+</p>                            
+                            
+                            <!--POST FOOTER START-->
+                                <div class="post_foot">
+                                    <div class="post_meta">
+                             	</div>
+                               </div>
+                           <!--POST FOOTER END-->
+                            
+                        </div>
+                    <!--POST END-->
+                    </div>
+                        
+
+			</div>
+</div>

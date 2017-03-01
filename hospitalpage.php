@@ -37,12 +37,12 @@ function getBaseURLOfLocale($url, $locale_code){
   $path_pieces = explode("/", $path);
 
   if($locale_code == "en_US" || empty($locale_code) ){
-    if($path_pieces[1]=="hi"){
+    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
       unset($path_pieces[1]);
     } 
     $path =  implode("/", $path_pieces);
   } else {
-    if($path_pieces[1]=="hi"){
+    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
       $path =  implode("/", $path_pieces);
     } 
     $pieces = explode("_", $locale_code);
@@ -147,6 +147,9 @@ global $title;
 if($locale_code == "hi_IN"){
   $title = $translation_obj["name_hi_IN"] . ", " . __($obj["city"],"optimizer") . ", " .  __($obj["state"],"optimizer");
   $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
+}else if($locale_code == "te_IN"){
+  $title = $translation_obj["name_te_IN"] . ", " . __($obj["city"],"optimizer") . ", " .  __($obj["state"],"optimizer");
+  $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
 }else{
   $title = $obj["name"] . ", " . $obj["city"] . ", " .  $obj["state"];
   $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
@@ -167,7 +170,25 @@ try{
 $baseURL = substr($_SERVER["REQUEST_URI"], 0, strrpos($_SERVER["REQUEST_URI"], "/hospital"));
 
 
-if($locale_code == "hi_IN"){
+if($locale_code == "te_IN"){
+  echo $twig->render('te_IN_hospital_detail.html', 
+      array(
+          'is_admin' => $isadmin,
+          'is_user_logged_in' => is_user_logged_in(),
+          'hospital' => $obj,
+          'hospital_translation' => $translation_obj,
+          'specialties' => $specialties_keywords,
+          'location' => $location,
+          'title' => $title,
+          'insurance_count' => $total_count ,
+                'params' => array('hospital_id' => rawurlencode($hospital_id)),
+                'url' => $_SERVER["REQUEST_URI"],
+                'baseURL' => $baseURL,
+                'baseHospitalEditURL' => $baseURL."/edit",
+                'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')
+                       )
+      );
+}else if($locale_code == "hi_IN"){
   echo $twig->render('hi_IN_hospital_detail.html', 
       array(
           'is_admin' => $isadmin,

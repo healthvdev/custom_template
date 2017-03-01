@@ -34,12 +34,12 @@ function getBaseURLOfLocale($url, $locale_code){
 	$path_pieces = explode("/", $path);
 
 	if($locale_code == "en_US" || empty($locale_code) ){
-		if($path_pieces[1]=="hi"){
+		if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
 			unset($path_pieces[1]);
 		} 
 		$path =  implode("/", $path_pieces);
 	} else {
-		if($path_pieces[1]=="hi"){
+		if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
 			$path =  implode("/", $path_pieces);
 		} 
 		$pieces = explode("_", $locale_code);
@@ -241,6 +241,24 @@ if($locale_code == "hi_IN"){
 			;
 
 
+}else if($locale_code == "te_IN"){
+	$title = ($area=='all'?'':__($area,"optimizer").', ')
+			. ($city=='all'?'': __($city,"optimizer").', ')
+			. ($state=='all'?' भारत': __($state,"optimizer"))
+			. ' में '
+	        . ($network=='all'?' ': __($network,"optimizer") .' नेटवर्क  के ')
+			. $rounded_count 
+	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' के विशेष ')
+			.' अस्पताल ('
+			. ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty)
+			. ' Hospitals in '
+	        . ($network=='all'?' ': $network.' Network, ')
+	        . ($city=='all'?'': ' '.$city)
+			. ($state=='all'?' India': ' '.$state)
+	        . ' in  Hindi)'
+			;
+
+
 }else{
 	$title = $rounded_count 
 	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"))
@@ -286,7 +304,34 @@ get_header();
 	?>	
  <?php       
 
-if($locale_code == "hi_IN"){
+if($locale_code == "te_IN"){
+	echo $twig->render('te_IN_hospital_list.html', 
+	    array(
+	        'is_user_logged_in' => is_user_logged_in(),
+	        'response' => $mapData,
+	        'additional_filters' => $filters,
+			'total_count' => $rounded_count,
+	        'title' => $title,
+	        'chain_description'=> $chain_description_map_te_IN,
+	              'params' => array(
+	              				'state' => $state,
+	                            'city' => $city,
+	                            'area' => $area,
+	                            'network' => $network,
+	                            'specialty' => $specialty,
+	                            'chain' => $chain,
+	                            'count' => $count,
+	                            'page' => $pageNumber,
+	                            'community_questions' => $questions->posts,
+	                            'nextpage' => $page+1),
+	              'pages' => $allPages,
+	              'url' => $_SERVER["REQUEST_URI"],
+	              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
+	              'baseHospitalURL' => strtok($_SERVER["REQUEST_URI"],'?')."hospital"
+	                     )
+	    );
+
+}else if($locale_code == "hi_IN"){
 	echo $twig->render('hi_IN_hospital_list.html', 
 	    array(
 	        'is_user_logged_in' => is_user_logged_in(),
