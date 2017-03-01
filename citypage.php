@@ -249,7 +249,7 @@ if($locale_code == "hi_IN"){
 	        . ($network=='all'?' ': __($network,"optimizer") .' నెట్వర్క్ ')
 			. $rounded_count 
 	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' ప్రత్యేక ')
-			.' ఆసుపత్రి ('
+			.' ఆస్పత్రులు ('
 			. ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty)
 			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')

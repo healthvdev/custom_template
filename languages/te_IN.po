@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Optimizer\n"
 "POT-Creation-Date: 2016-12-30 22:49+0530\n"
-"PO-Revision-Date: 2017-03-01 13:58+0530\n"
+"PO-Revision-Date: 2017-03-01 16:21+0530\n"
 "Last-Translator: \n"
 "Language-Team: Layerthemes\n"
 "MIME-Version: 1.0\n"
@@ -82786,28 +82786,28 @@ msgid "Sterling"
 msgstr "సటర్లింగ్"
 
 msgid "Diabetology"
-msgstr "మధుమెహ్"
+msgstr "డయాబెటాలజీ (మధుమేహం)"
 
 msgid "Cardiology"
-msgstr "హార్ట్ (హృదయ్)"
+msgstr "కార్డియాలజీ (హృదయము)"
 
 msgid "Dermatology"
-msgstr "డర్మాటోల్ జీ (త్వచా కీ దెఖభాల్)"
+msgstr "డెర్మటాలజీ (చర్మ సంరక్షణ)"
 
 msgid "Gastroenterology"
-msgstr "గేస్ట్రోఏంటరోల్ జీ (పాచన్ తంత్ర్)"
+msgstr "గ్యాస్ట్రోఎంటరాలజీ (జీర్ణ వ్యవస్థ)"
 
 msgid "Gynecology"
-msgstr "గాఈనెకోల్ జీ (స్రీరోగ్)"
+msgstr "గైనకాలజీ (స్రీ ఆరోగ్య)"
 
 msgid "Oncology"
-msgstr "అర్బుదవిజ్ఞాన్ (కేంసర్)"
+msgstr "ఆంకాలజీ (కాన్సర్)"
 
 msgid "Ophthalmology"
-msgstr "఑పథేల్మోల్ జీ (నెత్ర్ విజ్ఞాన్)"
+msgstr "అఫ్తాల్మొలజీ (నేత్ర వైద్య)"
 
 msgid "Orthopedic"
-msgstr "ఓర్థపెడీక్ (హడ్డీ కా డ్ క్టర్)"
+msgstr "ఆర్థోపెడిక్ (ఎముక ఆరోగ్య)"
 
 msgid "ENT"
 msgstr "ఈ ఏన్ టీ"
