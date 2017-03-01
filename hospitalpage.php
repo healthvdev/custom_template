@@ -133,7 +133,6 @@ if($specialties!='' && $specialties!='NA' ){
     $specialties_keywords = array_map('trim',preg_split("/[\n,]+/", $specialties));
 }
 
-$translation_obj = $obj["translations"][0]["data"];
 
 ?>
 
@@ -145,9 +144,11 @@ global $title;
 
 
 if($locale_code == "hi_IN"){
+  $translation_obj = $obj["translations"][0]["data"];
   $title = $translation_obj["name_hi_IN"] . ", " . __($obj["city"],"optimizer") . ", " .  __($obj["state"],"optimizer");
   $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
 }else if($locale_code == "te_IN"){
+  $translation_obj = $obj["translations"][1]["data"];
   $title = $translation_obj["name_te_IN"] . ", " . __($obj["city"],"optimizer") . ", " .  __($obj["state"],"optimizer");
   $location = $obj["name"] . ", " . $obj["area"]. ", " . $obj["city"] . ", " .  $obj["state"];
 }else{

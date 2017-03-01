@@ -127,7 +127,7 @@
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all','all',params.count,0)}}">
-    <span itemprop="name">सभी अस्पताल</span></a>
+    <span itemprop="name">అన్ని ఆసుపత్రుల్లో</span></a>
     <meta itemprop="position" content="1" />
   </li>
   <li itemprop="itemListElement" itemscope
@@ -169,18 +169,19 @@
 
     <p>
         {{hospital_translation.name_te_IN}} 
-        {{__e(hospital.city)}}, {{__e(hospital.state)}} में स्थित है । {{hospital_translation.name_te_IN}} का पता, दिशा, नक्शा, बीमा नेटवर्क, संपर्क विवरण, फोन नंबर और ईमेल पते की जानकारी प्राप्त करें। 
-        {{hospital_translation.name_te_IN}} के साथ {{hospital.associatedInsuranceCompanies|length}} बीमा नेटवर्क जुड़े हैं । {{hospital_translation.name_te_IN}} के बारे में अधिक जानकारी के लिए आप {{hospital.phone}} कॉल करैं । 
+        {{__e(hospital.city)}}, {{__e(hospital.state)}} లో ఉంది. {{hospital_translation.name_te_IN}} చిరునామా, చిహ్నం, భీమా నెట్వర్క్, సంప్రదింపు వివరాలు, ఫోన్ నంబర్ మరియు ఇమెయిల్ చిరునామా వివరాలు కనుగొనేందుకు. 
+        {{hospital_translation.name_te_IN}} తో {{hospital.associatedInsuranceCompanies|length}} భీమా నెట్వర్క్లు ఉన్నాయి. {{hospital_translation.name_te_IN}} గురించి మరింత వివరాలు కోసం {{hospital.phone}} కాల్ చేయడానికి . 
     </p>
     <br/>
 
 
     <div class="filters">
         <div class="dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle">भाषा बदलें <b class="caret"></b></a>
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">భాషను మార్చండి <b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li><a href="{{function_getBaseURLOfLocale(url,'en_US')}}">English</a></li>
-                <li><a href="{{function_getBaseURLOfLocale(url,'te_IN')}}">हिंदी</a></li>
+                <li><a href="{{function_getBaseURLOfLocale(url,'hi_IN')}}">हिंदी</a></li>
+                <li><a href="{{function_getBaseURLOfLocale(url,'te_IN')}}">తెలుగు</a></li>
             </ul>
         </div>
     </div>
@@ -199,7 +200,7 @@
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
 						
 				<div class="um-member-card " style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> {{hospital_translation.name_te_IN}}  का पता</h4>
+                    <h4 style="font-weight:bold;"> {{hospital_translation.name_te_IN}}  యొక్క చిరునామా</h4>
 
 					<div>
 						<span class="ap-category-icon fa fa-map-marker" ></span> 
@@ -210,7 +211,7 @@
                         <div class="um-center um-half">
                             <a href="tel:{{hospital.phone}}">
                                 <span class="um-button" style="color: #fff;background: #3ba1da;">
-                                    <span> कॉल करें - </span>
+                                    <span> కాల్ చేయడానికి - </span>
                                     <span class="ap-category-icon fa fa-phone " ></span>
                                 </span>
                             </a>
@@ -218,7 +219,7 @@
                         <div class="um-center um-half">
                             <a href="mailto:{{hospital.email}}">
                                 <span class="um-button" style="color: #fff;background: #3ba1da;">
-                                    <span> ईमेल - </span>
+                                    <span> ఇమెయిల్ - </span>
                                     <span class="ap-category-icon fa fa-envelope" ></span>
                                 </span>
                             </a>
@@ -227,7 +228,7 @@
                         <div class="um-center um-half">
                             <a href="http://{{hospital.website}}" target="_blank">
                                 <span class="um-button" style="color: #fff;background: #3ba1da;">
-                                    <span> वेबसाइट - </span>
+                                    <span> వెబ్సైట్ - </span>
                                     <span class="ap-category-icon fa fa-external-link" ></span>
                                 </span>
                             </a>
@@ -238,7 +239,7 @@
 				</div>
 {% if hospital.specialties is not same as('NA')  %}
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> {{hospital_translation.name_te_IN}}  के स्पेशलिटी और विभागों</h4>
+                    <h4 style="font-weight:bold;"> {{hospital_translation.name_te_IN}}  యొక్క స్పెషలిటీస్ మరియు విభాగాలు</h4>
                     <ul>
                     {% for specialty in specialties%}
                         {% if specialty is not same as('')  %}
@@ -251,12 +252,12 @@
                 </div>
 {% endif %}
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;">{{hospital_translation.name_te_IN}} के साथ जुड़े बीमा नेटवर्क</h4>
+                    <h4 style="font-weight:bold;">{{hospital_translation.name_te_IN}} యొక్క భీమా నెట్వర్క్లు</h4>
                     <ul>
                     {% for insuranceCompany in hospital.associatedInsuranceCompanies%}
                             <li>{{__e(insuranceCompany.shortName)}}</li>
                     {% else %}
-                        बीमा नेटवर्क नहीं है।
+                        భీమా నెట్వర్క్ లేదు.
                     {% endfor %}
                     </ul>
                 </div>
@@ -273,14 +274,14 @@
             </div>
 
             <div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
-                <h4 style="font-weight:bold;"> {{title}} के लिए दिशा</h4>
+                <h4 style="font-weight:bold;"> {{title}} దిశలో</h4>
                 <div class="um-member-card " style="padding: 10px;">
                     <iframe
                       width="100%"
                       height="350"
                       frameborder="0" style="border:0"
                       src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBVfC1p2RaVeS8py6PF9GkF2FZPPxYPfqE
-                        &q={{location}}&language=hi&region=IN" allowfullscreen>
+                        &q={{location}}&language=te&region=IN" allowfullscreen>
                     </iframe>
                 </div>
             </div>

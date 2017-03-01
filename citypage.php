@@ -244,18 +244,18 @@ if($locale_code == "hi_IN"){
 }else if($locale_code == "te_IN"){
 	$title = ($area=='all'?'':__($area,"optimizer").', ')
 			. ($city=='all'?'': __($city,"optimizer").', ')
-			. ($state=='all'?' भारत': __($state,"optimizer"))
-			. ' में '
-	        . ($network=='all'?' ': __($network,"optimizer") .' नेटवर्क  के ')
+			. ($state=='all'?' భారతదేశం': __($state,"optimizer"))
+			. ' లో '
+	        . ($network=='all'?' ': __($network,"optimizer") .' నెట్వర్క్ ')
 			. $rounded_count 
-	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' के विशेष ')
-			.' अस्पताल ('
+	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' ప్రత్యేక ')
+			.' ఆసుపత్రి ('
 			. ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty)
 			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')
 	        . ($city=='all'?'': ' '.$city)
 			. ($state=='all'?' India': ' '.$state)
-	        . ' in  Hindi)'
+	        . ' in  Telugu)'
 			;
 
 
