@@ -455,11 +455,11 @@
 					<div>
 						<span> <strong>पता</strong> - </span>
 						<span class="ap-category-icon fa fa-map-marker" ></span> 
-						<span class="initial">{{hospital.translations[1].data.address}},<br/> {{hospital.translations[1].data.city}}, {{hospital.translations[1].data.state}}, पिन कोड - {{hospital.pinCode}}</span>
+						<span class="initial">{{hospital.translations[1].data.address}},<br/> {{hospital.translations[1].data.city}}, {{hospital.translations[1].data.state}}, పింకడే - {{hospital.pinCode}}</span>
 					</div>
 					<div>
 						<span class="dropdown">
-			  				<button class="dropbtn">{{hospital.translations[1].data.name_te_IN}} के सभी बीमा नेटवर्क</button>
+			  				<button class="dropbtn">{{hospital.translations[1].data.name_te_IN}} అన్ని భీమా నెట్వర్క్</button>
 							<div class="dropdown-content">
 							{% for insuranceCompany in hospital.associatedInsuranceCompanies%}
 									<a href="{{baseURL}}{{function_getURLParams(insuranceCompany.shortName,params.state,params.city,'all',params.specialty,params.chain,params.count,0)}}" title="">{{__e(insuranceCompany.shortName)}}</a> 
