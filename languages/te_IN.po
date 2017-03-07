@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Optimizer\n"
 "POT-Creation-Date: 2016-12-30 22:49+0530\n"
-"PO-Revision-Date: 2017-03-01 16:21+0530\n"
+"PO-Revision-Date: 2017-03-07 12:00+0530\n"
 "Last-Translator: \n"
 "Language-Team: Layerthemes\n"
 "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ msgid "15 'o'"
 msgstr "15 'ఓ'"
 
 msgid "15 Btn PAC Agra"
-msgstr "15 బటన్ పాక్ ఆగరా"
+msgstr "15 బటన్ పాక్ ఆగ్రా"
 
 msgid "24bn Pac Mbd"
 msgstr "24బన్ పాక్ మబ్ "
@@ -703,7 +703,7 @@ msgid "Adyar (Bhandara)"
 msgstr "అడ్యార్ (భండార్)"
 
 msgid "Adyar (Chennai)"
-msgstr "అడ్యార్ (చెన్నఈ)"
+msgstr "అడ్యార్ (చెన్నై)"
 
 msgid "Afjalpurwari"
 msgstr "అఫజలపురవారీ"
@@ -838,19 +838,19 @@ msgid "Agolai"
 msgstr "ఆగోలాఈ"
 
 msgid "Agra Barrcks"
-msgstr "ఆగరా బరరకస్"
+msgstr "ఆగ్రా బరరకస్"
 
 msgid "Agra Chak"
-msgstr "ఆగరా చక్"
+msgstr "ఆగ్రా చక్"
 
 msgid "Agra Chauk"
-msgstr "ఆగరా చౌక్"
+msgstr "ఆగ్రా చౌక్"
 
 msgid "Agra Fort"
-msgstr "ఆగరా ఫోర్ట్"
+msgstr "ఆగ్రా ఫోర్ట్"
 
 msgid "Agra University"
-msgstr "ఆగరా యూనివర్సిటీ"
+msgstr "ఆగ్రా యూనివర్సిటీ"
 
 msgid "Agrahara"
 msgstr "అగ్రహారా"
@@ -859,7 +859,7 @@ msgid "Agraharamuchadi"
 msgstr "అగ్రహరముచ్ ీ"
 
 msgid "Agram"
-msgstr "గరం"
+msgstr "ఆగ్రం"
 
 msgid "Agrar"
 msgstr "అగ్ర్ర్"
@@ -943,7 +943,7 @@ msgid "Ahmadpur"
 msgstr "అహమదపుర్"
 
 msgid "Ahmedabad G.P.O."
-msgstr "అహమెదాబాద్ జీ.పీ.ఓ."
+msgstr "అహ్మదాబాదు జీ.పీ.ఓ."
 
 msgid "Ahmedgarh"
 msgstr "అహమదగ్ "
@@ -1066,10 +1066,10 @@ msgid "Airport"
 msgstr "ఏయరపోర్ట్"
 
 msgid "Airport (Mumbai)"
-msgstr "ఏయరపోర్ట్ (ముమ్బఈ)"
+msgstr "ఏయరపోర్ట్ (ముంబై)"
 
 msgid "Airport (Pune)"
-msgstr "ఏయరపోర్ట్ (పుణె)"
+msgstr "ఏయరపోర్ట్ (పూణే)"
 
 msgid "Airport Sanganer"
 msgstr "ఏయరపోర్ట్ సాంగానెర్"
@@ -1111,7 +1111,7 @@ msgid "Ajaikela"
 msgstr "అజాఇకెలా"
 
 msgid "Ajaipur"
-msgstr "అజయపుర్"
+msgstr "అజైపూర్"
 
 msgid "Ajairajpura"
 msgstr "అజెరాజపుర్"
@@ -1369,7 +1369,7 @@ msgid "Akwada"
 msgstr "ఏక్వాద్"
 
 msgid "Ala (Pune)"
-msgstr "అలా (పుణె)"
+msgstr "అలా (పూణే)"
 
 msgid "Alabol"
 msgstr "ఆలబాల్"
@@ -2071,7 +2071,7 @@ msgid "Ambawade"
 msgstr "అమ్బావా ె"
 
 msgid "Ambawadi (Ahmedabad)"
-msgstr "అమ్బావా ీ (అహమదాబాద్)"
+msgstr "అమ్బావా ీ (అహ్మదాబాదు)"
 
 msgid "Ambdas"
 msgstr "అంబాదాస్"
@@ -2125,7 +2125,7 @@ msgid "Ambewadi (Kolhapur)"
 msgstr "అమ్బెవాడి (కోల్హాపుర్)"
 
 msgid "Ambewadi (Mumbai)"
-msgstr "అమ్బెవాడి (ముమ్బఈ)"
+msgstr "అమ్బెవాడి (ముంబై)"
 
 msgid "Ambewadi (Uttara Kannada)"
 msgstr "అమ్బెవాడి (ఉత్తర్ కన్న్ )"
@@ -2479,7 +2479,7 @@ msgid "Amritpur"
 msgstr "అమృతపుర్"
 
 msgid "Amritsar Kty"
-msgstr "అమృతసర్ కీ"
+msgstr "అమృత్‌సర్ కీ"
 
 msgid "Amroha"
 msgstr "అమరోహా"
@@ -2602,7 +2602,7 @@ msgid "Anand Mahal Road"
 msgstr "ఆనన్ద్ మహల్ రోడ్"
 
 msgid "Anand Nagar (Jabalpur)"
-msgstr "ఆనంద్ నగర్ (జబలపుర్)"
+msgstr "ఆనంద్ నగర్ (జబల్‌పూర్)"
 
 msgid "Anand Nagar (Kanpur Nagar)"
 msgstr "ఆనంద్ నగర్ (కానపూర్ నగర్)"
@@ -2650,16 +2650,16 @@ msgid "Anandibazar"
 msgstr "ఆనందీబా ార్"
 
 msgid "Anandnagar (Ahmedabad)"
-msgstr "ఆనందనగర్ (అహమదాబాద్)"
+msgstr "ఆనందనగర్ (అహ్మదాబాదు)"
 
 msgid "Anandnagar (Bangalore)"
-msgstr "ఆనందనగర్ (బేంగలోర్)"
+msgstr "ఆనందనగర్ (బెంగుళూరు)"
 
 msgid "Anandnagar (Hyderabad)"
 msgstr "ఆనందనగర్ (హేదరాబాద్)"
 
 msgid "Anandnagar (Pune)"
-msgstr "ఆనందనగర్ (పుణె)"
+msgstr "ఆనందనగర్ (పూణే)"
 
 msgid "Anandpar Navagam"
 msgstr "ఆనందపర్ నవాగాం"
@@ -3100,10 +3100,10 @@ msgid "Anna"
 msgstr "అన్నా"
 
 msgid "Anna Nagar (Chennai)"
-msgstr "అన్నా నగర్ (చెన్నఈ)"
+msgstr "అన్నా నగర్ (చెన్నై)"
 
 msgid "Anna Nagar (Madurai)"
-msgstr "అన్నా నగర్ (మదురే)"
+msgstr "అన్నా నగర్ (మధురై)"
 
 msgid "Anna Nagar East"
 msgstr "అన్నా నగర్ ఈస్ట్"
@@ -3979,7 +3979,7 @@ msgid "Ashok Nagar (Ghaziabad)"
 msgstr "అశోక్ నగర్ (ౚ ిఆబాద్)"
 
 msgid "Ashok Nagar (Jaipur)"
-msgstr "అశోక్ నగర్ (జయపుర్)"
+msgstr "అశోక్ నగర్ (జైపూర్)"
 
 msgid "Ashok Nagar (Khorda)"
 msgstr "అశోక్ నగర్ (ఖోర్ ా)"
@@ -3988,13 +3988,13 @@ msgid "Ashok Nagar (Nashik)"
 msgstr "అశోక్ నగర్ (నాసిక్)"
 
 msgid "Ashok Nagar (Patna)"
-msgstr "అశోక్ నగర్ (పటనా)"
+msgstr "అశోక్ నగర్ (పాట్నా)"
 
 msgid "Ashok Nagar (Ranchi)"
 msgstr "అశోక్ నగర్ (రాంచీ)"
 
 msgid "Ashok Nagar (West Delhi)"
-msgstr "అశోక్ నగర్ (వెస్ట్ దెల్హీ)"
+msgstr "అశోక్ నగర్ (వెస్ట్ ఢిల్లీ)"
 
 msgid "Ashok Vihar"
 msgstr "అశోక్ విహార్"
@@ -4009,10 +4009,10 @@ msgid "Ashoknagar"
 msgstr "అశోకనగర్"
 
 msgid "Ashoknagar (Bangalore)"
-msgstr "అశోకనగర్ (బేంగలోర్)"
+msgstr "అశోకనగర్ (బెంగుళూరు)"
 
 msgid "Ashoknagar (Chennai)"
-msgstr "అశోకనగర్ (చెన్నఈ)"
+msgstr "అశోకనగర్ (చెన్నై)"
 
 msgid "Ashoknagar (Hyderabad)"
 msgstr "అశోకనగర్ (హేదరాబాద్)"
@@ -4702,10 +4702,10 @@ msgid "Azad Nagar (Bhilwara)"
 msgstr "ఆ ాద్ నగర్ (భీలవా ా)"
 
 msgid "Azad Nagar (East Delhi)"
-msgstr "ఆ ాద్ నగర్ (ఈస్ట్ దెల్హీ)"
+msgstr "ఆ ాద్ నగర్ (ఈస్ట్ ఢిల్లీ)"
 
 msgid "Azad Nagar (Mumbai)"
-msgstr "ఆ ాద్ నగర్ (ముమ్బఈ)"
+msgstr "ఆ ాద్ నగర్ (ముంబై)"
 
 msgid "Azad Society"
 msgstr "ఆ ాద్ సోసాఇటీ"
@@ -5161,7 +5161,7 @@ msgid "Badarpur"
 msgstr "బదరపుర్"
 
 msgid "Badarpur (South Delhi)"
-msgstr "బదరపుర్ (సాఉథ్ దెల్హీ)"
+msgstr "బదరపుర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Badasada"
 msgstr "బదసద్"
@@ -5473,7 +5473,7 @@ msgid "Bagalkot B.H.School"
 msgstr "బగలకోట్ బీ.ఏచ్.స్కూల్"
 
 msgid "Bagalur (Bangalore)"
-msgstr "బెగలుర్ (బేంగలోర్)"
+msgstr "బెగలుర్ (బెంగుళూరు)"
 
 msgid "Bagalur (Krishnagiri)"
 msgstr "బెగలుర్ (కృష్ణాగిరీ)"
@@ -7057,19 +7057,19 @@ msgid "Bangalanagar"
 msgstr "బంగలానగర్"
 
 msgid "Bangalore Bazaar"
-msgstr "బేంగలోర్ బాజార్"
+msgstr "బెంగుళూరు బాజార్"
 
 msgid "Bangalore City"
-msgstr "బేంగలోర్ సిటీ"
+msgstr "బెంగుళూరు సిటీ"
 
 msgid "Bangalore Corporation Building"
-msgstr "బేంగలోర్ కారపోరెశన్ బిల్డింగ్"
+msgstr "బెంగుళూరు కారపోరెశన్ బిల్డింగ్"
 
 msgid "Bangalore Dist Offices Bldg"
-msgstr "బేంగలోర్ దిసత్ ఓ ఫిసెస్ బ్లడగ్"
+msgstr "బెంగుళూరు దిసత్ ఓ ఫిసెస్ బ్లడగ్"
 
 msgid "Bangalore G.P.O."
-msgstr "బేంగలోర్ జీ.పీ.ఓ."
+msgstr "బెంగుళూరు జీ.పీ.ఓ."
 
 msgid "Bangalpet"
 msgstr "బంగాలపెట్"
@@ -7207,7 +7207,7 @@ msgid "Bank Road (Gorakhpur)"
 msgstr "బేంక్ రోడ్ (గోరఖపుర్)"
 
 msgid "Bank Street (Central Delhi)"
-msgstr "బేంక్ స్ట్రీట్ (సెంట్రల్ దెల్హీ)"
+msgstr "బేంక్ స్ట్రీట్ (సెంట్రల్ ఢిల్లీ)"
 
 msgid "Bank Street (Nalgonda)"
 msgstr "బేంక్ స్ట్రీట్ (నాలగోండా)"
@@ -7306,7 +7306,7 @@ msgid "Banoda"
 msgstr "బనోద్"
 
 msgid "Banpatna"
-msgstr "బనపాటన్"
+msgstr "బనపాట్నా"
 
 msgid "Bans"
 msgstr "బాంస్"
@@ -7864,7 +7864,7 @@ msgid "Bareilly Road"
 msgstr "బ్రెఇలలీ రోడ్"
 
 msgid "Bareja (Ahmedabad)"
-msgstr "బ్రెజా (అహమదాబాద్)"
+msgstr "బ్రెజా (అహ్మదాబాదు)"
 
 msgid "Barekel"
 msgstr "బ్రెకెల్"
@@ -7927,7 +7927,7 @@ msgid "Bargur-Anthiyur"
 msgstr "బరగుర్-అంథియుర్"
 
 msgid "Barh (Patna)"
-msgstr "బ్  (పటనా)"
+msgstr "బ్  (పాట్నా)"
 
 msgid "Barha"
 msgstr "బారహ్"
@@ -9046,7 +9046,7 @@ msgid "Begampur (Hooghly)"
 msgstr "బెగమపుర్ (హూఘలీ)"
 
 msgid "Begampur (Patna)"
-msgstr "బెగమపుర్ (పటనా)"
+msgstr "బెగమపుర్ (పాట్నా)"
 
 msgid "Begas"
 msgstr "బెగస్"
@@ -10606,7 +10606,7 @@ msgid "Bharat Nagar (Ludhiana)"
 msgstr "భారత్ నగర్ (లుధియానా)"
 
 msgid "Bharat Nagar (Mumbai)"
-msgstr "భారత్ నగర్ (ముమ్బఈ)"
+msgstr "భారత్ నగర్ (ముంబై)"
 
 msgid "Bharat Nagar Colony"
 msgstr "భారత్ నగర్ క్ లోనీ"
@@ -11029,22 +11029,22 @@ msgid "Bhawani Shankar Rd"
 msgstr "భవానీ శంకర్ రడ్"
 
 msgid "Bhawanipatna"
-msgstr "భవానీపటనా"
+msgstr "భవానీపాట్నా"
 
 msgid "Bhawanipatna B.B.Pada"
-msgstr "భవానీపటనా బీ.బీ.ప్ ా"
+msgstr "భవానీపాట్నా బీ.బీ.ప్ ా"
 
 msgid "Bhawanipatna Collectorate"
-msgstr "భవానీపటనా కోల్లెకతోరతె"
+msgstr "భవానీపాట్నా కోల్లెకతోరతె"
 
 msgid "Bhawanipatna CollegeSquare"
-msgstr "భవానీపటనా క్ ల్లెగెసకరె"
+msgstr "భవానీపాట్నా క్ ల్లెగెసకరె"
 
 msgid "Bhawanipatna Naktiguda"
-msgstr "భవానీపటనా నకటీగు ా"
+msgstr "భవానీపాట్నా నకటీగు ా"
 
 msgid "Bhawanipatna Stadium"
-msgstr "భవానీపటనా స్టెడియం"
+msgstr "భవానీపాట్నా స్టెడియం"
 
 msgid "Bhawanipore"
 msgstr "భవానీపుర్"
@@ -11557,7 +11557,7 @@ msgid "Bhopal Tegnoor"
 msgstr "భోపాల్ టెగనూర్"
 
 msgid "Bhopalpatnam"
-msgstr "భోపాలపటనం"
+msgstr "భోపాలపట్టణం"
 
 msgid "Bhopatpura"
 msgstr "భోపతపురా"
@@ -12064,7 +12064,7 @@ msgid "Bihlangani"
 msgstr "బీహలాంగనీ"
 
 msgid "Bihta (Patna)"
-msgstr "బిహటా (పటనా)"
+msgstr "బిహటా (పాట్నా)"
 
 msgid "Bihupuria"
 msgstr "బిహపురియా"
@@ -13021,7 +13021,7 @@ msgid "Bommakal"
 msgstr "బోమమకల్"
 
 msgid "Bommanahalli (Bangalore)"
-msgstr "బోమ్మనహల్లీ (బేంగలోర్)"
+msgstr "బోమ్మనహల్లీ (బెంగుళూరు)"
 
 msgid "Bommanayakanahalli"
 msgstr "బోమ్మానాయకనాహల్లీ"
@@ -13207,7 +13207,7 @@ msgid "Bori"
 msgstr "బోరీ"
 
 msgid "Bori (Nagpur)"
-msgstr "బోరీ (నాగపుర్)"
+msgstr "బోరీ (నాగ్‌పూర్)"
 
 msgid "Bori Aindi"
 msgstr "బోరీ ఏనడీ"
@@ -13495,7 +13495,7 @@ msgid "Bss Nagar"
 msgstr "బస్ నగర్"
 
 msgid "BTPS (South Delhi)"
-msgstr "బ్తప్స్ (సాఉథ్ దెల్హీ)"
+msgstr "బ్తప్స్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Buarpui"
 msgstr "బురపుఈ"
@@ -13669,7 +13669,7 @@ msgid "Bukharari"
 msgstr "బుఖారీ"
 
 msgid "Bukkapatna"
-msgstr "బుక్కాపటనం"
+msgstr "బుక్కాపాట్నా"
 
 msgid "Bukkasagaram"
 msgstr "బుకకసగరాం"
@@ -13999,7 +13999,7 @@ msgid "C.R.Lakhisarai"
 msgstr "సీ.ఆర్.లఖీసరాయ్"
 
 msgid "C.R.P.F. Nagpur"
-msgstr "సీ.ఆర్.పీ.ఏఫ్. నాగపుర్"
+msgstr "సీ.ఆర్.పీ.ఏఫ్. నాగ్‌పూర్"
 
 msgid "C.S.Padi"
 msgstr "సీ.ఏస్.ప్ ీ"
@@ -14593,7 +14593,7 @@ msgid "Champrajpur"
 msgstr "చమ్పరాజపుర్"
 
 msgid "Chamrajpet (Bangalore)"
-msgstr "చమరాజపెట్ (బేంగలోర్)"
+msgstr "చమరాజపెట్ (బెంగుళూరు)"
 
 msgid "Chamri"
 msgstr "చమ్ ీ"
@@ -14797,34 +14797,34 @@ msgid "Chandigaon"
 msgstr "చందిగాఓం"
 
 msgid "Chandigarh G.P.O."
-msgstr "చండీగ్  జీ.పీ.ఓ."
+msgstr "చండీగఢ్  జీ.పీ.ఓ."
 
 msgid "Chandigarh Sector 55"
-msgstr "చండీగ్  సెక్టర్ 55"
+msgstr "చండీగఢ్  సెక్టర్ 55"
 
 msgid "Chandigarh Sector 56"
-msgstr "చండీగ్  సెక్టర్ 56"
+msgstr "చండీగఢ్  సెక్టర్ 56"
 
 msgid "Chandigarh Sector 59"
-msgstr "చండీగ్  సెక్టర్ 59"
+msgstr "చండీగఢ్  సెక్టర్ 59"
 
 msgid "Chandigarh Sector 60"
-msgstr "చండీగ్  సెక్టర్ 60"
+msgstr "చండీగఢ్  సెక్టర్ 60"
 
 msgid "Chandigarh Sector 61"
-msgstr "చండీగ్  సెక్టర్ 61"
+msgstr "చండీగఢ్  సెక్టర్ 61"
 
 msgid "Chandigarh Sector 62"
-msgstr "చండీగ్  సెక్టర్ 62"
+msgstr "చండీగఢ్  సెక్టర్ 62"
 
 msgid "Chandigarh Sector 65"
-msgstr "చండీగ్  సెక్టర్ 65"
+msgstr "చండీగఢ్  సెక్టర్ 65"
 
 msgid "Chandigarh Sector 67"
-msgstr "చండీగ్  సెక్టర్ 67"
+msgstr "చండీగఢ్  సెక్టర్ 67"
 
 msgid "Chandigarh Sector 71"
-msgstr "చండీగ్  సెక్టర్ 71"
+msgstr "చండీగఢ్  సెక్టర్ 71"
 
 msgid "Chandili"
 msgstr "చందీలీ"
@@ -15037,7 +15037,7 @@ msgid "Channammacircle"
 msgstr "చన్నమమసరక్లె"
 
 msgid "Channapatna"
-msgstr "చన్నాపటనా"
+msgstr "చన్నాపాట్నా"
 
 msgid "Channapatna Extn"
 msgstr "చన్నాపటనా ఏస్టన్"
@@ -15046,10 +15046,10 @@ msgid "Channappara"
 msgstr "చన్నాప్పారా"
 
 msgid "Channarayapatna"
-msgstr "చన్నారాయపాత్న్"
+msgstr "చన్నారాయపాట్నా"
 
 msgid "Channarayapatna Fort"
-msgstr "చన్నారాయపాత్న్ ఫోర్ట్"
+msgstr "చన్నారాయపాట్నా ఫోర్ట్"
 
 msgid "Channo"
 msgstr "ఛన్నో"
@@ -15625,7 +15625,7 @@ msgid "Chenkara"
 msgstr "చెన్కార్"
 
 msgid "Chennai Airport"
-msgstr "చెన్నఈ ఏయరపోర్ట్"
+msgstr "చెన్నై ఏయరపోర్ట్"
 
 msgid "Chennai G.P.O."
 msgstr "చెన్నే జీ.పీ.ఓ."
@@ -15853,7 +15853,7 @@ msgid "Chhanga Rai Uttar"
 msgstr "ఛాంగ్ రాఇ ఉత్తర్"
 
 msgid "Chhani (Vadodara)"
-msgstr "ఛని (వ్ ోదరా)"
+msgstr "ఛని (వదోదర)"
 
 msgid "Chhani Rd"
 msgstr "ఛని రద్"
@@ -17320,7 +17320,7 @@ msgid "Civil Court"
 msgstr "సివిల్ కోర్ట్"
 
 msgid "Civil Court (Agra)"
-msgstr "సివిల్ కోర్ట్ (ఆగరా)"
+msgstr "సివిల్ కోర్ట్ (ఆగ్రా)"
 
 msgid "Civil Court (Gorakhpur)"
 msgstr "సివిల్ కోర్ట్ (గోరఖపుర్)"
@@ -17344,7 +17344,7 @@ msgid "Civil Line"
 msgstr "సివిల్ లాఇన్"
 
 msgid "Civil Line (Agra)"
-msgstr "సివిల్ లాఇన్ (ఆగరా)"
+msgstr "సివిల్ లాఇన్ (ఆగ్రా)"
 
 msgid "Civil Line (Basti)"
 msgstr "సివిల్ లాఇన్ (బస్తీ)"
@@ -17362,7 +17362,7 @@ msgid "Civil Lines (Hardoi)"
 msgstr "సివిల్ లాఇన్స్ (హరదోఈ)"
 
 msgid "Civil Lines (North Delhi)"
-msgstr "సివిల్ లాఇన్స్ (నార్థ్ దెల్హీ)"
+msgstr "సివిల్ లాఇన్స్ (నార్థ్ ఢిల్లీ)"
 
 msgid "Civil Lines Patiala"
 msgstr "సివిల్ లాఇన్స్ పటియాలా"
@@ -17425,37 +17425,37 @@ msgid "Cod Dehu Road"
 msgstr "క్ డ్ దెహూ రోడ్"
 
 msgid "Coimbatore"
-msgstr "కోయమ్బటూర్"
+msgstr "కోయంబత్తూరు"
 
 msgid "Coimbatore Aerodrome"
-msgstr "కోయమ్బటూర్ ఏరోడ్రం"
+msgstr "కోయంబత్తూరు ఏరోడ్రం"
 
 msgid "Coimbatore Bazaar"
-msgstr "కోయమ్బటూర్ బాజార్"
+msgstr "కోయంబత్తూరు బాజార్"
 
 msgid "Coimbatore Central"
-msgstr "కోయమ్బటూర్ సెంట్రల్"
+msgstr "కోయంబత్తూరు సెంట్రల్"
 
 msgid "Coimbatore Collectorate"
-msgstr "కోయమ్బటూర్ కోల్లెకతోరతె"
+msgstr "కోయంబత్తూరు కోల్లెకతోరతె"
 
 msgid "Coimbatore Courts"
-msgstr "కోయమ్బటూర్ కోర్ట్స్"
+msgstr "కోయంబత్తూరు కోర్ట్స్"
 
 msgid "Coimbatore Fort"
-msgstr "కోయమ్బటూర్ ఫోర్ట్"
+msgstr "కోయంబత్తూరు ఫోర్ట్"
 
 msgid "Coimbatore Racecourse"
-msgstr "కోయమ్బటూర్ రసకోఉర్సె"
+msgstr "కోయంబత్తూరు రసకోఉర్సె"
 
 msgid "Coimbatore Tidel Park"
-msgstr "కోయమ్బటూర్ టిండెల్ పార్క్"
+msgstr "కోయంబత్తూరు టిండెల్ పార్క్"
 
 msgid "Coimbatore Ukkadam"
-msgstr "కోయమ్బటూర్ ఉక్కాడం"
+msgstr "కోయంబత్తూరు ఉక్కాడం"
 
 msgid "Coimbatore West"
-msgstr "కోయమ్బటూర్ వెస్ట్"
+msgstr "కోయంబత్తూరు వెస్ట్"
 
 msgid "Colaba"
 msgstr "కోలాబా"
@@ -17548,7 +17548,7 @@ msgid "Congress Nagar (Amravati)"
 msgstr "కాంగ్రెస్ నగర్ (అమరావతీ)"
 
 msgid "Congress Nagar (Nagpur)"
-msgstr "కాంగ్రెస్ నగర్ (నాగపుర్)"
+msgstr "కాంగ్రెస్ నగర్ (నాగ్‌పూర్)"
 
 msgid "Contai"
 msgstr "కాంటె"
@@ -18727,7 +18727,7 @@ msgid "Dariapur"
 msgstr "దరియాపుర్"
 
 msgid "Dariapur (Ahmedabad)"
-msgstr "దరియాపుర్ (అహమదాబాద్)"
+msgstr "దరియాపుర్ (అహ్మదాబాదు)"
 
 msgid "Dariba"
 msgstr "దరీబా"
@@ -18958,7 +18958,7 @@ msgid "Daulasepur"
 msgstr "దౌలసెపుర్"
 
 msgid "Daulat Nagar (Mumbai)"
-msgstr "దౌలత్ నగర్ (ముమ్బఈ)"
+msgstr "దౌలత్ నగర్ (ముంబై)"
 
 msgid "Daulatabad"
 msgstr "దౌలతాబాద్"
@@ -19159,7 +19159,7 @@ msgid "Defence Colony (Meerut)"
 msgstr "డిఫెన్స్ క్ లోనీ (మెరఠ్)"
 
 msgid "Defence Colony (South Delhi)"
-msgstr "డిఫెన్స్ క్ లోనీ (సాఉథ్ దెల్హీ)"
+msgstr "డిఫెన్స్ క్ లోనీ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Degaon"
 msgstr "దెౚోం"
@@ -19231,13 +19231,13 @@ msgid "Delang"
 msgstr "డెలాంగ్"
 
 msgid "Delhi Gate (Ahmedabad)"
-msgstr "దెల్హీ గెట్ (అహమదాబాద్)"
+msgstr "ఢిల్లీ గెట్ (అహ్మదాబాదు)"
 
 msgid "Delhi Industrial Area"
-msgstr "దెల్హీ ఇండస్ట్రియల్ ఏరియా"
+msgstr "ఢిల్లీ ఇండస్ట్రియల్ ఏరియా"
 
 msgid "Delhi University"
-msgstr "డెల్హీ యూనివర్సిటీ"
+msgstr "ఢిల్లీ యూనివర్సిటీ"
 
 msgid "Delhwa"
 msgstr "దెల్హవా"
@@ -20023,13 +20023,13 @@ msgid "Dhanayan"
 msgstr "ధనాయన్"
 
 msgid "Dhanbad"
-msgstr "ధనబాద్"
+msgstr "ధన్‌బాద్"
 
 msgid "Dhanbad Bazar"
-msgstr "ధనబాద్ బాజార్"
+msgstr "ధన్‌బాద్ బాజార్"
 
 msgid "Dhanbad Hirapur"
-msgstr "ధనబాద్ హీరాపుర్"
+msgstr "ధన్‌బాద్ హీరాపుర్"
 
 msgid "Dhanbakhra"
 msgstr "ధనబాౙర్"
@@ -21220,7 +21220,7 @@ msgid "District Board"
 msgstr "డిస్ట్రిక్ట్ బోర్డ్"
 
 msgid "District Court (Ahmedabad)"
-msgstr "డిస్ట్రిక్ట్ కోర్ట్ (అహమదాబాద్)"
+msgstr "డిస్ట్రిక్ట్ కోర్ట్ (అహ్మదాబాదు)"
 
 msgid "District Court (Anand)"
 msgstr "డిస్ట్రిక్ట్ కోర్ట్ (ఆనంద్)"
@@ -21232,7 +21232,7 @@ msgid "District Courts (Dakshina Kannada)"
 msgstr "డిస్ట్రిక్ట్ కోర్ట్స్ (దక్షిణ్ కన్న్ )"
 
 msgid "District Courts (North Delhi)"
-msgstr "డిస్ట్రిక్ట్ కోర్ట్స్ (నార్థ్ దెల్హీ)"
+msgstr "డిస్ట్రిక్ట్ కోర్ట్స్ (నార్థ్ ఢిల్లీ)"
 
 msgid "District Office"
 msgstr "డిస్ట్రిక్ట్ ఑ఫిస్"
@@ -21673,7 +21673,7 @@ msgid "Dr Deshmukh Marg"
 msgstr "డ్  దెశముఖ్ మార్గ్"
 
 msgid "Dr. Ambedkar Nagar (South Delhi)"
-msgstr "డ్ . ఆంబెడకర్ నగర్ (సాఉథ్ దెల్హీ)"
+msgstr "డ్ . ఆంబెడకర్ నగర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Dr. Ambedkar Veedhi"
 msgstr "డ్ . ఆంబెడకర్ విధి"
@@ -22993,7 +22993,7 @@ msgid "Fateh Nagar"
 msgstr " తెహ్ నగర్"
 
 msgid "Fatehabad (Amritsar)"
-msgstr "ఫతెహాబాద్ (అమృతసర్)"
+msgstr "ఫతెహాబాద్ (అమృత్‌సర్)"
 
 msgid "Fatehganj (Faizabad)"
 msgstr "ఫతెహగంజ్ (ఫే ాబాద్)"
@@ -23053,7 +23053,7 @@ msgid "Fatepura"
 msgstr "ఫతెపురా"
 
 msgid "Fatepura (Vadodara)"
-msgstr "ఫతెపురా (వ్ ోదరా)"
+msgstr "ఫతెపురా (వదోదర)"
 
 msgid "Fatewadi"
 msgstr "ఫతెవా ీ"
@@ -23800,13 +23800,13 @@ msgid "Gandhauna"
 msgstr "గంధౌనా"
 
 msgid "Gandhi Ashram (Ahmedabad)"
-msgstr "గాంధీ ఆశ్రమ్ (అహమదాబాద్)"
+msgstr "గాంధీ ఆశ్రమ్ (అహ్మదాబాదు)"
 
 msgid "Gandhi Bari"
 msgstr "గాఁధీ బరీ"
 
 msgid "Gandhi Bazar (Amritsar)"
-msgstr "గాఁధీ బాజార్ (అమృతసర్)"
+msgstr "గాఁధీ బాజార్ (అమృత్‌సర్)"
 
 msgid "Gandhi Bazar (East Godavari)"
 msgstr "గాఁధీ బాజార్ (ఈస్ట్ గోదావరీ)"
@@ -23833,7 +23833,7 @@ msgid "Gandhi Gunj"
 msgstr "గాఁధీ గూఁజ్"
 
 msgid "Gandhi Market (Coimbatore)"
-msgstr "గాఁధీ మార్కిట్ (కోయమ్బటూర్)"
+msgstr "గాఁధీ మార్కిట్ (కోయంబత్తూరు)"
 
 msgid "Gandhi Market Complex Margao"
 msgstr "గాంధీ మార్కెట్ కామ్ప్లెక్స్ మార్గో"
@@ -23845,7 +23845,7 @@ msgid "Gandhi Nagar (Balangir)"
 msgstr "గాంధీ నగర్ (బలాంగీర్)"
 
 msgid "Gandhi Nagar (Jaipur)"
-msgstr "గాంధీ నగర్ (జయపుర్)"
+msgstr "గాంధీ నగర్ (జైపూర్)"
 
 msgid "Gandhi Nagar (Kottayam)"
 msgstr "గాంధీ నగర్ (కోట్టాయమ్)"
@@ -23857,7 +23857,7 @@ msgid "Gandhi Nagar (Moradabad)"
 msgstr "గాంధీ నగర్ (మోరాదాబాద్)"
 
 msgid "Gandhi Nagar (Nagpur)"
-msgstr "గాంధీ నగర్ (నాగపుర్)"
+msgstr "గాంధీ నగర్ (నాగ్‌పూర్)"
 
 msgid "Gandhi Nagar (Nashik)"
 msgstr "గాంధీ నగర్ (నాసిక్)"
@@ -23872,7 +23872,7 @@ msgid "Gandhi Path"
 msgstr "గాంధీ పథ్"
 
 msgid "Gandhi Road (Ahmedabad)"
-msgstr "గాంధీ రోడ్ (అహమదాబాద్)"
+msgstr "గాంధీ రోడ్ (అహ్మదాబాదు)"
 
 msgid "Gandhi Road (Cuddapah)"
 msgstr "గాంధీ రోడ్ (కుడ్డాపాహ్)"
@@ -23908,7 +23908,7 @@ msgid "Gandhinagar (Basti)"
 msgstr "గాంధీనగర్ (బస్తీ)"
 
 msgid "Gandhinagar (Coimbatore)"
-msgstr "గాంధీనగర్ (కోయమ్బటూర్)"
+msgstr "గాంధీనగర్ (కోయంబత్తూరు)"
 
 msgid "Gandhinagar (Cumbum)"
 msgstr "గాంధీనగర్ (కుమ్బుమ్)"
@@ -23938,7 +23938,7 @@ msgid "Gandhinagar (Sikar)"
 msgstr "గాంధీనగర్ (సీకర్)"
 
 msgid "Gandhinagar (Tirunelveli)"
-msgstr "గాంధీనగర్ (తిరునెలవెలీ)"
+msgstr "గాంధీనగర్ (తిరునల్వేలి)"
 
 msgid "Gandhinagar (Vellore)"
 msgstr "గాంధీనగర్ (వెల్లోర్)"
@@ -23956,10 +23956,10 @@ msgid "Gandhinagaram (Gudivada)"
 msgstr "గాన్ధీనగరమ్ (గుడివాడా)"
 
 msgid "Gandhinagaram (Vijayawada)"
-msgstr "గాన్ధీనగరమ్ (విజయవా ా)"
+msgstr "గాన్ధీనగరమ్ (విజయవాడ)"
 
 msgid "Gandhinagaram (Visakhapatnam)"
-msgstr "గాన్ధీనగరమ్ (విశాఖాపట్నమ్)"
+msgstr "గాన్ధీనగరమ్ (విశాఖపట్టణం)"
 
 msgid "Gandhipet - TPT"
 msgstr "గాంధీపెట్ - తప్త్"
@@ -23968,7 +23968,7 @@ msgid "Gandhipuram"
 msgstr "గాంధీపురం"
 
 msgid "Gandhipuram (Coimbatore)"
-msgstr "గాంధీపురమ్ (కోయమ్బటూర్)"
+msgstr "గాంధీపురమ్ (కోయంబత్తూరు)"
 
 msgid "Gandhipuram (East Godavari)"
 msgstr "గాంధీపురమ్ (ఈస్ట్ గోదావరీ)"
@@ -24409,7 +24409,7 @@ msgid "Garha"
 msgstr "గ్రహ్"
 
 msgid "Garha (Jabalpur)"
-msgstr "గ్రహ్ (జబలపుర్)"
+msgstr "గ్రహ్ (జబల్‌పూర్)"
 
 msgid "Garha Bazar"
 msgstr "గ్రహ్ బాజార్"
@@ -25096,7 +25096,7 @@ msgid "Ghodasar"
 msgstr "ఘో ాసర్"
 
 msgid "Ghodasar (Ahmedabad)"
-msgstr "ఘో ాసర్ (అహమదాబాద్)"
+msgstr "ఘో ాసర్ (అహ్మదాబాదు)"
 
 msgid "Ghodavali"
 msgstr "ఘో ావాలీ"
@@ -25105,7 +25105,7 @@ msgid "Ghodbander"
 msgstr "ఘోడబందర్"
 
 msgid "Ghodegaon (Pune)"
-msgstr "ఘో ెగాఓం (పుణె)"
+msgstr "ఘో ెగాఓం (పూణే)"
 
 msgid "Ghodki"
 msgstr "ఘో కీ"
@@ -25405,7 +25405,7 @@ msgid "Girim"
 msgstr "గిరిం"
 
 msgid "Girinagar (Bangalore)"
-msgstr "గిరినగర్ (బేంగలోర్)"
+msgstr "గిరినగర్ (బెంగుళూరు)"
 
 msgid "Giripeth"
 msgstr "గిరిపీఠ్"
@@ -25699,7 +25699,7 @@ msgid "Gokavaram"
 msgstr "గోకవరం"
 
 msgid "Gokhale Road (Mumbai)"
-msgstr "గోఖలె రోడ్ (ముమ్బఈ)"
+msgstr "గోఖలె రోడ్ (ముంబై)"
 
 msgid "Gokhale Road (Thane)"
 msgstr "గోఖలె రోడ్ (ఠాణె)"
@@ -26011,7 +26011,7 @@ msgid "Gopala Nagar (O)"
 msgstr "గోపాల్ నగర్ (ఓ)"
 
 msgid "Gopalapatnam"
-msgstr "గోపాలపటణం"
+msgstr "గోపాలపట్టణం"
 
 msgid "Gopalapura"
 msgstr "గోపాలపుర్"
@@ -26020,7 +26020,7 @@ msgid "Gopalapuram"
 msgstr "గోపాలపురం"
 
 msgid "Gopalapuram (Chennai)"
-msgstr "గోపాలపురమ్ (చెన్నఈ)"
+msgstr "గోపాలపురమ్ (చెన్నై)"
 
 msgid "Gopalasamudram"
 msgstr "గోపాలసముద్రం"
@@ -26353,7 +26353,7 @@ msgid "Goudaguda"
 msgstr "గౌ ాగు ా"
 
 msgid "Goudapatna"
-msgstr "గౌడపాటన్"
+msgstr "గౌడపాట్నా"
 
 msgid "Goudruma"
 msgstr "గౌడరూం"
@@ -26413,7 +26413,7 @@ msgid "Govidabari"
 msgstr "గోవిదాబరీ"
 
 msgid "Govind Nagar (Jaipur)"
-msgstr "గోవిన్ద్ నగర్ (జయపుర్)"
+msgstr "గోవిన్ద్ నగర్ (జైపూర్)"
 
 msgid "Govind Pur"
 msgstr "గోవిన్ద్ పుర్"
@@ -26449,7 +26449,7 @@ msgid "Govindpur"
 msgstr "గోవిందపుర్"
 
 msgid "Govindpur (Dhanbad)"
-msgstr "గోవిందపుర్ (ధనబాద్)"
+msgstr "గోవిందపుర్ (ధన్‌బాద్)"
 
 msgid "Govindpur (Dhenkanal)"
 msgstr "గోవిందపుర్ (ధెనకనాల్)"
@@ -26479,7 +26479,7 @@ msgid "Govt Poly (Yavatmal)"
 msgstr "గోవత్ పాలీ (యవతమాల్)"
 
 msgid "Govt Press Chandigarh"
-msgstr "గోవత్ ప్రెస్ చండీగ్ "
+msgstr "గోవత్ ప్రెస్ చండీగఢ్"
 
 msgid "Govt Stanley Hospital"
 msgstr "గోవత్ స్టేనలె హ్ స్పిటల్"
@@ -26533,7 +26533,7 @@ msgid "Gowrelli"
 msgstr "గౌరెలీ"
 
 msgid "Gowripatnam"
-msgstr "గౌరిపటణం"
+msgstr "గౌరిపట్టణం"
 
 msgid "Gowriwakkam"
 msgstr "గౌరీవక్కం"
@@ -26623,7 +26623,7 @@ msgid "Gudalur Bazaar"
 msgstr "గుడలుర్ బాజార్"
 
 msgid "Gudalur-coimbatore"
-msgstr "గుడలుర్-కోయమ్బటూర్"
+msgstr "గుడలుర్-కోయంబత్తూరు"
 
 msgid "Gudari Bazar"
 msgstr "గుదరీ బాజార్"
@@ -27298,7 +27298,7 @@ msgid "Narendra Khap"
 msgstr "నరెన్ద్ర్ ఖాప్"
 
 msgid "Narendra Nagar (Nagpur)"
-msgstr "నరెంద్ర్ నాగర్ (నాగపుర్)"
+msgstr "నరెంద్ర్ నాగర్ (నాగ్‌పూర్)"
 
 msgid "Narendra Nagar (Tehri Garhwal)"
 msgstr "నరెంద్ర్ నాగర్ (టెహరీ గ్ వాల్)"
@@ -27454,7 +27454,7 @@ msgid "Narsinhpur"
 msgstr "నరసింహపుర్"
 
 msgid "Narsipatnam"
-msgstr "నార్సిపత్నాం"
+msgstr "నార్సిపట్టణం"
 
 msgid "Narthan"
 msgstr "నార్థన్"
@@ -28213,13 +28213,13 @@ msgid "Nehru Nagar (Ghaziabad)"
 msgstr "నెహరూ నగర్ (ౚ ిఆబాద్)"
 
 msgid "Nehru Nagar (Mumbai)"
-msgstr "నెహరూ నగర్ (ముమ్బఈ)"
+msgstr "నెహరూ నగర్ (ముంబై)"
 
 msgid "Nehru Nagar (Nashik)"
 msgstr "నెహరూ నగర్ (నాసిక్)"
 
 msgid "Nehru Nagar (South Delhi)"
-msgstr "నెహరూ నగర్ (సాఉథ్ దెల్హీ)"
+msgstr "నెహరూ నగర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Nehru Nagar(Guntur)"
 msgstr "నెహరూ నగర్(గుంటూర్)"
@@ -28234,7 +28234,7 @@ msgid "Nehru Rd. Baraut"
 msgstr "నెహరూ రద్. బరౌత్"
 
 msgid "Nehru Road (Mumbai)"
-msgstr "నెహరూ రోడ్ (ముమ్బఈ)"
+msgstr "నెహరూ రోడ్ (ముంబై)"
 
 msgid "Nehru Road Town"
 msgstr "నెహరూ రోడ్ టాఉన్"
@@ -28249,7 +28249,7 @@ msgid "Nehrunagar (Hyderabad)"
 msgstr "నెహరూనగర్ (హేదరాబాద్)"
 
 msgid "Nehrunagar (Pune)"
-msgstr "నెహరూనగర్ (పుణె)"
+msgstr "నెహరూనగర్ (పూణే)"
 
 msgid "Neidavoyal"
 msgstr "నెదవోయల్"
@@ -28552,7 +28552,7 @@ msgid "New Abadi Jagtial"
 msgstr "నఈ ఆబాదీ జగతీల్"
 
 msgid "New Agra"
-msgstr "న్యూ ఆగరా"
+msgstr "న్యూ ఆగ్రా"
 
 msgid "New Alipore"
 msgstr "న్యూ అలీపుర్"
@@ -28585,7 +28585,7 @@ msgid "New Courts"
 msgstr "నఈ కోర్ట్స్"
 
 msgid "New Delhi South Ext-II"
-msgstr "న్యూ డెల్హీ సాఉథ్ ఈస్ట్-ఈ"
+msgstr "న్యూ ఢిల్లీ సాఉథ్ ఈస్ట్-ఈ"
 
 msgid "New Diggewadi"
 msgstr "నఈ డిగగెవా ీ"
@@ -30319,7 +30319,7 @@ msgid "Padalse"
 msgstr "పదలసె"
 
 msgid "Padam Nagar (North Delhi)"
-msgstr "పదమ్ నగర్ (నార్థ్ దెల్హీ)"
+msgstr "పదమ్ నగర్ (నార్థ్ ఢిల్లీ)"
 
 msgid "Padamal"
 msgstr "పదమల్"
@@ -30526,7 +30526,7 @@ msgid "Pagda"
 msgstr "పగడా"
 
 msgid "Pagnispaga Indore"
-msgstr "పగనిసపగా ఇందౌర్"
+msgstr "పగనిసపగా ఇండోర్"
 
 msgid "Paguthan"
 msgstr "పగుథన్"
@@ -30901,7 +30901,7 @@ msgid "Palanpur"
 msgstr "పాలనపుర్"
 
 msgid "Palanpur Delhigate"
-msgstr "పాలనపుర్ దెల్హీగతె"
+msgstr "పాలనపుర్ ఢిల్లీగతె"
 
 msgid "Palanpur Ganjbazar"
 msgstr "పాలనపుర్ గంజబాజార్"
@@ -31003,7 +31003,7 @@ msgid "Paldhui"
 msgstr "పల్ ుఈ"
 
 msgid "Paldi (Ahmedabad)"
-msgstr "పాల్ ీ (అహమదాబాద్)"
+msgstr "పాల్ ీ (అహ్మదాబాదు)"
 
 msgid "Paldi Kankaj"
 msgstr "పాల్ ీ కంకజ్"
@@ -31945,7 +31945,7 @@ msgid "Paonta Sahib"
 msgstr "పావటా సాహిబ్"
 
 msgid "Paota(Jaipur)"
-msgstr "ప్ ట్(జయపుర్)"
+msgstr "ప్ ట్(జైపూర్)"
 
 msgid "Paoti"
 msgstr "పోతీ"
@@ -32689,7 +32689,7 @@ msgid "Patel Faliya"
 msgstr "పటెల్ ఫలియా"
 
 msgid "Patel Nagar (Central Delhi)"
-msgstr "పటెల్ నగర్ (సెంట్రల్ దెల్హీ)"
+msgstr "పటెల్ నగర్ (సెంట్రల్ ఢిల్లీ)"
 
 msgid "Patel Nagar East"
 msgstr "పటెల్ నగర్ ఈస్ట్"
@@ -34756,7 +34756,7 @@ msgid "Polsanda"
 msgstr "పోలసండా"
 
 msgid "Polytechnic (Ahmedabad)"
-msgstr "ప్ లిటెక్నిక్ (అహమదాబాద్)"
+msgstr "ప్ లిటెక్నిక్ (అహ్మదాబాదు)"
 
 msgid "Pomawa"
 msgstr "పోమావా"
@@ -35221,7 +35221,7 @@ msgid "Pratapgadh Kampa"
 msgstr "ప్రతాపగ్  కమ్ప్"
 
 msgid "Pratapganj (Vadodara)"
-msgstr "ప్రతాపగంజ్ (వ్ ోదరా)"
+msgstr "ప్రతాపగంజ్ (వదోదర)"
 
 msgid "Pratapgarh"
 msgstr "ప్రతాపగఢ్"
@@ -35233,7 +35233,7 @@ msgid "Pratapnagar (Nadia)"
 msgstr "ప్రతాపనగర్ (నదియా)"
 
 msgid "Pratapnagar (Vadodara)"
-msgstr "ప్రతాపనగర్ (వ్ ోదరా)"
+msgstr "ప్రతాపనగర్ (వదోదర)"
 
 msgid "Pratapnagar R.S."
 msgstr "ప్రతాపనగర్ ఆర్.ఏస్."
@@ -35371,7 +35371,7 @@ msgid "Pubbada"
 msgstr "పుబ్బదా"
 
 msgid "Public Office (Ahmedabad)"
-msgstr "పబ్లిక్ ఑ఫిస్ (అహమదాబాద్)"
+msgstr "పబ్లిక్ ఑ఫిస్ (అహ్మదాబాదు)"
 
 msgid "Public Office (Thiruvananthapuram)"
 msgstr "పబ్లిక్ ఑ఫిస్ (థిరువనంతపురమ్)"
@@ -35662,16 +35662,16 @@ msgid "Pundru"
 msgstr "పుణ్డ్ర్"
 
 msgid "Pune"
-msgstr "పుణె"
+msgstr "పూణే"
 
 msgid "Pune Cantt East"
-msgstr "పుణె కేంట్ ఈస్ట్"
+msgstr "పూణే కేంట్ ఈస్ట్"
 
 msgid "Pune City"
-msgstr "పుణె సిటీ"
+msgstr "పూణే సిటీ"
 
 msgid "Pune New Bazar"
-msgstr "పుణె నఈ బాజార్"
+msgstr "పూణే నఈ బాజార్"
 
 msgid "Pungambadi"
 msgstr "పూంగమబా ీ"
@@ -35848,7 +35848,7 @@ msgid "Purani Basti (Basti)"
 msgstr "పురాణీ బస్తీ (బస్తీ)"
 
 msgid "Purani Basti (Jaipur)"
-msgstr "పురాణీ బస్తీ (జయపుర్)"
+msgstr "పురాణీ బస్తీ (జైపూర్)"
 
 msgid "Purani Basti (Raipur)"
 msgstr "పురాణీ బస్తీ (రాయపుర్)"
@@ -35977,7 +35977,7 @@ msgid "Purunapani"
 msgstr "పురుణాపానీ"
 
 msgid "Purushothapatnam"
-msgstr "పురుషోథపతనం"
+msgstr "పురుషోథపట్టణం"
 
 msgid "Purushottampur"
 msgstr "పురుషోత్తమపుర్"
@@ -36337,7 +36337,7 @@ msgid "Radiala"
 msgstr "రెడియల్"
 
 msgid "Radio Colony Indore"
-msgstr "రెడియో క్ లోనీ ఇందౌర్"
+msgstr "రెడియో క్ లోనీ ఇండోర్"
 
 msgid "Raduwa"
 msgstr "రడువా"
@@ -36598,7 +36598,7 @@ msgid "Railway Carshed Complex"
 msgstr "రెలవె కారశెడ్ కామ్ప్లెక్స్"
 
 msgid "Railway Colony (Ahmedabad)"
-msgstr "రెలవె క్ లోనీ (అహమదాబాద్)"
+msgstr "రెలవె క్ లోనీ (అహ్మదాబాదు)"
 
 msgid "Railway Colony (Ananthapur)"
 msgstr "రెలవె క్ లోనీ (అనంతపుర్)"
@@ -36664,7 +36664,7 @@ msgid "Raipur"
 msgstr "రాయపుర్"
 
 msgid "Raipur (Ahmedabad)"
-msgstr "రాయపుర్ (అహమదాబాద్)"
+msgstr "రాయపుర్ (అహ్మదాబాదు)"
 
 msgid "Raipur Buzurg"
 msgstr "రాయపుర్ బు ుర్గ్"
@@ -36742,10 +36742,10 @@ msgid "Raj Bhawan (Bhopal)"
 msgstr "రాజ్ భవన్ (భోపాల్)"
 
 msgid "Raj Bhawan (Chandigarh)"
-msgstr "రాజ్ భవన్ (చండీగ్ )"
+msgstr "రాజ్ భవన్ (చండీగఢ్ )"
 
 msgid "Raj Bhawan (Jaipur)"
-msgstr "రాజ్ భవన్ (జయపుర్)"
+msgstr "రాజ్ భవన్ (జైపూర్)"
 
 msgid "Raj Chainpur"
 msgstr "రాజ్ చేనపుర్"
@@ -36997,13 +36997,13 @@ msgid "Rajbati Ramnagar"
 msgstr "రాజబెటీ రామనగర్"
 
 msgid "Rajbhavan (Bangalore)"
-msgstr "రాజభవన్ (బేంగలోర్)"
+msgstr "రాజభవన్ (బెంగుళూరు)"
 
 msgid "Rajbhavan (Chennai)"
-msgstr "రాజభవన్ (చెన్నఈ)"
+msgstr "రాజభవన్ (చెన్నై)"
 
 msgid "Rajbhavan (Mumbai)"
-msgstr "రాజభవన్ (ముమ్బఈ)"
+msgstr "రాజభవన్ (ముంబై)"
 
 msgid "Rajbolaram"
 msgstr "రాజబాలారాం"
@@ -37045,10 +37045,10 @@ msgid "Rajendra Nagar (Cuttack)"
 msgstr "రాజెంద్ర్ నగర్ (కుట్టక్)"
 
 msgid "Rajendra Nagar (Indore)"
-msgstr "రాజెంద్ర్ నగర్ (ఇందౌర్)"
+msgstr "రాజెంద్ర్ నగర్ (ఇండోర్)"
 
 msgid "Rajendra Nagar (Mumbai)"
-msgstr "రాజెంద్ర్ నగర్ (ముమ్బఈ)"
+msgstr "రాజెంద్ర్ నగర్ (ముంబై)"
 
 msgid "Rajendra Nagar (Patna)"
 msgstr "రాజెంద్ర్ నగర్ (పటనా)"
@@ -37147,76 +37147,76 @@ msgid "Rajjupur"
 msgstr "రజ్జుపుర్"
 
 msgid "Rajkot"
-msgstr "రాజకోట్"
+msgstr "రాజ్‌కోట్"
 
 msgid "Rajkot  Raiya Road"
-msgstr "రాజకోట్  రేయా రోడ్"
+msgstr "రాజ్‌కోట్  రేయా రోడ్"
 
 msgid "Rajkot Aji Ind Estate"
-msgstr "రాజకోట్ అజీ జీంద్ ఏస్టెట్"
+msgstr "రాజ్‌కోట్ అజీ జీంద్ ఏస్టెట్"
 
 msgid "Rajkot Bedipara"
-msgstr "రాజకోట్ బెడపర్"
+msgstr "రాజ్‌కోట్ బెడపర్"
 
 msgid "Rajkot Bhaktinagar"
-msgstr "రాజకోట్ భక్తినగర్"
+msgstr "రాజ్‌కోట్ భక్తినగర్"
 
 msgid "Rajkot Bhomeshwar Plot"
-msgstr "రాజకోట్ భోమెశ్వర్ ప్లాట్"
+msgstr "రాజ్‌కోట్ భోమెశ్వర్ ప్లాట్"
 
 msgid "Rajkot Collectorate"
-msgstr "రాజకోట్ కోల్లెకతోరతె"
+msgstr "రాజ్‌కోట్ కోల్లెకతోరతె"
 
 msgid "Rajkot D H College"
-msgstr "రాజకోట్ డీ హ్ క్ లెజ్"
+msgstr "రాజ్‌కోట్ డీ హ్ క్ లెజ్"
 
 msgid "Rajkot Jairaj Plot"
-msgstr "రాజకోట్ జయరాజ్ ప్లాట్"
+msgstr "రాజ్‌కోట్ జయరాజ్ ప్లాట్"
 
 msgid "Rajkot Jn. Plot"
-msgstr "రాజకోట్ జన్. ప్లాట్"
+msgstr "రాజ్‌కోట్ జన్. ప్లాట్"
 
 msgid "Rajkot Kalavad Road"
-msgstr "రాజకోట్ కాలవా  రోడ్"
+msgstr "రాజ్‌కోట్ కాలవా  రోడ్"
 
 msgid "Rajkot Malviyanagar"
-msgstr "రాజకోట్ మాలవీయనగర్"
+msgstr "రాజ్‌కోట్ మాలవీయనగర్"
 
 msgid "Rajkot Manahar Plot"
-msgstr "రాజకోట్ మనహర్ ప్లాట్"
+msgstr "రాజ్‌కోట్ మనహర్ ప్లాట్"
 
 msgid "Rajkot Mandvi Chowk"
-msgstr "రాజకోట్ మాండవీ చౌక్"
+msgstr "రాజ్‌కోట్ మాండవీ చౌక్"
 
 msgid "Rajkot Marketing Yard"
-msgstr "రాజకోట్ మార్కెటింగ్ యార్డ్"
+msgstr "రాజ్‌కోట్ మార్కెటింగ్ యార్డ్"
 
 msgid "Rajkot Millpara"
-msgstr "రాజకోట్ మిలలపర్"
+msgstr "రాజ్‌కోట్ మిలలపర్"
 
 msgid "Rajkot New Jagnath Plot"
-msgstr "రాజకోట్ నఈ జగనాథ్ ప్లాట్"
+msgstr "రాజ్‌కోట్ నఈ జగనాథ్ ప్లాట్"
 
 msgid "Rajkot Parsi Agiyari Chowk"
-msgstr "రాజకోట్ పారసీ అగియారీ చౌక్"
+msgstr "రాజ్‌కోట్ పారసీ అగియారీ చౌక్"
 
 msgid "Rajkot Popatpara"
-msgstr "రాజకోట్ పోపటపర్"
+msgstr "రాజ్‌కోట్ పోపటపర్"
 
 msgid "Rajkot Postal Colony"
-msgstr "రాజకోట్ పోస్టల్ క్ లోనీ"
+msgstr "రాజ్‌కోట్ పోస్టల్ క్ లోనీ"
 
 msgid "Rajkot Sau Uni Area"
-msgstr "రాజకోట్ సౌ ఊని ఏరియా"
+msgstr "రాజ్‌కోట్ సౌ ఊని ఏరియా"
 
 msgid "Rajkot Sorathiawadi"
-msgstr "రాజకోట్ సోరఠియావాదీ"
+msgstr "రాజ్‌కోట్ సోరఠియావాదీ"
 
 msgid "Rajkot Udyognagar"
-msgstr "రాజకోట్ ఉద్యోగనగర్"
+msgstr "రాజ్‌కోట్ ఉద్యోగనగర్"
 
 msgid "Rajkot Vivekanandnagar"
-msgstr "రాజకోట్ వివెకానందనగర్"
+msgstr "రాజ్‌కోట్ వివెకానందనగర్"
 
 msgid "Rajkumar College"
 msgstr "రాజకుమార్ క్ లెజ్"
@@ -37441,7 +37441,7 @@ msgid "Ram Krishna Samadhi Road"
 msgstr "రామ్ కృష్ణా సమాధీ రోడ్"
 
 msgid "Ram Nagar (East Delhi)"
-msgstr "రామ్ నగర్ (ఈస్ట్ దెల్హీ)"
+msgstr "రామ్ నగర్ (ఈస్ట్ ఢిల్లీ)"
 
 msgid "Ram Nagar (Muktsar)"
 msgstr "రామ్ నగర్ (ముక్తసర్)"
@@ -37516,7 +37516,7 @@ msgid "Ramakrishna Nagar"
 msgstr "రామకృష్ణ్ నగర్"
 
 msgid "Ramakrishna Nagar (Chennai)"
-msgstr "రామకృష్ణ్ నగర్ (చెన్నఈ)"
+msgstr "రామకృష్ణ్ నగర్ (చెన్నై)"
 
 msgid "Ramakrishna Nagar (Mysore)"
 msgstr "రామకృష్ణ్ నగర్ (మేసోరె)"
@@ -37567,7 +37567,7 @@ msgid "Ramanathapuram Bazaar"
 msgstr "రామనాథపురమ్ బాజార్"
 
 msgid "Ramanathapuram Coimbatore"
-msgstr "రామనాథపురమ్ కోయమ్బటూర్"
+msgstr "రామనాథపురమ్ కోయంబత్తూరు"
 
 msgid "Ramanathapuram Collectorate"
 msgstr "రామనాథపురమ్ కోల్లెకతోరతె"
@@ -37786,7 +37786,7 @@ msgid "Ramnagar (Varanasi)"
 msgstr "రామనగర్ (వారాణసీ)"
 
 msgid "Ramnagar Coimbatore"
-msgstr "రామనగర్ కోయమ్బటూర్"
+msgstr "రామనగర్ కోయంబత్తూరు"
 
 msgid "Ramnagar Colony"
 msgstr "రామనగర్ క్ లోనీ"
@@ -38740,7 +38740,7 @@ msgid "Raya"
 msgstr "రాయా"
 
 msgid "Rayabhupalapatnam"
-msgstr "రాయభూపలపటణం"
+msgstr "రాయభూపలపట్టణం"
 
 msgid "Rayagada"
 msgstr "రాయగడ"
@@ -38782,7 +38782,7 @@ msgid "Rayanwali"
 msgstr "రాయాంవాలీ"
 
 msgid "Rayapatnam"
-msgstr "రాయపత్నాం"
+msgstr "రాయపట్టణం"
 
 msgid "Rayapur"
 msgstr "రాయపుర్"
@@ -40009,7 +40009,7 @@ msgid "Sadar Bazar (Firozpur)"
 msgstr "సదర్ బాజార్ ( ిరో పుర్)"
 
 msgid "Sadar Bazar (Nagpur)"
-msgstr "సదర్ బాజార్ (నాగపుర్)"
+msgstr "సదర్ బాజార్ (నాగ్‌పూర్)"
 
 msgid "Sadar Bazar (Solapur)"
 msgstr "సదర్ బాజార్ (సోలాపుర్)"
@@ -40438,7 +40438,7 @@ msgid "Saidabad Colony"
 msgstr "సేదాబాద్ క్ లోనీ"
 
 msgid "Saidapet (Chennai)"
-msgstr "సేదాపెట్ (చెన్నఈ)"
+msgstr "సేదాపెట్ (చెన్నై)"
 
 msgid "Saiden"
 msgstr "సాఇడెం"
@@ -40630,7 +40630,7 @@ msgid "Saket (Meerut)"
 msgstr "సాకెత్ (మెరఠ్)"
 
 msgid "Saket (South Delhi)"
-msgstr "సాకెత్ (సాఉథ్ దెల్హీ)"
+msgstr "సాకెత్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Saketpuri"
 msgstr "సాకెతపురీ"
@@ -41713,7 +41713,7 @@ msgid "Sant Nagar"
 msgstr "సంత్ నగర్"
 
 msgid "Sant Nagar (South Delhi)"
-msgstr "సంత్ నగర్ (సాఉథ్ దెల్హీ)"
+msgstr "సంత్ నగర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Santacruz Central"
 msgstr "సాంతాక్రూ  సెంట్రల్"
@@ -41833,7 +41833,7 @@ msgid "Sanwer"
 msgstr "సాంవెర్"
 
 msgid "Sanwer Link Road Indore"
-msgstr "సాంవెర్ లింక్ రోడ్ ఇందౌర్"
+msgstr "సాంవెర్ లింక్ రోడ్ ఇండోర్"
 
 msgid "Saonkala"
 msgstr "సాయంకాల్"
@@ -42955,49 +42955,49 @@ msgid "Secretariat (North Goa)"
 msgstr "సెక్రెటెరిఏట్ (నార్థ్ గోవా)"
 
 msgid "Sector 10 (Chandigarh)"
-msgstr "సెక్టర్ 10 (చండీగ్ )"
+msgstr "సెక్టర్ 10 (చండీగఢ్ )"
 
 msgid "Sector 11( Chandigarh)"
-msgstr "సెక్టర్ 11( చండీగ్ )"
+msgstr "సెక్టర్ 11( చండీగఢ్ )"
 
 msgid "Sector 12 (Chandigarh)"
-msgstr "సెక్టర్ 12 (చండీగ్ )"
+msgstr "సెక్టర్ 12 (చండీగఢ్ )"
 
 msgid "Sector 14 (Chandigarh)"
-msgstr "సెక్టర్ 14 (చండీగ్ )"
+msgstr "సెక్టర్ 14 (చండీగఢ్ )"
 
 msgid "Sector 15 Chandigarh"
-msgstr "సెక్టర్ 15 చండీగ్ "
+msgstr "సెక్టర్ 15 చండీగఢ్"
 
 msgid "Sector 16 (Chandigarh)"
-msgstr "సెక్టర్ 16 (చండీగ్ )"
+msgstr "సెక్టర్ 16 (చండీగఢ్ )"
 
 msgid "Sector 18 (Chandigarh)"
-msgstr "సెక్టర్ 18 (చండీగ్ )"
+msgstr "సెక్టర్ 18 (చండీగఢ్ )"
 
 msgid "Sector 19 (Chandigarh)"
-msgstr "సెక్టర్ 19 (చండీగ్ )"
+msgstr "సెక్టర్ 19 (చండీగఢ్ )"
 
 msgid "Sector 2 Bhilai"
 msgstr "సెక్టర్ 2 భిలాఈ"
 
 msgid "Sector 20 (Chandigarh)"
-msgstr "సెక్టర్ 20 (చండీగ్ )"
+msgstr "సెక్టర్ 20 (చండీగఢ్ )"
 
 msgid "Sector 21 (Chandigarh)"
-msgstr "సెక్టర్ 21 (చండీగ్ )"
+msgstr "సెక్టర్ 21 (చండీగఢ్ )"
 
 msgid "Sector 22 (Chandigarh)"
-msgstr "సెక్టర్ 22 (చండీగ్ )"
+msgstr "సెక్టర్ 22 (చండీగఢ్ )"
 
 msgid "Sector 26 (Chandigarh)"
-msgstr "సెక్టర్ 26 (చండీగ్ )"
+msgstr "సెక్టర్ 26 (చండీగఢ్ )"
 
 msgid "Sector 27(Chandigarh)S.O"
-msgstr "సెక్టర్ 27(చండీగ్ )స్.ఓ"
+msgstr "సెక్టర్ 27(చండీగఢ్ )స్.ఓ"
 
 msgid "Sector 29 (Chandigarh)"
-msgstr "సెక్టర్ 29 (చండీగ్ )"
+msgstr "సెక్టర్ 29 (చండీగఢ్ )"
 
 msgid "Sector 3 Bhilai"
 msgstr "సెక్టర్ 3 భిలాఈ"
@@ -43006,31 +43006,31 @@ msgid "Sector 3 U E KKR"
 msgstr "సెక్టర్ 3 ఉ ఇ కకర్"
 
 msgid "Sector 30 (Chandigarh)"
-msgstr "సెక్టర్ 30 (చండీగ్ )"
+msgstr "సెక్టర్ 30 (చండీగఢ్ )"
 
 msgid "Sector 31 (Chandigarh)"
-msgstr "సెక్టర్ 31 (చండీగ్ )"
+msgstr "సెక్టర్ 31 (చండీగఢ్ )"
 
 msgid "Sector 34(Chandigarh)"
-msgstr "సెక్టర్ 34(చండీగ్ )"
+msgstr "సెక్టర్ 34(చండీగఢ్ )"
 
 msgid "Sector 35 (Chandigarh)"
-msgstr "సెక్టర్ 35 (చండీగ్ )"
+msgstr "సెక్టర్ 35 (చండీగఢ్ )"
 
 msgid "Sector 36 (Chandigarh)"
-msgstr "సెక్టర్ 36 (చండీగ్ )"
+msgstr "సెక్టర్ 36 (చండీగఢ్ )"
 
 msgid "Sector 4 Karnal"
 msgstr "సెక్టర్ 4 కరనాల్"
 
 msgid "Sector 40 (Chandigarh)"
-msgstr "సెక్టర్ 40 (చండీగ్ )"
+msgstr "సెక్టర్ 40 (చండీగఢ్ )"
 
 msgid "Sector 44 (Chandigarh)"
-msgstr "సెక్టర్ 44 (చండీగ్ )"
+msgstr "సెక్టర్ 44 (చండీగఢ్ )"
 
 msgid "Sector 47 Chandigarh"
-msgstr "సెక్టర్ 47 చండీగ్ "
+msgstr "సెక్టర్ 47 చండీగఢ్"
 
 msgid "Sector 5 Bhilai"
 msgstr "సెక్టర్ 5 భిలాఈ"
@@ -43192,7 +43192,7 @@ msgid "Sellankuppam"
 msgstr "సెలలనకుప్పం"
 
 msgid "Sellur (Madurai)"
-msgstr "సెల్లుర్ (మదురే)"
+msgstr "సెల్లుర్ (మధురై)"
 
 msgid "Selod"
 msgstr "సెలోడ్"
@@ -43609,7 +43609,7 @@ msgid "Shahabpur"
 msgstr "శహాబపుర్"
 
 msgid "Shahaganj (Agra)"
-msgstr "శాహగంజ్ (ఆగరా)"
+msgstr "శాహగంజ్ (ఆగ్రా)"
 
 msgid "Shahaganj (Aurangabad)"
 msgstr "శాహగంజ్ (ఔరంగాబాద్)"
@@ -43681,7 +43681,7 @@ msgid "Shahpur"
 msgstr "శాహపుర్"
 
 msgid "Shahpur (Ahmedabad)"
-msgstr "శాహపుర్ (అహమదాబాద్)"
+msgstr "శాహపుర్ (అహ్మదాబాదు)"
 
 msgid "Shahpur (Betul)"
 msgstr "శాహపుర్ (బెతుల్)"
@@ -43762,7 +43762,7 @@ msgid "Shakti Nagar (Jalandhar)"
 msgstr "శక్తి నగర్ (జాలంధర్)"
 
 msgid "Shakti Nagar (North Delhi)"
-msgstr "శక్తి నగర్ (నార్థ్ దెల్హీ)"
+msgstr "శక్తి నగర్ (నార్థ్ ఢిల్లీ)"
 
 msgid "Shaktigarh"
 msgstr "శక్తిగ్ "
@@ -43792,7 +43792,7 @@ msgid "Shalbari"
 msgstr "శాలబారీ"
 
 msgid "Shalimar Bagh (North West Delhi)"
-msgstr "శాలీమార్ బాగ్ (నార్థ్ వెస్ట్ దెల్హీ)"
+msgstr "శాలీమార్ బాగ్ (నార్థ్ వెస్ట్ ఢిల్లీ)"
 
 msgid "Shallang"
 msgstr "శాలాంగ్"
@@ -43831,7 +43831,7 @@ msgid "Shaniwar Peth (Kolhapur)"
 msgstr "శనివార్ పెఠ్ (కోల్హాపుర్)"
 
 msgid "Shaniwar Peth (Pune)"
-msgstr "శనివార్ పెఠ్ (పుణె)"
+msgstr "శనివార్ పెఠ్ (పూణే)"
 
 msgid "Shankar Nagar"
 msgstr "శంకర్ నగర్"
@@ -43948,16 +43948,16 @@ msgid "Shastri Nagar (Bhopal)"
 msgstr "శాస్త్రీ నగర్ (భోపాల్)"
 
 msgid "Shastri Nagar (Chennai)"
-msgstr "శాస్త్రీ నగర్ (చెన్నఈ)"
+msgstr "శాస్త్రీ నగర్ (చెన్నై)"
 
 msgid "Shastri Nagar (Meerut)"
 msgstr "శాస్త్రీ నగర్ (మెరఠ్)"
 
 msgid "Shastri Nagar (North West Delhi)"
-msgstr "శాస్త్రీ నగర్ (నార్థ్ వెస్ట్ దెల్హీ)"
+msgstr "శాస్త్రీ నగర్ (నార్థ్ వెస్ట్ ఢిల్లీ)"
 
 msgid "Shastrinagar (Ahmedabad)"
-msgstr "శాస్త్రీనగర్ (అహమదాబాద్)"
+msgstr "శాస్త్రీనగర్ (అహ్మదాబాదు)"
 
 msgid "Shastrinagar (Thane)"
 msgstr "శాస్త్రీనగర్ (ఠాణె)"
@@ -44356,7 +44356,7 @@ msgid "Shirud-digar"
 msgstr "శిరూడ్-దీగర్"
 
 msgid "Shirur (Pune)"
-msgstr "శిరూర్ (పుణె)"
+msgstr "శిరూర్ (పూణే)"
 
 msgid "Shirvande"
 msgstr "శిరవన్దె"
@@ -44401,19 +44401,19 @@ msgid "Shivaji Nagar (Kanpur Nagar)"
 msgstr "శివాజీ నగర్ (కానపూర్ నగర్)"
 
 msgid "Shivaji Nagar (Mumbai)"
-msgstr "శివాజీ నగర్ (ముమ్బఈ)"
+msgstr "శివాజీ నగర్ (ముంబై)"
 
 msgid "Shivaji Nagar (RTG)"
 msgstr "శివాజీ నగర్ (రటగ్)"
 
 msgid "Shivaji Park (East Delhi)"
-msgstr "శివాజీ పార్క్ (ఈస్ట్ దెల్హీ)"
+msgstr "శివాజీ పార్క్ (ఈస్ట్ ఢిల్లీ)"
 
 msgid "Shivaji Park (Mumbai)"
-msgstr "శివాజీ పార్క్ (ముమ్బఈ)"
+msgstr "శివాజీ పార్క్ (ముంబై)"
 
 msgid "Shivaji Park (West Delhi)"
-msgstr "శివాజీ పార్క్ (వెస్ట్ దెల్హీ)"
+msgstr "శివాజీ పార్క్ (వెస్ట్ ఢిల్లీ)"
 
 msgid "Shivaji Park Akola"
 msgstr "శివాజీ పార్క్ అకోలా"
@@ -44437,7 +44437,7 @@ msgid "Shivajinagar (Nizamabad)"
 msgstr "శివాజీనగర్ (ని ామాబాద్)"
 
 msgid "Shivajinagar (Pune)"
-msgstr "శివాజీనగర్ (పుణె)"
+msgstr "శివాజీనగర్ (పూణే)"
 
 msgid "Shivajinagar Ichalkaranji"
 msgstr "శివాజీనగర్ ఇచలకరంజీ"
@@ -44596,7 +44596,7 @@ msgid "Shukrawar Peth (Kolhapur)"
 msgstr "శుక్రవార్ పెఠ్ (కోల్హాపుర్)"
 
 msgid "Shukrawar Peth (Pune)"
-msgstr "శుక్రవార్ పెఠ్ (పుణె)"
+msgstr "శుక్రవార్ పెఠ్ (పూణే)"
 
 msgid "Shukulpur"
 msgstr "శుకులపుర్"
@@ -44620,7 +44620,7 @@ msgid "Shyam Nagar"
 msgstr "శ్యామ్ నగర్"
 
 msgid "Shyam Nagar (Jaipur)"
-msgstr "శ్యామ్ నగర్ (జయపుర్)"
+msgstr "శ్యామ్ నగర్ (జైపూర్)"
 
 msgid "Shyam Nagar Dum Dum"
 msgstr "శ్యామ్ నగర్ దమ్ దం"
@@ -44875,7 +44875,7 @@ msgid "Sikanderpur Basi"
 msgstr "సికందరపుర్ బసీ"
 
 msgid "Sikandra (Agra)"
-msgstr "సికందర్ (ఆగరా)"
+msgstr "సికందర్ (ఆగ్రా)"
 
 msgid "Sikandra Rao"
 msgstr "సికందరా రాఉ"
@@ -46354,7 +46354,7 @@ msgid "South Belgharia"
 msgstr "సాఉథ్ బెలఘరియా"
 
 msgid "South Delhi Campus"
-msgstr "సాఉథ్ దెల్హీ కేంపస్"
+msgstr "సాఉథ్ ఢిల్లీ కేంపస్"
 
 msgid "South Gate"
 msgstr "సాఉథ్ గెట్"
@@ -46420,7 +46420,7 @@ msgid "Sraiya Gopal"
 msgstr "సరేయా గోపాల్"
 
 msgid "Sree Madurai"
-msgstr "స్రీ మదురే"
+msgstr "స్రీ మధురై"
 
 msgid "Sreeramapuram"
 msgstr "శ్రీరామపురం"
@@ -46723,7 +46723,7 @@ msgid "Station Road (Adilabad)"
 msgstr "స్టెశన్ రోడ్ (ఆదిలాబాద్)"
 
 msgid "Station Road (Jaipur)"
-msgstr "స్టెశన్ రోడ్ (జయపుర్)"
+msgstr "స్టెశన్ రోడ్ (జైపూర్)"
 
 msgid "Station Road (Jamnagar)"
 msgstr "స్టెశన్ రోడ్ (జామనగర్)"
@@ -46816,7 +46816,7 @@ msgid "Subhash Nagar (Bhopal)"
 msgstr "సుభాష్ నగర్ (భోపాల్)"
 
 msgid "Subhash Nagar (West Delhi)"
-msgstr "సుభాష్ నగర్ (వెస్ట్ దెల్హీ)"
+msgstr "సుభాష్ నగర్ (వెస్ట్ ఢిల్లీ)"
 
 msgid "Subhash Nagar Jodhpur"
 msgstr "సుభాష్ నగర్ జోధపుర్"
@@ -46855,7 +46855,7 @@ msgid "Subji Mandi"
 msgstr "సబ్జీ మండీ"
 
 msgid "Subramaniapuram (Madurai)"
-msgstr "సుబ్రమనియాపురమ్ (మదురే)"
+msgstr "సుబ్రమనియాపురమ్ (మధురై)"
 
 msgid "Subramaniapuram (Tiruchirappalli)"
 msgstr "సుబ్రమనియాపురమ్ (తిరుచిరాపల్లీ)"
@@ -50200,13 +50200,13 @@ msgid "Tilak Nagar"
 msgstr "తిలక్ నగర్"
 
 msgid "Tilak Nagar (Jaipur)"
-msgstr "తిలక్ నగర్ (జయపుర్)"
+msgstr "తిలక్ నగర్ (జైపూర్)"
 
 msgid "Tilak Nagar (Mumbai)"
-msgstr "తిలక్ నగర్ (ముమ్బఈ)"
+msgstr "తిలక్ నగర్ (ముంబై)"
 
 msgid "Tilak Nagar (West Delhi)"
-msgstr "తిలక్ నగర్ (వెస్ట్ దెల్హీ)"
+msgstr "తిలక్ నగర్ (వెస్ట్ ఢిల్లీ)"
 
 msgid "Tilak Nagar East"
 msgstr "తిలక్ నగర్ ఈస్ట్"
@@ -50221,7 +50221,7 @@ msgid "Tilaki"
 msgstr "తిలకీ"
 
 msgid "Tilaknagar (Bangalore)"
-msgstr "తిలకనగర్ (బేంగలోర్)"
+msgstr "తిలకనగర్ (బెంగుళూరు)"
 
 msgid "Tilaknagar (Thane)"
 msgstr "తిలకనగర్ (ఠాణె)"
@@ -50500,19 +50500,19 @@ msgid "Tiruneermalai"
 msgstr "తిరునీమాలే"
 
 msgid "Tirunelveli"
-msgstr "తిరునెలవెలీ"
+msgstr "తిరునల్వేలి"
 
 msgid "Tirunelveli Nagarmandram"
-msgstr "తిరునెలవెలీ నగరమంద్రం"
+msgstr "తిరునల్వేలి నగరమంద్రం"
 
 msgid "Tirunelveli Pettai"
-msgstr "తిరునెలవెలీ పట్టీ"
+msgstr "తిరునల్వేలి పట్టీ"
 
 msgid "Tirunelveli Pettai East"
-msgstr "తిరునెలవెలీ పెట్టీ ఈస్ట్"
+msgstr "తిరునల్వేలి పెట్టీ ఈస్ట్"
 
 msgid "Tirunelveli R.S"
-msgstr "తిరునెలవెలీ ఆర్.స్"
+msgstr "తిరునల్వేలి ఆర్.స్"
 
 msgid "Tirunilayi"
 msgstr "తిరూణీలాఈ"
@@ -50893,7 +50893,7 @@ msgid "Town Hall (Moradabad)"
 msgstr "టాఉన్ హ్ ల్ (మోరాదాబాద్)"
 
 msgid "Town Hall (Mumbai)"
-msgstr "టాఉన్ హ్ ల్ (ముమ్బఈ)"
+msgstr "టాఉన్ హ్ ల్ (ముంబై)"
 
 msgid "Town Hall Road"
 msgstr "టాఉన్ హ్ ల్ రోడ్"
@@ -51625,7 +51625,7 @@ msgid "Ujwal Nagar (Bilaspur)"
 msgstr "ఉజ్వల్ నగర్ (బిలాసపుర్)"
 
 msgid "Ujwal Nagar (Nagpur)"
-msgstr "ఉజ్వల్ నగర్ (నాగపుర్)"
+msgstr "ఉజ్వల్ నగర్ (నాగ్‌పూర్)"
 
 msgid "Ukahlda"
 msgstr "ఉఖల్దా"
@@ -52030,7 +52030,7 @@ msgid "University (Bhopal)"
 msgstr "యూనివర్సిటీ (భోపాల్)"
 
 msgid "University Campus (Nagpur)"
-msgstr "యూనివర్సిటీ కేంపస్ (నాగపుర్)"
+msgstr "యూనివర్సిటీ కేంపస్ (నాగ్‌పూర్)"
 
 msgid "University(Patiala)"
 msgstr "యూనివర్సిటీ(పటియాలా)"
@@ -52594,7 +52594,7 @@ msgid "Vadgaon (Kolhapur)"
 msgstr "వడగావ్ (కోల్హాపుర్)"
 
 msgid "Vadgaon (Pune)"
-msgstr "వడగావ్ (పుణె)"
+msgstr "వడగావ్ (పూణే)"
 
 msgid "Vadgaon Anand"
 msgstr "వడగావ్ ఆనన్ద్"
@@ -52672,7 +52672,7 @@ msgid "Vadodar"
 msgstr "వడోదరా"
 
 msgid "Vadodara"
-msgstr "వడోదరా"
+msgstr "వదోదర"
 
 msgid "Vadoli"
 msgstr "వడోలీ"
@@ -52975,7 +52975,7 @@ msgid "Vallabharaopalem"
 msgstr "వల్లభరావపాలెం"
 
 msgid "Vallabhnagar (Indore)"
-msgstr "వల్లభనగర్ (ఇందౌర్)"
+msgstr "వల్లభనగర్ (ఇండోర్)"
 
 msgid "Vallah"
 msgstr "వల్లాహ్"
@@ -53206,7 +53206,7 @@ msgid "Varadoor"
 msgstr "వరదూర్"
 
 msgid "Varahapatnam"
-msgstr "వరాహపత్న్ం"
+msgstr "వరాహపట్టణం"
 
 msgid "Varahapuram"
 msgstr "వరాహపురం"
@@ -53962,7 +53962,7 @@ msgid "Venugopalanagar Colony"
 msgstr "వెణుగోపాలనగర్ క్ లోనీ"
 
 msgid "Vepagunta (Visakhapatnam)"
-msgstr "వెపగుంతా (విశాఖాపట్నమ్)"
+msgstr "వెపగుంతా (విశాఖపట్టణం)"
 
 msgid "Vepery"
 msgstr "వెపెరీ"
@@ -54100,7 +54100,7 @@ msgid "Vidyanagar (Osmanabad)"
 msgstr "విద్యానగర్ (ఓస్మానాబాద్)"
 
 msgid "Vidyanagar (Pune)"
-msgstr "విద్యానగర్ (పుణె)"
+msgstr "విద్యానగర్ (పూణే)"
 
 msgid "Vidyanagara"
 msgstr "విద్యానగర్"
@@ -54163,7 +54163,7 @@ msgid "Vijay Nagar Colony (Hyderabad)"
 msgstr "విజయ్ నగర్ క్ లోనీ (హేదరాబాద్)"
 
 msgid "Vijay Nagar Colony (Jabalpur)"
-msgstr "విజయ్ నగర్ క్ లోనీ (జబలపుర్)"
+msgstr "విజయ్ నగర్ క్ లోనీ (జబల్‌పూర్)"
 
 msgid "Vijay Sirohi Nagar"
 msgstr "విజయ్ సిరోహీ నగర్"
@@ -54181,7 +54181,7 @@ msgid "Vijayanagar"
 msgstr "విజయనగర్"
 
 msgid "Vijayanagar (Bangalore)"
-msgstr "విజయనగర్ (బేంగలోర్)"
+msgstr "విజయనగర్ (బెంగుళూరు)"
 
 msgid "Vijayanagar East"
 msgstr "విజయనగర్ ఈస్ట్"
@@ -54202,10 +54202,10 @@ msgid "Vijayawada"
 msgstr "విజయవాడ"
 
 msgid "Vijayawada Bus Stand"
-msgstr "విజయవా ా బస్ స్టేండ్"
+msgstr "విజయవాడ బస్ స్టేండ్"
 
 msgid "Vijayawada Municipal Offi"
-msgstr "విజయవా ా మ్యునిసిపల్ ఓఫ్ఫీ"
+msgstr "విజయవాడ మ్యునిసిపల్ ఓఫ్ఫీ"
 
 msgid "Vijayeepur"
 msgstr "విజయీపుర్"
@@ -54496,10 +54496,10 @@ msgid "Virugambakkam"
 msgstr "విరుగమ్బాక్కం"
 
 msgid "Visakhapatnam"
-msgstr "విశాఖపట్నం"
+msgstr "విశాఖపట్టణం"
 
 msgid "Visakhapatnam Airport"
-msgstr "విశాఖాపట్నమ్ ఏయరపోర్ట్"
+msgstr "విశాఖపట్టణం ఏయరపోర్ట్"
 
 msgid "Visalakshi Nagar"
 msgstr "విసాలాక్షీ నగర్"
@@ -54631,7 +54631,7 @@ msgid "VivekanandNagar"
 msgstr "వివెకానందనగర్"
 
 msgid "Viveknagar (Bangalore)"
-msgstr "వివెకనగర్ (బేంగలోర్)"
+msgstr "వివెకనగర్ (బెంగుళూరు)"
 
 msgid "Viveknagar (Kolkata)"
 msgstr "వివెకనగర్ (కోల్కతా)"
@@ -54820,7 +54820,7 @@ msgid "Wadi"
 msgstr "వా ీ"
 
 msgid "Wadi (Nagpur)"
-msgstr "వా ీ (నాగపుర్)"
+msgstr "వా ీ (నాగ్‌పూర్)"
 
 msgid "Wadi Ratnagiri"
 msgstr "వా ీ రత్నాగిరీ"
@@ -56263,7 +56263,7 @@ msgid "Haldia Bokra"
 msgstr "హల్దియా బోకరా"
 
 msgid "Haldia Patna"
-msgstr "హల్దియా పటనా"
+msgstr "హల్దియా పాట్నా"
 
 msgid "Haldibani"
 msgstr "హల్దీబని"
@@ -57370,16 +57370,16 @@ msgid "Hidkal"
 msgstr "హిడకల్"
 
 msgid "High Court (Jabalpur)"
-msgstr "హాఈ కోర్ట్ (జబలపుర్)"
+msgstr "హాఈ కోర్ట్ (జబల్‌పూర్)"
 
 msgid "High Court (Jaipur)"
-msgstr "హాఈ కోర్ట్ (జయపుర్)"
+msgstr "హాఈ కోర్ట్ (జైపూర్)"
 
 msgid "High Court Building (Aurangabad)"
 msgstr "హాఈ కోర్ట్ బిల్డింగ్ (ఔరంగాబాద్)"
 
 msgid "High Court Building (Chennai)"
-msgstr "హాఈ కోర్ట్ బిల్డింగ్ (చెన్నఈ)"
+msgstr "హాఈ కోర్ట్ బిల్డింగ్ (చెన్నై)"
 
 msgid "HighCourt"
 msgstr "హిఘ్కోర్ట్"
@@ -57859,7 +57859,7 @@ msgid "Hospet Ranipet"
 msgstr "హోస్పెట్ రానీపెట్"
 
 msgid "Hospital Road (Agra)"
-msgstr "హ్ స్పిటల్ రోడ్ (ఆగరా)"
+msgstr "హ్ స్పిటల్ రోడ్ (ఆగ్రా)"
 
 msgid "Hospital Road (Cachar)"
 msgstr "హ్ స్పిటల్ రోడ్ (కేచర్)"
@@ -58270,7 +58270,7 @@ msgid "Ibrahima Bad"
 msgstr "ఇబ్రాహిమ్ బద్"
 
 msgid "Ibrahimpatnam (K.V.Rangareddy)"
-msgstr "ఇబ్రాహిమపటనమ్ (కె.వీ.రంగారెడ్డీ)"
+msgstr "ఇబ్రాహిమపట్టణం (కె.వీ.రంగారెడ్డీ)"
 
 msgid "Ibrahimpur"
 msgstr "ఇబ్రాహిమపుర్"
@@ -58507,7 +58507,7 @@ msgid "Inchura Bazar"
 msgstr "ఇంచుర్ బాజార్"
 
 msgid "Ind Area Chandigarh"
-msgstr "ఏండ్ ఏరియా చండ్ ీగఢ్ "
+msgstr "ఏండ్ ఏరియా చండీగఢ్"
 
 msgid "Ind. Estate"
 msgstr "ఏండ్. ఏస్టెట్"
@@ -58582,7 +58582,7 @@ msgid "Indira Park"
 msgstr "ఇందిరా పార్క్"
 
 msgid "Indiranagar (Bangalore)"
-msgstr "ఇందిరానగర్ (బేంగలోర్)"
+msgstr "ఇందిరానగర్ (బెంగుళూరు)"
 
 msgid "Indiranagar (Solapur)"
 msgstr "ఇందిరానగర్ (సోలాపుర్)"
@@ -58606,73 +58606,73 @@ msgid "Indora"
 msgstr "ఇందౌర్"
 
 msgid "Indore CGO Complex"
-msgstr "ఇందౌర్ కగో కామ్ప్లెక్స్"
+msgstr "ఇండోర్ కగో కామ్ప్లెక్స్"
 
 msgid "Indore City-2"
-msgstr "ఇందౌర్ సిటీ-2"
+msgstr "ఇండోర్ సిటీ-2"
 
 msgid "Indore Cloth Market"
-msgstr "ఇందౌర్ క్ల్ థ్ మార్కిట్"
+msgstr "ఇండోర్ క్ల్ థ్ మార్కిట్"
 
 msgid "Indore Collectorate"
-msgstr "ఇందౌర్ కోల్లెకతోరతె"
+msgstr "ఇండోర్ కోల్లెకతోరతె"
 
 msgid "Indore Courts"
-msgstr "ఇందౌర్ కోర్ట్స్"
+msgstr "ఇండోర్ కోర్ట్స్"
 
 msgid "Indore DDU Nagar"
-msgstr "ఇందౌర్ దదు నగర్"
+msgstr "ఇండోర్ దదు నగర్"
 
 msgid "Indore G.P.O."
-msgstr "ఇందౌర్ జీ.పీ.ఓ."
+msgstr "ఇండోర్ జీ.పీ.ఓ."
 
 msgid "Indore Industrial Area"
-msgstr "ఇందౌర్ ఇండస్ట్రియల్ ఏరియా"
+msgstr "ఇండోర్ ఇండస్ట్రియల్ ఏరియా"
 
 msgid "Indore Kanadia Road"
-msgstr "ఇందౌర్ కనాడ్ ియా రోడ్"
+msgstr "ఇండోర్ కనాడ్ ియా రోడ్"
 
 msgid "Indore Khajrana"
-msgstr "ఇందౌర్ ఖజరానా"
+msgstr "ఇండోర్ ఖజరానా"
 
 msgid "Indore Kumar Khadi"
-msgstr "ఇందౌర్ కుమార్ కడ్ ీ"
+msgstr "ఇండోర్ కుమార్ కడ్ ీ"
 
 msgid "Indore Malwa Mill"
-msgstr "ఇందౌర్ మాలవా మిల్"
+msgstr "ఇండోర్ మాలవా మిల్"
 
 msgid "Indore Manorama Ganj"
-msgstr "ఇందౌర్ మనోరమ్ గంజ్"
+msgstr "ఇండోర్ మనోరమ్ గంజ్"
 
 msgid "Indore Nagar"
-msgstr "ఇందౌర్ నగర్"
+msgstr "ఇండోర్ నగర్"
 
 msgid "Indore Pardesipura"
-msgstr "ఇందౌర్ పరదెసీపుర్"
+msgstr "ఇండోర్ పరదెసీపుర్"
 
 msgid "Indore R.S.S.Nagar"
-msgstr "ఇందౌర్ ఆర్.ఏస్.స్.నగర్"
+msgstr "ఇండోర్ ఆర్.ఏస్.స్.నగర్"
 
 msgid "Indore Raj Mohalla"
-msgstr "ఇందౌర్ రాజ్ మోహల్లా"
+msgstr "ఇండోర్ రాజ్ మోహల్లా"
 
 msgid "Indore Ram Bagh"
-msgstr "ఇందౌర్ రామ్ బాగ్ "
+msgstr "ఇండోర్ రామ్ బాగ్"
 
 msgid "Indore Siyaganj"
-msgstr "ఇందౌర్ సియాగంజ్"
+msgstr "ఇండోర్ సియాగంజ్"
 
 msgid "Indore Takshashila"
-msgstr "ఇందౌర్ తక్షశిలా"
+msgstr "ఇండోర్ తక్షశిలా"
 
 msgid "Indore Tillaknagar"
-msgstr "ఇందౌర్ తిల్లకనగర్"
+msgstr "ఇండోర్ తిల్లకనగర్"
 
 msgid "Indore Tukoganj"
-msgstr "ఇందౌర్ తుకోగంజ్"
+msgstr "ఇండోర్ తుకోగంజ్"
 
 msgid "Indore Uchchanyayalay"
-msgstr "ఇందౌర్ ఉచ్చన్యాయాలయ్"
+msgstr "ఇండోర్ ఉచ్చన్యాయాలయ్"
 
 msgid "Indpur"
 msgstr "ఇందపుర్"
@@ -58774,10 +58774,10 @@ msgid "Industrial Estate"
 msgstr "ఇండస్ట్రియల్ ఏస్టెట్"
 
 msgid "Industrial Estate (Agra)"
-msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (ఆగరా)"
+msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (ఆగ్రా)"
 
 msgid "Industrial Estate (Bangalore)"
-msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (బేంగలోర్)"
+msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (బెంగుళూరు)"
 
 msgid "Industrial Estate (Bhopal)"
 msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (భోపాల్)"
@@ -58789,10 +58789,10 @@ msgid "Industrial Estate (East Godavari)"
 msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (ఈస్ట్ గోదావరీ)"
 
 msgid "Industrial Estate (Indore)"
-msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (ఇందౌర్)"
+msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (ఇండోర్)"
 
 msgid "Industrial Estate (Jaipur)"
-msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (జయపుర్)"
+msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (జైపూర్)"
 
 msgid "Industrial Estate (Jammu)"
 msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (జమ్మూ)"
@@ -58810,7 +58810,7 @@ msgid "Industrial Estate (Mirzapur)"
 msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (మిర్జ్ ాపుర్)"
 
 msgid "Industrial Estate (Vadodara)"
-msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (వడ్ ోదరా)"
+msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (వదోదర)"
 
 msgid "Industrial Estate (Varanasi)"
 msgstr "ఇండస్ట్రియల్ ఏస్టెట్ (వారాణసీ)"
@@ -59206,10 +59206,10 @@ msgid "Jabaghat"
 msgstr "జబఘట్"
 
 msgid "Jabalpur"
-msgstr "జబలపుర్"
+msgstr "జబల్‌పూర్"
 
 msgid "Jabalpur Cantt"
-msgstr "జబలపుర్ కేంట్"
+msgstr "జబల్‌పూర్ కేంట్"
 
 msgid "Jabdha"
 msgstr "జబడ్ ా"
@@ -59284,7 +59284,7 @@ msgid "Jafrabad"
 msgstr "జఫరాబాద్"
 
 msgid "Jafrabad (East Delhi)"
-msgstr "జఫరాబాద్ (ఈస్ట్ దెల్హీ)"
+msgstr "జఫరాబాద్ (ఈస్ట్ ఢిల్లీ)"
 
 msgid "Jagadal"
 msgstr "జగదల్"
@@ -59524,7 +59524,7 @@ msgid "Jail Road (Sundergarh)"
 msgstr "జెల్ రోడ్ (సుందరగఢ్ )"
 
 msgid "Jail Road (West Delhi)"
-msgstr "జెల్ రోడ్ (వెస్ట్ దెల్హీ)"
+msgstr "జెల్ రోడ్ (వెస్ట్ ఢిల్లీ)"
 
 msgid "Jainagar"
 msgstr "జయనగర్"
@@ -59545,13 +59545,13 @@ msgid "Jaipatna"
 msgstr "జేపతన్"
 
 msgid "Jaipur City"
-msgstr "జయపుర్ సిటీ"
+msgstr "జైపూర్ సిటీ"
 
 msgid "Jaipur G.P.O."
-msgstr "జయపుర్ జీ.పీ.ఓ."
+msgstr "జైపూర్ జీ.పీ.ఓ."
 
 msgid "Jaipur R.S."
-msgstr "జయపుర్ ఆర్.ఏస్."
+msgstr "జైపూర్ ఆర్.ఏస్."
 
 msgid "Jairajpur"
 msgstr "జేరాజపుర్"
@@ -59596,10 +59596,10 @@ msgid "Jaitpur"
 msgstr "జేతపుర్"
 
 msgid "Jaitpur (Agra)"
-msgstr "జేతపుర్ (ఆగరా)"
+msgstr "జేతపుర్ (ఆగ్రా)"
 
 msgid "Jaitpur (South Delhi)"
-msgstr "జేతపుర్ (సాఉథ్ దెల్హీ)"
+msgstr "జేతపుర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Jajal"
 msgstr "జాజల్"
@@ -60106,7 +60106,7 @@ msgid "Jamranda"
 msgstr "జమ్రండా"
 
 msgid "Jamshedpur"
-msgstr "జమశెదపుర్"
+msgstr "జంషెడ్‌పూర్"
 
 msgid "Jamshet"
 msgstr "జమశెత్"
@@ -60628,13 +60628,13 @@ msgid "Jawahar Nagar"
 msgstr "జవాహర్ నగర్"
 
 msgid "Jawahar Nagar (Chennai)"
-msgstr "జవాహర్ నగర్ (చెన్నఈ)"
+msgstr "జవాహర్ నగర్ (చెన్నై)"
 
 msgid "Jawahar Nagar (Kanpur Nagar)"
 msgstr "జవాహర్ నగర్ (కానపూర్ నగర్)"
 
 msgid "Jawahar Nagar (North Delhi)"
-msgstr "జవాహర్ నగర్ (నార్థ్ దెల్హీ)"
+msgstr "జవాహర్ నగర్ (నార్థ్ ఢిల్లీ)"
 
 msgid "Jawahar Nagar (Srinagar)"
 msgstr "జవాహర్ నగర్ (శ్రీనగర్)"
@@ -61807,7 +61807,7 @@ msgid "Juni Dhari"
 msgstr "జూని ధరీ"
 
 msgid "Juni Indore"
-msgstr "జూనీ ఇందౌర్"
+msgstr "జూనీ ఇండోర్"
 
 msgid "Juni-haliyad"
 msgstr "జూని-హాలియాడ్"
@@ -62476,7 +62476,7 @@ msgid "Kailasanadu"
 msgstr "కేలాసనదూ"
 
 msgid "Kailasapuram (Tirunelveli)"
-msgstr "కేలాసపురమ్ (తిరునెలవెలీ)"
+msgstr "కేలాసపురమ్ (తిరునల్వేలి)"
 
 msgid "Kailash"
 msgstr "కేలాశ్"
@@ -63088,7 +63088,7 @@ msgid "Kalibari"
 msgstr "కాలీబాడ్ ీ"
 
 msgid "Kalibari (Agra)"
-msgstr "కాలీబాడ్ ీ (ఆగరా)"
+msgstr "కాలీబాడ్ ీ (ఆగ్రా)"
 
 msgid "Kalichabad"
 msgstr "కలీచాబాద్"
@@ -63523,7 +63523,7 @@ msgid "Kamala Bagan"
 msgstr "కమలా బాగాన్"
 
 msgid "Kamala Nagar (Agra)"
-msgstr "కమలా నగర్ (ఆగరా)"
+msgstr "కమలా నగర్ (ఆగ్రా)"
 
 msgid "Kamala Nagar (Villupuram)"
 msgstr "కమలా నగర్ (విల్లుపురమ్)"
@@ -63670,7 +63670,7 @@ msgid "Kamla Nagar (Bhopal)"
 msgstr "కమలా నగర్ (భోపాల్)"
 
 msgid "Kamla Nagar (North Delhi)"
-msgstr "కమలా నగర్ (నార్థ్ దెల్హీ)"
+msgstr "కమలా నగర్ (నార్థ్ ఢిల్లీ)"
 
 msgid "Kamla Nehru Colony Bathinda"
 msgstr "కమలా నెహరూ క్ లోనీ బఠిండా"
@@ -63901,7 +63901,7 @@ msgid "Kanchanpur"
 msgstr "కంచనపుర్"
 
 msgid "Kanchanpur (Jabalpur)"
-msgstr "కంచనపుర్ (జబలపుర్)"
+msgstr "కంచనపుర్ (జబల్‌పూర్)"
 
 msgid "Kanchantar"
 msgstr "కంచనతర్"
@@ -65698,7 +65698,7 @@ msgid "Kasipalayam"
 msgstr "కాసిపలయం"
 
 msgid "Kasipatnam"
-msgstr "కస్యీపాతనం"
+msgstr "కస్యీపట్టణం"
 
 msgid "Kasira"
 msgstr "కసీర్"
@@ -66031,7 +66031,7 @@ msgid "Katra (Samal)"
 msgstr "కటరా (సమల్)"
 
 msgid "Katra Bazar (Patna)"
-msgstr "కటరా బాజార్ (పటనా)"
+msgstr "కటరా బాజార్ (పాట్నా)"
 
 msgid "Katra Bazar (Varanasi)"
 msgstr "కటరా బాజార్ (వారాణసీ)"
@@ -66082,7 +66082,7 @@ msgid "Kattakamanpatti"
 msgstr "కట్టకమనపట్టీ"
 
 msgid "Kattampatti-coimbatore"
-msgstr "కట్టమపట్టీ-కోయమ్బటూర్"
+msgstr "కట్టమపట్టీ-కోయంబత్తూరు"
 
 msgid "Kattanachampatti"
 msgstr "కట్టానచమపట్టీ"
@@ -66328,10 +66328,10 @@ msgid "Kayal"
 msgstr "కాయల్"
 
 msgid "Kayalpatnam"
-msgstr "కయలపటణం"
+msgstr "కయలపట్టణం"
 
 msgid "Kayalpatnam Bazaar"
-msgstr "కయలపటణం బాజార్"
+msgstr "కయలపట్టణం బాజార్"
 
 msgid "Kayambattu"
 msgstr "క్ యంబత్తు"
@@ -66400,7 +66400,7 @@ msgid "Kedarpur"
 msgstr "కెదారపుర్"
 
 msgid "Kedgaon (Pune)"
-msgstr "కెద్గాఓం (పుణె)"
+msgstr "కెద్గాఓం (పూణే)"
 
 msgid "Kedlikala"
 msgstr "కెడలీకలా"
@@ -66793,7 +66793,7 @@ msgid "Keshav Puram (Kanpur Nagar)"
 msgstr "కెశవ్ పురమ్ (కానపూర్ నగర్)"
 
 msgid "Keshav Puram (North West Delhi)"
-msgstr "కెశవ్ పురమ్ (నార్థ్ వెస్ట్ దెల్హీ)"
+msgstr "కెశవ్ పురమ్ (నార్థ్ వెస్ట్ ఢిల్లీ)"
 
 msgid "Keshbandh"
 msgstr "కెశబంధ్"
@@ -67273,7 +67273,7 @@ msgid "Khambarigam"
 msgstr "ఖమ్బరిగం"
 
 msgid "Khambeswari Patna"
-msgstr "ఖామబెసవారీ పటనా"
+msgstr "ఖామబెసవారీ పాట్నా"
 
 msgid "Khambewadi"
 msgstr "ఖమ్బెవాడి"
@@ -67537,10 +67537,10 @@ msgid "Khanpur"
 msgstr "ఖానపుర్"
 
 msgid "Khanpur (Ahmedabad)"
-msgstr "ఖానపుర్ (అహమదాబాద్)"
+msgstr "ఖానపుర్ (అహ్మదాబాదు)"
 
 msgid "Khanpur (South Delhi)"
-msgstr "ఖానపుర్ (సాఉథ్ దెల్హీ)"
+msgstr "ఖానపుర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Khanpur Chowk Pathankot"
 msgstr "ఖానపుర్ చౌక్ పఠానకోట్"
@@ -68617,7 +68617,7 @@ msgid "Kidwai Nagar (Kanpur Nagar)"
 msgstr "కిదవఈ నగర్ (కానపూర్ నగర్)"
 
 msgid "Kidwai Nagar (Mumbai)"
-msgstr "కిదవఈ నగర్ (ముమ్బఈ)"
+msgstr "కిదవఈ నగర్ (ముంబై)"
 
 msgid "Kidwaipuri"
 msgstr "కిదవఈపురీ"
@@ -69013,10 +69013,10 @@ msgid "Kochha Bhanwar"
 msgstr "కోఛ్ భంవర్"
 
 msgid "Kochi M.G.Road"
-msgstr "కోచ్చీ ఏమ్.జీ.రోడ్"
+msgstr "కొచ్చి ఏమ్.జీ.రోడ్"
 
 msgid "Kochi Palace"
-msgstr "కోచ్చీ పేలెస్"
+msgstr "కొచ్చి పేలెస్"
 
 msgid "Kochilaghaty"
 msgstr "కోచిలఘటీ"
@@ -69544,7 +69544,7 @@ msgid "Komarapalayam"
 msgstr "కోమరపాలయం"
 
 msgid "Komarapalayam Coimbatore"
-msgstr "కోమరపాలయం కోయమ్బటూర్"
+msgstr "కోమరపాలయం కోయంబత్తూరు"
 
 msgid "Komarapalayam East"
 msgstr "కోమరపాలయం ఈస్ట్"
@@ -70735,7 +70735,7 @@ msgid "Krishnanagar"
 msgstr "కృష్ణానగర్"
 
 msgid "Krishnanagar (Ahmedabad)"
-msgstr "కృష్ణానగర్ (అహమదాబాద్)"
+msgstr "కృష్ణానగర్ (అహ్మదాబాదు)"
 
 msgid "Krishnanagar (Vellore)"
 msgstr "కృష్ణానగర్ (వెల్లోర్)"
@@ -70804,7 +70804,7 @@ msgid "Krushnanagarpatna"
 msgstr "కృష్ణానగరపాటన్"
 
 msgid "Krushnapali Patna"
-msgstr "కృష్ణాపలీ పటనా"
+msgstr "కృష్ణాపలీ పాట్నా"
 
 msgid "Krutibaspur"
 msgstr "కృతిబాసపుర్"
@@ -71404,7 +71404,7 @@ msgid "Kumbho"
 msgstr "కుమ్భో"
 
 msgid "Kumbidumadurai"
-msgstr "కుమ్బిదుమదురే"
+msgstr "కుమ్బిదుమధురై"
 
 msgid "Kumbra"
 msgstr "కుంబర్"
@@ -72442,7 +72442,7 @@ msgid "Labour Camp"
 msgstr "లెబర్ కేంప్"
 
 msgid "Labour Colony (Agra)"
-msgstr "లెబర్ క్ లోనీ (ఆగరా)"
+msgstr "లెబర్ క్ లోనీ (ఆగ్రా)"
 
 msgid "Labour Colony (Bhilwara)"
 msgstr "లెబర్ క్ లోనీ (భీలవాడ్ ా)"
@@ -72643,7 +72643,7 @@ msgid "Lajpat Kunj"
 msgstr "లాజపత్ కుఞ్జ్"
 
 msgid "Lajpat Nagar (South Delhi)"
-msgstr "లాజపత్ నగర్ (సాఉథ్ దెల్హీ)"
+msgstr "లాజపత్ నగర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Lakarka"
 msgstr "లకరక్"
@@ -73318,10 +73318,10 @@ msgid "Laxmareddipalli"
 msgstr "లక్మారెడ్డీపల్లీ"
 
 msgid "Laxmi Nagar (East Delhi)"
-msgstr "లక్సమీ నగర్ (ఈస్ట్ దెల్హీ)"
+msgstr "లక్సమీ నగర్ (ఈస్ట్ ఢిల్లీ)"
 
 msgid "Laxmi Nagar (Nagpur)"
-msgstr "లక్సమీ నగర్ (నాగపుర్)"
+msgstr "లక్సమీ నగర్ (నాగ్‌పూర్)"
 
 msgid "Laxmi-dahiwadi"
 msgstr "లక్సమీ-దహివడీ"
@@ -73822,7 +73822,7 @@ msgid "Lokmanipur"
 msgstr "లోకమణిపుర్"
 
 msgid "Lokmanya Nagar Indore"
-msgstr "లోకమాన్య్ నగర్ ఇందౌర్"
+msgstr "లోకమాన్య్ నగర్ ఇండోర్"
 
 msgid "Lokmanyanagar"
 msgstr "లోకమాన్యనగర్"
@@ -74293,7 +74293,7 @@ msgid "Machhuatoli"
 msgstr "మఛుఆటోలీ"
 
 msgid "Machilipatnam"
-msgstr "మఛిలిపటణం"
+msgstr "మఛిలిపట్టణం"
 
 msgid "Machiplavu"
 msgstr "మచిపలవు"
@@ -74473,7 +74473,7 @@ msgid "Madhavan Park"
 msgstr "మాధవన్ పార్క్"
 
 msgid "Madhavapatnam"
-msgstr "మాధవపతనం"
+msgstr "మాధవపట్టణం"
 
 msgid "Madhavaram"
 msgstr "మాధవరాం"
@@ -74557,7 +74557,7 @@ msgid "Madhupalli'"
 msgstr "మధుపల్లీ'"
 
 msgid "Madhupatna"
-msgstr "మధుపటనా"
+msgstr "మధుపాట్నా"
 
 msgid "Madhupur"
 msgstr "మధుపుర్"
@@ -74707,28 +74707,28 @@ msgid "Madupalli"
 msgstr "మదుపల్లీ"
 
 msgid "Madurai Agricultural College"
-msgstr "మదురే ఏగ్రీకల్చరల్ క్ లెజ్"
+msgstr "మధురై ఏగ్రీకల్చరల్ క్ లెజ్"
 
 msgid "Madurai Bazaar"
-msgstr "మదురే బాజార్"
+msgstr "మధురై బాజార్"
 
 msgid "Madurai Bibikulam"
-msgstr "మదురే బీబీకులం"
+msgstr "మధురై బీబీకులం"
 
 msgid "Madurai Corporation Building"
-msgstr "మదురాఈ కారపోరెశన్ బిల్డింగ్"
+msgstr "మధురై కారపోరెశన్ బిల్డింగ్"
 
 msgid "Madurai Courts"
-msgstr "మదురే కోర్ట్స్"
+msgstr "మధురై కోర్ట్స్"
 
 msgid "Madurai North"
-msgstr "మదురే నార్థ్"
+msgstr "మధురై నార్థ్"
 
 msgid "Madurai Railway Divl Office"
-msgstr "మదురే రెలవె దీవాల్ ఑ఫిస్"
+msgstr "మధురై రెలవె దీవాల్ ఑ఫిస్"
 
 msgid "Madurai West"
-msgstr "మదురే వెస్ట్"
+msgstr "మధురై వెస్ట్"
 
 msgid "Maduravoyal"
 msgstr "మాడురావోయల్"
@@ -74896,7 +74896,7 @@ msgid "Mahaksar"
 msgstr "మహకసర్"
 
 msgid "Mahal (Nagpur)"
-msgstr "మహల్ (నాగపుర్)"
+msgstr "మహల్ (నాగ్‌పూర్)"
 
 msgid "Mahalakshmipuram Layout"
 msgstr "మహాలక్ష్మీపురం లెఆఉట్"
@@ -75628,7 +75628,7 @@ msgid "Malaka"
 msgstr "మలకా"
 
 msgid "Malakapatnam"
-msgstr "మలకపటణం"
+msgstr "మలకపట్టణం"
 
 msgid "Malakara"
 msgstr "మాలాకార్"
@@ -75688,7 +75688,7 @@ msgid "Malaparamba"
 msgstr "మాలపారామ్బా"
 
 msgid "Malapatna"
-msgstr "మలపటనా"
+msgstr "మలపాట్నా"
 
 msgid "Malappuram"
 msgstr "మలప్పురం"
@@ -76108,10 +76108,10 @@ msgid "Malve"
 msgstr "మలవె"
 
 msgid "Malviya Nagar (Jaipur)"
-msgstr "మాలవీయ్ నగర్ (జయపుర్)"
+msgstr "మాలవీయ్ నగర్ (జైపూర్)"
 
 msgid "Malviya Nagar (South Delhi)"
-msgstr "మాలవీయ్ నగర్ (సాఉథ్ దెల్హీ)"
+msgstr "మాలవీయ్ నగర్ (సాఉథ్ ఢిల్లీ)"
 
 msgid "Malviya Nagar (Varanasi)"
 msgstr "మాలవీయ్ నగర్ (వారాణసీ)"
@@ -76594,10 +76594,10 @@ msgid "Mandvi"
 msgstr "మాండవీ"
 
 msgid "Mandvi (Mumbai)"
-msgstr "మాండవీ (ముమ్బఈ)"
+msgstr "మాండవీ (ముంబై)"
 
 msgid "Mandvi (Vadodara)"
-msgstr "మాండవీ (వడ్ ోదరా)"
+msgstr "మాండవీ (వదోదర)"
 
 msgid "Mandvi BK"
 msgstr "మాణ్డవీ బక్"
@@ -76735,7 +76735,7 @@ msgid "Mangalwar Peth (Kolhapur)"
 msgstr "మంగలవార్ పెఠ్ (కోల్హాపుర్)"
 
 msgid "Mangalwar Peth (Pune)"
-msgstr "మంగలవార్ పెఠ్ (పుణె)"
+msgstr "మంగలవార్ పెఠ్ (పూణే)"
 
 msgid "Mangalwar Peth Karad"
 msgstr "మంగలవార్ పెఠ్ కార్డ్"
@@ -76918,7 +76918,7 @@ msgid "Manikandam"
 msgstr "మనికందం"
 
 msgid "Manikapatna"
-msgstr "మాణికపటనా"
+msgstr "మాణికపాట్నా"
 
 msgid "Manikar"
 msgstr "మణికార్"
@@ -77107,7 +77107,7 @@ msgid "Mankapur"
 msgstr "మనకాపుర్"
 
 msgid "Mankapur (Nagpur)"
-msgstr "మనకాపుర్ (నాగపుర్)"
+msgstr "మనకాపుర్ (నాగ్‌పూర్)"
 
 msgid "Mankapur Kala"
 msgstr "మనకాపుర్ కలా"
@@ -77146,7 +77146,7 @@ msgid "Mannackanad"
 msgstr "మన్నకణాద్"
 
 msgid "Mannady (Chennai)"
-msgstr "మన్నాడీ (చెన్నఈ)"
+msgstr "మన్నాడీ (చెన్నై)"
 
 msgid "Mannahalli"
 msgstr "మన్నాహల్లీ"
@@ -77410,7 +77410,7 @@ msgid "Maravalli"
 msgstr "మరావల్లీ"
 
 msgid "Maravamadurai"
-msgstr "మరవమదురే"
+msgstr "మరవమధురై"
 
 msgid "Maravaneri"
 msgstr "మరావనెరీ"
@@ -77551,7 +77551,7 @@ msgid "MARKET YARD (Beed)"
 msgstr "మార్కెట్ యార్డ్ (బీడ్)"
 
 msgid "Market Yard (Pune)"
-msgstr "మార్కెట్ యార్డ్ (పుణె)"
+msgstr "మార్కెట్ యార్డ్ (పూణే)"
 
 msgid "Market Yard Karad"
 msgstr "మార్కెట్ యార్డ్ కార్డ్"
@@ -78403,7 +78403,7 @@ msgid "MEDICAL COLLEGE"
 msgstr "మెడికల్ క్ లెజ్"
 
 msgid "Medical College (Agra)"
-msgstr "మెడికల్ క్ లెజ్ (ఆగరా)"
+msgstr "మెడికల్ క్ లెజ్ (ఆగ్రా)"
 
 msgid "Medical College (Aligarh)"
 msgstr "మెడికల్ క్ లెజ్ (అలీగఢ్)"
@@ -78667,10 +78667,10 @@ msgid "Melanthabettu"
 msgstr "మెలాన్థబ్బతతు"
 
 msgid "Melapalayam (Tirunelveli)"
-msgstr "మెలాపాలయం (తిరునెలవెలీ)"
+msgstr "మెలాపాలయం (తిరునల్వేలి)"
 
 msgid "Melapalayam Bazaar(Tirunelveli"
-msgstr "మెలాపాలయం బాజార్(తిరునెలవెలీ"
+msgstr "మెలాపాలయం బాజార్(తిరునల్వేలి)"
 
 msgid "Melapattu"
 msgstr "మెలాపట్టూ"
@@ -78724,7 +78724,7 @@ msgid "Melur"
 msgstr "మెలుర్"
 
 msgid "Melur (Madurai)"
-msgstr "మెలుర్ (మదురే)"
+msgstr "మెలుర్ (మధురై)"
 
 msgid "Melur East"
 msgstr "మెలుర్ ఈస్ట్"
@@ -79495,7 +79495,7 @@ msgid "Mohammedpur"
 msgstr "మోహమ్మదపుర్"
 
 msgid "Mohan Nagar (Amritsar)"
-msgstr "మోహన్ నగర్ (అమృతసర్)"
+msgstr "మోహన్ నగర్ (అమృత్‌సర్)"
 
 msgid "Mohan Nagar (Ghaziabad)"
 msgstr "మోహన్ నగర్ (గ్ జ్ ిఆబాద్)"
@@ -79504,7 +79504,7 @@ msgid "Mohan Nagar (Kurukshetra)"
 msgstr "మోహన్ నగర్ (కురుక్షెత్ర్)"
 
 msgid "Mohan Nagar (Nagpur)"
-msgstr "మోహన్ నగర్ (నాగపుర్)"
+msgstr "మోహన్ నగర్ (నాగ్‌పూర్)"
 
 msgid "Mohana"
 msgstr "మోహన్"
@@ -80230,7 +80230,7 @@ msgid "Mrala"
 msgstr "మరాలా"
 
 msgid "Mrec Jaipur"
-msgstr "మరక్ జయపుర్"
+msgstr "మరక్ జైపూర్"
 
 msgid "Mrigala"
 msgstr "మృగల్"
@@ -80653,10 +80653,10 @@ msgid "Mulund West"
 msgstr "ములుండ్ వెస్ట్"
 
 msgid "Mumbai Central"
-msgstr "ముంబఈ సెంట్రల్"
+msgstr "ముంబై సెంట్రల్"
 
 msgid "Mumbai G.P.O."
-msgstr "ముమ్బఈ జీ.పీ.ఓ."
+msgstr "ముంబై జీ.పీ.ఓ."
 
 msgid "Mumbra"
 msgstr "ముమ్బ్రా"
@@ -81178,7 +81178,7 @@ msgid "Muthuparamba"
 msgstr "ముథూపారామ్బా"
 
 msgid "Muthupatnam"
-msgstr "ముథుపెటనాం"
+msgstr "ముథుపట్టణం"
 
 msgid "Muthuvallur"
 msgstr "ముథువల్లూర్"
@@ -81268,7 +81268,7 @@ msgid "Mylapore"
 msgstr "మయలాపుర్"
 
 msgid "Mylarapatna"
-msgstr "మిలరపటనా"
+msgstr "మిలరపాట్నా"
 
 msgid "Mylrangam"
 msgstr "మిలరాంగం"
@@ -81727,7 +81727,7 @@ msgid "Nagaroor"
 msgstr "నాగరూర్"
 
 msgid "Nagasandra (Bangalore)"
-msgstr "నాగాసనద్రా (బేంగలోర్)"
+msgstr "నాగాసనద్రా (బెంగుళూరు)"
 
 msgid "Nagavara"
 msgstr "నాగవార్"
@@ -81856,19 +81856,19 @@ msgid "Nagothane"
 msgstr "నాగోథానె"
 
 msgid "Nagpur"
-msgstr "నాగపుర్"
+msgstr "నాగ్‌పూర్"
 
 msgid "Nagpur Airport"
-msgstr "నాగపుర్ ఏయరపోర్ట్"
+msgstr "నాగ్‌పూర్ ఏయరపోర్ట్"
 
 msgid "Nagpur City"
-msgstr "నాగపుర్ సిటీ"
+msgstr "నాగ్‌పూర్ సిటీ"
 
 msgid "Nagpur GPO"
-msgstr "నాగపుర్ గపో"
+msgstr "నాగ్‌పూర్ గపో"
 
 msgid "Nagpura"
-msgstr "నాగపుర్"
+msgstr "నాగ్‌పూర్"
 
 msgid "Nagra"
 msgstr "నగర్"
@@ -82003,7 +82003,7 @@ msgid "Naigaon"
 msgstr "నేగాంవ్"
 
 msgid "Naigaon (Mumbai)"
-msgstr "నేగాంవ్ (ముమ్బఈ)"
+msgstr "నేగాంవ్ (ముంబై)"
 
 msgid "Naigaon Duttapur"
 msgstr "నేగాంవ్ దుత్తాపుర్"
@@ -82660,22 +82660,22 @@ msgid "Andaman and Nicobar Islands"
 msgstr "అండమాన్ వ్ నోకోబార్ ద్వీప్ సమూహ్"
 
 msgid "Andhra Pradesh"
-msgstr "ఆంధ్ర్ ప్రదెశ్"
+msgstr "ఆంధ్ర ప్రదేశ్"
 
 msgid "Arunachal Pradesh"
-msgstr "అరుణాచల్ ప్రదెశ్"
+msgstr "అరుణాచల్ ప్రదేశ్"
 
 msgid "Assam"
 msgstr "అసోం"
 
 msgid "Bihar"
-msgstr "బిహార్"
+msgstr "బీహార్"
 
 msgid "Chandigarh"
-msgstr "చండీగఢ్ "
+msgstr "చండీగఢ్"
 
 msgid "Chhattisgarh"
-msgstr "ఛత్తీస్గఢ్ "
+msgstr "ఛత్తీస్‌గఢ్"
 
 msgid "Dadra and Nagar Haveli"
 msgstr "దాద్రా నగరు హవేలీ"
@@ -82684,7 +82684,7 @@ msgid "Daman and Diu"
 msgstr "దమన్ ఔర్ దీవ్"
 
 msgid "Delhi"
-msgstr "దిల్లీ"
+msgstr "ఢిల్లీ"
 
 msgid "Goa"
 msgstr "గోవా"
@@ -82693,37 +82693,37 @@ msgid "Gujarat"
 msgstr "గుజరాత్"
 
 msgid "Haryana"
-msgstr "హరయాణా"
+msgstr "హర్యానా"
 
 msgid "Himachal Pradesh"
-msgstr "హిమాచల్ ప్రదెశ్"
+msgstr "హిమాచల్ ప్రదేశ్"
 
 msgid "Jammu and Kashmir"
-msgstr "జమ్మూ-కశ్మీర్"
+msgstr "జమ్మూ కాశ్మీర్"
 
 msgid "Jharkhand"
-msgstr "జార్ఖండ్"
+msgstr "ఝార్ఖండ్"
 
 msgid "Karnataka"
-msgstr "కర్నాటక"
+msgstr "కర్ణాటక"
 
 msgid "Lakshadweep"
 msgstr "లక్షద్వీప్"
 
 msgid "Madhya Pradesh"
-msgstr "మధ్య్ ప్రదెశ్"
+msgstr "మధ్య ప్రదేశ్"
 
 msgid "Maharashtra"
 msgstr "మహారాష్ట్ర"
 
 msgid "Meghalaya"
-msgstr "మెఘాలయ్"
+msgstr "మేఘాలయ"
 
 msgid "Mizoram"
 msgstr "మిజోరం"
 
 msgid "Nagaland"
-msgstr "నగాలేండ్"
+msgstr "నాగాలాండ్"
 
 msgid "Puducherry"
 msgstr "పుడుచెరీ"
@@ -82738,22 +82738,22 @@ msgid "Sikkim"
 msgstr "సిక్కిం"
 
 msgid "Tamil Nadu"
-msgstr "తమిళనాడు"
+msgstr "తమిళ నాడు"
 
 msgid "Telangana"
 msgstr "తెలంగాణ"
 
 msgid "Tripura"
-msgstr "త్రిపురా"
+msgstr "త్రిపుర"
 
 msgid "Uttar Pradesh"
-msgstr "ఉత్తర్ ప్రదెశ్"
+msgstr "ఉత్తర్ ప్రదేశ్"
 
 msgid "Uttarakhand"
 msgstr "ఉత్తరాఖండ్"
 
 msgid "West Bengal"
-msgstr "పశ్చిమ బంగాల్"
+msgstr "పశ్చిమ బెంగాల్"
 
 msgid "Fortis"
 msgstr "ఫోర్టిస్"
@@ -82798,13 +82798,13 @@ msgid "Gastroenterology"
 msgstr "గ్యాస్ట్రోఎంటరాలజీ (జీర్ణ వ్యవస్థ)"
 
 msgid "Gynecology"
-msgstr "గైనకాలజీ (స్రీ ఆరోగ్య)"
+msgstr "గైనకాలజీ (స్రీ ఆరోగ్య)"
 
 msgid "Oncology"
 msgstr "ఆంకాలజీ (కాన్సర్)"
 
 msgid "Ophthalmology"
-msgstr "అఫ్తాల్మొలజీ (నేత్ర వైద్య)"
+msgstr "అఫ్తాల్మొలజీ (నేత్ర వైద్య)"
 
 msgid "Orthopedic"
 msgstr "ఆర్థోపెడిక్ (ఎముక ఆరోగ్య)"
@@ -82819,10 +82819,10 @@ msgid "Adoor"
 msgstr "అదూర్"
 
 msgid "Agra"
-msgstr "ఆగరా"
+msgstr "ఆగ్రా"
 
 msgid "Ahmedabad"
-msgstr "అహమదాబాద్"
+msgstr "అహ్మదాబాదు"
 
 msgid "Ajmer"
 msgstr "అజమెర్"
@@ -82843,7 +82843,7 @@ msgid "Amreli"
 msgstr "అమరెలీ"
 
 msgid "Amritsar"
-msgstr "అమృతసర్"
+msgstr "అమృత్‌సర్"
 
 msgid "Amrohaÿ"
 msgstr "అమరోహా"
@@ -82987,7 +82987,7 @@ msgid "Chatra"
 msgstr "చతరా"
 
 msgid "Chennai"
-msgstr "చెన్నఈ"
+msgstr "చెన్నై"
 
 msgid "Cheyyar"
 msgstr "చెయ్యర్"
@@ -83245,7 +83245,7 @@ msgid "Hoogly"
 msgstr "హుగలీ"
 
 msgid "Hyderabad"
-msgstr "హేదరాబాద్"
+msgstr "హైదరాబాదు"
 
 msgid "Idukki"
 msgstr "ఇడుక్కీ"
@@ -83257,7 +83257,7 @@ msgid "Imphal West"
 msgstr "ఇంఫాల్ పశ్చిమ"
 
 msgid "Indore"
-msgstr "ఇందౌర్"
+msgstr "ఇండోర్"
 
 msgid "Irinjalakuda"
 msgstr "ఇరింజలకూడ్ ా"
@@ -83281,7 +83281,7 @@ msgid "Jaintia Hills"
 msgstr "జయంతియా హిల్స్"
 
 msgid "Jaipur"
-msgstr "జయపుర్"
+msgstr "జైపూర్"
 
 msgid "Jaisalmer"
 msgstr "జేసలమెర్"
@@ -83473,7 +83473,7 @@ msgid "Maarthandam"
 msgstr "మార్తణ్దం"
 
 msgid "Machalipatnam"
-msgstr "మఛలీపట్నం"
+msgstr "మఛలీపట్టణం"
 
 msgid "Madhepura"
 msgstr "మధెపురా"
@@ -83482,7 +83482,7 @@ msgid "Madikere"
 msgstr "మడికెరె"
 
 msgid "Madurai"
-msgstr "మదురే"
+msgstr "మధురై"
 
 msgid "Mahbubnagar"
 msgstr "మహబూబనగర్"
@@ -83551,7 +83551,7 @@ msgid "Morbi"
 msgstr "మోరబీ"
 
 msgid "Mumbai"
-msgstr "ముంబఈ"
+msgstr "ముంబై"
 
 msgid "Munger"
 msgstr "ముంగెర్"
@@ -83605,7 +83605,7 @@ msgid "Narnaul"
 msgstr "నారనౌల్"
 
 msgid "Navi mumbai"
-msgstr "నవీ ముంబఈ"
+msgstr "నవీ ముంబై"
 
 msgid "Navsari"
 msgstr "నవసారీ"
@@ -83951,7 +83951,7 @@ msgid "Tonk"
 msgstr "టోంక్"
 
 msgid "Trichy"
-msgstr "త్రిచీ"
+msgstr "త్రిచి"
 
 msgid "Trivandram"
 msgstr "త్రివెంద్రం"
