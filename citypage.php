@@ -231,7 +231,7 @@ if($locale_code == "hi_IN"){
 	        . ($network=='all'?' ': __($network,"optimizer") .' नेटवर्क  के ')
 			. $rounded_count 
 	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' के विशेष ')
-			.' अस्पताल ('
+			.' अस्पताल की जानकारी ('
 			. ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty)
 			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')
@@ -249,7 +249,7 @@ if($locale_code == "hi_IN"){
 	        . ($network=='all'?' ': __($network,"optimizer") .' నెట్వర్క్ ')
 			. $rounded_count 
 	        . ($specialty=='all'?($chain=='all'?' ': ' '.__($chain,"optimizer")): ' '.__($specialty,"optimizer"). ' ప్రత్యేక ')
-			.' ఆస్పత్రులు ('
+			.' ఆస్పత్రులు గురించి వివరాలు ('
 			. ($specialty=='all'?($chain=='all'?' ': ' '.$chain): ' '.$specialty)
 			. ' Hospitals in '
 	        . ($network=='all'?' ': $network.' Network, ')
