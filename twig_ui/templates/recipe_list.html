@@ -167,27 +167,27 @@
 	<p>
 		Find {{total_count}} healthy
 {% if params.cuisine is not same as('all')  %}
-		{{__e(params.cuisine)}}
+		{{params.cuisine}}
 {% endif %}
 {% if params.diet is not same as('all')  %}
-		{{__e(params.diet)}}
+		{{params.diet}}
 {% endif %}
 {% if params.category is not same as('all')  %}
-		{{__e(params.category)}}
+		{{params.category}}
 {% endif %}
 		recipes ideal for diabetics. Use these recipes in your diabetic food chart to get best results and manage your health.
 		{% if params.category is not same as('all')  %}
-			Choose {{__e(params.category)}} recipe
+			Choose {{params.category}} recipe
 		{% else %}
 			Plan your diet by choosing a recipe for {% for category in response.filter.categories %}
-           		{{__e(category)}},
+           		{{category}},
 			{% else %}
 			{% endfor %}
 		{% endif %}
 
 		and personalise among {{response.filter.cuisines|length}} Indian Cuisines like
 		{% for cuisineinfo in response.filter.cuisines %}
-       		{{__e(cuisineinfo)}},
+       		{{cuisineinfo}},
 		{% else %}
 		{% endfor %}.
 	</p>
@@ -335,7 +335,7 @@
 					<div>
 						<span class="ap-category-icon fa fa-clock-o " ></span> 
 						    <p>
-						        {{__e("recipe_#{recipe.id}")}} is a {{recipe.category.title}} recipe  
+						        {{recipe.title}} is a {{recipe.category.title}} recipe  
 						        {%if recipe.cuisine is not empty%} 
 						            from {{recipe.cuisine.title}} 
 						        {% endif %}

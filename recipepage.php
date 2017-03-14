@@ -139,10 +139,10 @@ global $title;
 if($locale_code == "hi_IN"){
     $title =  __("recipe_".$obj["id"],"optimizer") . " - मधुमेह (बहुमूत्र) के लिए पौष्टिक आहार" ;
 
-  $description = "<span  itemprop='name'>"
+  $description = ""
   .__('recipe_'.$obj["id"])
-  ." </span> एक स्वस्थ मधुमेह उपयोगी व्यंजन है। "
-  ." <span  itemprop='description'>"
+  ." एक स्वस्थ मधुमेह उपयोगी व्यंजन है। "
+  ." "
   .__('recipe_'.$obj["id"])
   .__($obj["category"]["title"])
   ." व्यंजन है और मधुमेह के प्रबंधन में मदद करता है। " 
@@ -151,15 +151,15 @@ if($locale_code == "hi_IN"){
   ." मिनटों तैयारी और"
   .$obj["cookingMinuteMax"]
   ." मिनट पकाने के समय में तैयार किया जा सकता है।"
-  ." </span>";
+  ." ";
 
 }else{
   $title = "Healthy recipe - ".$obj["title"] . " for Diabetic diet";
 
-  $description = "<span  itemprop='name'>"
+  $description = ""
   .__('recipe_'.$obj["id"])
-  ." </span> is a healthy diabetic friendly recipe. "
-  ." <span  itemprop='description'>"
+  ." is a healthy diabetic friendly recipe. "
+  ." "
   .__('recipe_'.$obj["id"])
   ." is a "
   .__($obj["category"]["title"])
@@ -170,7 +170,7 @@ if($locale_code == "hi_IN"){
   ." mins of preparation time and "
   .$obj["cookingMinuteMax"]
   ." mins of cooking time."
-  ." </span>";
+  ."";
 }
 }catch (Exception $e){
     echo $e->getMessage();
