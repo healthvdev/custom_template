@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Optimizer\n"
 "POT-Creation-Date: 2016-12-28 12:45+0530\n"
-"PO-Revision-Date: 2017-03-14 12:52+0530\n"
+"PO-Revision-Date: 2017-03-14 14:21+0530\n"
 "Language-Team: Layerthemes\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,6 +15,141 @@ msgstr ""
 "Language: hi_IN\n"
 "X-Poedit-SearchPath-0: C:/xampp2/htdocs/optimizer/wp-content/themes/"
 "optimizer\n"
+
+msgid "ingredients_recipes"
+msgstr "%s तैयारी के लिए सामग्री"
+
+msgid "Preparation time"
+msgstr "तैयारी का समय"
+
+msgid "Cooking time"
+msgstr "पकाने का समय"
+
+msgid "tsp"
+msgstr "छोटा चम्मच"
+
+msgid "asrequired"
+msgstr "स्वाद अनुसार"
+
+msgid "mins"
+msgstr "मिनट"
+
+msgid "steps_recipes"
+msgstr "%s तैयार करने के लिए चरण"
+
+msgid "benefits_diabetics"
+msgstr "%s से मधुमेह के लिए लाभ"
+
+msgid "guidelines_diabetics"
+msgstr "मधुमेह की सावधानी"
+
+msgid "All Recipes"
+msgstr "सभी व्यंजन"
+
+msgid "tbsp"
+msgstr "बड़ा चम्मच"
+
+msgid "grams"
+msgstr "ग्राम"
+
+msgid "cup"
+msgstr "कटोरी"
+
+msgid "time_recipes"
+msgstr "%s तैयारी के लिए समय"
+
+msgid "Andhra"
+msgstr "आंध्र"
+
+msgid "Bengali"
+msgstr "बंगाली"
+
+msgid "Chinese"
+msgstr "चीनी"
+
+msgid "Gujarati"
+msgstr "गुजराती"
+
+msgid "Indian"
+msgstr "भारतीय"
+
+msgid "Maharashtrian"
+msgstr "महाराष्ट्रीयन"
+
+msgid "Mangalorean"
+msgstr "मंगलोरियन"
+
+msgid "North Eastern"
+msgstr "उत्तर पूर्वी"
+
+msgid "North Indian"
+msgstr "उत्तर भारतीय"
+
+msgid "Punjabi"
+msgstr "पंजाबी"
+
+msgid "Rajasthani"
+msgstr "राजस्थानी"
+
+msgid "Sindhi"
+msgstr "सिंधी"
+
+msgid "South Indian"
+msgstr "दक्षिण भारतीय"
+
+msgid "Breakfast"
+msgstr "सुबह का नाश्ता"
+
+msgid "Dessert"
+msgstr "मिठाई"
+
+msgid "Dinner"
+msgstr "रात का खाना"
+
+msgid "Lunch"
+msgstr "दोपहर का भोजन"
+
+msgid "Side Dish"
+msgstr "सह भोजन"
+
+msgid "Snacks"
+msgstr "नाश्ता"
+
+msgid "Soup"
+msgstr "सूप"
+
+msgid "drop"
+msgstr "बूंद"
+
+msgid "small"
+msgstr "छोटा"
+
+msgid "medium"
+msgstr "मध्यम"
+
+msgid "large"
+msgstr "बड़ा"
+
+msgid "pinch"
+msgstr "चुटकी"
+
+msgid "ml"
+msgstr "मिलीलीटर"
+
+msgid "clove"
+msgstr "लौंग"
+
+msgid "inch"
+msgstr "इंच"
+
+msgid "sprig"
+msgstr "टहनी"
+
+msgid "leaves"
+msgstr "पत्ते"
+
+msgid "bunch"
+msgstr "झुंड"
 
 msgid "recipe_1"
 msgstr "ओट्स (जई) इडली"

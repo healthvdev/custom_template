@@ -17,6 +17,141 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 
+msgid "ingredients_recipes"
+msgstr "Ingredients for preparing %s"
+
+msgid "Preparation time"
+msgstr "Preparation time"
+
+msgid "Cooking time"
+msgstr "Cooking time"
+
+msgid "tsp"
+msgstr "tsp"
+
+msgid "asrequired"
+msgstr "as required"
+
+msgid "mins"
+msgstr "mins"
+
+msgid "steps_recipes"
+msgstr "Steps to prepare %s"
+
+msgid "benefits_diabetics"
+msgstr "BENEFITS OF %s FOR DIABETICS"
+
+msgid "guidelines_diabetics"
+msgstr "GUIDELINES OF %s FOR DIABETICS"
+
+msgid "All Recipes"
+msgstr "All Recipes"
+
+msgid "tbsp"
+msgstr "tbsp"
+
+msgid "grams"
+msgstr "grams"
+
+msgid "cup"
+msgstr "cup"
+
+msgid "time_recipes"
+msgstr "Time for preparing भापा आलू"
+
+msgid "Andhra"
+msgstr "Andhra"
+
+msgid "Bengali"
+msgstr "Bengali"
+
+msgid "Chinese"
+msgstr "Chinese"
+
+msgid "Gujarati"
+msgstr "Gujarati"
+
+msgid "Indian"
+msgstr "Indian"
+
+msgid "Maharashtrian"
+msgstr "Maharashtrian"
+
+msgid "Mangalorean"
+msgstr "Mangalorean"
+
+msgid "North Eastern"
+msgstr "North Eastern"
+
+msgid "North Indian"
+msgstr "North Indian"
+
+msgid "Punjabi"
+msgstr "Punjabi"
+
+msgid "Rajasthani"
+msgstr "Rajasthani"
+
+msgid "Sindhi"
+msgstr "Sindhi"
+
+msgid "South Indian"
+msgstr "South Indian"
+
+msgid "Breakfast"
+msgstr "Breakfast"
+
+msgid "Dessert"
+msgstr "Dessert"
+
+msgid "Dinner"
+msgstr "Dinner"
+
+msgid "Lunch"
+msgstr "Lunch"
+
+msgid "Side Dish"
+msgstr "Side Dish"
+
+msgid "Snacks"
+msgstr "Snacks"
+
+msgid "Soup"
+msgstr "Soup"
+
+msgid "drop"
+msgstr "drop"
+
+msgid "small"
+msgstr "small"
+
+msgid "medium"
+msgstr "medium"
+
+msgid "large"
+msgstr "large"
+
+msgid "pinch"
+msgstr "pinch"
+
+msgid "ml"
+msgstr "ml"
+
+msgid "clove"
+msgstr "clove"
+
+msgid "inch"
+msgstr "inch"
+
+msgid "sprig"
+msgstr "sprig"
+
+msgid "leaves"
+msgstr "leaves"
+
+msgid "bunch"
+msgstr "bunch"
+
 msgid "recipe_1"
 msgstr "Oats Idli"
 

@@ -127,21 +127,21 @@
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <a itemprop="item" href="{{baseURL}}{{function_getURLParams('all','all','all','all','all','all',params.count,0)}}">
-    <span itemprop="name">All Recipes</span></a>
+    <span itemprop="name">{{__e("All Recipes")}}</span></a>
     <meta itemprop="position" content="1" />
   </li>
 {% if recipe.cuisine is not empty %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <a itemprop="item" href="{{baseURL}}{{function_getURLParams(recipe.cuisine.title, 'all', 'all', 'all','all','all',params.count,0)}}">
-    <span itemprop="name">{{recipe.cuisine.title}}</span></a>
+    <span itemprop="name">{{__e(recipe.cuisine.title)}}</span></a>
     <meta itemprop="position" content="3" />
   </li>
 {% endif %}
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <a itemprop="item" href="{{baseURL}}{{function_getURLParams(recipe.cuisine.title, recipe.category.title,'all','all','all','all',params.count,0)}}">
-    <span itemprop="name">{{recipe.category.title}}</span></a>
+    <span itemprop="name">{{__e(recipe.category.title)}}</span></a>
     <meta itemprop="position" content="2" />
   </li>
   <li itemprop="itemListElement" itemscope
@@ -205,9 +205,9 @@
                     <div class="um-member-card " style="margin: 10px 0;">
                         <div>
                             <span class="ap-category-icon fa fa-clock-o " ></span> 
-                            <span class="initial">Preparation time - <meta itemprop="prepTime" content="PT{{recipe.preparationMinuteMax}}M"> {{recipe.preparationMinuteMax}} mins <br/>
+                            <span class="initial">{{__e("Preparation time")}} - <meta itemprop="prepTime" content="PT{{recipe.preparationMinuteMax}}M"> {{recipe.preparationMinuteMax}} {{__e("mins")}} <br/>
                             <span class="ap-category-icon fa fa-clock-o " ></span> 
-                            Cooking time - <meta itemprop="prepTime" content="PT{{recipe.cookingMinuteMax}}M"> {{recipe.cookingMinuteMax}} mins </span>
+                            {{__e("Cooking time")}} - <meta itemprop="prepTime" content="PT{{recipe.cookingMinuteMax}}M"> {{recipe.cookingMinuteMax}} {{__e("mins")}} </span>
                         </div>
 
                     </div>
@@ -223,7 +223,7 @@
 {% if ingredient.commonName is not empty %}
                              ({{ingredient.commonName}}) 
 {% endif %}
-                            - {{ingredient.quantity}}   {{ingredient.quantityUnits}}</li>
+                            - {{ingredient.quantity}}   {{__e(ingredient.quantityUnits)}}</li>
                     {% else %}
                         No associated cuisine insurers
                     {% endfor %}
