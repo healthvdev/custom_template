@@ -27,8 +27,6 @@ function getRecipeURLParams($recipe_id){
 
 function getBaseURLOfLocale($url, $locale_code){
 
-//$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
-$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
   if(empty($locale_code) ){
     $locale_code = "en_US";
   }
@@ -65,6 +63,9 @@ $path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
 
   return "$scheme$user$pass$host$port$path$query$fragment"; 
 }
+
+$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
+//$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
 
 if (!class_exists('Twig_Autoloader')) {
 	require_once 'template/Twig/lib/Twig/Autoloader.php';
