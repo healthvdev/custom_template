@@ -174,8 +174,11 @@ global $title;
 // South indian breakfast recipes with oats for diabetics
 
 if($locale_code == "hi_IN"){
-	$title = "";
-
+    $title = "मधुमेह (बहुमूत्र) के लिए ".($cuisine=='all'?' ': __($cuisine,"optimizer").' ')
+    . ($category=='all'?'': __($category,"optimizer").' ')
+    ." पौष्टिक संतुलित व्यंजनों - " 
+    . ($ingredient=='all'?'':  __($ingredient,"optimizer"). " के साथ". ")")
+     ;
 
 }else{
 	$title = 'Healthy '.($cuisine=='all'?' ': __($cuisine,"optimizer").' ')

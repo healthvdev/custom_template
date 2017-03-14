@@ -197,10 +197,10 @@
 
 
 	<div class="filters">
-		Apply Filters: 
+		{{__e(Apply Filters)}}: 
 	   <div class="dropdown">
 {% if params.cuisine is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Cuisine <b class="caret"></b></a>
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(Cuisine)}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for cuisineinfo in response.filter.cuisines %}
 	           		<li><a href="{{baseURL}}{{function_getURLParams(cuisineinfo,params.category,params.ingredient,'all','all','all',params.count,0)}}">{{__e(cuisineinfo)}}</a></li>
@@ -216,7 +216,7 @@
 	    </div>
 	   <div class="dropdown">
 {% if params.category is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Category <b class="caret"></b></a>
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(Category)}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for category in response.filter.categories %}
 	           		<li><a href="{{baseURL}}{{function_getURLParams(params.cuisine,category,'all','all','all','all',params.count,0)}}">{{__e(category)}}</a></li>
@@ -233,7 +233,7 @@
 
 	   <div class="dropdown">
 {% if params.ingredient is same as('all')  %}
-	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Ingredient <b class="caret"></b></a>
+	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e(Ingredient)}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
 				{% for ingredient in response.filter.ingredients %}
 	           		<li><a href="{{baseURL}}{{function_getURLParams(params.cuisine,params.category,ingredient,'all','all','all',params.count,0)}}">{{__e(ingredient)}}</a></li>

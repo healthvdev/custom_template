@@ -157,20 +157,7 @@ try{
 $baseURL = substr($_SERVER["REQUEST_URI"], 0, strrpos($_SERVER["REQUEST_URI"], "/recipe"));
 
 
-if($locale_code == "hi_IN"){
-  echo $twig->render('hi_IN_recipe_detail.html', 
-      array(
-          'is_admin' => $isadmin,
-          'is_user_logged_in' => is_user_logged_in(),
-          'recipe' => $obj,
-          'title' => $title,
-                'params' => array('recipe_id' => rawurlencode($recipe_id)),
-                'baseURL' => $baseURL,
-                'baseRecipeEditURL' => $baseURL."/edit",
-                'baseRecipeURL' => strtok($_SERVER["REQUEST_URI"],'?')
-                       )
-      );
-}else{
+
 echo $twig->render('recipe_detail.html', 
       array(
           'is_admin' => $isadmin,
@@ -183,7 +170,6 @@ echo $twig->render('recipe_detail.html',
                 'baseRecipeURL' => strtok($_SERVER["REQUEST_URI"],'?')
                        )
       );
-}
 
 echo "</div>";
 
