@@ -64,8 +64,8 @@ function getBaseURLOfLocale($url, $locale_code){
   return "$scheme$user$pass$host$port$path$query$fragment"; 
 }
 
-$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
-//$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
+//$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
+$path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
 
 if (!class_exists('Twig_Autoloader')) {
 	require_once 'template/Twig/lib/Twig/Autoloader.php';

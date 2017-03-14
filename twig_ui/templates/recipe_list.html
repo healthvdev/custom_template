@@ -323,8 +323,8 @@
 					<div class="um-member-card " style="padding: 10px;">
 					
 					<div class="um-member-name">
-						<span style="font-weight: bold;font-size: 18px;">{{__e('recipe_'|recipe.id)}}</span>
-						<a href="{{baseRecipeURL}}{{function_getRecipeURLParams(recipe.id)}}" title="{{__e('recipe_'|recipe.id)}}"><span style="font-size: 12px;">click for details &gt;</span></a>
+						<span style="font-weight: bold;font-size: 18px;">{{__e('recipe_{recipe.id}')}}</span>
+						<a href="{{baseRecipeURL}}{{function_getRecipeURLParams(recipe.id)}}" title="{{__e('recipe_{recipe.id}')}}"><span style="font-size: 12px;">click for details &gt;</span></a>
 					</div>
 
 					<div>
@@ -335,7 +335,7 @@
 					<div>
 						<span class="ap-category-icon fa fa-clock-o " ></span> 
 						    <p>
-						        {{__e('recipe_'|recipe.id)}} is a {{recipe.category.title}} recipe  
+						        {{__e('recipe_{recipe.id}')}} is a {{recipe.category.title}} recipe  
 						        {%if recipe.cuisine is not empty%} 
 						            from {{recipe.cuisine.title}} 
 						        {% endif %}
