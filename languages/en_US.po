@@ -80,7 +80,7 @@ msgid "cup"
 msgstr "cup"
 
 msgid "time_recipes"
-msgstr "Time for preparing भापा आलू"
+msgstr "Time for preparing %s"
 
 msgid "Andhra"
 msgstr "Andhra"

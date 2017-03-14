@@ -108,7 +108,8 @@ $function_EchoTranslation = new Twig_SimpleFunction('__e', function ($string) {
 });
 
 $function_EchoTranslation_withParameter = new Twig_SimpleFunction('__ep', function ($string, $params) {
-    $say = sprintf(__($string,"optimizer"), $params);
+    $trasnlated_string = __($string,"optimizer");
+    $say = sprintf($trasnlated_string, $params);
     echo $say;
 });
 
@@ -174,9 +175,9 @@ global $title;
 // South indian breakfast recipes with oats for diabetics
 
 if($locale_code == "hi_IN"){
-    $title = "मधुमेह (बहुमूत्र) के लिए ".($cuisine=='all'?' ': __($cuisine,"optimizer").' ')
+    $title = "मधुमेह (बहुमूत्र) के लिए पौष्टिक ".($cuisine=='all'?' ': __($cuisine,"optimizer").' ')
     . ($category=='all'?'': __($category,"optimizer").' ')
-    ." पौष्टिक संतुलित व्यंजनों - " 
+    ." आहार - " 
     . ($ingredient=='all'?'':  __($ingredient,"optimizer"). " के साथ". ")")
      ;
 

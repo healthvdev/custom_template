@@ -95,7 +95,8 @@ $function_EchoTranslation = new Twig_SimpleFunction('__e', function ($string) {
 });
 
 $function_EchoTranslation_withParameter = new Twig_SimpleFunction('__ep', function ($string, $params) {
-    $say = sprintf(__($string,"optimizer"), $params);
+    $trasnlated_string = __($string,"optimizer");
+    $say = sprintf($trasnlated_string, $params);
     echo $say;
 });
 
