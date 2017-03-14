@@ -176,7 +176,7 @@
         <link itemprop="suitableForDiet" href="http://schema.org/LowFatDiet" />
     </p>
     <br/>
-    <h4 class="postitle entry-title" style="font-weight:bold;"> Benefits of {{__e("recipe_#{recipe.id}")}} for diabetics</h4>
+    <h4 class="postitle entry-title" style="font-weight:bold;"> {{__ep("benefits_diabetics", __e("recipe_#{recipe.id}"))}}</h4>
     <ul>
 
         {% for ingredient in recipe.ingredients%}

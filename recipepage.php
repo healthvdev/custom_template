@@ -94,6 +94,12 @@ $function_EchoTranslation = new Twig_SimpleFunction('__e', function ($string) {
     echo __($string,"optimizer");
 });
 
+$function_EchoTranslation_withParameter = new Twig_SimpleFunction('__ep', function ($string, $params) {
+    $say = sprintf(__($string,"optimizer"), $params);
+    echo $say;
+});
+
+
 $function_getBaseURLOfLocale = new Twig_SimpleFunction('function_getBaseURLOfLocale', function ($url, $locale_code) {
     return getBaseURLOfLocale($url, $locale_code);
 });
@@ -102,6 +108,7 @@ $function_getBaseURLOfLocale = new Twig_SimpleFunction('function_getBaseURLOfLoc
 $twig->addFunction($function);
 $twig->addFunction($function_RecipeURLParams);
 $twig->addFunction($function_EchoTranslation);
+$twig->addFunction($function_EchoTranslation_withParameter);
 $twig->addFunction($function_getBaseURLOfLocale);
 
 
@@ -131,9 +138,9 @@ global $title;
 $locale_code = "";
 
 if($locale_code == "hi_IN"){
-//  $title = $translation_obj["name_hi_IN"] . ", " . __($obj["ingredient"],"optimizer") . ", " .  __($obj["category"],"optimizer");
+    $title = "मधुमेह (बहुमूत्र) के लिए पौष्टिक संतुलित आहार - " . __("recipe_".$obj["id"],"optimizer") ;
 }else{
-  $title = "Healthy recipe - ".$obj["title"] . " for Diabetics";
+  $title = "Healthy recipe - ".$obj["title"] . " for Diabetic diet";
 }
 }catch (Exception $e){
     echo $e->getMessage();

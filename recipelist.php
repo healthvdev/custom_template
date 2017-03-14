@@ -106,6 +106,12 @@ $function_RecipeURLParams = new Twig_SimpleFunction('function_getRecipeURLParams
 $function_EchoTranslation = new Twig_SimpleFunction('__e', function ($string) {
     echo __($string,"optimizer");
 });
+
+$function_EchoTranslation_withParameter = new Twig_SimpleFunction('__ep', function ($string, $params) {
+    $say = sprintf(__($string,"optimizer"), $params);
+    echo $say;
+});
+
 $function_getBaseURLOfLocale = new Twig_SimpleFunction('function_getBaseURLOfLocale', function ($url, $locale_code) {
     return getBaseURLOfLocale($url, $locale_code);
 });
@@ -114,6 +120,7 @@ $function_getBaseURLOfLocale = new Twig_SimpleFunction('function_getBaseURLOfLoc
 $twig->addFunction($function_URLParams);
 $twig->addFunction($function_RecipeURLParams);
 $twig->addFunction($function_EchoTranslation);
+$twig->addFunction($function_EchoTranslation_withParameter);
 $twig->addFunction($function_getBaseURLOfLocale);
 
 
