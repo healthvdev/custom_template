@@ -165,14 +165,7 @@
 	<h1 class="postitle entry-title">{{title}}</h1>
 
     <p>
-        <span  itemprop="name">{{__e("recipe_#{recipe.id}")}} </span> is a healthy diabetic friendly recipe. 
-        <span  itemprop="description">
-        {{recipe.title}} is a {{recipe.category.title}} recipe  
-        {%if recipe.cuisine is not empty%} 
-            from {{recipe.cuisine.title}} 
-        {% endif %}
-        and helps manage diabetes. {{__e("recipe_#{recipe.id}")}} can be prepared with {{recipe.preparationMinuteMax}} mins of preparation time and {{recipe.cookingMinuteMax}} mins of cooking time. You need {{recipe.ingredients|length}} ingredients and {{recipe.steps|length}} easy steps to prepare {{recipe.title}} .
-        </span>
+        {{description}}
         <link itemprop="suitableForDiet" href="http://schema.org/LowFatDiet" />
     </p>
     <br/>

@@ -137,9 +137,40 @@ global $title;
 
 
 if($locale_code == "hi_IN"){
-    $title = "मधुमेह (बहुमूत्र) के लिए पौष्टिक संतुलित आहार - " . __("recipe_".$obj["id"],"optimizer") ;
+    $title =  __("recipe_".$obj["id"],"optimizer") . " - मधुमेह (बहुमूत्र) के लिए पौष्टिक आहार" ;
+
+  $description = "<span  itemprop='name'>"
+  .__e('recipe_'.$obj["id"])
+  ." </span> एक स्वस्थ मधुमेह उपयोगी व्यंजन है। "
+  ." <span  itemprop='description'>"
+  .__e('recipe_'.$obj["id"])
+  .__e($obj["category"]["title"])
+  ." व्यंजन है और मधुमेह के प्रबंधन में मदद करता है। " 
+  .__e('recipe_'.$obj["id"])
+  .$obj["preparationMinuteMax"])
+  ." मिनटों तैयारी और"
+  .$obj["cookingMinuteMax"])
+  ." मिनट पकाने के समय में तैयार किया जा सकता है।"
+  ." </span>";
+
 }else{
   $title = "Healthy recipe - ".$obj["title"] . " for Diabetic diet";
+
+  $description = "<span  itemprop='name'>"
+  .__e('recipe_'.$obj["id"])
+  ." </span> is a healthy diabetic friendly recipe. "
+  ." <span  itemprop='description'>"
+  .__e('recipe_'.$obj["id"])
+  ." is a "
+  .__e($obj["category"]["title"])
+  ." recipe and helps manage diabetes." 
+  .__e('recipe_'.$obj["id"])
+  ." can be prepared with "
+  .$obj["preparationMinuteMax"])
+  ." mins of preparation time and "
+  .$obj["cookingMinuteMax"])
+  ." mins of cooking time."
+  ." </span>";
 }
 }catch (Exception $e){
     echo $e->getMessage();
@@ -164,6 +195,7 @@ echo $twig->render('recipe_detail.html',
           'is_user_logged_in' => is_user_logged_in(),
           'recipe' => $obj,
           'title' => $title,
+          'description' => $description,
                 'params' => array('recipe_id' => rawurlencode($recipe_id)),
                 'baseURL' => $baseURL,
                 'baseRecipeEditURL' => $baseURL."/edit",
