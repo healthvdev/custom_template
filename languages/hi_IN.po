@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Optimizer\n"
 "POT-Creation-Date: 2016-12-28 12:45+0530\n"
-"PO-Revision-Date: 2017-01-09 16:05+0530\n"
+"PO-Revision-Date: 2017-03-14 12:52+0530\n"
 "Language-Team: Layerthemes\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,6 +15,1647 @@ msgstr ""
 "Language: hi_IN\n"
 "X-Poedit-SearchPath-0: C:/xampp2/htdocs/optimizer/wp-content/themes/"
 "optimizer\n"
+
+msgid "recipe_1"
+msgstr "ओट्स (जई) इडली"
+
+msgid "recipe_2"
+msgstr "टूटी गेहूं (दलीय) उपमा"
+
+msgid "recipe_3"
+msgstr "शुक्तो"
+
+msgid "recipe_4"
+msgstr "कटहल सब्जी"
+
+msgid "recipe_5"
+msgstr "करेला का सूप"
+
+msgid "recipe_6"
+msgstr "रागी खिचडी (पोर्रिज)"
+
+msgid "recipe_7"
+msgstr "लाल पोहा"
+
+msgid "recipe_8"
+msgstr "मिश्रित अंकुर सब्जी"
+
+msgid "recipe_9"
+msgstr "कोको बीट (नारियल चुकंदर) सूप"
+
+msgid "recipe_10"
+msgstr "भापा आलू"
+
+msgid "recipe_11"
+msgstr "काला बाजरा खिचड़ी (बाजरा)"
+
+msgid "recipe_12"
+msgstr "ऐप्पल (सेब) रबड़ी"
+
+msgid "recipe_13"
+msgstr "दही बैंगन"
+
+msgid "recipe_14"
+msgstr "पालक खार"
+
+msgid "recipe_15"
+msgstr "मिलागु पोंगल (काली मिर्च पोंगल)"
+
+msgid "recipe_16"
+msgstr "सुअंधरो ऐन बीह (सहजन कमल स्टेम)"
+
+msgid "recipe_17"
+msgstr "पेसारट्टू डोसा"
+
+msgid "recipe_18"
+msgstr "सत्तू शरबत"
+
+msgid "recipe_19"
+msgstr "कुंबिलप्पम (उबला हुआ कटहल केक)"
+
+msgid "recipe_20"
+msgstr "कांबू कुहज़"
+
+msgid "recipe_21"
+msgstr "मंडुआ की रोटी"
+
+msgid "recipe_22"
+msgstr "ओट (जई) बासी बेले भात"
+
+msgid "recipe_23"
+msgstr "रागी स्टू"
+
+msgid "recipe_24"
+msgstr "ड्रमस्टिक्स (सहजन) सूप"
+
+msgid "recipe_25"
+msgstr "करेला जूस"
+
+msgid "recipe_26"
+msgstr "करेला अप्पम"
+
+msgid "recipe_27"
+msgstr "सरगवी ना शाक (ड्रमस्टिक मसाला सबजी)"
+
+msgid "recipe_28"
+msgstr "कक्कडी थलीपेथ विधि (मसालेदार ककड़ी फ्लैट ब्रेड)"
+
+msgid "recipe_29"
+msgstr "मिश्रित अंकुर रेसिपी"
+
+msgid "recipe_30"
+msgstr "क्यूबा ब्लैक सेम सलाद"
+
+msgid "recipe_31"
+msgstr "डोसकाय पप्पू (ककड़ी दाल)"
+
+msgid "recipe_32"
+msgstr "पूरे हरा मूंग दाल सबजी"
+
+msgid "recipe_33"
+msgstr "मसालेदार बोतलागार और पालक रस"
+
+msgid "recipe_34"
+msgstr "रागी माल्ट (बादाम के दूध के साथ रागी खिचड़ी)"
+
+msgid "recipe_35"
+msgstr "पालक चपाती"
+
+msgid "recipe_36"
+msgstr "ब्राउन चावल और दलीय डोसा"
+
+msgid "recipe_37"
+msgstr "फूलगोभी अंडा भुरजी"
+
+msgid "recipe_38"
+msgstr "वेजिटेबल (सब्ज़ी) कोथु चापती"
+
+msgid "recipe_39"
+msgstr "अंडा कोथू चपाती"
+
+msgid "recipe_40"
+msgstr "लौकी रायता"
+
+msgid "recipe_41"
+msgstr "मटर मशरूम (कुकुरमुत्ता)"
+
+msgid "recipe_42"
+msgstr "मूली सूप"
+
+msgid "recipe_43"
+msgstr "गाजर का सलाद"
+
+msgid "recipe_44"
+msgstr "टमाटर और पुदीना चटनी"
+
+msgid "recipe_45"
+msgstr "गाजर का सूप"
+
+msgid "recipe_46"
+msgstr "चोंकी बादाम"
+
+msgid "recipe_47"
+msgstr "पंजाबी सूखी दाल"
+
+msgid "recipe_48"
+msgstr "ब्रोकोली (लहसुन और काली मिर्च के साथ) "
+
+msgid "recipe_49"
+msgstr "पनीर भुर्जी"
+
+msgid "recipe_50"
+msgstr "मिंट (पुदीना) चटनी"
+
+msgid "recipe_51"
+msgstr "ऐप्पल (सेब)"
+
+msgid "recipe_52"
+msgstr "ओट्स (जई) खिचड़ी"
+
+msgid "recipe_53"
+msgstr "फूलगोभी टमाटर सब्जी"
+
+msgid "recipe_54"
+msgstr "टूटी गेहूं  (दलीय) और सन बीज लाडू"
+
+msgid "recipe_55"
+msgstr "टमाटर का डोलमा"
+
+msgid "recipe_56"
+msgstr "मसालेदार स्वीट कॉर्न"
+
+msgid "recipe_57"
+msgstr "धनीया चटनी"
+
+msgid "recipe_58"
+msgstr "मारवाड़ी कढ़ी"
+
+msgid "recipe_59"
+msgstr "मिनी सोया डोसा"
+
+msgid "recipe_60"
+msgstr "ककड़ी सूप"
+
+msgid "recipe_61"
+msgstr "टमाटर सूप"
+
+msgid "recipe_62"
+msgstr "वेजिटेबल (सब्जी) जल्फ़्राज़ी"
+
+msgid "recipe_63"
+msgstr "मसालेदार मशरूम (कुकुरमुत्ता) (लहसुन"
+
+msgid "recipe_64"
+msgstr "बाजरा डोसा"
+
+msgid "recipe_65"
+msgstr "ऐप्पल बीट्रोॉट सलाद (सेब चुकंदर सलाद)"
+
+msgid "recipe_66"
+msgstr "पनीर सब्जियां सलाद"
+
+msgid "recipe_67"
+msgstr "स्टीम्ड (उबले हुए) सब्जी और पनीर मोमो"
+
+msgid "recipe_68"
+msgstr "आलू वाडी (नारियल फ्लेवर )"
+
+msgid "recipe_69"
+msgstr "मिर्च मिशरूम (कुकुरमुत्ता)"
+
+msgid "recipe_70"
+msgstr "मीठा मकई मुर्गी (चिकन) सूप"
+
+msgid "recipe_71"
+msgstr "पुदीना (मिंट) रायता"
+
+msgid "recipe_72"
+msgstr "भरवां परवल"
+
+msgid "recipe_73"
+msgstr "मूंग स्प्राउट्स पाव भाजी"
+
+msgid "recipe_74"
+msgstr "प्याज रायता"
+
+msgid "recipe_75"
+msgstr "आम और अदरक चटनी"
+
+msgid "recipe_76"
+msgstr "हनी (शहद) सरसों सालन"
+
+msgid "recipe_77"
+msgstr "आलू और मशरूम (कुकुरमुत्ता) सूप"
+
+msgid "recipe_78"
+msgstr "पालक टमाटर ओमेलेट"
+
+msgid "recipe_79"
+msgstr "क्लियर चिकन सूप"
+
+msgid "recipe_80"
+msgstr "नीर डोसा"
+
+msgid "recipe_81"
+msgstr "कच्ची केले की सब्जी"
+
+msgid "recipe_82"
+msgstr "सब्ज़ी का सूप"
+
+msgid "recipe_83"
+msgstr "मशरूम काली मिर्च का सूप"
+
+msgid "recipe_84"
+msgstr "कच्ची केले की चटनी"
+
+msgid "recipe_85"
+msgstr "ककड़ी का रायता"
+
+msgid "recipe_86"
+msgstr "थेंगा मंगा पट्ती सुंदल"
+
+msgid "recipe_87"
+msgstr "नारियल लेपित चिकन सलाद"
+
+msgid "recipe_88"
+msgstr "मशरूम (कुकुरमुत्ता) काली मिर्च का सूप"
+
+msgid "ingredients_1"
+msgstr "बेकिंग सोडा"
+
+msgid "ingredients_2"
+msgstr "केले के पत्ते"
+
+msgid "ingredients_3"
+msgstr "काला नमक"
+
+msgid "ingredients_4"
+msgstr "गुड़"
+
+msgid "ingredients_5"
+msgstr "पानी / ठंडा पानी"
+
+msgid "ingredients_6"
+msgstr "सेंधा नमक"
+
+msgid "ingredients_7"
+msgstr "नमक"
+
+msgid "ingredients_8"
+msgstr "चीनी"
+
+msgid "ingredients_9"
+msgstr "चीनी सब्स्टटूट"
+
+msgid "ingredients_10"
+msgstr "पानी"
+
+msgid "ingredients_11"
+msgstr "मलाई"
+
+msgid "ingredients_12"
+msgstr "दही"
+
+msgid "ingredients_13"
+msgstr "घी"
+
+msgid "ingredients_14"
+msgstr "पानी निकाल हुआ दही"
+
+msgid "ingredients_15"
+msgstr "कम वसा वाला दूध"
+
+msgid "ingredients_16"
+msgstr "दही"
+
+msgid "ingredients_17"
+msgstr "काजू - विभाजित"
+
+msgid "ingredients_18"
+msgstr "कसा हुआ सेब"
+
+msgid "ingredients_19"
+msgstr "कच्ची केले"
+
+msgid "ingredients_20"
+msgstr "कच्चा पपीता"
+
+msgid "ingredients_21"
+msgstr "लाल पोहा"
+
+msgid "ingredients_22"
+msgstr "चावल (सूखे भुना हुआ और धोया)"
+
+msgid "ingredients_23"
+msgstr "चावल का आटा"
+
+msgid "ingredients_24"
+msgstr "सूजी"
+
+msgid "ingredients_25"
+msgstr "कटा हुआ धनिया पत्तियां"
+
+msgid "ingredients_26"
+msgstr "काट लीमोंग्रस"
+
+msgid "ingredients_27"
+msgstr "करी पत्ता"
+
+msgid "ingredients_28"
+msgstr "नींबू की पत्तियाँ"
+
+msgid "ingredients_29"
+msgstr "तुलसी की पत्तियां"
+
+msgid "ingredients_30"
+msgstr "तेज पत्ता"
+
+msgid "ingredients_31"
+msgstr "भड़ली पता (गंध प्रसारिणी)"
+
+msgid "ingredients_32"
+msgstr "हरा चना (मूंग)"
+
+msgid "ingredients_33"
+msgstr "हरी मटर"
+
+msgid "ingredients_34"
+msgstr "मिश्रित स्प्राउट्स "
+
+msgid "ingredients_35"
+msgstr "मूंग दाल-भुना हुआ और धोया"
+
+msgid "ingredients_36"
+msgstr "छिला हुआ मूंग दाल"
+
+msgid "ingredients_37"
+msgstr "तुअर दाल"
+
+msgid "ingredients_38"
+msgstr "पीला मूंग दल (धोया और सूखा हुआ)"
+
+msgid "ingredients_39"
+msgstr "काले बाजरा (8 घंटे और सूखा हुआ)"
+
+msgid "ingredients_40"
+msgstr "रागी का आटा"
+
+msgid "ingredients_41"
+msgstr "जई"
+
+msgid "ingredients_42"
+msgstr "टूटी गेहूं"
+
+msgid "ingredients_43"
+msgstr "बादाम का दूध"
+
+msgid "ingredients_44"
+msgstr "नारियल का दूध"
+
+msgid "ingredients_45"
+msgstr "सरसों का तेल"
+
+msgid "ingredients_46"
+msgstr "तेल"
+
+msgid "ingredients_47"
+msgstr "तेल / घी"
+
+msgid "ingredients_48"
+msgstr "जैतून का तेल"
+
+msgid "ingredients_49"
+msgstr "तेल परिशोधित करें"
+
+msgid "ingredients_50"
+msgstr "सिरका"
+
+msgid "ingredients_51"
+msgstr "सत्तू"
+
+msgid "ingredients_52"
+msgstr "सभी मसाला पाउडर"
+
+msgid "ingredients_53"
+msgstr "काली मिर्च"
+
+msgid "ingredients_54"
+msgstr "काली मिर्च-भुना हुआ और पाउडर"
+
+msgid "ingredients_55"
+msgstr "इलायची पाउडर"
+
+msgid "ingredients_56"
+msgstr "मिर्च पाउडर"
+
+msgid "ingredients_57"
+msgstr "धनिया पाउडर"
+
+msgid "ingredients_58"
+msgstr "जीरा चूर्ण"
+
+msgid "ingredients_59"
+msgstr "जीरा"
+
+msgid "ingredients_60"
+msgstr "जीरा-भुना हुआ और पाउडर"
+
+msgid "ingredients_61"
+msgstr "सूखे लाल मिर्च"
+
+msgid "ingredients_62"
+msgstr "गोदा मसाला"
+
+msgid "ingredients_63"
+msgstr "हिंग"
+
+msgid "ingredients_64"
+msgstr "सरसों का पेस्ट"
+
+msgid "ingredients_65"
+msgstr "सरसों के बीज"
+
+msgid "ingredients_66"
+msgstr "निगेल्ला बीज"
+
+msgid "ingredients_67"
+msgstr "दालचीनी का चूरा"
+
+msgid "ingredients_68"
+msgstr "पंच फोरान"
+
+msgid "ingredients_70"
+msgstr "कालीमिर्च का पाउडर"
+
+msgid "ingredients_71"
+msgstr "फूटना (जीरा"
+
+msgid "ingredients_72"
+msgstr "लाल मिर्च पाउडर"
+
+msgid "ingredients_73"
+msgstr "भुना हुआ जीरा"
+
+msgid "ingredients_74"
+msgstr "नमक और कालीमिर्च"
+
+msgid "ingredients_75"
+msgstr "करी पत्ते का टहनी"
+
+msgid "ingredients_76"
+msgstr "सुवा (दिल बीज)"
+
+msgid "ingredients_77"
+msgstr "धन्यवादनी पाटा (सेंटला)"
+
+msgid "ingredients_78"
+msgstr "हल्दी पाउडर"
+
+msgid "ingredients_79"
+msgstr "फलियां"
+
+msgid "ingredients_80"
+msgstr "बीह (लोटस स्टेम)"
+
+msgid "ingredients_81"
+msgstr "करेला"
+
+msgid "ingredients_82"
+msgstr "बैंगन / बैंगन"
+
+msgid "ingredients_83"
+msgstr "गाजर"
+
+msgid "ingredients_84"
+msgstr "कटा हुआ चुकंदर"
+
+msgid "ingredients_85"
+msgstr "कटा हुआ गाजर"
+
+msgid "ingredients_86"
+msgstr "कटा हुआ लहसुन"
+
+msgid "ingredients_87"
+msgstr "कटा हुआ अदरक"
+
+msgid "ingredients_88"
+msgstr "कटा हुआ हरी मिर्च"
+
+msgid "ingredients_89"
+msgstr "कटा हुआ प्याज"
+
+msgid "ingredients_90"
+msgstr "कटा हुआ टमाटर"
+
+msgid "ingredients_91"
+msgstr "धनिये के पत्ते"
+
+msgid "ingredients_92"
+msgstr "सहजन"
+
+msgid "ingredients_93"
+msgstr "बारीक कटा हुआ हरी मिर्च"
+
+msgid "ingredients_94"
+msgstr "लहसुन लौंग"
+
+msgid "ingredients_95"
+msgstr "कटा हुआ गाजर"
+
+msgid "ingredients_96"
+msgstr "कसा हुआ नारियल"
+
+msgid "ingredients_97"
+msgstr "कसा हुआ अदरक"
+
+msgid "ingredients_98"
+msgstr "हरी मिर्च पेस्ट"
+
+msgid "ingredients_99"
+msgstr "हरी मिर्च"
+
+msgid "ingredients_100"
+msgstr "कटहल"
+
+msgid "ingredients_101"
+msgstr "नींबू का रस"
+
+msgid "ingredients_102"
+msgstr "अदरक का कीमा"
+
+msgid "ingredients_103"
+msgstr "प्याज"
+
+msgid "ingredients_104"
+msgstr "प्याज (कटा हुआ)"
+
+msgid "ingredients_105"
+msgstr "छोटे आलू"
+
+msgid "ingredients_106"
+msgstr "पालक"
+
+msgid "ingredients_107"
+msgstr "टमाटर"
+
+msgid "ingredients_108"
+msgstr "टमाटर का भर्ता"
+
+msgid "ingredients_109"
+msgstr "वेजिटेबल स्टॉक "
+
+msgid "ingredients_110"
+msgstr "दूध"
+
+msgid "ingredients_111"
+msgstr "रागी"
+
+msgid "ingredients_112"
+msgstr "उड़द दाल"
+
+msgid "ingredients_113"
+msgstr "चना दाल"
+
+msgid "ingredients_114"
+msgstr "इमली"
+
+msgid "ingredients_115"
+msgstr "कटा हुआ शिमला मिर्च"
+
+msgid "ingredients_116"
+msgstr "गेहूं का आटा"
+
+msgid "ingredients_117"
+msgstr "रागी का आटा"
+
+msgid "ingredients_118"
+msgstr "पतली छाछ"
+
+msgid "ingredients_119"
+msgstr "बाजरा"
+
+msgid "ingredients_120"
+msgstr "भुना हुआ चावल का आटा"
+
+msgid "ingredients_121"
+msgstr "कसा हुआ गुड़"
+
+msgid "ingredients_122"
+msgstr "कटहल मांस का कीमा"
+
+msgid "ingredients_123"
+msgstr "गाजर का रस"
+
+msgid "ingredients_124"
+msgstr "पुदीने की पत्तियां"
+
+msgid "ingredients_125"
+msgstr "पोहा"
+
+msgid "ingredients_126"
+msgstr "काबुली चना"
+
+msgid "ingredients_127"
+msgstr "उड़द दाल पूरे"
+
+msgid "ingredients_128"
+msgstr "लोबिया"
+
+msgid "ingredients_129"
+msgstr "काबुली चना (भूरा)"
+
+msgid "ingredients_130"
+msgstr "काबुली चना (हरा)"
+
+msgid "ingredients_131"
+msgstr "काबुली चना (सफेद)"
+
+msgid "ingredients_132"
+msgstr "मकई"
+
+msgid "ingredients_133"
+msgstr "मूंग दाल (हरा चना)"
+
+msgid "ingredients_134"
+msgstr "रागी"
+
+msgid "ingredients_135"
+msgstr "बाकला"
+
+msgid "ingredients_136"
+msgstr "चने की दाल"
+
+msgid "ingredients_137"
+msgstr "सोरघम"
+
+msgid "ingredients_138"
+msgstr "बाजरा"
+
+msgid "ingredients_139"
+msgstr "मुरमुरे"
+
+msgid "ingredients_140"
+msgstr "राजमा"
+
+msgid "ingredients_141"
+msgstr "मसूर दाल"
+
+msgid "ingredients_142"
+msgstr "चावल"
+
+msgid "ingredients_143"
+msgstr "चावल (पार्बोइल्ड)"
+
+msgid "ingredients_144"
+msgstr "रावा"
+
+msgid "ingredients_145"
+msgstr "बाँटा हुआ काबुली चना "
+
+msgid "ingredients_146"
+msgstr "बाँटा हुआ उड़द दाल "
+
+msgid "ingredients_147"
+msgstr "बाँटा हुआ मूंग दाल (हरा चना)"
+
+msgid "ingredients_148"
+msgstr "बाँटा हुआ अरहर दाल"
+
+msgid "ingredients_149"
+msgstr "बाँटा हुआ मसूर दाल"
+
+msgid "ingredients_150"
+msgstr "गेहूं"
+
+msgid "ingredients_151"
+msgstr "नींबू का रस"
+
+msgid "ingredients_152"
+msgstr "नींबू का टुकड़ा"
+
+msgid "ingredients_153"
+msgstr "करेला का टुकड़ा"
+
+msgid "ingredients_154"
+msgstr "बर्फ"
+
+msgid "ingredients_155"
+msgstr "जौ का आटा"
+
+msgid "ingredients_156"
+msgstr "कटा हुआ पुदीने की पत्तियां"
+
+msgid "ingredients_157"
+msgstr "करेला कसा हुआ"
+
+msgid "ingredients_158"
+msgstr "मूंगफली"
+
+msgid "ingredients_159"
+msgstr "कुकुरमुत्ता"
+
+msgid "ingredients_160"
+msgstr "अदरक लहसुन पेस्ट"
+
+msgid "ingredients_161"
+msgstr "गरम मसाला"
+
+msgid "ingredients_162"
+msgstr "बाँटा हुआ हरे मिर्च"
+
+msgid "ingredients_163"
+msgstr "लौकी"
+
+msgid "ingredients_164"
+msgstr "अंडा"
+
+msgid "ingredients_165"
+msgstr "सौंफ के बीज"
+
+msgid "ingredients_166"
+msgstr "चपाती"
+
+msgid "ingredients_167"
+msgstr "बिरयानी मसाला"
+
+msgid "ingredients_168"
+msgstr "कसा हुआ फूलगोभी"
+
+msgid "ingredients_169"
+msgstr "मेथी बीज"
+
+msgid "ingredients_170"
+msgstr "भूरा चावल"
+
+msgid "ingredients_171"
+msgstr "कटा हुआ पालक"
+
+msgid "ingredients_172"
+msgstr "गेहूं का आटा"
+
+msgid "ingredients_173"
+msgstr "कटा हुआ ककड़ी"
+
+msgid "ingredients_174"
+msgstr "पालक पत्ता"
+
+msgid "ingredients_175"
+msgstr "कटा करी पत्तियां"
+
+msgid "ingredients_176"
+msgstr "पीसा हुआ लहसून"
+
+msgid "ingredients_177"
+msgstr "दालचीनी"
+
+msgid "ingredients_178"
+msgstr "बेसन"
+
+msgid "ingredients_179"
+msgstr "कटा हुआ ककड़ी"
+
+msgid "ingredients_180"
+msgstr "उबले हुए मीठे मकई"
+
+msgid "ingredients_181"
+msgstr "इमली का पानी"
+
+msgid "ingredients_182"
+msgstr "खीरा"
+
+msgid "ingredients_183"
+msgstr "सूखे अजवायन की पत्ती"
+
+msgid "ingredients_184"
+msgstr "कटा हुआ अजवायन पत्तियां"
+
+msgid "ingredients_185"
+msgstr "संतरे का रस"
+
+msgid "ingredients_186"
+msgstr "नारंगी का छिलका"
+
+msgid "ingredients_187"
+msgstr "भिगोया हुआ मूंग दाल"
+
+msgid "ingredients_188"
+msgstr "कटा हुआ लौकी"
+
+msgid "ingredients_189"
+msgstr "कटा हुआ मिश्रित सब्जियां"
+
+msgid "ingredients_190"
+msgstr "डिब्बाबंद ब्लैक सेम"
+
+msgid "ingredients_191"
+msgstr "लौंग"
+
+msgid "ingredients_192"
+msgstr "मक्खन"
+
+msgid "ingredients_193"
+msgstr "प्राकृतिक जैतून का तेल"
+
+msgid "ingredients_194"
+msgstr "नारियल का तेल"
+
+msgid "ingredients_195"
+msgstr "मुर्ग़े का सीना"
+
+msgid "ingredients_196"
+msgstr "कच्चा आम"
+
+msgid "ingredients_197"
+msgstr "भिगोया हुआ काबुली चना (हरा)"
+
+msgid "ingredients_198"
+msgstr "चाट मसाला पाउडर"
+
+msgid "ingredients_199"
+msgstr "कसा हुआ ककड़ी"
+
+msgid "ingredients_200"
+msgstr "छिला हुआ छोटे प्याज"
+
+msgid "ingredients_201"
+msgstr "मसला हुआ कच्चे केले"
+
+msgid "ingredients_202"
+msgstr "अदरक का पेस्ट"
+
+msgid "ingredients_203"
+msgstr "लहसुन का पेस्ट"
+
+msgid "ingredients_204"
+msgstr "कटा हुआ मशरूम"
+
+msgid "ingredients_205"
+msgstr "कटा हुआ गोभी"
+
+msgid "ingredients_206"
+msgstr "मक्के का आटा"
+
+msgid "ingredients_207"
+msgstr "कटा हुआ हरी सेम"
+
+msgid "ingredients_208"
+msgstr "आलू"
+
+msgid "ingredients_209"
+msgstr "बासमती चावल"
+
+msgid "ingredients_210"
+msgstr "कटा हुआ वसंत प्याज"
+
+msgid "ingredients_211"
+msgstr "मुर्गी"
+
+msgid "ingredients_212"
+msgstr "कटा हुआ चीज क्यूब्स"
+
+msgid "ingredients_213"
+msgstr "कटा हुआ टमाटर"
+
+msgid "ingredients_214"
+msgstr "वेजिटेबल स्टॉक"
+
+msgid "ingredients_215"
+msgstr "कटा हुआ अजवाइन"
+
+msgid "ingredients_216"
+msgstr "लाल वाइन सिरका"
+
+msgid "ingredients_217"
+msgstr "शहद"
+
+msgid "ingredients_218"
+msgstr "डीजाँ सरसों"
+
+msgid "ingredients_219"
+msgstr "सूखा आम पाउडर"
+
+msgid "ingredients_220"
+msgstr "पाव भाजी मसाला"
+
+msgid "ingredients_221"
+msgstr "मूंग दाल (हरा चना) की अंकुरण"
+
+msgid "ingredients_222"
+msgstr "कच्ची आम का पेस्ट"
+
+msgid "ingredients_223"
+msgstr "मसले हुए आलू"
+
+msgid "ingredients_224"
+msgstr "परवल"
+
+msgid "ingredients_225"
+msgstr "अनार के बीज"
+
+msgid "ingredients_226"
+msgstr "तिल के बीज"
+
+msgid "ingredients_227"
+msgstr "अर्बी पत्ते"
+
+msgid "ingredients_228"
+msgstr "मूली भरता"
+
+msgid "ingredients_229"
+msgstr "दालचीनी पाउडर"
+
+msgid "ingredients_230"
+msgstr "फीस अदा अखरोट"
+
+msgid "ingredients_231"
+msgstr "ह्ल्के उबले हुए और छिला हुआ बादाम"
+
+msgid "ingredients_232"
+msgstr "हरी मटर विभाजित"
+
+msgid "ingredients_233"
+msgstr "कटा हुआ ब्रोकोली"
+
+msgid "ingredients_234"
+msgstr "पनीर"
+
+msgid "ingredients_235"
+msgstr "हरी मिर्च भट्ठा"
+
+msgid "ingredients_236"
+msgstr "टमाटर का रस"
+
+msgid "ingredients_237"
+msgstr "चिकन स्टॉक"
+
+msgid "ingredients_238"
+msgstr "कटा हुआ लाल मिर्च"
+
+msgid "ingredients_239"
+msgstr "बारीक कटा हुआ मुर्गा"
+
+msgid "ingredients_240"
+msgstr "सोया सॉस"
+
+msgid "ingredients_241"
+msgstr "मैदा"
+
+msgid "ingredients_242"
+msgstr "इमली चटनी"
+
+msgid "ingredients_243"
+msgstr "कसा हुआ लहसुन"
+
+msgid "ingredients_244"
+msgstr "कसा हुआ पनीर"
+
+msgid "ingredients_245"
+msgstr "कटा हुआ हरी काली मिर्च"
+
+msgid "ingredients_246"
+msgstr "कसा हुआ गोभी"
+
+msgid "ingredients_247"
+msgstr "काली अंगूर"
+
+msgid "ingredients_248"
+msgstr "सलाद पत्ता"
+
+msgid "ingredients_249"
+msgstr "कसा हुआ चुकंदर"
+
+msgid "ingredients_250"
+msgstr "सेब"
+
+msgid "ingredients_251"
+msgstr "सफ़ेद वाइन"
+
+msgid "ingredients_252"
+msgstr "छोटे प्याज"
+
+msgid "ingredients_253"
+msgstr "काले जैतून"
+
+msgid "ingredients_254"
+msgstr "अजवायन के फूल"
+
+msgid "ingredients_255"
+msgstr "मशरूम बटन"
+
+msgid "ingredients_256"
+msgstr "चेरी टमाटर"
+
+msgid "ingredients_257"
+msgstr "अजवायन पत्तियां"
+
+msgid "ingredients_258"
+msgstr "गुलमेहंदी"
+
+msgid "ingredients_259"
+msgstr "चक्र फूल"
+
+msgid "ingredients_260"
+msgstr "गोभी"
+
+msgid "ingredients_261"
+msgstr "कटा हुआ डिल के पत्ते"
+
+msgid "ingredients_262"
+msgstr "खट्टी मलाई"
+
+msgid "ingredients_263"
+msgstr "सोया दूध"
+
+msgid "ingredients_264"
+msgstr "मिर्च लहसुन पेस्ट"
+
+msgid "ingredients_265"
+msgstr "खट्टा दही"
+
+msgid "ingredients_266"
+msgstr "धनिया"
+
+msgid "ingredients_267"
+msgstr "मीठे मकई"
+
+msgid "ingredients_268"
+msgstr "अधूरा पका हुआ आलू"
+
+msgid "ingredients_269"
+msgstr "चेद्दार चीज"
+
+msgid "ingredients_270"
+msgstr "कटा हुआ बादाम"
+
+msgid "ingredients_271"
+msgstr "कटा हुआ पिस्ता"
+
+msgid "ingredients_272"
+msgstr "भुना हुआ सन बीज"
+
+msgid "ingredients_273"
+msgstr "कटा हुआ फूलगोभी"
+
+msgid "ingredients_274"
+msgstr "कटा हुआ छोटे प्याज़ का पौधा"
+
+msgid "ingredients_275"
+msgstr "कटा हुआ तुलसी"
+
+msgid "ingredients_276"
+msgstr "सेब का रस"
+
+msgid "ingredients_277"
+msgstr "ट्रफल तेल"
+
+msgid "ingredients_278"
+msgstr "कटा हुआ सेब"
+
+msgid "ingredients_279"
+msgstr ""
+
+msgid "ingredients_280"
+msgstr ""
+
+msgid "ingredients_281"
+msgstr ""
+
+msgid "ingredients_282"
+msgstr ""
+
+msgid "ingredients_283"
+msgstr ""
+
+msgid "ingredients_284"
+msgstr ""
+
+msgid "ingredients_285"
+msgstr ""
+
+msgid "ingredients_286"
+msgstr ""
+
+msgid "ingredients_287"
+msgstr ""
+
+msgid "ingredients_288"
+msgstr ""
+
+msgid "ingredients_289"
+msgstr ""
+
+msgid "ingredients_290"
+msgstr ""
+
+msgid "ingredients_291"
+msgstr ""
+
+msgid "ingredients_292"
+msgstr ""
+
+msgid "ingredients_293"
+msgstr ""
+
+msgid "ingredients_294"
+msgstr ""
+
+msgid "ingredients_295"
+msgstr ""
+
+msgid "ingredients_296"
+msgstr ""
+
+msgid "ingredients_297"
+msgstr ""
+
+msgid "ingredients_298"
+msgstr ""
+
+msgid "ingredients_299"
+msgstr ""
+
+msgid "ingredients_300"
+msgstr ""
+
+msgid "ingredients_301"
+msgstr ""
+
+msgid "ingredients_302"
+msgstr ""
+
+msgid "ingredients_303"
+msgstr ""
+
+msgid "ingredients_304"
+msgstr ""
+
+msgid "ingredients_305"
+msgstr ""
+
+msgid "ingredients_306"
+msgstr ""
+
+msgid "ingredients_307"
+msgstr ""
+
+msgid "ingredients_308"
+msgstr ""
+
+msgid "ingredients_309"
+msgstr ""
+
+msgid "ingredients_310"
+msgstr ""
+
+msgid "ingredients_311"
+msgstr ""
+
+msgid "ingredients_312"
+msgstr ""
+
+msgid "ingredients_313"
+msgstr ""
+
+msgid "ingredients_314"
+msgstr ""
+
+msgid "ingredients_315"
+msgstr ""
+
+msgid "ingredients_316"
+msgstr ""
+
+msgid "ingredients_317"
+msgstr ""
+
+msgid "ingredients_318"
+msgstr ""
+
+msgid "ingredients_319"
+msgstr ""
+
+msgid "ingredients_320"
+msgstr ""
+
+msgid "ingredients_321"
+msgstr ""
+
+msgid "ingredients_322"
+msgstr ""
+
+msgid "ingredients_323"
+msgstr ""
+
+msgid "ingredients_324"
+msgstr ""
+
+msgid "ingredients_325"
+msgstr ""
+
+msgid "ingredients_326"
+msgstr ""
+
+msgid "ingredients_327"
+msgstr ""
+
+msgid "ingredients_328"
+msgstr ""
+
+msgid "ingredients_329"
+msgstr ""
+
+msgid "ingredients_330"
+msgstr ""
+
+msgid "ingredients_331"
+msgstr ""
+
+msgid "ingredients_332"
+msgstr ""
+
+msgid "ingredients_333"
+msgstr ""
+
+msgid "ingredients_334"
+msgstr ""
+
+msgid "ingredients_335"
+msgstr ""
+
+msgid "ingredients_336"
+msgstr ""
+
+msgid "ingredients_337"
+msgstr ""
+
+msgid "ingredients_338"
+msgstr ""
+
+msgid "ingredients_339"
+msgstr ""
+
+msgid "ingredients_340"
+msgstr ""
+
+msgid "ingredients_341"
+msgstr ""
+
+msgid "ingredients_342"
+msgstr ""
+
+msgid "ingredients_343"
+msgstr ""
+
+msgid "ingredients_344"
+msgstr ""
+
+msgid "ingredients_345"
+msgstr ""
+
+msgid "ingredients_346"
+msgstr ""
+
+msgid "ingredients_347"
+msgstr ""
+
+msgid "ingredients_348"
+msgstr ""
+
+msgid "ingredients_349"
+msgstr ""
+
+msgid "ingredients_350"
+msgstr ""
+
+msgid "ingredients_351"
+msgstr ""
+
+msgid "ingredients_352"
+msgstr ""
+
+msgid "ingredients_353"
+msgstr ""
+
+msgid "ingredients_354"
+msgstr ""
+
+msgid "ingredients_355"
+msgstr ""
+
+msgid "ingredients_356"
+msgstr ""
+
+msgid "ingredients_357"
+msgstr ""
+
+msgid "ingredients_358"
+msgstr ""
+
+msgid "ingredients_359"
+msgstr ""
+
+msgid "ingredients_360"
+msgstr ""
+
+msgid "ingredients_361"
+msgstr ""
+
+msgid "ingredients_362"
+msgstr ""
+
+msgid "ingredients_363"
+msgstr ""
+
+msgid "ingredients_364"
+msgstr ""
+
+msgid "ingredients_365"
+msgstr ""
+
+msgid "ingredients_366"
+msgstr ""
+
+msgid "ingredients_367"
+msgstr ""
+
+msgid "ingredients_368"
+msgstr ""
+
+msgid "ingredients_369"
+msgstr ""
+
+msgid "ingredients_370"
+msgstr ""
+
+msgid "ingredients_371"
+msgstr ""
+
+msgid "ingredients_372"
+msgstr ""
+
+msgid "ingredients_373"
+msgstr ""
+
+msgid "ingredients_374"
+msgstr ""
+
+msgid "ingredients_375"
+msgstr ""
+
+msgid "ingredients_376"
+msgstr ""
+
+msgid "ingredients_377"
+msgstr ""
+
+msgid "ingredients_378"
+msgstr ""
+
+msgid "ingredients_379"
+msgstr ""
+
+msgid "ingredients_380"
+msgstr ""
+
+msgid "ingredients_381"
+msgstr ""
+
+msgid "ingredients_382"
+msgstr ""
+
+msgid "ingredients_383"
+msgstr ""
+
+msgid "ingredients_384"
+msgstr ""
+
+msgid "ingredients_385"
+msgstr ""
+
+msgid "ingredients_386"
+msgstr ""
+
+msgid "ingredients_387"
+msgstr ""
+
+msgid "ingredients_388"
+msgstr ""
+
+msgid "ingredients_389"
+msgstr ""
+
+msgid "ingredients_390"
+msgstr ""
+
+msgid "ingredients_391"
+msgstr ""
+
+msgid "ingredients_392"
+msgstr ""
+
+msgid "ingredients_393"
+msgstr ""
+
+msgid "ingredients_394"
+msgstr ""
+
+msgid "ingredients_395"
+msgstr ""
+
+msgid "ingredients_396"
+msgstr ""
+
+msgid "ingredients_397"
+msgstr ""
+
+msgid "ingredients_398"
+msgstr ""
+
+msgid "ingredients_399"
+msgstr ""
+
+msgid "ingredients_400"
+msgstr ""
+
+msgid "ingredients_401"
+msgstr ""
+
+msgid "ingredients_402"
+msgstr ""
+
+msgid "ingredients_403"
+msgstr ""
+
+msgid "ingredients_404"
+msgstr ""
+
+msgid "ingredients_405"
+msgstr ""
+
+msgid "ingredients_406"
+msgstr ""
+
+msgid "ingredients_407"
+msgstr ""
+
+msgid "ingredients_408"
+msgstr ""
+
+msgid "ingredients_409"
+msgstr ""
+
+msgid "ingredients_410"
+msgstr ""
+
+msgid "ingredients_411"
+msgstr ""
+
+msgid "ingredients_412"
+msgstr ""
+
+msgid "ingredients_413"
+msgstr ""
+
+msgid "ingredients_414"
+msgstr ""
+
+msgid "ingredients_415"
+msgstr ""
+
+msgid "ingredients_416"
+msgstr ""
+
+msgid "ingredients_417"
+msgstr ""
+
+msgid "ingredients_418"
+msgstr ""
+
+msgid "ingredients_419"
+msgstr ""
+
+msgid "ingredients_420"
+msgstr ""
+
+msgid "ingredients_421"
+msgstr ""
+
+msgid "ingredients_422"
+msgstr ""
+
+msgid "ingredients_423"
+msgstr ""
+
+msgid "ingredients_424"
+msgstr ""
+
+msgid "ingredients_425"
+msgstr ""
+
+msgid "ingredients_426"
+msgstr ""
+
+msgid "ingredients_427"
+msgstr ""
+
+msgid "ingredients_428"
+msgstr ""
+
+msgid "ingredients_429"
+msgstr ""
+
+msgid "ingredients_430"
+msgstr ""
+
+msgid "ingredients_431"
+msgstr ""
+
+msgid "ingredients_432"
+msgstr ""
+
+msgid "ingredients_433"
+msgstr ""
+
+msgid "ingredients_434"
+msgstr ""
+
+msgid "ingredients_435"
+msgstr ""
+
+msgid "ingredients_436"
+msgstr ""
+
+msgid "ingredients_437"
+msgstr ""
+
+msgid "ingredients_438"
+msgstr ""
+
+msgid "ingredients_439"
+msgstr ""
+
+msgid "ingredients_440"
+msgstr ""
+
+msgid "ingredients_441"
+msgstr ""
+
+msgid "ingredients_442"
+msgstr ""
+
+msgid "ingredients_443"
+msgstr ""
+
+msgid "ingredients_444"
+msgstr ""
+
+msgid "ingredients_445"
+msgstr ""
+
+msgid "ingredients_446"
+msgstr ""
+
+msgid "ingredients_447"
+msgstr ""
+
+msgid "ingredients_448"
+msgstr ""
+
+msgid "ingredients_449"
+msgstr ""
+
+msgid "ingredients_450"
+msgstr ""
+
+msgid "ingredients_451"
+msgstr ""
+
+msgid "ingredients_452"
+msgstr ""
+
+msgid "ingredients_453"
+msgstr ""
+
+msgid "ingredients_454"
+msgstr ""
+
+msgid "ingredients_455"
+msgstr ""
+
+msgid "ingredients_456"
+msgstr ""
+
+msgid "ingredients_457"
+msgstr ""
+
+msgid "ingredients_458"
+msgstr ""
+
+msgid "ingredients_459"
+msgstr ""
+
+msgid "ingredients_460"
+msgstr ""
 
 msgid "(Gandhinagar) Sector 16"
 msgstr "(गांधीनगर) सेक्टर 16"

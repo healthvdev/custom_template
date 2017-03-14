@@ -17,6 +17,1647 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 
+msgid "recipe_1"
+msgstr "Oats Idli"
+
+msgid "recipe_2"
+msgstr "Broken Wheat Upma"
+
+msgid "recipe_3"
+msgstr "Shukto"
+
+msgid "recipe_4"
+msgstr "Jackfruit Curry"
+
+msgid "recipe_5"
+msgstr "Instant Bitter Gourd Soup"
+
+msgid "recipe_6"
+msgstr "Ragi Porridge"
+
+msgid "recipe_7"
+msgstr "Instant Red Poha"
+
+msgid "recipe_8"
+msgstr "Mixed Sprouts Curry"
+
+msgid "recipe_9"
+msgstr "Coco Beet Soup"
+
+msgid "recipe_10"
+msgstr "Bhapa Aloo"
+
+msgid "recipe_11"
+msgstr "Black Millet Khichdi (Bajra)"
+
+msgid "recipe_12"
+msgstr "Apple Rabdi"
+
+msgid "recipe_13"
+msgstr "Dahi Baingana"
+
+msgid "recipe_14"
+msgstr "Spinach Khar"
+
+msgid "recipe_15"
+msgstr "Melagu Pongal"
+
+msgid "recipe_16"
+msgstr "Suandhro Ain Beeh"
+
+msgid "recipe_17"
+msgstr "Pesarattu Dosa"
+
+msgid "recipe_18"
+msgstr "Sattu Sharbat"
+
+msgid "recipe_19"
+msgstr "Kumbilappam (Steamed Jackfruit Cakes)"
+
+msgid "recipe_20"
+msgstr "Kambu Koozh"
+
+msgid "recipe_21"
+msgstr "Mandua ki Roti"
+
+msgid "recipe_22"
+msgstr "Oats Bisi Bele Bath"
+
+msgid "recipe_23"
+msgstr "Ragi Stew"
+
+msgid "recipe_24"
+msgstr "Drumsticks Soup"
+
+msgid "recipe_25"
+msgstr "Karela Juice"
+
+msgid "recipe_26"
+msgstr "Karela Appam"
+
+msgid "recipe_27"
+msgstr "Saragvo Nu Shaak Recipe (Drumstick Masala Sabzi)"
+
+msgid "recipe_28"
+msgstr "Kakdi Thalipeeth Recipe (Spiced Cucumber Flat Bread)"
+
+msgid "recipe_29"
+msgstr "Mixed Sprouts Recipe"
+
+msgid "recipe_30"
+msgstr "Cuban Black Bean Salad"
+
+msgid "recipe_31"
+msgstr "Dosakaya Pappu"
+
+msgid "recipe_32"
+msgstr "Whole Green Moong Dal Sabzi"
+
+msgid "recipe_33"
+msgstr "Spiced Bottlegourd and Spinach Juice"
+
+msgid "recipe_34"
+msgstr "Ragi Malt (Ragi porridge with almond milk)"
+
+msgid "recipe_35"
+msgstr "Spinach Chapathis"
+
+msgid "recipe_36"
+msgstr "Brown rice and cracked wheat dosa"
+
+msgid "recipe_37"
+msgstr "Cauliflower Egg Bhurji"
+
+msgid "recipe_38"
+msgstr "Vegetable Kothu Chapathi"
+
+msgid "recipe_39"
+msgstr "Egg Kothu Chapathi"
+
+msgid "recipe_40"
+msgstr "Lauki Raita"
+
+msgid "recipe_41"
+msgstr "Matar Mushroom "
+
+msgid "recipe_42"
+msgstr "Radish Soup"
+
+msgid "recipe_43"
+msgstr "Carrot Salad"
+
+msgid "recipe_44"
+msgstr "Tomato and mint Chutney"
+
+msgid "recipe_45"
+msgstr "Carrot Soup"
+
+msgid "recipe_46"
+msgstr "Chonkey Badam"
+
+msgid "recipe_47"
+msgstr "Punjabi Dry Dal"
+
+msgid "recipe_48"
+msgstr "Broccoli with Garlic and Black Pepper"
+
+msgid "recipe_49"
+msgstr "Paneer Bhurji"
+
+msgid "recipe_50"
+msgstr "Mint Chutney"
+
+msgid "recipe_51"
+msgstr "Apple"
+
+msgid "recipe_52"
+msgstr "Oats Khichdi "
+
+msgid "recipe_53"
+msgstr "Cauliflower Tomato Curry"
+
+msgid "recipe_54"
+msgstr "Broken Wheat and Flax Seeds Laddoo"
+
+msgid "recipe_55"
+msgstr "Tamatar ka Dolma"
+
+msgid "recipe_56"
+msgstr "Spicy Sweet Corn"
+
+msgid "recipe_57"
+msgstr "Dhaniya Chutney"
+
+msgid "recipe_58"
+msgstr "Marwari Kadhi"
+
+msgid "recipe_59"
+msgstr "Mini Soya Dosa"
+
+msgid "recipe_60"
+msgstr "Cold Cucumber Soup"
+
+msgid "recipe_61"
+msgstr "Tomato Soup"
+
+msgid "recipe_62"
+msgstr "Vegetable Jalfrazie"
+
+msgid "recipe_63"
+msgstr "Garlic Olive Oil Marinated Mushrooms"
+
+msgid "recipe_64"
+msgstr "Millet (Bajra) Dosa"
+
+msgid "recipe_65"
+msgstr "Apple Beetroot Salad"
+
+msgid "recipe_66"
+msgstr "Paneer Vegetable Salad"
+
+msgid "recipe_67"
+msgstr "Steamed Vegetable and Paneer Momos"
+
+msgid "recipe_68"
+msgstr "Coconut Flavoured Alu Vadi"
+
+msgid "recipe_69"
+msgstr "Chilli Mushroom"
+
+msgid "recipe_70"
+msgstr "Sweet Corn Chicken Soup"
+
+msgid "recipe_71"
+msgstr "Mint Raita"
+
+msgid "recipe_72"
+msgstr "Stuffed Parwal"
+
+msgid "recipe_73"
+msgstr "Moong Sprouts Pav Bhaji"
+
+msgid "recipe_74"
+msgstr "Onion raita"
+
+msgid "recipe_75"
+msgstr "Mango Ginger Chutney"
+
+msgid "recipe_76"
+msgstr "Honey Mustard Sauce"
+
+msgid "recipe_77"
+msgstr "Potato and Mushroom Soup"
+
+msgid "recipe_78"
+msgstr "Spinach Tomato Omelette"
+
+msgid "recipe_79"
+msgstr "Clear Chicken Soup"
+
+msgid "recipe_80"
+msgstr "Neer Dosa"
+
+msgid "recipe_81"
+msgstr "Raw Banana Curry"
+
+msgid "recipe_82"
+msgstr "Vegetable Soup"
+
+msgid "recipe_83"
+msgstr "Mushroom Pepper Soup"
+
+msgid "recipe_84"
+msgstr "Raw Banana Chutney"
+
+msgid "recipe_85"
+msgstr "Cucumber Raita"
+
+msgid "recipe_86"
+msgstr "Thenga Manga Pattani Sundal"
+
+msgid "recipe_87"
+msgstr "Coconut Coated Chicken Salad"
+
+msgid "recipe_88"
+msgstr "Mushroom Pepper Soup"
+
+msgid "ingredients_1"
+msgstr "Baking Soda"
+
+msgid "ingredients_2"
+msgstr "banana leaves"
+
+msgid "ingredients_3"
+msgstr "Black Salt"
+
+msgid "ingredients_4"
+msgstr "Jaggery"
+
+msgid "ingredients_5"
+msgstr "Normal Water/Chilled Water"
+
+msgid "ingredients_6"
+msgstr "Rock Salt"
+
+msgid "ingredients_7"
+msgstr "Salt"
+
+msgid "ingredients_8"
+msgstr "Sugar"
+
+msgid "ingredients_9"
+msgstr "sugar substitute"
+
+msgid "ingredients_10"
+msgstr "Water"
+
+msgid "ingredients_11"
+msgstr "Cream"
+
+msgid "ingredients_12"
+msgstr "Curd"
+
+msgid "ingredients_13"
+msgstr "Ghee"
+
+msgid "ingredients_14"
+msgstr "hung curd"
+
+msgid "ingredients_15"
+msgstr "low fat milk"
+
+msgid "ingredients_16"
+msgstr "Yogurt"
+
+msgid "ingredients_17"
+msgstr "cashew nut-split"
+
+msgid "ingredients_18"
+msgstr "grated apples with skin"
+
+msgid "ingredients_19"
+msgstr "Raw Banana"
+
+msgid "ingredients_20"
+msgstr "Raw Papaya"
+
+msgid "ingredients_21"
+msgstr "Red Poha"
+
+msgid "ingredients_22"
+msgstr "Rice (Dry roasted and washed)"
+
+msgid "ingredients_23"
+msgstr "Rice Flour"
+
+msgid "ingredients_24"
+msgstr "White Rava"
+
+msgid "ingredients_25"
+msgstr "Chopped coriander leaves"
+
+msgid "ingredients_26"
+msgstr "Chopped lemongrass"
+
+msgid "ingredients_27"
+msgstr "Curry Leaves"
+
+msgid "ingredients_28"
+msgstr "Lime Leaves"
+
+msgid "ingredients_29"
+msgstr "Basil"
+
+msgid "ingredients_30"
+msgstr "Bay Leaves"
+
+msgid "ingredients_31"
+msgstr "Bhadali Pata (Gandha Prasarini)"
+
+msgid "ingredients_32"
+msgstr "Green moong beans"
+
+msgid "ingredients_33"
+msgstr "Green Peas"
+
+msgid "ingredients_34"
+msgstr "Mixed Sprouts"
+
+msgid "ingredients_35"
+msgstr "moong daal-roasted and washed"
+
+msgid "ingredients_36"
+msgstr "Peeled green gram"
+
+msgid "ingredients_37"
+msgstr "Split pigeon peas (toor daal)"
+
+msgid "ingredients_38"
+msgstr "Yellow Moong Dal (Washed and Drained)"
+
+msgid "ingredients_39"
+msgstr "BlackMillet (Soaked for 8 hours and drained)"
+
+msgid "ingredients_40"
+msgstr "Ragi Flour"
+
+msgid "ingredients_41"
+msgstr "Instant oats"
+
+msgid "ingredients_42"
+msgstr "Broken Wheat"
+
+msgid "ingredients_43"
+msgstr "Almond Milk"
+
+msgid "ingredients_44"
+msgstr "Coconut milk"
+
+msgid "ingredients_45"
+msgstr "Mustard Oil"
+
+msgid "ingredients_46"
+msgstr "Oil"
+
+msgid "ingredients_47"
+msgstr "oil/ghee"
+
+msgid "ingredients_48"
+msgstr "Olive Oil"
+
+msgid "ingredients_49"
+msgstr "Refine Oil"
+
+msgid "ingredients_50"
+msgstr "Vinegar"
+
+msgid "ingredients_51"
+msgstr "Sattu"
+
+msgid "ingredients_52"
+msgstr "All spice powder"
+
+msgid "ingredients_53"
+msgstr "Black pepper"
+
+msgid "ingredients_54"
+msgstr "black peppercorns-roasted and powdered"
+
+msgid "ingredients_55"
+msgstr "Cardamom Powder"
+
+msgid "ingredients_56"
+msgstr "Chilli Powder"
+
+msgid "ingredients_57"
+msgstr "Coriander powder"
+
+msgid "ingredients_58"
+msgstr "Cumin Powder"
+
+msgid "ingredients_59"
+msgstr "Cumin Seeds"
+
+msgid "ingredients_60"
+msgstr "cumin seeds-roasted and powdered"
+
+msgid "ingredients_61"
+msgstr "Dried Red Chillies"
+
+msgid "ingredients_62"
+msgstr "Goda Masala"
+
+msgid "ingredients_63"
+msgstr "Hing"
+
+msgid "ingredients_64"
+msgstr "mustard paste"
+
+msgid "ingredients_65"
+msgstr "Mustard Seeds"
+
+msgid "ingredients_66"
+msgstr "Nigella Seeds"
+
+msgid "ingredients_67"
+msgstr "nutmeg powder"
+
+msgid "ingredients_68"
+msgstr "Panch Phoran"
+
+msgid "ingredients_70"
+msgstr "Pepper powder"
+
+msgid "ingredients_71"
+msgstr "Phutana ( Cumin"
+
+msgid "ingredients_72"
+msgstr "Red Chilli Powder"
+
+msgid "ingredients_73"
+msgstr "Roasted Cumin Seeds"
+
+msgid "ingredients_74"
+msgstr "Salt and Pepper"
+
+msgid "ingredients_75"
+msgstr "sprig curry leaves"
+
+msgid "ingredients_76"
+msgstr "Suva (Dil Seed)"
+
+msgid "ingredients_77"
+msgstr "Thankuni Pata (Centella)"
+
+msgid "ingredients_78"
+msgstr "Turmeric powder"
+
+msgid "ingredients_79"
+msgstr "Beans"
+
+msgid "ingredients_80"
+msgstr "Beeh (Lotus Stem)"
+
+msgid "ingredients_81"
+msgstr "Bitter Gourd"
+
+msgid "ingredients_82"
+msgstr "Bringal/Eggplant"
+
+msgid "ingredients_83"
+msgstr "Carrot"
+
+msgid "ingredients_84"
+msgstr "Chopped beetroot"
+
+msgid "ingredients_85"
+msgstr "Chopped Carrot"
+
+msgid "ingredients_86"
+msgstr "Chopped garlic"
+
+msgid "ingredients_87"
+msgstr "Chopped ginger"
+
+msgid "ingredients_88"
+msgstr "Chopped green chillies"
+
+msgid "ingredients_89"
+msgstr "Chopped Onions"
+
+msgid "ingredients_90"
+msgstr "Chopped Tomato"
+
+msgid "ingredients_91"
+msgstr "Coriander leaves"
+
+msgid "ingredients_92"
+msgstr "Drumsticks"
+
+msgid "ingredients_93"
+msgstr "Finely Chopped Green Chillies"
+
+msgid "ingredients_94"
+msgstr "Garlic cloves"
+
+msgid "ingredients_95"
+msgstr "Grated Carrots"
+
+msgid "ingredients_96"
+msgstr "Grated fresh coconut"
+
+msgid "ingredients_97"
+msgstr "Grated Ginger"
+
+msgid "ingredients_98"
+msgstr "green chilli paste"
+
+msgid "ingredients_99"
+msgstr "Green Chillies"
+
+msgid "ingredients_100"
+msgstr "Green Jackfruit"
+
+msgid "ingredients_101"
+msgstr "lime juice"
+
+msgid "ingredients_102"
+msgstr "Minced Ginger"
+
+msgid "ingredients_103"
+msgstr "Onion"
+
+msgid "ingredients_104"
+msgstr "Onions (Sliced)"
+
+msgid "ingredients_105"
+msgstr "Small Potatoes"
+
+msgid "ingredients_106"
+msgstr "Spinach"
+
+msgid "ingredients_107"
+msgstr "Tomato"
+
+msgid "ingredients_108"
+msgstr "Tomato Puree"
+
+msgid "ingredients_109"
+msgstr "Vegetable Stock"
+
+msgid "ingredients_110"
+msgstr "Milk"
+
+msgid "ingredients_111"
+msgstr "Ragi"
+
+msgid "ingredients_112"
+msgstr "Urad Dal"
+
+msgid "ingredients_113"
+msgstr "Chana Dal"
+
+msgid "ingredients_114"
+msgstr "Tamarind"
+
+msgid "ingredients_115"
+msgstr "Chopped Capsicum"
+
+msgid "ingredients_116"
+msgstr "Wheat flour"
+
+msgid "ingredients_117"
+msgstr "Finger Millet flour ( Mandua Pisun)"
+
+msgid "ingredients_118"
+msgstr "Thin Buttermilk"
+
+msgid "ingredients_119"
+msgstr "Pearl Millet (Kambu)"
+
+msgid "ingredients_120"
+msgstr "Roasted rice flour"
+
+msgid "ingredients_121"
+msgstr "Grated jaggery"
+
+msgid "ingredients_122"
+msgstr "Minced jackfruit flesh"
+
+msgid "ingredients_123"
+msgstr "Carrot Juice"
+
+msgid "ingredients_124"
+msgstr "Mint Leaves"
+
+msgid "ingredients_125"
+msgstr "Beaten rice - Rice Flakes"
+
+msgid "ingredients_126"
+msgstr "Bengal Gram"
+
+msgid "ingredients_127"
+msgstr "Black Gram Whole"
+
+msgid "ingredients_128"
+msgstr "Black Eyed Beans"
+
+msgid "ingredients_129"
+msgstr "Chickpeas (brown)"
+
+msgid "ingredients_130"
+msgstr "Chickpeas (green)"
+
+msgid "ingredients_131"
+msgstr "Chickpeas (white)"
+
+msgid "ingredients_132"
+msgstr "Corn"
+
+msgid "ingredients_133"
+msgstr "Green Gram"
+
+msgid "ingredients_134"
+msgstr "Finger Millet"
+
+msgid "ingredients_135"
+msgstr "Horse Bean"
+
+msgid "ingredients_136"
+msgstr "Horse Gram - Horse Grain"
+
+msgid "ingredients_137"
+msgstr "Millet - Sorghum"
+
+msgid "ingredients_138"
+msgstr "Pearl Millet"
+
+msgid "ingredients_139"
+msgstr "Puffed Rice"
+
+msgid "ingredients_140"
+msgstr "Red Kidney Beans"
+
+msgid "ingredients_141"
+msgstr "Red Lentil"
+
+msgid "ingredients_142"
+msgstr "Rice"
+
+msgid "ingredients_143"
+msgstr "Rice (Parboiled)"
+
+msgid "ingredients_144"
+msgstr "Rava "
+
+msgid "ingredients_145"
+msgstr "Split Chickpeas - Split Bengal Gram"
+
+msgid "ingredients_146"
+msgstr "Split Black Gram"
+
+msgid "ingredients_147"
+msgstr "Split Green Gram"
+
+msgid "ingredients_148"
+msgstr "Split Red Gram"
+
+msgid "ingredients_149"
+msgstr "Split Red Lentil"
+
+msgid "ingredients_150"
+msgstr "Wheat"
+
+msgid "ingredients_151"
+msgstr "Lemon Juice"
+
+msgid "ingredients_152"
+msgstr "Lemon Slice"
+
+msgid "ingredients_153"
+msgstr "Bitter Gourd Slice"
+
+msgid "ingredients_154"
+msgstr "ice"
+
+msgid "ingredients_155"
+msgstr "Rolled Oats"
+
+msgid "ingredients_156"
+msgstr "Chopped Mint Leaves"
+
+msgid "ingredients_157"
+msgstr "Bitter Gourd coarsely ground"
+
+msgid "ingredients_158"
+msgstr "Peanuts"
+
+msgid "ingredients_159"
+msgstr "mushrooms"
+
+msgid "ingredients_160"
+msgstr "Ginger Garlic Paste"
+
+msgid "ingredients_161"
+msgstr "Garam Masala"
+
+msgid "ingredients_162"
+msgstr "Green chilli slit"
+
+msgid "ingredients_163"
+msgstr "Bottle gourd"
+
+msgid "ingredients_164"
+msgstr "Egg"
+
+msgid "ingredients_165"
+msgstr "Fennel Seeds"
+
+msgid "ingredients_166"
+msgstr "Chapathi"
+
+msgid "ingredients_167"
+msgstr "Biryani masala"
+
+msgid "ingredients_168"
+msgstr "Grated Cauliflower "
+
+msgid "ingredients_169"
+msgstr "Fenugreek seeds"
+
+msgid "ingredients_170"
+msgstr "Brown Rice"
+
+msgid "ingredients_171"
+msgstr "Chopped Spinach"
+
+msgid "ingredients_172"
+msgstr "Whole Wheat flour"
+
+msgid "ingredients_173"
+msgstr "Cucumber peeled and cut into cubes"
+
+msgid "ingredients_174"
+msgstr "Spinach Leaves"
+
+msgid "ingredients_175"
+msgstr "Chopped Curry Leaves"
+
+msgid "ingredients_176"
+msgstr "Crushed Garlic"
+
+msgid "ingredients_177"
+msgstr "Cinnamon Stick"
+
+msgid "ingredients_178"
+msgstr "Gram Flour"
+
+msgid "ingredients_179"
+msgstr "Chopped Cucumber"
+
+msgid "ingredients_180"
+msgstr "Steamed Sweet corn "
+
+msgid "ingredients_181"
+msgstr "Tamarind Water"
+
+msgid "ingredients_182"
+msgstr "Cucumber"
+
+msgid "ingredients_183"
+msgstr "Dried oregano"
+
+msgid "ingredients_184"
+msgstr "Chopped Parsley leaves"
+
+msgid "ingredients_185"
+msgstr "Orange juice"
+
+msgid "ingredients_186"
+msgstr "Orange zest"
+
+msgid "ingredients_187"
+msgstr "Green Gram Soaked"
+
+msgid "ingredients_188"
+msgstr "Bottle gourd cut in cubes"
+
+msgid "ingredients_189"
+msgstr "Diced mixed vegetables"
+
+msgid "ingredients_190"
+msgstr "Canned Black beans"
+
+msgid "ingredients_191"
+msgstr "Clove"
+
+msgid "ingredients_192"
+msgstr "Butter"
+
+msgid "ingredients_193"
+msgstr "Virgin Olive Oil"
+
+msgid "ingredients_194"
+msgstr "coconut oil"
+
+msgid "ingredients_195"
+msgstr "chicken breasts"
+
+msgid "ingredients_196"
+msgstr "raw mango"
+
+msgid "ingredients_197"
+msgstr "Chickpeas (green) soaked"
+
+msgid "ingredients_198"
+msgstr "chaat masala powder"
+
+msgid "ingredients_199"
+msgstr "Cucumber grated"
+
+msgid "ingredients_200"
+msgstr "Peeled Baby Onions"
+
+msgid "ingredients_201"
+msgstr "Mashed Raw Banana"
+
+msgid "ingredients_202"
+msgstr "ginger paste"
+
+msgid "ingredients_203"
+msgstr "garlic paste"
+
+msgid "ingredients_204"
+msgstr "chopped mushroom"
+
+msgid "ingredients_205"
+msgstr "chopped cabbage"
+
+msgid "ingredients_206"
+msgstr "corn flour"
+
+msgid "ingredients_207"
+msgstr "chopped green beans"
+
+msgid "ingredients_208"
+msgstr "potato"
+
+msgid "ingredients_209"
+msgstr "basmati rice"
+
+msgid "ingredients_210"
+msgstr "chopped spring onions"
+
+msgid "ingredients_211"
+msgstr "chicken"
+
+msgid "ingredients_212"
+msgstr "shredded cheese cubes"
+
+msgid "ingredients_213"
+msgstr "Sliced tomato"
+
+msgid "ingredients_214"
+msgstr "veg stock"
+
+msgid "ingredients_215"
+msgstr "chopped celery"
+
+msgid "ingredients_216"
+msgstr "red wine vinegar"
+
+msgid "ingredients_217"
+msgstr "Honey"
+
+msgid "ingredients_218"
+msgstr "dijon mustard"
+
+msgid "ingredients_219"
+msgstr "dry mango powder"
+
+msgid "ingredients_220"
+msgstr "Pav Bhaji Masala"
+
+msgid "ingredients_221"
+msgstr "sprouted green gram"
+
+msgid "ingredients_222"
+msgstr "raw mango paste"
+
+msgid "ingredients_223"
+msgstr "mashed potato"
+
+msgid "ingredients_224"
+msgstr "parwal"
+
+msgid "ingredients_225"
+msgstr "pomegranate seeds"
+
+msgid "ingredients_226"
+msgstr "sesame seeds"
+
+msgid "ingredients_227"
+msgstr "alu leaves"
+
+msgid "ingredients_228"
+msgstr "pureed radish"
+
+msgid "ingredients_229"
+msgstr "cinnamon powder"
+
+msgid "ingredients_230"
+msgstr "shelled walnuts"
+
+msgid "ingredients_231"
+msgstr "blanched & peeled almonds"
+
+msgid "ingredients_232"
+msgstr "green pea split"
+
+msgid "ingredients_233"
+msgstr "chopped broccoli"
+
+msgid "ingredients_234"
+msgstr "paneer"
+
+msgid "ingredients_235"
+msgstr "slit green chillies"
+
+msgid "ingredients_236"
+msgstr "tomato juice"
+
+msgid "ingredients_237"
+msgstr "chicken stock"
+
+msgid "ingredients_238"
+msgstr "sliced red peppers"
+
+msgid "ingredients_239"
+msgstr "shredded chicken"
+
+msgid "ingredients_240"
+msgstr "soy sauce"
+
+msgid "ingredients_241"
+msgstr "all purpose flour"
+
+msgid "ingredients_242"
+msgstr "Tamarind chutney"
+
+msgid "ingredients_243"
+msgstr "grated garlic"
+
+msgid "ingredients_244"
+msgstr "grated paneer"
+
+msgid "ingredients_245"
+msgstr "chopped green peppercorns"
+
+msgid "ingredients_246"
+msgstr "grated cabbage"
+
+msgid "ingredients_247"
+msgstr "black grapes"
+
+msgid "ingredients_248"
+msgstr "lettuce leaf"
+
+msgid "ingredients_249"
+msgstr "grated beetroot"
+
+msgid "ingredients_250"
+msgstr "apple"
+
+msgid "ingredients_251"
+msgstr "white wine"
+
+msgid "ingredients_252"
+msgstr "baby onions"
+
+msgid "ingredients_253"
+msgstr "black olives"
+
+msgid "ingredients_254"
+msgstr "thyme"
+
+msgid "ingredients_255"
+msgstr "mushroom button"
+
+msgid "ingredients_256"
+msgstr "cherry tomatoes"
+
+msgid "ingredients_257"
+msgstr "parsley leaves"
+
+msgid "ingredients_258"
+msgstr "rosemary"
+
+msgid "ingredients_259"
+msgstr "star anise"
+
+msgid "ingredients_260"
+msgstr "cauliflower"
+
+msgid "ingredients_261"
+msgstr "chopped Dill leaves"
+
+msgid "ingredients_262"
+msgstr "sour cream"
+
+msgid "ingredients_263"
+msgstr "soya milk"
+
+msgid "ingredients_264"
+msgstr "chilli garlic paste"
+
+msgid "ingredients_265"
+msgstr "Thick sour curd"
+
+msgid "ingredients_266"
+msgstr "coriander"
+
+msgid "ingredients_267"
+msgstr "Sweet corn"
+
+msgid "ingredients_268"
+msgstr "parboiled potato"
+
+msgid "ingredients_269"
+msgstr " cheese-cheddar"
+
+msgid "ingredients_270"
+msgstr "chopped almonds"
+
+msgid "ingredients_271"
+msgstr "chopped pistachios"
+
+msgid "ingredients_272"
+msgstr "roasted flax seeds"
+
+msgid "ingredients_273"
+msgstr "chopped cauliflower"
+
+msgid "ingredients_274"
+msgstr "chopped onion shallot"
+
+msgid "ingredients_275"
+msgstr "chopped basil"
+
+msgid "ingredients_276"
+msgstr "apple juice"
+
+msgid "ingredients_277"
+msgstr "Truffle Oil"
+
+msgid "ingredients_278"
+msgstr "chopped apple"
+
+msgid "ingredients_279"
+msgstr ""
+
+msgid "ingredients_280"
+msgstr ""
+
+msgid "ingredients_281"
+msgstr ""
+
+msgid "ingredients_282"
+msgstr ""
+
+msgid "ingredients_283"
+msgstr ""
+
+msgid "ingredients_284"
+msgstr ""
+
+msgid "ingredients_285"
+msgstr ""
+
+msgid "ingredients_286"
+msgstr ""
+
+msgid "ingredients_287"
+msgstr ""
+
+msgid "ingredients_288"
+msgstr ""
+
+msgid "ingredients_289"
+msgstr ""
+
+msgid "ingredients_290"
+msgstr ""
+
+msgid "ingredients_291"
+msgstr ""
+
+msgid "ingredients_292"
+msgstr ""
+
+msgid "ingredients_293"
+msgstr ""
+
+msgid "ingredients_294"
+msgstr ""
+
+msgid "ingredients_295"
+msgstr ""
+
+msgid "ingredients_296"
+msgstr ""
+
+msgid "ingredients_297"
+msgstr ""
+
+msgid "ingredients_298"
+msgstr ""
+
+msgid "ingredients_299"
+msgstr ""
+
+msgid "ingredients_300"
+msgstr ""
+
+msgid "ingredients_301"
+msgstr ""
+
+msgid "ingredients_302"
+msgstr ""
+
+msgid "ingredients_303"
+msgstr ""
+
+msgid "ingredients_304"
+msgstr ""
+
+msgid "ingredients_305"
+msgstr ""
+
+msgid "ingredients_306"
+msgstr ""
+
+msgid "ingredients_307"
+msgstr ""
+
+msgid "ingredients_308"
+msgstr ""
+
+msgid "ingredients_309"
+msgstr ""
+
+msgid "ingredients_310"
+msgstr ""
+
+msgid "ingredients_311"
+msgstr ""
+
+msgid "ingredients_312"
+msgstr ""
+
+msgid "ingredients_313"
+msgstr ""
+
+msgid "ingredients_314"
+msgstr ""
+
+msgid "ingredients_315"
+msgstr ""
+
+msgid "ingredients_316"
+msgstr ""
+
+msgid "ingredients_317"
+msgstr ""
+
+msgid "ingredients_318"
+msgstr ""
+
+msgid "ingredients_319"
+msgstr ""
+
+msgid "ingredients_320"
+msgstr ""
+
+msgid "ingredients_321"
+msgstr ""
+
+msgid "ingredients_322"
+msgstr ""
+
+msgid "ingredients_323"
+msgstr ""
+
+msgid "ingredients_324"
+msgstr ""
+
+msgid "ingredients_325"
+msgstr ""
+
+msgid "ingredients_326"
+msgstr ""
+
+msgid "ingredients_327"
+msgstr ""
+
+msgid "ingredients_328"
+msgstr ""
+
+msgid "ingredients_329"
+msgstr ""
+
+msgid "ingredients_330"
+msgstr ""
+
+msgid "ingredients_331"
+msgstr ""
+
+msgid "ingredients_332"
+msgstr ""
+
+msgid "ingredients_333"
+msgstr ""
+
+msgid "ingredients_334"
+msgstr ""
+
+msgid "ingredients_335"
+msgstr ""
+
+msgid "ingredients_336"
+msgstr ""
+
+msgid "ingredients_337"
+msgstr ""
+
+msgid "ingredients_338"
+msgstr ""
+
+msgid "ingredients_339"
+msgstr ""
+
+msgid "ingredients_340"
+msgstr ""
+
+msgid "ingredients_341"
+msgstr ""
+
+msgid "ingredients_342"
+msgstr ""
+
+msgid "ingredients_343"
+msgstr ""
+
+msgid "ingredients_344"
+msgstr ""
+
+msgid "ingredients_345"
+msgstr ""
+
+msgid "ingredients_346"
+msgstr ""
+
+msgid "ingredients_347"
+msgstr ""
+
+msgid "ingredients_348"
+msgstr ""
+
+msgid "ingredients_349"
+msgstr ""
+
+msgid "ingredients_350"
+msgstr ""
+
+msgid "ingredients_351"
+msgstr ""
+
+msgid "ingredients_352"
+msgstr ""
+
+msgid "ingredients_353"
+msgstr ""
+
+msgid "ingredients_354"
+msgstr ""
+
+msgid "ingredients_355"
+msgstr ""
+
+msgid "ingredients_356"
+msgstr ""
+
+msgid "ingredients_357"
+msgstr ""
+
+msgid "ingredients_358"
+msgstr ""
+
+msgid "ingredients_359"
+msgstr ""
+
+msgid "ingredients_360"
+msgstr ""
+
+msgid "ingredients_361"
+msgstr ""
+
+msgid "ingredients_362"
+msgstr ""
+
+msgid "ingredients_363"
+msgstr ""
+
+msgid "ingredients_364"
+msgstr ""
+
+msgid "ingredients_365"
+msgstr ""
+
+msgid "ingredients_366"
+msgstr ""
+
+msgid "ingredients_367"
+msgstr ""
+
+msgid "ingredients_368"
+msgstr ""
+
+msgid "ingredients_369"
+msgstr ""
+
+msgid "ingredients_370"
+msgstr ""
+
+msgid "ingredients_371"
+msgstr ""
+
+msgid "ingredients_372"
+msgstr ""
+
+msgid "ingredients_373"
+msgstr ""
+
+msgid "ingredients_374"
+msgstr ""
+
+msgid "ingredients_375"
+msgstr ""
+
+msgid "ingredients_376"
+msgstr ""
+
+msgid "ingredients_377"
+msgstr ""
+
+msgid "ingredients_378"
+msgstr ""
+
+msgid "ingredients_379"
+msgstr ""
+
+msgid "ingredients_380"
+msgstr ""
+
+msgid "ingredients_381"
+msgstr ""
+
+msgid "ingredients_382"
+msgstr ""
+
+msgid "ingredients_383"
+msgstr ""
+
+msgid "ingredients_384"
+msgstr ""
+
+msgid "ingredients_385"
+msgstr ""
+
+msgid "ingredients_386"
+msgstr ""
+
+msgid "ingredients_387"
+msgstr ""
+
+msgid "ingredients_388"
+msgstr ""
+
+msgid "ingredients_389"
+msgstr ""
+
+msgid "ingredients_390"
+msgstr ""
+
+msgid "ingredients_391"
+msgstr ""
+
+msgid "ingredients_392"
+msgstr ""
+
+msgid "ingredients_393"
+msgstr ""
+
+msgid "ingredients_394"
+msgstr ""
+
+msgid "ingredients_395"
+msgstr ""
+
+msgid "ingredients_396"
+msgstr ""
+
+msgid "ingredients_397"
+msgstr ""
+
+msgid "ingredients_398"
+msgstr ""
+
+msgid "ingredients_399"
+msgstr ""
+
+msgid "ingredients_400"
+msgstr ""
+
+msgid "ingredients_401"
+msgstr ""
+
+msgid "ingredients_402"
+msgstr ""
+
+msgid "ingredients_403"
+msgstr ""
+
+msgid "ingredients_404"
+msgstr ""
+
+msgid "ingredients_405"
+msgstr ""
+
+msgid "ingredients_406"
+msgstr ""
+
+msgid "ingredients_407"
+msgstr ""
+
+msgid "ingredients_408"
+msgstr ""
+
+msgid "ingredients_409"
+msgstr ""
+
+msgid "ingredients_410"
+msgstr ""
+
+msgid "ingredients_411"
+msgstr ""
+
+msgid "ingredients_412"
+msgstr ""
+
+msgid "ingredients_413"
+msgstr ""
+
+msgid "ingredients_414"
+msgstr ""
+
+msgid "ingredients_415"
+msgstr ""
+
+msgid "ingredients_416"
+msgstr ""
+
+msgid "ingredients_417"
+msgstr ""
+
+msgid "ingredients_418"
+msgstr ""
+
+msgid "ingredients_419"
+msgstr ""
+
+msgid "ingredients_420"
+msgstr ""
+
+msgid "ingredients_421"
+msgstr ""
+
+msgid "ingredients_422"
+msgstr ""
+
+msgid "ingredients_423"
+msgstr ""
+
+msgid "ingredients_424"
+msgstr ""
+
+msgid "ingredients_425"
+msgstr ""
+
+msgid "ingredients_426"
+msgstr ""
+
+msgid "ingredients_427"
+msgstr ""
+
+msgid "ingredients_428"
+msgstr ""
+
+msgid "ingredients_429"
+msgstr ""
+
+msgid "ingredients_430"
+msgstr ""
+
+msgid "ingredients_431"
+msgstr ""
+
+msgid "ingredients_432"
+msgstr ""
+
+msgid "ingredients_433"
+msgstr ""
+
+msgid "ingredients_434"
+msgstr ""
+
+msgid "ingredients_435"
+msgstr ""
+
+msgid "ingredients_436"
+msgstr ""
+
+msgid "ingredients_437"
+msgstr ""
+
+msgid "ingredients_438"
+msgstr ""
+
+msgid "ingredients_439"
+msgstr ""
+
+msgid "ingredients_440"
+msgstr ""
+
+msgid "ingredients_441"
+msgstr ""
+
+msgid "ingredients_442"
+msgstr ""
+
+msgid "ingredients_443"
+msgstr ""
+
+msgid "ingredients_444"
+msgstr ""
+
+msgid "ingredients_445"
+msgstr ""
+
+msgid "ingredients_446"
+msgstr ""
+
+msgid "ingredients_447"
+msgstr ""
+
+msgid "ingredients_448"
+msgstr ""
+
+msgid "ingredients_449"
+msgstr ""
+
+msgid "ingredients_450"
+msgstr ""
+
+msgid "ingredients_451"
+msgstr ""
+
+msgid "ingredients_452"
+msgstr ""
+
+msgid "ingredients_453"
+msgstr ""
+
+msgid "ingredients_454"
+msgstr ""
+
+msgid "ingredients_455"
+msgstr ""
+
+msgid "ingredients_456"
+msgstr ""
+
+msgid "ingredients_457"
+msgstr ""
+
+msgid "ingredients_458"
+msgstr ""
+
+msgid "ingredients_459"
+msgstr ""
+
+msgid "ingredients_460"
+msgstr ""
+
 msgid "(Gandhinagar) Sector 16"
 msgstr "(Gandhinagar) Sector 16"
 

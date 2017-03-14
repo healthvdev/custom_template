@@ -25,9 +25,46 @@ function getRecipeURLParams($recipe_id){
     return "?recipe_id=".rawurlencode($recipe_id);
 }
 
+function getBaseURLOfLocale($url, $locale_code){
 
 //$path    = "/var/www/html/wordpress/wordpress/wp-content/themes/optimizer";
 $path    = "/opt/bitnami/apps/wordpress/htdocs/wp-content/themes/optimizer";
+  if(empty($locale_code) ){
+    $locale_code = "en_US";
+  }
+
+  $parsed_url = parse_url($url);
+  $scheme   = isset($parsed_url['scheme']) ? $parsed_url['scheme'] . '://' : ''; 
+  $host     = isset($parsed_url['host']) ? $parsed_url['host'] : ''; 
+  $port     = isset($parsed_url['port']) ? ':' . $parsed_url['port'] : ''; 
+  $user     = isset($parsed_url['user']) ? $parsed_url['user'] : ''; 
+  $pass     = isset($parsed_url['pass']) ? ':' . $parsed_url['pass']  : ''; 
+  $pass     = ($user || $pass) ? "$pass@" : ''; 
+  $path     = isset($parsed_url['path']) ? $parsed_url['path'] : ''; 
+  $query    = isset($parsed_url['query']) ? '?' . $parsed_url['query'] : ''; 
+  $fragment = isset($parsed_url['fragment']) ? '#' . $parsed_url['fragment'] : ''; 
+
+
+  $path_pieces = explode("/", $path);
+
+  if($locale_code == "en_US" || empty($locale_code) ){
+    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
+      unset($path_pieces[1]);
+    } 
+    $path =  implode("/", $path_pieces);
+  } else {
+    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
+      $path =  implode("/", $path_pieces);
+    } 
+    $pieces = explode("_", $locale_code);
+    array_splice( $path_pieces, 1, 0, $pieces[0] );
+    $path =  implode("/", $path_pieces);
+  }
+
+
+
+  return "$scheme$user$pass$host$port$path$query$fragment"; 
+}
 
 if (!class_exists('Twig_Autoloader')) {
 	require_once 'template/Twig/lib/Twig/Autoloader.php';
@@ -68,12 +105,15 @@ $function_RecipeURLParams = new Twig_SimpleFunction('function_getRecipeURLParams
 $function_EchoTranslation = new Twig_SimpleFunction('__e', function ($string) {
     echo __($string,"optimizer");
 });
+$function_getBaseURLOfLocale = new Twig_SimpleFunction('function_getBaseURLOfLocale', function ($url, $locale_code) {
+    return getBaseURLOfLocale($url, $locale_code);
+});
 
 
 $twig->addFunction($function_URLParams);
 $twig->addFunction($function_RecipeURLParams);
 $twig->addFunction($function_EchoTranslation);
-
+$twig->addFunction($function_getBaseURLOfLocale);
 
 
 $total_count = $mapData['header']['RECIPE_COUNT'];
@@ -172,31 +212,7 @@ get_header();
 	?>	
  <?php       
 
-if($locale_code == "hi_IN"){
-	echo $twig->render('hi_IN_Recipe_list.html', 
-	    array(
-	        'is_user_logged_in' => is_user_logged_in(),
-	        'response' => $mapData,
-	        'title' => $title,
-	        'chain_description'=> $chain_description_map_hi_IN,
-	              'params' => array(
-	              				'category' => $category,
-	                            'ingredient' => $ingredient,
-	                            'area' => $area,
-	                            'cuisine' => $cuisine,
-	                            'specialty' => $specialty,
-	                            'chain' => $chain,
-	                            'count' => $count,
-	                            'page' => $pageNumber,
-	                            'community_questions' => $questions->posts,
-	                            'nextpage' => $page+1),
-	              'pages' => $allPages,
-	              'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
-	              'baseRecipeURL' => strtok($_SERVER["REQUEST_URI"],'?')."Recipe"
-	                     )
-	    );
 
-}else{
 	echo $twig->render('recipe_list.html', 
 	    array(
 	        'is_user_logged_in' => is_user_logged_in(),
@@ -216,7 +232,7 @@ if($locale_code == "hi_IN"){
 			'baseRecipeURL' => strtok($_SERVER["REQUEST_URI"],'?')."recipe"
 			     )
 	    );
-}
+
 
 
 }catch (Exception $e){
