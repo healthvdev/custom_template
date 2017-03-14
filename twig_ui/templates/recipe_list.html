@@ -197,6 +197,8 @@
 
 
 	<div class="filters">
+
+		{{__e('Apply Filters')}}: 
 		<div class="dropdown">
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e('Choose Language')}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
@@ -204,8 +206,7 @@
 	       		<li><a href="{{function_getBaseURLOfLocale(url,'hi_IN')}}">हिंदी</a></li>
 	        </ul>
 	    </div>
-		{{__e('Apply Filters')}}: 
-	   <div class="dropdown">
+	    <div class="dropdown">
 {% if params.cuisine is same as('all')  %}
 	        <a href="#" data-toggle="dropdown" class="dropdown-toggle">{{__e('Cuisine')}} <b class="caret"></b></a>
 	        <ul class="dropdown-menu">
