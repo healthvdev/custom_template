@@ -146,9 +146,9 @@ if($locale_code == "hi_IN"){
   .__('recipe_'.$obj["id"],"optimizer"). " "
   .__($obj["category"]["title"],"optimizer")
   ." व्यंजन, मधुमेह के प्रबंधन में मदद करता है। " 
-  .__('recipe_'.$obj["id"])
+  .__('recipe_'.$obj["id"],"optimizer"). " "
   .$obj["preparationMinuteMax"]
-  ." मिनटों तैयारी और"
+  ." मिनटों तैयारी और "
   .$obj["cookingMinuteMax"]
   ." मिनट पकाने के समय में तैयार किया जा सकता है।"
   ." ";
@@ -164,7 +164,7 @@ if($locale_code == "hi_IN"){
   ." is a "
   .__($obj["category"]["title"],"optimizer")
   ." recipe and helps manage diabetes." 
-  .__('recipe_'.$obj["id"])
+  .__('recipe_'.$obj["id"],"optimizer")
   ." can be prepared with "
   .$obj["preparationMinuteMax"]
   ." mins of preparation time and "
