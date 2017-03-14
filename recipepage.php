@@ -135,7 +135,6 @@ $obj = $mapData["data"][0];
 
 global $title;
 
-$locale_code = "";
 
 if($locale_code == "hi_IN"){
     $title = "मधुमेह (बहुमूत्र) के लिए पौष्टिक संतुलित आहार - " . __("recipe_".$obj["id"],"optimizer") ;

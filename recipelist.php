@@ -170,7 +170,6 @@ function um_rel_canonical_1() {
 
 global $title;
 
-$locale_code = "";
 
 // South indian breakfast recipes with oats for diabetics
 
