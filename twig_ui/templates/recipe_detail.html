@@ -179,12 +179,12 @@
         </div>
     </div>
     <br/>
-    <h4 class="postitle entry-title" style="font-weight:bold;"> {{__ep("benefits_diabetics", __e("recipe_#{recipe.id}"))}}</h4>
+    <h4 class="postitle entry-title" style="font-weight:bold;"> {{__ep("benefits_diabetics", "recipe_#{recipe.id}")}}</h4>
     <ul>
 
         {% for ingredient in recipe.ingredients%}
             {% if ingredient.benefits is not empty %}
-                <li>{{__ep("benefits_ingredients",__e("ingredients_#{ingredient.ingredientId}"))}} - {{ingredient.benefits}} </li>
+                <li>{{__ep("benefits_ingredients","ingredients_#{ingredient.ingredientId}")}} - {{ingredient.benefits}} </li>
             {% endif %}
         {% endfor %}
 
@@ -203,7 +203,7 @@
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
 						
 				<div class="um-member-card " style="padding: 10px;">
-                    <h4 style="font-weight:bold;">{{__ep("time_recipes",__e("recipe_#{recipe.id}"))}}</h4>
+                    <h4 style="font-weight:bold;">{{__ep("time_recipes","recipe_#{recipe.id}")}}</h4>
 
                     <div class="um-member-card " style="margin: 10px 0;">
                         <div>
@@ -219,7 +219,7 @@
             </div>
             <div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> {{__ep("ingredients_recipes",__e("recipe_#{recipe.id}"))}}</h4>
+                    <h4 style="font-weight:bold;"> {{__ep("ingredients_recipes","recipe_#{recipe.id}")}}</h4>
                     <ul>
                     {% for ingredient in recipe.ingredients%}
                             <li  itemprop="recipeIngredient">{{__e("ingredients_#{ingredient.ingredientId}")}}
@@ -233,7 +233,7 @@
             </div>
             <div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> {{__ep("steps_recipes",__e("recipe_#{recipe.id}"))}}</h4>
+                    <h4 style="font-weight:bold;"> {{__ep("steps_recipes","recipe_#{recipe.id}")}}</h4>
                     <ol>
                     {% for step in recipe.steps%}
                             <li itemprop="recipeInstructions">{{step.description}}</li>
@@ -261,7 +261,7 @@
 	</div>
 
     <br/>
-    <h4 class="postitle entry-title" style="font-weight:bold;"> {{__ep("guidelines_diabetics", __e("recipe_#{recipe.id}"))}}</h4>
+    <h4 class="postitle entry-title" style="font-weight:bold;"> {{__ep("guidelines_diabetics", "recipe_#{recipe.id}")}}</h4>
     <ul>
 
         {% for ingredient in recipe.ingredients%}
