@@ -140,13 +140,13 @@ if($locale_code == "hi_IN"){
     $title =  __("recipe_".$obj["id"],"optimizer") . " - मधुमेह (बहुमूत्र) के लिए पौष्टिक आहार" ;
 
   $description = "<span  itemprop='name'>"
-  .__e('recipe_'.$obj["id"])
+  .__('recipe_'.$obj["id"])
   ." </span> एक स्वस्थ मधुमेह उपयोगी व्यंजन है। "
   ." <span  itemprop='description'>"
-  .__e('recipe_'.$obj["id"])
-  .__e($obj["category"]["title"])
+  .__('recipe_'.$obj["id"])
+  .__($obj["category"]["title"])
   ." व्यंजन है और मधुमेह के प्रबंधन में मदद करता है। " 
-  .__e('recipe_'.$obj["id"])
+  .__('recipe_'.$obj["id"])
   .$obj["preparationMinuteMax"]
   ." मिनटों तैयारी और"
   .$obj["cookingMinuteMax"]
@@ -157,14 +157,14 @@ if($locale_code == "hi_IN"){
   $title = "Healthy recipe - ".$obj["title"] . " for Diabetic diet";
 
   $description = "<span  itemprop='name'>"
-  .__e('recipe_'.$obj["id"])
+  .__('recipe_'.$obj["id"])
   ." </span> is a healthy diabetic friendly recipe. "
   ." <span  itemprop='description'>"
-  .__e('recipe_'.$obj["id"])
+  .__('recipe_'.$obj["id"])
   ." is a "
-  .__e($obj["category"]["title"])
+  .__($obj["category"]["title"])
   ." recipe and helps manage diabetes." 
-  .__e('recipe_'.$obj["id"])
+  .__('recipe_'.$obj["id"])
   ." can be prepared with "
   .$obj["preparationMinuteMax"]
   ." mins of preparation time and "
