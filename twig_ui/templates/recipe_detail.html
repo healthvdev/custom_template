@@ -147,7 +147,7 @@
   <li itemprop="itemListElement" itemscope
       itemtype="http://schema.org/ListItem">
     <span itemprop="item" >
-    <span itemprop="name">{{__e('recipe_{recipe.id}')}}</span></span>
+    <span itemprop="name">{{__e("recipe_#{recipe.id}")}}</span></span>
     <meta itemprop="position" content="5" />
   </li>
 </ol>
@@ -165,23 +165,23 @@
 	<h1 class="postitle entry-title">{{title}}</h1>
 
     <p>
-        <span  itemprop="name">{{__e('recipe_{recipe.id}')}} </span> is a healthy diabetic friendly recipe. 
+        <span  itemprop="name">{{__e("recipe_#{recipe.id}")}} </span> is a healthy diabetic friendly recipe. 
         <span  itemprop="description">
         {{recipe.title}} is a {{recipe.category.title}} recipe  
         {%if recipe.cuisine is not empty%} 
             from {{recipe.cuisine.title}} 
         {% endif %}
-        and helps manage diabetes. {{__e('recipe_{recipe.id}')}} can be prepared with {{recipe.preparationMinuteMax}} mins of preparation time and {{recipe.cookingMinuteMax}} mins of cooking time. You need {{recipe.ingredients|length}} ingredients and {{recipe.steps|length}} easy steps to prepare {{recipe.title}} .
+        and helps manage diabetes. {{__e("recipe_#{recipe.id}")}} can be prepared with {{recipe.preparationMinuteMax}} mins of preparation time and {{recipe.cookingMinuteMax}} mins of cooking time. You need {{recipe.ingredients|length}} ingredients and {{recipe.steps|length}} easy steps to prepare {{recipe.title}} .
         </span>
         <link itemprop="suitableForDiet" href="http://schema.org/LowFatDiet" />
     </p>
     <br/>
-    <h4 class="postitle entry-title" style="font-weight:bold;"> Benefits of {{__e('recipe_{recipe.id}')}} for diabetics</h4>
+    <h4 class="postitle entry-title" style="font-weight:bold;"> Benefits of {{__e("recipe_#{recipe.id}")}} for diabetics</h4>
     <ul>
 
         {% for ingredient in recipe.ingredients%}
             {% if ingredient.benefits is not empty %}
-                <li>Benefits of {{__e('ingredients_{ingredient.ingredientId}')}} - {{ingredient.benefits}} </li>
+                <li>Benefits of {{__e("ingredients_#{ingredient.ingredientId}")}} - {{ingredient.benefits}} </li>
             {% endif %}
         {% endfor %}
 
@@ -200,7 +200,7 @@
 			<div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
 						
 				<div class="um-member-card " style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> Time for preparing {{__e('recipe_{recipe.id}')}}</h4>
+                    <h4 style="font-weight:bold;"> Time for preparing {{__e("recipe_#{recipe.id}")}}</h4>
 
                     <div class="um-member-card " style="margin: 10px 0;">
                         <div>
@@ -216,10 +216,10 @@
             </div>
             <div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> Ingredients for preparing {{__e('recipe_{recipe.id}')}}</h4>
+                    <h4 style="font-weight:bold;"> Ingredients for preparing {{__e("recipe_#{recipe.id}")}}</h4>
                     <ul>
                     {% for ingredient in recipe.ingredients%}
-                            <li  itemprop="recipeIngredient">{{__e('ingredients_{ingredient.ingredientId}')}}
+                            <li  itemprop="recipeIngredient">{{__e("ingredients_#{ingredient.ingredientId}")}}
 {% if ingredient.commonName is not empty %}
                              ({{ingredient.commonName}}) 
 {% endif %}
@@ -232,7 +232,7 @@
             </div>
             <div class="um-member um-role-member approved with-cover masonry-brick" style="position: absolute; left: 0px; top: 574px;border: 0px;text-align:left;">
                 <div class="um-member-card "   style="padding: 10px;">
-                    <h4 style="font-weight:bold;"> Steps to prepare {{__e('recipe_{recipe.id}')}}</h4>
+                    <h4 style="font-weight:bold;"> Steps to prepare {{__e("recipe_#{recipe.id}")}}</h4>
                     <ol>
                     {% for step in recipe.steps%}
                             <li itemprop="recipeInstructions">{{step.description}}</li>
@@ -260,7 +260,7 @@
 	</div>
 
     <br/>
-    <h4 class="postitle entry-title" style="font-weight:bold;"> Guidelines of {{__e('recipe_{recipe.id}')}} for diabetics</h4>
+    <h4 class="postitle entry-title" style="font-weight:bold;"> Guidelines of {{__e("recipe_#{recipe.id}")}} for diabetics</h4>
     <ul>
 
         {% for ingredient in recipe.ingredients%}
