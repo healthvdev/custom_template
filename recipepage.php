@@ -197,6 +197,7 @@ echo $twig->render('recipe_detail.html',
           'title' => $title,
           'description' => $description,
                 'params' => array('recipe_id' => rawurlencode($recipe_id)),
+                'url' => $_SERVER["REQUEST_URI"],
                 'baseURL' => $baseURL,
                 'baseRecipeEditURL' => $baseURL."/edit",
                 'baseRecipeURL' => strtok($_SERVER["REQUEST_URI"],'?')

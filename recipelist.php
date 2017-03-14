@@ -238,6 +238,7 @@ get_header();
 						'community_questions' => $questions->posts,
 						'nextpage' => $page+1),
 			'pages' => $allPages,
+      'url' => $_SERVER["REQUEST_URI"],
 			'baseURL' => strtok($_SERVER["REQUEST_URI"],'?'),
 			'baseRecipeURL' => strtok($_SERVER["REQUEST_URI"],'?')."recipe"
 			     )
