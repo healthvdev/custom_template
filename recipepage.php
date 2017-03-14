@@ -147,9 +147,9 @@ if($locale_code == "hi_IN"){
   .__e($obj["category"]["title"])
   ." व्यंजन है और मधुमेह के प्रबंधन में मदद करता है। " 
   .__e('recipe_'.$obj["id"])
-  .$obj["preparationMinuteMax"])
+  .$obj["preparationMinuteMax"]
   ." मिनटों तैयारी और"
-  .$obj["cookingMinuteMax"])
+  .$obj["cookingMinuteMax"]
   ." मिनट पकाने के समय में तैयार किया जा सकता है।"
   ." </span>";
 
@@ -166,9 +166,9 @@ if($locale_code == "hi_IN"){
   ." recipe and helps manage diabetes." 
   .__e('recipe_'.$obj["id"])
   ." can be prepared with "
-  .$obj["preparationMinuteMax"])
+  .$obj["preparationMinuteMax"]
   ." mins of preparation time and "
-  .$obj["cookingMinuteMax"])
+  .$obj["cookingMinuteMax"]
   ." mins of cooking time."
   ." </span>";
 }
