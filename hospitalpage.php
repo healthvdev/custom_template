@@ -36,15 +36,16 @@ function getBaseURLOfLocale($url, $locale_code){
 
   $path_pieces = explode("/", $path);
 
+  if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
+    unset($path_pieces[1]);
+  }
+
   if($locale_code == "en_US" || empty($locale_code) ){
-    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
-      unset($path_pieces[1]);
-    } 
     $path =  implode("/", $path_pieces);
   } else {
-    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
-      $path =  implode("/", $path_pieces);
-    } 
+//    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
+//      $path =  implode("/", $path_pieces);
+//    } 
     $pieces = explode("_", $locale_code);
     array_splice( $path_pieces, 1, 0, $pieces[0] );
     $path =  implode("/", $path_pieces);

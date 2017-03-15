@@ -15,41 +15,42 @@ function getURLParams($new_network, $new_state, $new_city, $new_area, $new_speci
 
 function getBaseURLOfLocale($url, $locale_code){
 
-	if(empty($locale_code) ){
-		$locale_code = "en_US";
-	}
+  if(empty($locale_code) ){
+    $locale_code = "en_US";
+  }
 
-	$parsed_url = parse_url($url);
-	$scheme   = isset($parsed_url['scheme']) ? $parsed_url['scheme'] . '://' : ''; 
-	$host     = isset($parsed_url['host']) ? $parsed_url['host'] : ''; 
-	$port     = isset($parsed_url['port']) ? ':' . $parsed_url['port'] : ''; 
-	$user     = isset($parsed_url['user']) ? $parsed_url['user'] : ''; 
-	$pass     = isset($parsed_url['pass']) ? ':' . $parsed_url['pass']  : ''; 
-	$pass     = ($user || $pass) ? "$pass@" : ''; 
-	$path     = isset($parsed_url['path']) ? $parsed_url['path'] : ''; 
-	$query    = isset($parsed_url['query']) ? '?' . $parsed_url['query'] : ''; 
-	$fragment = isset($parsed_url['fragment']) ? '#' . $parsed_url['fragment'] : ''; 
-
-
-	$path_pieces = explode("/", $path);
-
-	if($locale_code == "en_US" || empty($locale_code) ){
-		if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
-			unset($path_pieces[1]);
-		} 
-		$path =  implode("/", $path_pieces);
-	} else {
-		if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
-			$path =  implode("/", $path_pieces);
-		} 
-		$pieces = explode("_", $locale_code);
-		array_splice( $path_pieces, 1, 0, $pieces[0] );
-		$path =  implode("/", $path_pieces);
-	}
+  $parsed_url = parse_url($url);
+  $scheme   = isset($parsed_url['scheme']) ? $parsed_url['scheme'] . '://' : ''; 
+  $host     = isset($parsed_url['host']) ? $parsed_url['host'] : ''; 
+  $port     = isset($parsed_url['port']) ? ':' . $parsed_url['port'] : ''; 
+  $user     = isset($parsed_url['user']) ? $parsed_url['user'] : ''; 
+  $pass     = isset($parsed_url['pass']) ? ':' . $parsed_url['pass']  : ''; 
+  $pass     = ($user || $pass) ? "$pass@" : ''; 
+  $path     = isset($parsed_url['path']) ? $parsed_url['path'] : ''; 
+  $query    = isset($parsed_url['query']) ? '?' . $parsed_url['query'] : ''; 
+  $fragment = isset($parsed_url['fragment']) ? '#' . $parsed_url['fragment'] : ''; 
 
 
+  $path_pieces = explode("/", $path);
 
-	return "$scheme$user$pass$host$port$path$query$fragment"; 
+  if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
+    unset($path_pieces[1]);
+  }
+
+  if($locale_code == "en_US" || empty($locale_code) ){
+    $path =  implode("/", $path_pieces);
+  } else {
+//    if($path_pieces[1]=="hi" || $path_pieces[1]=="te"){
+//      $path =  implode("/", $path_pieces);
+//    } 
+    $pieces = explode("_", $locale_code);
+    array_splice( $path_pieces, 1, 0, $pieces[0] );
+    $path =  implode("/", $path_pieces);
+  }
+
+
+
+  return "$scheme$user$pass$host$port$path$query$fragment"; 
 }
 
 
